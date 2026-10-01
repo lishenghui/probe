@@ -109,20 +109,47 @@ def main():
     parser.add_argument('--guidance', type=float, default=6.0)
     parser.add_argument('--flow-shift', type=float, default=5.0)
     parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--attention-backend', default='native',
+                        help="diffusers attention backend, e.g. native, _native_cudnn, _flash_3_hub")
+    parser.add_argument('--shard', default='0/1', help='i/n: run plan items i, i+n, ... (one process per GPU)')
+    parser.add_argument('--benchmark-backends', nargs='+',
+                        help='time a short no-LoRA generation per backend, then exit')
     args = parser.parse_args()
     if args.output_dir.exists() and any(args.output_dir.iterdir()):
         raise ValueError('Refusing to overwrite a prior generation run')
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    plan = json.loads(args.plan.read_text())
+    shard, shards = map(int, args.shard.split('/'))
+    plan = json.loads(args.plan.read_text())[shard::shards]
 
     t0 = time.perf_counter()
     pipe = build_pipeline(args.model_dir, args.flow_shift)
     pipe.set_progress_bar_config(disable=True)
+    if args.benchmark_backends:
+        image = load_image(str(args.image))
+        timings = {}
+        for backend in args.benchmark_backends:
+            try:
+                pipe.transformer.set_attention_backend(backend)
+                for repeat in range(2):  # first call warms up kernels
+                    torch.cuda.synchronize(); start = time.perf_counter()
+                    out = pipe(image=image, prompt=plan[0]['prompt'], negative_prompt=NEGATIVE, height=args.height,
+                               width=args.width, num_frames=args.frames, num_inference_steps=args.steps,
+                               guidance_scale=args.guidance, output_type='latent',
+                               generator=torch.Generator('cuda').manual_seed(args.seed)).frames
+                    torch.cuda.synchronize()
+                timings[backend] = dict(seconds=time.perf_counter() - start, steps=args.steps,
+                                        latent_checksum=float(out.float().abs().mean()))
+            except Exception as exc:  # noqa: BLE001 - report and continue with the next backend
+                timings[backend] = dict(error=f'{type(exc).__name__}: {exc}'[:300])
+            print(backend, timings[backend], flush=True)
+        (args.output_dir / 'backend_benchmark.json').write_text(json.dumps(timings, indent=1))
+        return
+    pipe.transformer.set_attention_backend(args.attention_backend)
     torch.cuda.synchronize()
     print(f'pipeline ready in {time.perf_counter()-t0:.0f}s; '
           f'allocated {torch.cuda.memory_allocated()/2**30:.2f} GiB', flush=True)
     image = load_image(str(args.image))
-    settings = dict(height=args.height, width=args.width, num_frames=args.frames, num_inference_steps=args.steps,
+    settings = dict(attention_backend=args.attention_backend, shard=args.shard, height=args.height, width=args.width, num_frames=args.frames, num_inference_steps=args.steps,
                     guidance_scale=args.guidance, flow_shift=args.flow_shift, seed=args.seed,
                     negative_prompt=NEGATIVE, image=str(args.image))
 
