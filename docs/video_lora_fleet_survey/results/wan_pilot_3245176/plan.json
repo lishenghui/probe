@@ -1,0 +1,33 @@
+[
+ {
+  "adapter": "Assassin",
+  "prompt": "The video starts with a portrait of a cat wearing sunglasses. Then, the 3p1c epic transformation starts. The cat is wearing a red coat, and the 3p1c epic transformation is complete. The cat is holding a gun in each hand. The cat has white hair and black gloves.",
+  "variants": {
+   "original": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/adapters/Assassin/assassin_45_epochs.safetensors",
+   "original_repeat": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/adapters/Assassin/assassin_45_epochs.safetensors",
+   "b75": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b75/Assassin/assassin_45_epochs.safetensors",
+   "b50": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b50/Assassin/assassin_45_epochs.safetensors",
+   "b25": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b25/Assassin/assassin_45_epochs.safetensors"
+  }
+ },
+ {
+  "adapter": "Rotate",
+  "prompt": "The video shows a white cat wearing sunglasses on a surfboard. The cat performs a r0t4tion 360 degrees rotation.",
+  "variants": {
+   "original": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/adapters/Rotate/rotate_20_epochs.safetensors",
+   "b75": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b75/Rotate/rotate_20_epochs.safetensors",
+   "b50": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b50/Rotate/rotate_20_epochs.safetensors",
+   "b25": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b25/Rotate/rotate_20_epochs.safetensors"
+  }
+ },
+ {
+  "adapter": "angry-face",
+  "prompt": "The cat begins with a neutral expression. Its expression changes to 4ngr23 angry face, and it starts yelling. It then throws its paws up while making the 4ngr23 angry face.",
+  "variants": {
+   "original": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/adapters/angry-face/angry_face_5_epochs.safetensors",
+   "b75": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b75/angry-face/angry_face_5_epochs.safetensors",
+   "b50": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b50/angry-face/angry_face_5_epochs.safetensors",
+   "b25": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p/compressed/3245176/b25/angry-face/angry_face_5_epochs.safetensors"
+  }
+ }
+]
