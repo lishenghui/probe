@@ -20,6 +20,8 @@ import torch
 from diffusers import AutoencoderKLWan, UniPCMultistepScheduler, WanImageToVideoPipeline, WanTransformer3DModel
 from diffusers.utils import export_to_video, load_image
 from safetensors.torch import load_file
+
+from lora_quant import fake_quantize, stored_bytes
 from transformers import (CLIPImageProcessor, CLIPVisionConfig, CLIPVisionModelWithProjection,
                           T5TokenizerFast, UMT5Config, UMT5EncoderModel)
 
@@ -178,17 +180,22 @@ def main():
         results.append(dict(adapter=item['adapter'], variant='base', prompt=item['prompt'], **stats))
         print(f"{item['adapter']} base: {stats}", flush=True)
         reference = None
-        for variant, path in item['variants'].items():
-            name = f"{item['adapter']}_{variant}".replace('-', '_')
+        for variant, spec in item['variants'].items():
+            # spec: a path, or {"path": ..., "quant": "fp8"|"int8"|"int4"} for precision baselines.
+            spec = spec if isinstance(spec, dict) else dict(path=spec)
+            path, quant = spec['path'], spec.get('quant', 'bf16')
+            name = f"{item['adapter']}_{variant}".replace('-', '_').replace('+', '_')
             before = torch.cuda.memory_allocated()
             # Pass tensors, not a path: offline diffusers cannot guess a weight name from a file path.
-            state = load_file(path)
+            source = load_file(path)
+            state = fake_quantize(source, quant)
             pipe.load_lora_weights(dict(state), adapter_name=name)
             adapter_bytes = torch.cuda.memory_allocated() - before
             layers, directions, rescaled = pin_unit_scaling(pipe.transformer, name, state)
             video, stats = generate(item['prompt'], f"{item['adapter']}__{variant}")
             pipe.delete_adapters(name)
-            record = dict(adapter=item['adapter'], variant=variant, path=path, prompt=item['prompt'],
+            record = dict(adapter=item['adapter'], variant=variant, path=path, quant=quant, prompt=item['prompt'],
+                          stored_bytes=stored_bytes(source, quant),
                           lora_layers=layers, lora_directions=directions, scaling_reset_layers=int(rescaled),
                           adapter_gpu_bytes=adapter_bytes, **stats)
             if reference is None:
