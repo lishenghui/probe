@@ -1,0 +1,144 @@
+{
+ "gpu": "NVIDIA GH200 120GB",
+ "correctness": {
+  "original": {
+   "rel_diff_multi_vs_peft": 0.0,
+   "rel_diff_peft_vs_base": 0.4775885343551636
+  },
+  "b50": {
+   "rel_diff_multi_vs_peft": 0.0,
+   "rel_diff_peft_vs_base": 0.4792313277721405
+  }
+ },
+ "heterogeneous_batch": {
+  "Assassin": {
+   "rel_diff_vs_single": 0.10038246959447861,
+   "rel_diff_single_vs_other_single": 0.6472383141517639
+  },
+  "Rotate": {
+   "rel_diff_vs_single": 0.1236213967204094,
+   "rel_diff_single_vs_other_single": 0.6479189395904541
+  }
+ },
+ "batch_scaling": [
+  {
+   "frames": 17,
+   "batch": 1,
+   "seconds": 5.0445393360023445,
+   "per_sample_step_s": 1.6815131120007816,
+   "peak_gib": 50.626160621643066
+  },
+  {
+   "frames": 17,
+   "batch": 2,
+   "seconds": 9.446776806002163,
+   "per_sample_step_s": 1.5744628010003605,
+   "peak_gib": 50.641491413116455
+  },
+  {
+   "frames": 17,
+   "batch": 4,
+   "seconds": 18.998723549000715,
+   "per_sample_step_s": 1.5832269624167263,
+   "peak_gib": 50.67180633544922
+  },
+  {
+   "frames": 33,
+   "batch": 1,
+   "seconds": 10.112587307998183,
+   "per_sample_step_s": 3.370862435999394,
+   "peak_gib": 50.708603382110596
+  },
+  {
+   "frames": 33,
+   "batch": 2,
+   "seconds": 19.95867608700064,
+   "per_sample_step_s": 3.3264460145001067,
+   "peak_gib": 50.722670555114746
+  },
+  {
+   "frames": 33,
+   "batch": 4,
+   "seconds": 39.6016371049991,
+   "per_sample_step_s": 3.3001364254165915,
+   "peak_gib": 50.76306915283203
+  },
+  {
+   "frames": 49,
+   "batch": 1,
+   "seconds": 16.790253450999444,
+   "per_sample_step_s": 5.596751150333148,
+   "peak_gib": 50.790321826934814
+  },
+  {
+   "frames": 49,
+   "batch": 2,
+   "seconds": 32.78591121700083,
+   "per_sample_step_s": 5.464318536166805,
+   "peak_gib": 50.805243492126465
+  },
+  {
+   "frames": 49,
+   "batch": 4,
+   "seconds": 64.55363880300138,
+   "per_sample_step_s": 5.379469900250115,
+   "peak_gib": 52.91164255142212
+  }
+ ],
+ "residency": {
+  "original": {
+   "adapters": 49,
+   "resident_bytes": 17576960000,
+   "adapter_bytes": 17597726720,
+   "read_all_s": 1.3472803739859955,
+   "copy_all_s": 7.4550765980056894,
+   "miss_from_pinned_host_s": 0.016150039999047294,
+   "miss_from_disk_s": 0.14458494299833546,
+   "route_switch_s": 0.000563501959193821
+  },
+  "b75": {
+   "adapters": 49,
+   "resident_bytes": 13532929024,
+   "adapter_bytes": 13532929024,
+   "read_all_s": 61.59880381298353,
+   "copy_all_s": 23.123632829006965,
+   "miss_from_pinned_host_s": 0.016370900000765687,
+   "miss_from_disk_s": 0.12683825000203797,
+   "route_switch_s": 0.0005630860204644482
+  },
+  "b50": {
+   "adapters": 49,
+   "resident_bytes": 9144464384,
+   "adapter_bytes": 9144464384,
+   "read_all_s": 40.49609243998202,
+   "copy_all_s": 15.383761593009694,
+   "miss_from_pinned_host_s": 0.017557940998813137,
+   "miss_from_disk_s": 0.10377158999835956,
+   "route_switch_s": 0.0005555792653170528
+  },
+  "b25": {
+   "adapters": 49,
+   "resident_bytes": 4840672256,
+   "adapter_bytes": 4840672256,
+   "read_all_s": 20.82975939998869,
+   "copy_all_s": 6.56894949200796,
+   "miss_from_pinned_host_s": 0.016348372999345884,
+   "miss_from_disk_s": 0.06568500100183883,
+   "route_switch_s": 0.0005560448776030134
+  }
+ },
+ "hetero_overhead": {
+  "no_lora": {
+   "seconds": 64.46175202000086,
+   "per_sample_step_s": 5.371812668333405
+  },
+  "same_adapter": {
+   "seconds": 68.65158873699693,
+   "per_sample_step_s": 5.720965728083077
+  },
+  "four_adapters": {
+   "seconds": 76.6049925849984,
+   "per_sample_step_s": 6.3837493820832
+  }
+ }
+}
