@@ -137,7 +137,8 @@ def main():
         for variant, path in item['variants'].items():
             name = f"{item['adapter']}_{variant}".replace('-', '_')
             before = torch.cuda.memory_allocated()
-            pipe.load_lora_weights(path, adapter_name=name)
+            # Pass tensors, not a path: offline diffusers cannot guess a weight name from a file path.
+            pipe.load_lora_weights(load_file(path, device='cuda'), adapter_name=name)
             adapter_bytes = torch.cuda.memory_allocated() - before
             layers = lora_layers(pipe.transformer)
             if layers == 0:
