@@ -1,0 +1,19 @@
+[hpc-agent] cluster=arrhenius
+[hpc-agent] SLURM_ACCOUNT=naiss2026-4-1611-gpu (primary=naiss2026-4-1611-gpu, secondary=naiss2025-22-1535-gpu)
+[hpc-agent] SLURM_GPU_PARTITION=gpu gres=gpu:nvidia_gh200_120gb:1
+[hpc-agent] HF_HOME=/nobackup/proj/disk/lorafleet/personal/shenghui/huggingface
+[hpc-agent] LORAM_LOG_DIR=/nobackup/proj/disk/lorafleet/personal/shenghui/logs
+Starting factor-memory and historical evidence audit; job=3222950
+LoRA Land       B= 1321: 78.00->16.60 MiB; branches removed=15.0%; 7B+fleet reduction=0.46%
+LoRA Land       B= 2289: 78.00->29.15 MiB; branches removed=6.8%; 7B+fleet reduction=0.36%
+LoRA Land       B=  943: 78.00->11.61 MiB; branches removed=26.2%; 7B+fleet reduction=0.49%
+Lots-of-LoRAs   B=19202: 450.00->236.91 MiB; branches removed=9.6%; 7B+fleet reduction=1.54%
+Lots-of-LoRAs   B= 4924: 450.00->58.92 MiB; branches removed=30.2%; 7B+fleet reduction=2.83%
+Lots-of-LoRAs   B= 8811: 450.00->107.39 MiB; branches removed=18.8%; 7B+fleet reduction=2.48%
+LoRARetriever   B= 2683: 328.00->41.88 MiB; branches removed=18.3%; 7B+fleet reduction=2.09%
+LoRARetriever   B= 3191: 328.00->49.75 MiB; branches removed=12.2%; 7B+fleet reduction=2.03%
+LoRARetriever   B= 5880: 328.00->91.88 MiB; branches removed=0.8%; 7B+fleet reduction=1.73%
+{'task': 'arc_challenge', 'dtype': 'bfloat16', 'compact': {'tensor_bytes': 1572864, 'allocated_delta': 1572864, 'reserved_delta': 2097152}, 'reconstructed_padded': {'tensor_bytes': 8388608, 'allocated_delta': 8388608, 'reserved_delta': 8388608}, 'file_bytes': 3162504, 'source_dtypes': ['torch.float32'], 'active_modules': 64, 'original_modules': 64}
+{'task': 'story_cloze', 'dtype': 'bfloat16', 'compact': {'tensor_bytes': 131072, 'allocated_delta': 131072, 'reserved_delta': 2097152}, 'reconstructed_padded': {'tensor_bytes': 8388608, 'allocated_delta': 8388608, 'reserved_delta': 8388608}, 'file_bytes': 264216, 'source_dtypes': ['torch.float32'], 'active_modules': 8, 'original_modules': 64}
+{'task': 'sst2', 'dtype': 'bfloat16', 'compact': {'tensor_bytes': 2752512, 'allocated_delta': 2752512, 'reserved_delta': 4194304}, 'reconstructed_padded': {'tensor_bytes': 8388608, 'allocated_delta': 8388608, 'reserved_delta': 8388608}, 'file_bytes': 5521872, 'source_dtypes': ['torch.float32'], 'active_modules': 64, 'original_modules': 64}
+Audit saved to artifacts/runtime_audit/3222950/audit.json

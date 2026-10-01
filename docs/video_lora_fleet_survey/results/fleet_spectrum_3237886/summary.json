@@ -1,0 +1,1088 @@
+{
+ "backend": "FlashTSQR tsqr_factor (custom CUDA) + torch.linalg.svdvals on rank x rank core",
+ "kernel": "/nobackup/proj/disk/bloom/personal/shenghui/probe/FlashTSQR/kernels/tsqr_full.cu",
+ "rows_per_leaf": 128,
+ "threads_per_block": 256,
+ "device": "NVIDIA GH200 120GB",
+ "torch": "2.12.1+cu126",
+ "fleet": "Remade-AI on Wan-AI/Wan2.1-I2V-14B-480P",
+ "fleet_dir": "/nobackup/proj/disk/bloom/personal/shenghui/data/video_lora_fleets/remade_wan21_i2v_480p",
+ "adapters": 49,
+ "modules": 23520,
+ "extension_build_s": 69.2608630499999,
+ "spectrum_seconds_total": 64.02620741800115,
+ "allocation_rule": "fleet-wide top-k of sigma^2 normalised by each adapter total energy",
+ "allocations": [
+  {
+   "budget": 0.25,
+   "retained_directions": 188160,
+   "total_directions": 752640,
+   "compact_lora_parameters": 2420336128,
+   "full_lora_parameters": 8798863360,
+   "compact_bf16_bytes": 4840672256,
+   "full_bf16_bytes": 17597726720,
+   "min_adapter_energy": 0.9118082042649276,
+   "median_adapter_energy": 0.9205465951719548,
+   "worst_adapter": "Crush",
+   "per_adapter": [
+    {
+     "adapter": "Rotate",
+     "retained_energy": 0.9199206383159182,
+     "retained_directions": 3698,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 95284224
+    },
+    {
+     "adapter": "Inflate",
+     "retained_energy": 0.913643484027219,
+     "retained_directions": 4175,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 107855872
+    },
+    {
+     "adapter": "Muscle",
+     "retained_energy": 0.9240226703402588,
+     "retained_directions": 3700,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 95951872
+    },
+    {
+     "adapter": "Squish",
+     "retained_energy": 0.9242547933392681,
+     "retained_directions": 3387,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 87626752
+    },
+    {
+     "adapter": "Cakeify",
+     "retained_energy": 0.9181708783740039,
+     "retained_directions": 3992,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 102227968
+    },
+    {
+     "adapter": "kissing",
+     "retained_energy": 0.9164234553675081,
+     "retained_directions": 4732,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 120934400
+    },
+    {
+     "adapter": "Laughing",
+     "retained_energy": 0.9170935129938321,
+     "retained_directions": 4684,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 119986176
+    },
+    {
+     "adapter": "Selfie-With-Younger-Self",
+     "retained_energy": 0.9160248229399276,
+     "retained_directions": 4372,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 112517120
+    },
+    {
+     "adapter": "Gun-Shooting",
+     "retained_energy": 0.9203603153100186,
+     "retained_directions": 3851,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 100698112
+    },
+    {
+     "adapter": "Crash-zoom-in",
+     "retained_energy": 0.9149305914665868,
+     "retained_directions": 4507,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 115543040
+    },
+    {
+     "adapter": "Deflate",
+     "retained_energy": 0.9174649723566162,
+     "retained_directions": 4067,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 104077312
+    },
+    {
+     "adapter": "360-Orbit",
+     "retained_energy": 0.9205465951719548,
+     "retained_directions": 4054,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 103689216
+    },
+    {
+     "adapter": "Crash-zoom-out",
+     "retained_energy": 0.914845637438848,
+     "retained_directions": 4313,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 111099904
+    },
+    {
+     "adapter": "Crush",
+     "retained_energy": 0.9118082042649276,
+     "retained_directions": 4141,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 107855872
+    },
+    {
+     "adapter": "Bride",
+     "retained_energy": 0.9211029692735958,
+     "retained_directions": 3417,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 88136704
+    },
+    {
+     "adapter": "Zen",
+     "retained_energy": 0.9225037241729855,
+     "retained_directions": 3451,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 89581568
+    },
+    {
+     "adapter": "Crane_up",
+     "retained_energy": 0.9178222758327114,
+     "retained_directions": 4423,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 112882688
+    },
+    {
+     "adapter": "Puppy",
+     "retained_energy": 0.921435864887897,
+     "retained_directions": 3509,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 91256832
+    },
+    {
+     "adapter": "Crane-down",
+     "retained_energy": 0.9148322485487997,
+     "retained_directions": 4684,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 119881728
+    },
+    {
+     "adapter": "Baby",
+     "retained_energy": 0.922172009778046,
+     "retained_directions": 3364,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 87364608
+    },
+    {
+     "adapter": "Samurai",
+     "retained_energy": 0.9224997799982956,
+     "retained_directions": 3534,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 91142144
+    },
+    {
+     "adapter": "Warrior",
+     "retained_energy": 0.920720530171827,
+     "retained_directions": 3366,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 87649280
+    },
+    {
+     "adapter": "VIP",
+     "retained_energy": 0.9215766296325455,
+     "retained_directions": 3595,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 93244416
+    },
+    {
+     "adapter": "Princess",
+     "retained_energy": 0.9237206087587522,
+     "retained_directions": 3333,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 85981184
+    },
+    {
+     "adapter": "Mona-Lisa",
+     "retained_energy": 0.9207816656301882,
+     "retained_directions": 3594,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 92266496
+    },
+    {
+     "adapter": "Pirate-Captain",
+     "retained_energy": 0.9225720852740689,
+     "retained_directions": 3421,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 88549376
+    },
+    {
+     "adapter": "Assassin",
+     "retained_energy": 0.918216931936066,
+     "retained_directions": 3392,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 87050240
+    },
+    {
+     "adapter": "Jungle",
+     "retained_energy": 0.9260255387044108,
+     "retained_directions": 3370,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 86599680
+    },
+    {
+     "adapter": "Crane_over_the_head",
+     "retained_energy": 0.9219485279776725,
+     "retained_directions": 3391,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 86611968
+    },
+    {
+     "adapter": "Arc_shot",
+     "retained_energy": 0.915163704794586,
+     "retained_directions": 4283,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 110381056
+    },
+    {
+     "adapter": "Super-Saiyan",
+     "retained_energy": 0.9215345234643106,
+     "retained_directions": 4004,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 101342208
+    },
+    {
+     "adapter": "Explode",
+     "retained_energy": 0.9213712800970031,
+     "retained_directions": 3875,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 98909184
+    },
+    {
+     "adapter": "Robot-Face-Reveal",
+     "retained_energy": 0.9263112266909956,
+     "retained_directions": 3593,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 92176384
+    },
+    {
+     "adapter": "Dolly-Effect",
+     "retained_energy": 0.9193958594478876,
+     "retained_directions": 3568,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 92029952
+    },
+    {
+     "adapter": "matrix-shot",
+     "retained_energy": 0.9180962747375443,
+     "retained_directions": 3906,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 100449280
+    },
+    {
+     "adapter": "crying",
+     "retained_energy": 0.9158897310506834,
+     "retained_directions": 4885,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 125025280
+    },
+    {
+     "adapter": "angry-face",
+     "retained_energy": 0.9122562659659457,
+     "retained_directions": 5231,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 134844416
+    },
+    {
+     "adapter": "Snow-White",
+     "retained_energy": 0.9188881887475935,
+     "retained_directions": 3603,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 93303808
+    },
+    {
+     "adapter": "Painting",
+     "retained_energy": 0.9216898123078844,
+     "retained_directions": 3371,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 86829056
+    },
+    {
+     "adapter": "Car-chase",
+     "retained_energy": 0.9175953140852283,
+     "retained_directions": 3943,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 101833728
+    },
+    {
+     "adapter": "Disney-Princess",
+     "retained_energy": 0.9212639980627831,
+     "retained_directions": 3590,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 92445696
+    },
+    {
+     "adapter": "Electrify",
+     "retained_energy": 0.9273180444427321,
+     "retained_directions": 3134,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 78615552
+    },
+    {
+     "adapter": "Hero-run",
+     "retained_energy": 0.9162532241606769,
+     "retained_directions": 4237,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 108829696
+    },
+    {
+     "adapter": "Fus-Ro-Dah",
+     "retained_energy": 0.9288820196799294,
+     "retained_directions": 3394,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 86516736
+    },
+    {
+     "adapter": "Jumpscare",
+     "retained_energy": 0.9200870286554786,
+     "retained_directions": 3751,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 95534080
+    },
+    {
+     "adapter": "Hug-Jesus",
+     "retained_energy": 0.9259453256017639,
+     "retained_directions": 3233,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 85238784
+    },
+    {
+     "adapter": "Hulk-Transformation",
+     "retained_energy": 0.9218556938576504,
+     "retained_directions": 3811,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 97128448
+    },
+    {
+     "adapter": "Classy",
+     "retained_energy": 0.9197703229075477,
+     "retained_directions": 3740,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 96457728
+    },
+    {
+     "adapter": "Cartoon_Jaw_Drop",
+     "retained_energy": 0.9219965238933738,
+     "retained_directions": 3491,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 89234432
+    }
+   ]
+  },
+  {
+   "budget": 0.5,
+   "retained_directions": 376320,
+   "total_directions": 752640,
+   "compact_lora_parameters": 4572232192,
+   "full_lora_parameters": 8798863360,
+   "compact_bf16_bytes": 9144464384,
+   "full_bf16_bytes": 17597726720,
+   "min_adapter_energy": 0.9741478310394209,
+   "median_adapter_energy": 0.977474786828374,
+   "worst_adapter": "Assassin",
+   "per_adapter": [
+    {
+     "adapter": "Rotate",
+     "retained_energy": 0.9768805419969453,
+     "retained_directions": 7516,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 182807552
+    },
+    {
+     "adapter": "Inflate",
+     "retained_energy": 0.9781010742378667,
+     "retained_directions": 8448,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 204540928
+    },
+    {
+     "adapter": "Muscle",
+     "retained_energy": 0.9777332420088424,
+     "retained_directions": 7288,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 177650688
+    },
+    {
+     "adapter": "Squish",
+     "retained_energy": 0.9755999061025534,
+     "retained_directions": 6856,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 167967744
+    },
+    {
+     "adapter": "Cakeify",
+     "retained_energy": 0.9774095965411469,
+     "retained_directions": 7933,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 191295488
+    },
+    {
+     "adapter": "kissing",
+     "retained_energy": 0.9814024172245088,
+     "retained_directions": 8933,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 214891520
+    },
+    {
+     "adapter": "Laughing",
+     "retained_energy": 0.9806055089834201,
+     "retained_directions": 8816,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 211990528
+    },
+    {
+     "adapter": "Selfie-With-Younger-Self",
+     "retained_energy": 0.9803907272609609,
+     "retained_directions": 8587,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 207927296
+    },
+    {
+     "adapter": "Gun-Shooting",
+     "retained_energy": 0.9778561160417721,
+     "retained_directions": 7705,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 188854272
+    },
+    {
+     "adapter": "Crash-zoom-in",
+     "retained_energy": 0.9808344987569771,
+     "retained_directions": 8824,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 211492864
+    },
+    {
+     "adapter": "Deflate",
+     "retained_energy": 0.9780822204907702,
+     "retained_directions": 8077,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 195863552
+    },
+    {
+     "adapter": "360-Orbit",
+     "retained_energy": 0.9789570821884725,
+     "retained_directions": 7903,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 190646272
+    },
+    {
+     "adapter": "Crash-zoom-out",
+     "retained_energy": 0.9797019634784273,
+     "retained_directions": 8573,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 206578688
+    },
+    {
+     "adapter": "Crush",
+     "retained_energy": 0.9779905611051897,
+     "retained_directions": 8550,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 207047680
+    },
+    {
+     "adapter": "Bride",
+     "retained_energy": 0.9758376711204699,
+     "retained_directions": 7079,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 173509632
+    },
+    {
+     "adapter": "Zen",
+     "retained_energy": 0.9767105705795461,
+     "retained_directions": 7074,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 173581312
+    },
+    {
+     "adapter": "Crane_up",
+     "retained_energy": 0.9800478460989234,
+     "retained_directions": 8495,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 204528640
+    },
+    {
+     "adapter": "Puppy",
+     "retained_energy": 0.9761832336140063,
+     "retained_directions": 7169,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 175700992
+    },
+    {
+     "adapter": "Crane-down",
+     "retained_energy": 0.9812509016199651,
+     "retained_directions": 9006,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 216543232
+    },
+    {
+     "adapter": "Baby",
+     "retained_energy": 0.9763828688155014,
+     "retained_directions": 7014,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 172456960
+    },
+    {
+     "adapter": "Samurai",
+     "retained_energy": 0.9768240298002053,
+     "retained_directions": 7174,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 175577088
+    },
+    {
+     "adapter": "Warrior",
+     "retained_energy": 0.9760150224039141,
+     "retained_directions": 7078,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 173228032
+    },
+    {
+     "adapter": "VIP",
+     "retained_energy": 0.9766267640860793,
+     "retained_directions": 7295,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 178908160
+    },
+    {
+     "adapter": "Princess",
+     "retained_energy": 0.9760972588070633,
+     "retained_directions": 6867,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 168210432
+    },
+    {
+     "adapter": "Mona-Lisa",
+     "retained_energy": 0.976417128402413,
+     "retained_directions": 7328,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 179131392
+    },
+    {
+     "adapter": "Pirate-Captain",
+     "retained_energy": 0.9764303906707776,
+     "retained_directions": 7039,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 172551168
+    },
+    {
+     "adapter": "Assassin",
+     "retained_energy": 0.9741478310394209,
+     "retained_directions": 7167,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 174911488
+    },
+    {
+     "adapter": "Jungle",
+     "retained_energy": 0.9767285245040785,
+     "retained_directions": 6793,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 166050816
+    },
+    {
+     "adapter": "Crane_over_the_head",
+     "retained_energy": 0.9761016105422362,
+     "retained_directions": 7048,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 171917312
+    },
+    {
+     "adapter": "Arc_shot",
+     "retained_energy": 0.979276052515585,
+     "retained_directions": 8527,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 205949952
+    },
+    {
+     "adapter": "Super-Saiyan",
+     "retained_energy": 0.9781917036066287,
+     "retained_directions": 7758,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 186841088
+    },
+    {
+     "adapter": "Explode",
+     "retained_energy": 0.9776716126698447,
+     "retained_directions": 7608,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 183124992
+    },
+    {
+     "adapter": "Robot-Face-Reveal",
+     "retained_energy": 0.9782885774748378,
+     "retained_directions": 7061,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 173001728
+    },
+    {
+     "adapter": "Dolly-Effect",
+     "retained_energy": 0.9766991575019482,
+     "retained_directions": 7396,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 179113984
+    },
+    {
+     "adapter": "matrix-shot",
+     "retained_energy": 0.9784531875423222,
+     "retained_directions": 7889,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 190759936
+    },
+    {
+     "adapter": "crying",
+     "retained_energy": 0.9817772742441623,
+     "retained_directions": 9123,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 219096064
+    },
+    {
+     "adapter": "angry-face",
+     "retained_energy": 0.9837108929638952,
+     "retained_directions": 9783,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 238235648
+    },
+    {
+     "adapter": "Snow-White",
+     "retained_energy": 0.9763690248686875,
+     "retained_directions": 7460,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 182583296
+    },
+    {
+     "adapter": "Painting",
+     "retained_energy": 0.9763362707703537,
+     "retained_directions": 7034,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 172048384
+    },
+    {
+     "adapter": "Car-chase",
+     "retained_energy": 0.9778600145592166,
+     "retained_directions": 7963,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 193041408
+    },
+    {
+     "adapter": "Disney-Princess",
+     "retained_energy": 0.9765521529503196,
+     "retained_directions": 7282,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 177562624
+    },
+    {
+     "adapter": "Electrify",
+     "retained_energy": 0.9746104620437982,
+     "retained_directions": 6345,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 153899008
+    },
+    {
+     "adapter": "Hero-run",
+     "retained_energy": 0.9787370894005722,
+     "retained_directions": 8353,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 201794560
+    },
+    {
+     "adapter": "Fus-Ro-Dah",
+     "retained_energy": 0.9763166185207725,
+     "retained_directions": 6626,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 161951744
+    },
+    {
+     "adapter": "Jumpscare",
+     "retained_energy": 0.9777154860370643,
+     "retained_directions": 7587,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 184174592
+    },
+    {
+     "adapter": "Hug-Jesus",
+     "retained_energy": 0.9754999340432066,
+     "retained_directions": 6585,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 163462144
+    },
+    {
+     "adapter": "Hulk-Transformation",
+     "retained_energy": 0.9786860395820035,
+     "retained_directions": 7578,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 183555072
+    },
+    {
+     "adapter": "Classy",
+     "retained_energy": 0.977474786828374,
+     "retained_directions": 7586,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 184606720
+    },
+    {
+     "adapter": "Cartoon_Jaw_Drop",
+     "retained_energy": 0.9762296164686302,
+     "retained_directions": 7141,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 173299712
+    }
+   ]
+  },
+  {
+   "budget": 0.75,
+   "retained_directions": 564480,
+   "total_directions": 752640,
+   "compact_lora_parameters": 6766464512,
+   "full_lora_parameters": 8798863360,
+   "compact_bf16_bytes": 13532929024,
+   "full_bf16_bytes": 17597726720,
+   "min_adapter_energy": 0.996012182517216,
+   "median_adapter_energy": 0.9967501281333137,
+   "worst_adapter": "Electrify",
+   "per_adapter": [
+    {
+     "adapter": "Rotate",
+     "retained_energy": 0.9967439043943473,
+     "retained_directions": 11525,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 276035584
+    },
+    {
+     "adapter": "Inflate",
+     "retained_energy": 0.9975615777008652,
+     "retained_directions": 12303,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 294249472
+    },
+    {
+     "adapter": "Muscle",
+     "retained_energy": 0.9966032430355166,
+     "retained_directions": 11073,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 266360832
+    },
+    {
+     "adapter": "Squish",
+     "retained_energy": 0.9963871102152256,
+     "retained_directions": 11067,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 264723456
+    },
+    {
+     "adapter": "Cakeify",
+     "retained_energy": 0.9968324259071806,
+     "retained_directions": 11803,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 280963072
+    },
+    {
+     "adapter": "kissing",
+     "retained_energy": 0.9976935598662534,
+     "retained_directions": 12177,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 292365312
+    },
+    {
+     "adapter": "Laughing",
+     "retained_energy": 0.9975985931204168,
+     "retained_directions": 12162,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 291831808
+    },
+    {
+     "adapter": "Selfie-With-Younger-Self",
+     "retained_energy": 0.9974449808584306,
+     "retained_directions": 11944,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 287175680
+    },
+    {
+     "adapter": "Gun-Shooting",
+     "retained_energy": 0.9968513306382385,
+     "retained_directions": 11490,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 277494784
+    },
+    {
+     "adapter": "Crash-zoom-in",
+     "retained_energy": 0.9975447066418621,
+     "retained_directions": 12131,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 290343936
+    },
+    {
+     "adapter": "Deflate",
+     "retained_energy": 0.9972364334959286,
+     "retained_directions": 11878,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 284588032
+    },
+    {
+     "adapter": "360-Orbit",
+     "retained_energy": 0.9970631397743542,
+     "retained_directions": 11535,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 275840000
+    },
+    {
+     "adapter": "Crash-zoom-out",
+     "retained_energy": 0.9974649144688132,
+     "retained_directions": 12070,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 289390592
+    },
+    {
+     "adapter": "Crush",
+     "retained_energy": 0.9975742609765094,
+     "retained_directions": 12361,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 295681024
+    },
+    {
+     "adapter": "Bride",
+     "retained_energy": 0.9964653639791969,
+     "retained_directions": 11257,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 270251008
+    },
+    {
+     "adapter": "Zen",
+     "retained_energy": 0.9964627324402855,
+     "retained_directions": 11080,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 266591232
+    },
+    {
+     "adapter": "Crane_up",
+     "retained_energy": 0.9975375089370566,
+     "retained_directions": 11979,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 287213568
+    },
+    {
+     "adapter": "Puppy",
+     "retained_energy": 0.9966085988699291,
+     "retained_directions": 11290,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 271553536
+    },
+    {
+     "adapter": "Crane-down",
+     "retained_energy": 0.9978313047621131,
+     "retained_directions": 12263,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 294196224
+    },
+    {
+     "adapter": "Baby",
+     "retained_energy": 0.9964453044703422,
+     "retained_directions": 11106,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 267785216
+    },
+    {
+     "adapter": "Samurai",
+     "retained_energy": 0.9966220735930084,
+     "retained_directions": 11186,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 269266944
+    },
+    {
+     "adapter": "Warrior",
+     "retained_energy": 0.9965469654644712,
+     "retained_directions": 11225,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 270170112
+    },
+    {
+     "adapter": "VIP",
+     "retained_energy": 0.9967797541299638,
+     "retained_directions": 11381,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 274287616
+    },
+    {
+     "adapter": "Princess",
+     "retained_energy": 0.9963241761706226,
+     "retained_directions": 10954,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 262983680
+    },
+    {
+     "adapter": "Mona-Lisa",
+     "retained_energy": 0.9968075676367684,
+     "retained_directions": 11463,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 276210688
+    },
+    {
+     "adapter": "Pirate-Captain",
+     "retained_energy": 0.996485491759558,
+     "retained_directions": 11128,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 267730944
+    },
+    {
+     "adapter": "Assassin",
+     "retained_energy": 0.9960371634980029,
+     "retained_directions": 11609,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 278191104
+    },
+    {
+     "adapter": "Jungle",
+     "retained_energy": 0.9962520291010788,
+     "retained_directions": 10768,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 258478080
+    },
+    {
+     "adapter": "Crane_over_the_head",
+     "retained_energy": 0.9964901012763394,
+     "retained_directions": 11148,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 266051584
+    },
+    {
+     "adapter": "Arc_shot",
+     "retained_energy": 0.9975109054163059,
+     "retained_directions": 12118,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 290704384
+    },
+    {
+     "adapter": "Super-Saiyan",
+     "retained_energy": 0.9966938663288253,
+     "retained_directions": 11458,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 272992256
+    },
+    {
+     "adapter": "Explode",
+     "retained_energy": 0.9967020626507912,
+     "retained_directions": 11413,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 271130624
+    },
+    {
+     "adapter": "Robot-Face-Reveal",
+     "retained_energy": 0.9965273014742849,
+     "retained_directions": 10744,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 258491392
+    },
+    {
+     "adapter": "Dolly-Effect",
+     "retained_energy": 0.9967501281333137,
+     "retained_directions": 11366,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 269663232
+    },
+    {
+     "adapter": "matrix-shot",
+     "retained_energy": 0.9969422153470842,
+     "retained_directions": 11596,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 277124096
+    },
+    {
+     "adapter": "crying",
+     "retained_energy": 0.9977386140790226,
+     "retained_directions": 12273,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 294244352
+    },
+    {
+     "adapter": "angry-face",
+     "retained_energy": 0.9979289781707892,
+     "retained_directions": 12553,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 301353984
+    },
+    {
+     "adapter": "Snow-White",
+     "retained_energy": 0.9968987936303116,
+     "retained_directions": 11612,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 279453696
+    },
+    {
+     "adapter": "Painting",
+     "retained_energy": 0.9964104447376504,
+     "retained_directions": 11120,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 266714112
+    },
+    {
+     "adapter": "Car-chase",
+     "retained_energy": 0.9971532476124284,
+     "retained_directions": 11816,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 284119040
+    },
+    {
+     "adapter": "Disney-Princess",
+     "retained_energy": 0.9966124554764769,
+     "retained_directions": 11354,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 272516096
+    },
+    {
+     "adapter": "Electrify",
+     "retained_energy": 0.996012182517216,
+     "retained_directions": 10770,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 254584832
+    },
+    {
+     "adapter": "Hero-run",
+     "retained_energy": 0.9974072400764579,
+     "retained_directions": 12070,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 289773568
+    },
+    {
+     "adapter": "Fus-Ro-Dah",
+     "retained_energy": 0.9963317012982411,
+     "retained_directions": 10729,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 255781888
+    },
+    {
+     "adapter": "Jumpscare",
+     "retained_energy": 0.9969080528998991,
+     "retained_directions": 11408,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 273012736
+    },
+    {
+     "adapter": "Hug-Jesus",
+     "retained_energy": 0.9962634246765704,
+     "retained_directions": 10810,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 262262784
+    },
+    {
+     "adapter": "Hulk-Transformation",
+     "retained_energy": 0.996693671833467,
+     "retained_directions": 11215,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 268294144
+    },
+    {
+     "adapter": "Classy",
+     "retained_energy": 0.9969182961948047,
+     "retained_directions": 11500,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 275610624
+    },
+    {
+     "adapter": "Cartoon_Jaw_Drop",
+     "retained_energy": 0.9965738201158834,
+     "retained_directions": 11199,
+     "modules_dropped": 0,
+     "compact_bf16_bytes": 267096064
+    }
+   ]
+  }
+ ]
+}

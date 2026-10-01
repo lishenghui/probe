@@ -1,0 +1,993 @@
+{
+ "fleet": "Remade-AI on Wan-AI/Wan2.1-I2V-14B-480P",
+ "base_model": "Wan-AI/Wan2.1-I2V-14B-480P",
+ "shape_fingerprint": "749193c5897d",
+ "survey": "artifacts/video_lora_fleet_survey/login-20261001/headers.json",
+ "created": "2026-10-01T17:09:20+0200",
+ "host": "arrhenius1.hpc.arrhenius.naiss.se",
+ "adapters": 49,
+ "total_file_bytes": 17603626320,
+ "total_lora_parameters": 8798863360,
+ "entries": [
+  {
+   "name": "Rotate",
+   "repo": "Remade-AI/Rotate",
+   "revision": "a3f0ef060a4c7405b4a49b859f2f40e9bfb85e76",
+   "filename": "rotate_20_epochs.safetensors",
+   "path": "adapters/Rotate/rotate_20_epochs.safetensors",
+   "sha256": "43ce56166b6941eb0037fd7a7675885a221e8cfd53486c4d923b3464f1db1560",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 2267,
+   "trigger": "r0t4tion 360 degrees rotation"
+  },
+  {
+   "name": "Inflate",
+   "repo": "Remade-AI/Inflate",
+   "revision": "18bfff8b5b38af3ebb25d00c2a1b4fdee89eb4e4",
+   "filename": "inflate_20_epochs.safetensors",
+   "path": "adapters/Inflate/inflate_20_epochs.safetensors",
+   "sha256": "978f493aec4b98ed910abfb9963522d05092c264c69182e5462514cee043eb96",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 627,
+   "trigger": "infl4t3 inflates it"
+  },
+  {
+   "name": "Muscle",
+   "repo": "Remade-AI/Muscle",
+   "revision": "d14dfcb644b12ddacd7d8cd2294572f41d537573",
+   "filename": "muscle_18_epochs.safetensors",
+   "path": "adapters/Muscle/muscle_18_epochs.safetensors",
+   "sha256": "a10ba09bfaee0128f64660c32c5e86dd86c1b00fbfd2db0200748d79bb8e4d25",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 508,
+   "trigger": "t2k1s takes off clothes revealing a lean muscular body and shows off muscles"
+  },
+  {
+   "name": "Squish",
+   "repo": "Remade-AI/Squish",
+   "revision": "1e0810850eac92c9a43cd7c7332df321f0d5bcc9",
+   "filename": "squish_18.safetensors",
+   "path": "adapters/Squish/squish_18.safetensors",
+   "sha256": "c2195da8077b02674775929e94b43caa30dc069ed74b1818a2e2adf8fe559cf7",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 400,
+   "trigger": "sq41sh squish effect"
+  },
+  {
+   "name": "Cakeify",
+   "repo": "Remade-AI/Cakeify",
+   "revision": "01167db8cb4dad20a4c1d07fd1b9210cf581bff7",
+   "filename": "cakeify_16_epochs.safetensors",
+   "path": "adapters/Cakeify/cakeify_16_epochs.safetensors",
+   "sha256": "4078cd32c45ad6f0206b87bd8de7e25700bd8419b9c0e0267bb828aec7eb6bf1",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 301,
+   "trigger": "c4k3 cakeify it"
+  },
+  {
+   "name": "kissing",
+   "repo": "Remade-AI/kissing",
+   "revision": "32dafdc694b3534b5ff36edb1fb70e95ede3cec6",
+   "filename": "kissing_30_epochs.safetensors",
+   "path": "adapters/kissing/kissing_30_epochs.safetensors",
+   "sha256": "3f7a40159b8dbd5fd33da3b90885157331f5296da0e3d2e66ecf031035dece89",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 296,
+   "trigger": "k144ing kissing"
+  },
+  {
+   "name": "Laughing",
+   "repo": "Remade-AI/Laughing",
+   "revision": "bdd8ff128de62ee33640554c6250d2d4bccd0607",
+   "filename": "laughing_15_epochs.safetensors",
+   "path": "adapters/Laughing/laughing_15_epochs.safetensors",
+   "sha256": "5c22fa4ea852a10ccd167955e60436486626e2d2effd55f4a1f8e7547348e62f",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 231,
+   "trigger": "l4a6ing laughing"
+  },
+  {
+   "name": "Selfie-With-Younger-Self",
+   "repo": "Remade-AI/Selfie-With-Younger-Self",
+   "revision": "54e7018d1fab7d297c7b9587c88990a52a0b5717",
+   "filename": "selfie_younger_self_15_epochs.safetensors",
+   "path": "adapters/Selfie-With-Younger-Self/selfie_younger_self_15_epochs.safetensors",
+   "sha256": "6a70df3f0ef938d00884ce7fe77b7bfb0e65a3a82d20b0a65606e1ac639e74c7",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 206,
+   "trigger": "s31lf13 taking a selfie with their younger self"
+  },
+  {
+   "name": "Gun-Shooting",
+   "repo": "Remade-AI/Gun-Shooting",
+   "revision": "f550e62c10ad9a25dbab34df34094ccc60b98de3",
+   "filename": "gun_20_epochs.safetensors",
+   "path": "adapters/Gun-Shooting/gun_20_epochs.safetensors",
+   "sha256": "00d88be3206aa7af10de7258fca3769635b8c003495d78185a5557a9348b9fee",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 190,
+   "trigger": "p5lls g4un pulls a gun and starts shooting."
+  },
+  {
+   "name": "Crash-zoom-in",
+   "repo": "Remade-AI/Crash-zoom-in",
+   "revision": "96f8f59bfca64313ad16d7753e78a6b0bda67941",
+   "filename": "crash_zoom_in.safetensors",
+   "path": "adapters/Crash-zoom-in/crash_zoom_in.safetensors",
+   "sha256": "bcc26f0e2ae5f1d2fbe08e8278c2a89c7ef0c0ff7f595ebecc7f4602a92ffdd8",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 188,
+   "trigger": "cr34sh crash zoom in effect"
+  },
+  {
+   "name": "Deflate",
+   "repo": "Remade-AI/Deflate",
+   "revision": "ff78a3a46e3bd9f028e50e6d79fbd7649a3036fc",
+   "filename": "deflate_20_epochs.safetensors",
+   "path": "adapters/Deflate/deflate_20_epochs.safetensors",
+   "sha256": "7bb4107dea9966b3533613fb3bc625d8b6bfa7cbf68985f37a33c04aebe53e46",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 184,
+   "trigger": "d3d1at3 deflate it"
+  },
+  {
+   "name": "360-Orbit",
+   "repo": "Remade-AI/360-Orbit",
+   "revision": "f22f9e46069d752dd0ab7a54c056de4113eedd82",
+   "filename": "360_Orbit.safetensors",
+   "path": "adapters/360-Orbit/360_Orbit.safetensors",
+   "sha256": "5a99f1fd2db47344211fe6836a8664cfd5f053d03647b67c981cf163d65ffa82",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 171,
+   "trigger": "0rb4it 360 degree orbit"
+  },
+  {
+   "name": "Crash-zoom-out",
+   "repo": "Remade-AI/Crash-zoom-out",
+   "revision": "dd9ebe1b8e169d8e817e7b21dd78384cc02df317",
+   "filename": "crash_zoom_out.safetensors",
+   "path": "adapters/Crash-zoom-out/crash_zoom_out.safetensors",
+   "sha256": "5274a80437775ac894f2cbc6501d2154dab1796a262f2398cd1ffc9f2946eca6",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 171,
+   "trigger": "cr34sh crash zoom out effect"
+  },
+  {
+   "name": "Crush",
+   "repo": "Remade-AI/Crush",
+   "revision": "1fc27c908c3e631664b157454a0a185213c6688e",
+   "filename": "crush_20_epochs.safetensors",
+   "path": "adapters/Crush/crush_20_epochs.safetensors",
+   "sha256": "c2d67e9600edbd0be40febcdb262a0fe145a5962767ac23c644c4a42df2e4ec3",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 164,
+   "trigger": "c5us4 crushes it"
+  },
+  {
+   "name": "Bride",
+   "repo": "Remade-AI/Bride",
+   "revision": "d82653b1031fd63b74214e8c2ddbf956fb35ad7e",
+   "filename": "bride_50_epochs.safetensors",
+   "path": "adapters/Bride/bride_50_epochs.safetensors",
+   "sha256": "c3e7ce29d8a4faa527f0860b737e79de6340a99cef8549772abd0f4a13612da3",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 159,
+   "trigger": "8r1d3 bride effect."
+  },
+  {
+   "name": "Zen",
+   "repo": "Remade-AI/Zen",
+   "revision": "2e6f9d5e0cf7916927693b94327e02eee134b496",
+   "filename": "zen_50_epochs.safetensors",
+   "path": "adapters/Zen/zen_50_epochs.safetensors",
+   "sha256": "4adb94454a6ea91c92f688cfd2f8c41a26ddd543fb2dc79f28965f8bec23fd44",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 155,
+   "trigger": "z3n1fy zen transformation"
+  },
+  {
+   "name": "Crane_up",
+   "repo": "Remade-AI/Crane_up",
+   "revision": "e3484eeca891aae176889e361ce3672a5c1dba51",
+   "filename": "crane_up.safetensors",
+   "path": "adapters/Crane_up/crane_up.safetensors",
+   "sha256": "78c048652e034ffc6115e08feac8b2c84191715f9b2e6312f3180f8dcb75a69d",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 147,
+   "trigger": "cr4n3 crane up effect"
+  },
+  {
+   "name": "Puppy",
+   "repo": "Remade-AI/Puppy",
+   "revision": "24e1d6f9bab4bab7ef4e539ff7730ae03ed01464",
+   "filename": "puppy_50_epochs.safetensors",
+   "path": "adapters/Puppy/puppy_50_epochs.safetensors",
+   "sha256": "79b8b7d153610036a027725a8564d18f59cd975e9a51cd3cdb2a43e21e5dfa61",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 143,
+   "trigger": "pu11y puppy effect"
+  },
+  {
+   "name": "Crane-down",
+   "repo": "Remade-AI/Crane-down",
+   "revision": "b1580b51de6e1240d9393b11ed2f9cb61bc2983a",
+   "filename": "crane_down.safetensors",
+   "path": "adapters/Crane-down/crane_down.safetensors",
+   "sha256": "3fb8cbd8f042c66e490d37ad1e5335b9893f406894ec41c5f519a7a990ee4b64",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 143,
+   "trigger": "cr4n3 crane down camera motion"
+  },
+  {
+   "name": "Baby",
+   "repo": "Remade-AI/Baby",
+   "revision": "ededbf477a1cac7f65d0a650c5775b44e483d60f",
+   "filename": "baby_50_epochs.safetensors",
+   "path": "adapters/Baby/baby_50_epochs.safetensors",
+   "sha256": "3f8592c6fdb63e937e8d9a22ed1b73b7e84acc82931a537f5e5bf7ac8a68d57e",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 142,
+   "trigger": "848y baby effect"
+  },
+  {
+   "name": "Samurai",
+   "repo": "Remade-AI/Samurai",
+   "revision": "f79dbf8e6cd63f78d9614b69efe5180e800e6d62",
+   "filename": "samurai_50_epochs.safetensors",
+   "path": "adapters/Samurai/samurai_50_epochs.safetensors",
+   "sha256": "f6cae8ea4c058bcaeacafa2ee6181d08c6a437c08bc9104f65da600f67345f8b",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 140,
+   "trigger": "54mur41 samurai transformation"
+  },
+  {
+   "name": "Warrior",
+   "repo": "Remade-AI/Warrior",
+   "revision": "0860f1197ab2e658620a2687526c0e741fac1cae",
+   "filename": "warrior_45_epochs.safetensors",
+   "path": "adapters/Warrior/warrior_45_epochs.safetensors",
+   "sha256": "60f3c07b2338769149465f509261e38065bd1d050d9f385e9ebc84d16cf26175",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 137,
+   "trigger": "warr10r warrior it"
+  },
+  {
+   "name": "VIP",
+   "repo": "Remade-AI/VIP",
+   "revision": "db13237ac3dec6e5dbf6380bc0705401704cdd4a",
+   "filename": "vip_50_epochs.safetensors",
+   "path": "adapters/VIP/vip_50_epochs.safetensors",
+   "sha256": "6a802fc04d8325bbddc31fbb329b15115de1980dcf6e0ab281e9bdef712c9280",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 135,
+   "trigger": "v1p red carpet transformation"
+  },
+  {
+   "name": "Princess",
+   "repo": "Remade-AI/Princess",
+   "revision": "c5ecce8d0833f207a00420c225bceb41d5d5794e",
+   "filename": "princess_45_epochs.safetensors",
+   "path": "adapters/Princess/princess_45_epochs.safetensors",
+   "sha256": "463f720340b8b3915bf658334a2159ad7ed53ccd417cffd73c9a4116427fa53a",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 130,
+   "trigger": "pr1nc355 princess transformation"
+  },
+  {
+   "name": "Mona-Lisa",
+   "repo": "Remade-AI/Mona-Lisa",
+   "revision": "0273726c54a6eb6d1daa402628b0ce6ed82c58a3",
+   "filename": "mona_lisa_45_epochs.safetensors",
+   "path": "adapters/Mona-Lisa/mona_lisa_45_epochs.safetensors",
+   "sha256": "13f37f4e2a6b313017e0857f649c6d0346116ee455740bad1c3464bb14564693",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 124,
+   "trigger": "m0n4 Mona Lisa transformation"
+  },
+  {
+   "name": "Pirate-Captain",
+   "repo": "Remade-AI/Pirate-Captain",
+   "revision": "58b36e600dab00fa96a4b09515c8757a99068675",
+   "filename": "pirate_captain_50_epochs.safetensors",
+   "path": "adapters/Pirate-Captain/pirate_captain_50_epochs.safetensors",
+   "sha256": "85a63b6a73960d3c9ed9deb9c0100248b5b88cfcbc28866fae9afd7c7c9c8e59",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 123,
+   "trigger": "p1r4t3 pirate captain transformation"
+  },
+  {
+   "name": "Assassin",
+   "repo": "Remade-AI/Assassin",
+   "revision": "c026b700f27aa1ae21c979c5992d2c7604e144b5",
+   "filename": "assassin_45_epochs.safetensors",
+   "path": "adapters/Assassin/assassin_45_epochs.safetensors",
+   "sha256": "b60c4d5dee5000a2bed2482911f17c26e4ba6d8e21af5ce29e20f5dea177016a",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 123,
+   "trigger": "3p1c epic transformation"
+  },
+  {
+   "name": "Jungle",
+   "repo": "Remade-AI/Jungle",
+   "revision": "2f46f5e10ae0a944dd866dcf3d691c937ae27bfb",
+   "filename": "jungle_50_epochs.safetensors",
+   "path": "adapters/Jungle/jungle_50_epochs.safetensors",
+   "sha256": "59d739abdabd68b6f849ebc55618d7c91855283a8884f1bc65db34f219008685",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 115,
+   "trigger": "1ung13 jungle transformation"
+  },
+  {
+   "name": "Crane_over_the_head",
+   "repo": "Remade-AI/Crane_over_the_head",
+   "revision": "c76778e53ceae4ac7e99441002011d7bce9b808a",
+   "filename": "crane_overhead.safetensors",
+   "path": "adapters/Crane_over_the_head/crane_overhead.safetensors",
+   "sha256": "971fd1fdd159f31928fe67f57fac6274cc9c86644697d9045670cec7d5fc76f7",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 111,
+   "trigger": "cr4n3 crane over the head movement"
+  },
+  {
+   "name": "Arc_shot",
+   "repo": "Remade-AI/Arc_shot",
+   "revision": "6b932e0290cb9a811e789f4d1e0ffa3aa64ec796",
+   "filename": "Arc_shot.safetensors",
+   "path": "adapters/Arc_shot/Arc_shot.safetensors",
+   "sha256": "d2b378c704e4a5239be6405d085bb7d2518fe7d332999d472def91cff772e8bb",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 103,
+   "trigger": "34Ar2c arc the camera moves in a smooth curve around"
+  },
+  {
+   "name": "Super-Saiyan",
+   "repo": "Remade-AI/Super-Saiyan",
+   "revision": "7d46ada8aaf5be1ec4a3b59910bfd67545ae8035",
+   "filename": "super_saiyan_35_epochs.safetensors",
+   "path": "adapters/Super-Saiyan/super_saiyan_35_epochs.safetensors",
+   "sha256": "d14051e6645f5009fce2041eece0e3819bc2b59ccac013df54651edf54484611",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 87,
+   "trigger": "5up3r super saiyan transformation"
+  },
+  {
+   "name": "Explode",
+   "repo": "Remade-AI/Explode",
+   "revision": "bf9da953b780d86d966e4b67d1084fb252367b4c",
+   "filename": "explode_30_epochs.safetensors",
+   "path": "adapters/Explode/explode_30_epochs.safetensors",
+   "sha256": "040dfee5d106acd4e027b6a493b2f228cef2adf090c23fb2040ff6ce016eccc5",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 78,
+   "trigger": "3xp105ion huge explosion"
+  },
+  {
+   "name": "Robot-Face-Reveal",
+   "repo": "Remade-AI/Robot-Face-Reveal",
+   "revision": "5fdcf9c3b1ee3db52f5c9aaa7ce71c5b9b840bf3",
+   "filename": "robot_face_reveal_35_epochs.safetensors",
+   "path": "adapters/Robot-Face-Reveal/robot_face_reveal_35_epochs.safetensors",
+   "sha256": "db5e9306f30ac87bb059270b616482fec844b8adfdb5ed99ee93e97b204c4c9f",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 75,
+   "trigger": "r8b8t1c robotic face reveal"
+  },
+  {
+   "name": "Dolly-Effect",
+   "repo": "Remade-AI/Dolly-Effect",
+   "revision": "167cfef3454765d61b799f606aff8766e065fd4d",
+   "filename": "dolly_25_epochs.safetensors",
+   "path": "adapters/Dolly-Effect/dolly_25_epochs.safetensors",
+   "sha256": "045011e6abf53e66b901fe4811046c568563f5dc8f41cafec181ffd86032b85b",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 69,
+   "trigger": "d011Ye33ect dolly effect"
+  },
+  {
+   "name": "matrix-shot",
+   "repo": "Remade-AI/matrix-shot",
+   "revision": "f27f77c222c79eaf27096612e0b6c2dd336af044",
+   "filename": "matrix_shot.safetensors",
+   "path": "adapters/matrix-shot/matrix_shot.safetensors",
+   "sha256": "9e9b4952022c68014ad93d5e11fd949bd2ad46e26152b5e31c6f61725964f7a0",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 67,
+   "trigger": "b4ll3t t1m3 bullet time shot"
+  },
+  {
+   "name": "crying",
+   "repo": "Remade-AI/crying",
+   "revision": "732fb4ac9c9823061c5dd275dceaed9bbc0c44c9",
+   "filename": "crying_20_epochs.safetensors",
+   "path": "adapters/crying/crying_20_epochs.safetensors",
+   "sha256": "644eb73f513d66d37789f6910c8f04de1f3a2cbea40defc8c63d1f4ffed842c7",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 65,
+   "trigger": "cr471ng crying"
+  },
+  {
+   "name": "angry-face",
+   "repo": "Remade-AI/angry-face",
+   "revision": "34b2d3ff5d32204c0966e6d11aa67f660390b43e",
+   "filename": "angry_face_5_epochs.safetensors",
+   "path": "adapters/angry-face/angry_face_5_epochs.safetensors",
+   "sha256": "5c1345180ed79eadd88b2b95a9b5da9b782568c1f21d9bd310f63a3321084ac1",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 61,
+   "trigger": "4ngr23 angry face"
+  },
+  {
+   "name": "Snow-White",
+   "repo": "Remade-AI/Snow-White",
+   "revision": "e24d657c0ce9763d6d8c502b2b87fbfa64a9a1e7",
+   "filename": "snow_white_50_epochs.safetensors",
+   "path": "adapters/Snow-White/snow_white_50_epochs.safetensors",
+   "sha256": "4bb488e12d25e5a014a2d889e6c657299606dca41812565ce02f2b2700289228",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 51,
+   "trigger": "sn0w_wh1t3 Snow White transformation"
+  },
+  {
+   "name": "Painting",
+   "repo": "Remade-AI/Painting",
+   "revision": "816525eec7e1681da436378c04cfa1a44e6b24f7",
+   "filename": "painting_50_epochs.safetensors",
+   "path": "adapters/Painting/painting_50_epochs.safetensors",
+   "sha256": "1cfdd2cc11c347e808e4e132e9c1ccee95b7a1f7b6ec2d99bd931d8627eb8438",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 49,
+   "trigger": "p41nt1ng painting frame it"
+  },
+  {
+   "name": "Car-chase",
+   "repo": "Remade-AI/Car-chase",
+   "revision": "93b9df5cd86aefe65f79d6d1a449bbe05229a9cd",
+   "filename": "car_chase.safetensors",
+   "path": "adapters/Car-chase/car_chase.safetensors",
+   "sha256": "169fd04f2c4025e1a65f4cb7253ecc2808d03432d75d4768f50f5950006534c4",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 49,
+   "trigger": "c4r ch4s3 car chase"
+  },
+  {
+   "name": "Disney-Princess",
+   "repo": "Remade-AI/Disney-Princess",
+   "revision": "2dcb9268569639a8464cc1f89f8d1311f2b59042",
+   "filename": "disney_princess_45_epochs.safetensors",
+   "path": "adapters/Disney-Princess/disney_princess_45_epochs.safetensors",
+   "sha256": "8776f9172e5e600c39b849a970ce5732b4a73083af233d6337cd3fbcb0792228",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 43,
+   "trigger": "d15n3y Disney princess transformation"
+  },
+  {
+   "name": "Electrify",
+   "repo": "Remade-AI/Electrify",
+   "revision": "73ca236b150e305913878c72a4c13f7e73edd6de",
+   "filename": "electrify_50_epochs.safetensors",
+   "path": "adapters/Electrify/electrify_50_epochs.safetensors",
+   "sha256": "7fb8712b03377c5f8d7eace7332c2afec3252cc14f86a6ccd24ae06676588e4b",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 43,
+   "trigger": "e13c7r1c electricity effect"
+  },
+  {
+   "name": "Hero-run",
+   "repo": "Remade-AI/Hero-run",
+   "revision": "d0379216ec59a85d3986d78559da11c18b06b02f",
+   "filename": "Hero_run.safetensors",
+   "path": "adapters/Hero-run/Hero_run.safetensors",
+   "sha256": "f08deffaed3ac8eb34cb2bf36848737607b1c11b27d65a2244de706cfe27f0bb",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 43,
+   "trigger": "4ct3ion Action Run"
+  },
+  {
+   "name": "Fus-Ro-Dah",
+   "repo": "Remade-AI/Fus-Ro-Dah",
+   "revision": "bf5896859b13802b21cc699c198e59f70589032d",
+   "filename": "fus_ro_dah_20_epochs.safetensors",
+   "path": "adapters/Fus-Ro-Dah/fus_ro_dah_20_epochs.safetensors",
+   "sha256": "3e3cb1d10399e8424952e336092e288c634d077b484491ed0206cd0dfac90b1e",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 40,
+   "trigger": "fus_r0_d4h force push effect"
+  },
+  {
+   "name": "Jumpscare",
+   "repo": "Remade-AI/Jumpscare",
+   "revision": "cb835da2dd163d6af9c1449b2a4d6e2e9982914d",
+   "filename": "jumpscare_35_epochs.safetensors",
+   "path": "adapters/Jumpscare/jumpscare_35_epochs.safetensors",
+   "sha256": "076ba4d20ee3c7e298fd7be2e9f546652f29b76d4c6273ebc149d937cc2b50c9",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 38,
+   "trigger": "j432mpscare jumpscare"
+  },
+  {
+   "name": "Hug-Jesus",
+   "repo": "Remade-AI/Hug-Jesus",
+   "revision": "a178ff475f411d48dfdd5227b4e9e7e7f4d3b609",
+   "filename": "hug_jesus_20_epochs.safetensors",
+   "path": "adapters/Hug-Jesus/hug_jesus_20_epochs.safetensors",
+   "sha256": "ea48f6742c7bc2fb74cbb80dc4bf39b4412da6d90efc75f673676d28211b9bf3",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 33,
+   "trigger": "h54g hugs jesus"
+  },
+  {
+   "name": "Hulk-Transformation",
+   "repo": "Remade-AI/Hulk-Transformation",
+   "revision": "4fbe91606db59092b53bb4a6a7fe733015f9f22c",
+   "filename": "hulk_35_epochs.safetensors",
+   "path": "adapters/Hulk-Transformation/hulk_35_epochs.safetensors",
+   "sha256": "e7d9ccd9b2662932795e2883ef2c63e7105e322160af7ba30a426eb631e3284e",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 33,
+   "trigger": "h01k green hulk transformation"
+  },
+  {
+   "name": "Classy",
+   "repo": "Remade-AI/Classy",
+   "revision": "575d8721d950ccdb10d29aa8f058ccd7adcec2f8",
+   "filename": "classy_45_epochs.safetensors",
+   "path": "adapters/Classy/classy_45_epochs.safetensors",
+   "sha256": "8af0d25174d99f4d93691bd1e1d027c337541f1b9428f1d78ff494e489576732",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 28,
+   "trigger": "c1455y classy transformation"
+  },
+  {
+   "name": "Cartoon_Jaw_Drop",
+   "repo": "Remade-AI/Cartoon_Jaw_Drop",
+   "revision": "5c25e34beb4a0d97d39ec085723082ee73486260",
+   "filename": "cartoon_jaw_drop_50_epochs.safetensors",
+   "path": "adapters/Cartoon_Jaw_Drop/cartoon_jaw_drop_50_epochs.safetensors",
+   "sha256": "ac5cfc7fca88afbae04ef03b3d72455b28b226b81448639e3f18d779978c30fb",
+   "file_bytes": 359257680,
+   "lora_parameters": 179568640,
+   "lora_pairs": 480,
+   "rank_counts": {
+    "32": 480
+   },
+   "alpha_tensors": 0,
+   "dtype_parameters": {
+    "BF16": 179568640
+   },
+   "downloads_at_survey": 19,
+   "trigger": "dr0p_j88 comical jaw drop"
+  }
+ ]
+}
