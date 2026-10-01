@@ -22,7 +22,8 @@ from diffusers.utils import load_image
 from safetensors.torch import load_file
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from generate_wan_i2v_fleet_pilot import NEGATIVE, build_pipeline, pin_unit_scaling  # noqa: E402
+from generate_wan_i2v_fleet_pilot import NEGATIVE, build_pipeline  # noqa: E402
+from multi_lora import MultiLoRA  # noqa: E402
 
 
 def main():
@@ -52,6 +53,9 @@ def main():
     if args.fp8_storage:
         pipe.transformer.enable_layerwise_casting(storage_dtype=torch.float8_e4m3fn, compute_dtype=torch.bfloat16)
     pipe.set_progress_bar_config(disable=True)
+    # PEFT injection breaks the fp8 layerwise-casting hooks (addmm on float8); MultiLoRA wraps the hooked
+    # Linear layers instead and keeps each adapter's compact BF16 factors.
+    multi = MultiLoRA(pipe.transformer)
     image = load_image(str(args.image))
     total = torch.cuda.get_device_properties(0).total_memory
     if args.cap_gib * 2**30 > total:
@@ -89,9 +93,7 @@ def main():
                 path = (args.fleet_dir / entry['path'] if variant == 'original'
                         else next((args.compressed_dir / variant / entry['name']).glob('*.safetensors')))
                 name = f"{variant}_{entry['name']}".replace('-', '_')
-                state = load_file(path)
-                pipe.load_lora_weights(dict(state), adapter_name=name)
-                pin_unit_scaling(pipe.transformer, name, state)
+                multi.add(name, load_file(path))
                 names.append(name)
             fleet_ok = True
         except torch.OutOfMemoryError:
@@ -101,8 +103,7 @@ def main():
                       adapters_loaded=len(names), fleet_fits=fleet_ok, fleet_resident_gib=resident / 2**30,
                       frames={}, batch={})
         if fleet_ok:
-            if names:
-                pipe.set_adapters(f"{variant}_{args.active}".replace('-', '_'))
+            multi.route(f"{variant}_{args.active}".replace('-', '_') if names else None)
             for frames in args.frames:  # ascending; stop at the first OOM
                 result['frames'][frames] = runs(frames, 1)
                 print(f"{variant}: frames {frames} -> {result['frames'][frames]}", flush=True)
@@ -122,8 +123,9 @@ def main():
               f"{resident/2**30:.2f} GiB), max frames {result['max_frames']}, "
               f"max batch@{args.batch_frames}f {result['max_batch']}", flush=True)
         args.output.write_text(json.dumps(report, indent=1))
-        if names:
-            pipe.delete_adapters(names)
+        for name in names:
+            multi.remove(name)
+        multi.route(None)
         torch.cuda.empty_cache()
     print('done', flush=True)
 
