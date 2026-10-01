@@ -1,0 +1,353 @@
+{
+ "source": "docs/video_lora_fleet_survey/results/fleet_residency_3246338/residency.json",
+ "no_adapter_peak_gib": 50.77734375,
+ "zipf": 1.0,
+ "capacity": {
+  "original": {
+   "per_adapter_resident_mb": 359.0313273469388,
+   "fleet_resident_gib": 16.38432502746582,
+   "measured_peak_with_fleet_gib": 67.1651349067688,
+   "adapters_resident": {
+    "24": 0,
+    "32": 0,
+    "48": 0,
+    "64": 39,
+    "80": 49,
+    "96": 49
+   },
+   "whole_fleet_fits": {
+    "24": false,
+    "32": false,
+    "48": false,
+    "64": false,
+    "80": true,
+    "96": true
+   }
+  },
+  "b75": {
+   "per_adapter_resident_mb": 276.0762723265306,
+   "fleet_resident_gib": 12.598687171936035,
+   "measured_peak_with_fleet_gib": 63.380122661590576,
+   "adapters_resident": {
+    "24": 0,
+    "32": 0,
+    "48": 0,
+    "64": 49,
+    "80": 49,
+    "96": 49
+   },
+   "whole_fleet_fits": {
+    "24": false,
+    "32": false,
+    "48": false,
+    "64": true,
+    "80": true,
+    "96": true
+   }
+  },
+  "b50": {
+   "per_adapter_resident_mb": 186.51576946938778,
+   "fleet_resident_gib": 8.511610984802246,
+   "measured_peak_with_fleet_gib": 59.294177532196045,
+   "adapters_resident": {
+    "24": 0,
+    "32": 0,
+    "48": 0,
+    "64": 49,
+    "80": 49,
+    "96": 49
+   },
+   "whole_fleet_fits": {
+    "24": false,
+    "32": false,
+    "48": false,
+    "64": true,
+    "80": true,
+    "96": true
+   }
+  },
+  "b25": {
+   "per_adapter_resident_mb": 98.68327706122449,
+   "fleet_resident_gib": 4.503392219543457,
+   "measured_peak_with_fleet_gib": 55.284839153289795,
+   "adapters_resident": {
+    "24": 0,
+    "32": 0,
+    "48": 0,
+    "64": 49,
+    "80": 49,
+    "96": 49
+   },
+   "whole_fleet_fits": {
+    "24": false,
+    "32": false,
+    "48": false,
+    "64": true,
+    "80": true,
+    "96": true
+   }
+  }
+ },
+ "cache": {
+  "measured": {
+   "original": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 169.08097273600015
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 169.08097273600015
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 169.08097273600015
+    },
+    "64": {
+     "capacity": 39,
+     "hit_rate": 0.9284,
+     "mean_latency_s": 164.60567732994167
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 164.27234398512374
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 164.27234398512374
+    }
+   },
+   "b75": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 170.23509048699952
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 170.23509048699952
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 170.23509048699952
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 165.89370903270674
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 165.89370903270674
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 165.89370903270674
+    }
+   },
+   "b50": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 175.18576394599995
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 175.18576394599995
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 175.18576394599995
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 168.2226010970176
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 168.2226010970176
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 168.2226010970176
+    }
+   },
+   "b25": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 173.6340535850004
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 173.6340535850004
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 173.6340535850004
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 166.898701987656
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 166.898701987656
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 166.898701987656
+    }
+   }
+  },
+  "assumed_20s": {
+   "original": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.8204388260001
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.8204388260001
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.8204388260001
+    },
+    "64": {
+     "capacity": 39,
+     "hit_rate": 0.9284,
+     "mean_latency_s": 20.345143419941607
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.0118100751237
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.0118100751237
+    }
+   },
+   "b75": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.352043961999698
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.352043961999698
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 24.352043961999698
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.0106625077069
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.0106625077069
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.0106625077069
+    }
+   },
+   "b50": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.980264497000007
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.980264497000007
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.980264497000007
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.01710164801765
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.01710164801765
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.01710164801765
+    }
+   },
+   "b25": {
+    "24": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.751893737000046
+    },
+    "32": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.751893737000046
+    },
+    "48": {
+     "capacity": 0,
+     "hit_rate": 0.0,
+     "mean_latency_s": 26.751893737000046
+    },
+    "64": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.016542139655648
+    },
+    "80": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.016542139655648
+    },
+    "96": {
+     "capacity": 49,
+     "hit_rate": 0.99755,
+     "mean_latency_s": 20.016542139655648
+    }
+   }
+  }
+ }
+}
