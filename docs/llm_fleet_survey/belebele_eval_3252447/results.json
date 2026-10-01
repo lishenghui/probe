@@ -1,0 +1,95 @@
+{
+ "model": "/nobackup/proj/disk/bloom/personal/shenghui/data/models/Qwen3-8B",
+ "adapters": "/nobackup/proj/disk/bloom/personal/shenghui/data/llm_fleets/xummer_qwen3_8b/adapters",
+ "scorers": [
+  "letter",
+  "option"
+ ],
+ "rows": [
+  {
+   "language": "afr_Latn",
+   "model": "base",
+   "n": 900,
+   "letter_acc": 0.67,
+   "option_acc": 0.34444444444444444,
+   "seconds": 66.07561946499845
+  },
+  {
+   "language": "afr_Latn",
+   "model": "lora",
+   "n": 900,
+   "letter_acc": 0.8655555555555555,
+   "option_acc": 0.3377777777777778,
+   "card_eval_mcq_accuracy": 0.6896551724137931,
+   "seconds": 114.33380038200266
+  },
+  {
+   "language": "swh_Latn",
+   "model": "base",
+   "n": 900,
+   "letter_acc": 0.42,
+   "option_acc": 0.2811111111111111,
+   "seconds": 70.12507513500168
+  },
+  {
+   "language": "swh_Latn",
+   "model": "lora",
+   "n": 900,
+   "letter_acc": 0.6244444444444445,
+   "option_acc": 0.2877777777777778,
+   "card_eval_mcq_accuracy": 0.5454545454545454,
+   "seconds": 120.52372755900069
+  },
+  {
+   "language": "hin_Deva",
+   "model": "base",
+   "n": 900,
+   "letter_acc": 0.6788888888888889,
+   "option_acc": 0.31333333333333335,
+   "seconds": 147.39481732100103
+  },
+  {
+   "language": "hin_Deva",
+   "model": "lora",
+   "n": 900,
+   "letter_acc": 0.9,
+   "option_acc": 0.31,
+   "card_eval_mcq_accuracy": 0.7948717948717948,
+   "seconds": 217.07194639099907
+  },
+  {
+   "language": "arb_Arab",
+   "model": "base",
+   "n": 900,
+   "letter_acc": 0.7655555555555555,
+   "option_acc": 0.3477777777777778,
+   "seconds": 63.087427823000326
+  },
+  {
+   "language": "arb_Arab",
+   "model": "lora",
+   "n": 900,
+   "letter_acc": 0.8733333333333333,
+   "option_acc": 0.33555555555555555,
+   "card_eval_mcq_accuracy": 0.8571428571428571,
+   "seconds": 113.3331618830016
+  },
+  {
+   "language": "jpn_Jpan",
+   "model": "base",
+   "n": 900,
+   "letter_acc": 0.7433333333333333,
+   "option_acc": 0.30333333333333334,
+   "seconds": 61.89601775199844
+  },
+  {
+   "language": "jpn_Jpan",
+   "model": "lora",
+   "n": 900,
+   "letter_acc": 0.8022222222222222,
+   "option_acc": 0.31222222222222223,
+   "card_eval_mcq_accuracy": 0.8461538461538461,
+   "seconds": 121.15642125100203
+  }
+ ]
+}
