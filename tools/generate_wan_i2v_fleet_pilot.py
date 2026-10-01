@@ -43,6 +43,17 @@ def load_hf(model_cls, config, path, dtype):
         raise RuntimeError(f'{path}: missing={missing[:5]} unexpected={unexpected[:5]}')
     if hasattr(model, 'tie_weights'):
         model.tie_weights()
+    # Non-persistent buffers built under the meta device have no data; rebuild them.
+    for owner_name, owner in model.named_modules():
+        for name, buffer in list(owner.named_buffers(recurse=False)):
+            if not buffer.is_meta:
+                continue
+            if name != 'position_ids':
+                raise RuntimeError(f'{path}: unmaterialised buffer {owner_name}.{name}')
+            owner.register_buffer(name, torch.arange(buffer.shape[-1]).expand(buffer.shape), persistent=False)
+    leftover = [n for n, t in list(model.named_parameters()) + list(model.named_buffers()) if t.is_meta]
+    if leftover:
+        raise RuntimeError(f'{path}: meta tensors remain: {leftover[:5]}')
     return model.to(dtype).eval()
 
 
