@@ -68,9 +68,11 @@ def main():
         torch.cuda.reset_peak_memory_stats()
         start = time.perf_counter()
         try:
-            pipe(image=image, prompt=prompt, negative_prompt=NEGATIVE, height=832, width=480,
+            # A prompt list, not num_videos_per_prompt: diffusers' Wan I2V repeats image embeddings by
+            # prompt count only, so num_videos_per_prompt > 1 fails with a shape mismatch.
+            pipe(image=image, prompt=[prompt] * batch, negative_prompt=[NEGATIVE] * batch, height=832, width=480,
                  num_frames=frames, num_inference_steps=args.steps, guidance_scale=6.0,
-                 num_videos_per_prompt=batch, generator=torch.Generator('cuda').manual_seed(42), output_type='np')
+                 generator=[torch.Generator('cuda').manual_seed(42) for _ in range(batch)], output_type='np')
             torch.cuda.synchronize()
             return dict(ok=True, peak_gib=torch.cuda.max_memory_allocated() / 2**30,
                         seconds=time.perf_counter() - start)
