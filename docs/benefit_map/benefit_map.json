@@ -1,0 +1,72 @@
+{
+ "assumptions": {
+  "saved_fraction": 0.5,
+  "kv_over_base": 0.1
+ },
+ "rows": [
+  {
+   "scenario": "Wan2.1-I2V-14B video, BF16 base",
+   "bound": "compute",
+   "source": "measured (Remade fleet)",
+   "fleet_over_base": 0.5363109756097562,
+   "rho_active": 0.010945121951219513,
+   "predicted_step_speedup_b50": 1.0054427750572326
+  },
+  {
+   "scenario": "Wan2.1-I2V-14B video, FP8 base",
+   "bound": "compute",
+   "source": "measured sizes",
+   "fleet_over_base": 1.0726219512195123,
+   "rho_active": 0.021890243902439026,
+   "predicted_step_speedup_b50": 1.0108266232395429
+  },
+  {
+   "scenario": "LoRA Land on 7B, rank 8",
+   "bound": "bandwidth",
+   "source": "audit 3222950",
+   "fleet_over_base": 0.005640615724137931,
+   "rho_active": 0.0004700513103448276,
+   "predicted_step_speedup_b50": 1.0002136140458102
+  },
+  {
+   "scenario": "Lots-of-LoRAs on 7B, rank 16",
+   "bound": "bandwidth",
+   "source": "audit 3222950",
+   "fleet_over_base": 0.032542013793103446,
+   "rho_active": 0.0013016805517241379,
+   "predicted_step_speedup_b50": 1.000591323108152
+  },
+  {
+   "scenario": "LoRARetriever on 7B, rank 8",
+   "bound": "bandwidth",
+   "source": "audit 3222950",
+   "fleet_over_base": 0.023719512275862067,
+   "rho_active": 0.0005785246896551725,
+   "predicted_step_speedup_b50": 1.0002628966352096
+  },
+  {
+   "scenario": "LLM 7B, rank 64, batch of 8 distinct adapters",
+   "bound": "bandwidth",
+   "source": "assumed (S-LoRA-like)",
+   "fleet_over_base": 22.06896551724138,
+   "rho_active": 0.17655172413793102,
+   "predicted_step_speedup_b50": 1.074289030760302
+  },
+  {
+   "scenario": "LLM 7B, rank 64, batch of 32 distinct adapters",
+   "bound": "bandwidth",
+   "source": "assumed (S-LoRA-like)",
+   "fleet_over_base": 22.06896551724138,
+   "rho_active": 0.7062068965517241,
+   "predicted_step_speedup_b50": 1.242999525391552
+  },
+  {
+   "scenario": "LLM 1.5B, rank 64, batch of 32 distinct adapters",
+   "bound": "bandwidth",
+   "source": "assumed",
+   "fleet_over_base": 25.806451612903224,
+   "rho_active": 0.8258064516129032,
+   "predicted_step_speedup_b50": 1.2729211087420043
+  }
+ ]
+}
