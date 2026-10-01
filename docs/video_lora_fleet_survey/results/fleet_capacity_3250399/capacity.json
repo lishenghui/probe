@@ -1,0 +1,244 @@
+{
+ "gpu": "NVIDIA GH200 120GB",
+ "cap_gib": 64.0,
+ "fp8_storage": false,
+ "steps": 2,
+ "pipeline_bytes": 47187994624,
+ "variants": {
+  "none": {
+   "adapters_requested": 0,
+   "adapters_loaded": 0,
+   "fleet_fits": true,
+   "fleet_resident_gib": 0.0,
+   "frames": {
+    "49": {
+     "ok": true,
+     "peak_gib": 52.64131546020508,
+     "seconds": 17.252753333999863
+    },
+    "65": {
+     "ok": true,
+     "peak_gib": 52.72667407989502,
+     "seconds": 19.33415966999928
+    },
+    "81": {
+     "ok": true,
+     "peak_gib": 52.81203269958496,
+     "seconds": 25.876893661001304
+    },
+    "97": {
+     "ok": true,
+     "peak_gib": 52.8973913192749,
+     "seconds": 33.093909639999765
+    },
+    "113": {
+     "ok": true,
+     "peak_gib": 52.982749938964844,
+     "seconds": 41.20623370100111
+    },
+    "129": {
+     "ok": true,
+     "peak_gib": 53.068108558654785,
+     "seconds": 50.160755629998675
+    },
+    "145": {
+     "ok": true,
+     "peak_gib": 53.15346717834473,
+     "seconds": 59.743561295999825
+    },
+    "161": {
+     "ok": true,
+     "peak_gib": 53.23882579803467,
+     "seconds": 70.36741258199982
+    },
+    "177": {
+     "ok": true,
+     "peak_gib": 53.32418441772461,
+     "seconds": 81.48791314399932
+    },
+    "193": {
+     "ok": true,
+     "peak_gib": 53.40954303741455,
+     "seconds": 94.16788076099874
+    }
+   },
+   "batch": {
+    "1": {
+     "ok": true,
+     "peak_gib": 52.64131546020508,
+     "seconds": 13.544681187999231
+    },
+    "2": {
+     "ok": true,
+     "peak_gib": 61.298743724823,
+     "seconds": 27.33622326600016
+    },
+    "3": {
+     "ok": false
+    }
+   },
+   "max_frames": 193,
+   "max_batch": 2
+  },
+  "original": {
+   "adapters_requested": 49,
+   "adapters_loaded": 32,
+   "fleet_fits": false,
+   "fleet_resident_gib": 10.7891845703125,
+   "frames": {},
+   "batch": {},
+   "max_frames": 0,
+   "max_batch": 0
+  },
+  "b75": {
+   "adapters_requested": 49,
+   "adapters_loaded": 41,
+   "fleet_fits": false,
+   "fleet_resident_gib": 10.703117370605469,
+   "frames": {},
+   "batch": {},
+   "max_frames": 0,
+   "max_batch": 0
+  },
+  "b50": {
+   "adapters_requested": 49,
+   "adapters_loaded": 49,
+   "fleet_fits": true,
+   "fleet_resident_gib": 8.516446113586426,
+   "frames": {
+    "49": {
+     "ok": true,
+     "peak_gib": 61.96961545944214,
+     "seconds": 14.458375161000731
+    },
+    "65": {
+     "ok": true,
+     "peak_gib": 61.427781105041504,
+     "seconds": 20.412465221001185
+    },
+    "81": {
+     "ok": true,
+     "peak_gib": 61.513139724731445,
+     "seconds": 27.135353398000007
+    },
+    "97": {
+     "ok": true,
+     "peak_gib": 61.59849834442139,
+     "seconds": 34.68338419200154
+    },
+    "113": {
+     "ok": true,
+     "peak_gib": 61.68385696411133,
+     "seconds": 42.97570020299827
+    },
+    "129": {
+     "ok": true,
+     "peak_gib": 61.76921558380127,
+     "seconds": 51.932231637998484
+    },
+    "145": {
+     "ok": true,
+     "peak_gib": 61.85457420349121,
+     "seconds": 62.188227312999516
+    },
+    "161": {
+     "ok": true,
+     "peak_gib": 61.93993282318115,
+     "seconds": 73.30086923999988
+    },
+    "177": {
+     "ok": true,
+     "peak_gib": 62.025291442871094,
+     "seconds": 84.66819490600028
+    },
+    "193": {
+     "ok": true,
+     "peak_gib": 62.110650062561035,
+     "seconds": 98.70127829099874
+    }
+   },
+   "batch": {
+    "1": {
+     "ok": true,
+     "peak_gib": 61.34242248535156,
+     "seconds": 14.323047263002081
+    },
+    "2": {
+     "ok": false
+    }
+   },
+   "max_frames": 193,
+   "max_batch": 1
+  },
+  "b25": {
+   "adapters_requested": 49,
+   "adapters_loaded": 49,
+   "fleet_fits": true,
+   "fleet_resident_gib": 4.508227348327637,
+   "frames": {
+    "49": {
+     "ok": true,
+     "peak_gib": 57.33420372009277,
+     "seconds": 14.204246945002524
+    },
+    "65": {
+     "ok": true,
+     "peak_gib": 57.419562339782715,
+     "seconds": 20.22503176399914
+    },
+    "81": {
+     "ok": true,
+     "peak_gib": 57.504920959472656,
+     "seconds": 27.083008079000138
+    },
+    "97": {
+     "ok": true,
+     "peak_gib": 57.5902795791626,
+     "seconds": 34.53737563299728
+    },
+    "113": {
+     "ok": true,
+     "peak_gib": 57.67563819885254,
+     "seconds": 42.662014964000264
+    },
+    "129": {
+     "ok": true,
+     "peak_gib": 57.76099681854248,
+     "seconds": 51.725568074001785
+    },
+    "145": {
+     "ok": true,
+     "peak_gib": 57.84635543823242,
+     "seconds": 61.68835907399989
+    },
+    "161": {
+     "ok": true,
+     "peak_gib": 57.93171405792236,
+     "seconds": 72.65644311999858
+    },
+    "177": {
+     "ok": true,
+     "peak_gib": 58.017072677612305,
+     "seconds": 84.136294619002
+    },
+    "193": {
+     "ok": true,
+     "peak_gib": 58.102431297302246,
+     "seconds": 96.60415535300126
+    }
+   },
+   "batch": {
+    "1": {
+     "ok": true,
+     "peak_gib": 57.33420372009277,
+     "seconds": 14.27382179399865
+    },
+    "2": {
+     "ok": false
+    }
+   },
+   "max_frames": 193,
+   "max_batch": 1
+  }
+ }
+}
