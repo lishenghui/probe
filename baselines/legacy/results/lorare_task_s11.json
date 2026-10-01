@@ -1,0 +1,346 @@
+[
+  {
+    "task": "definite_pronoun_resolution_10templates",
+    "short": "definite_pronoun_resolution",
+    "metric": "em",
+    "domain": "coreference",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.06,
+    "metric_orig": 0.06,
+    "headroom": 0.0,
+    "variants": {
+      "e99": {
+        "L_W": 0.05647625956622638,
+        "rank_frac": 0.935546875,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "e95": {
+        "L_W": 0.1898981315964168,
+        "rank_frac": 0.6953125,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "e90": {
+        "L_W": 0.28383353505988235,
+        "rank_frac": 0.513671875,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "e80": {
+        "L_W": 0.3879077213942194,
+        "rank_frac": 0.34765625,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "e70": {
+        "L_W": 0.4698472045860252,
+        "rank_frac": 0.25390625,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "e50": {
+        "L_W": 0.594596308900499,
+        "rank_frac": 0.15625,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k01": {
+        "L_W": 0.6417645480583741,
+        "rank_frac": 0.125,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k02": {
+        "L_W": 0.4778872119320041,
+        "rank_frac": 0.25,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k03": {
+        "L_W": 0.37859060889121793,
+        "rank_frac": 0.375,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k04": {
+        "L_W": 0.3064274328602879,
+        "rank_frac": 0.5,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k05": {
+        "L_W": 0.24298633132598227,
+        "rank_frac": 0.625,
+        "metric_value": 0.06,
+        "retained": NaN
+      },
+      "k06": {
+        "L_W": 0.18112600836931475,
+        "rank_frac": 0.75,
+        "metric_value": 0.06,
+        "retained": NaN
+      }
+    }
+  },
+  {
+    "task": "para_crawl_enes_10templates",
+    "short": "para_crawl_enes",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.0876062181714198,
+    "metric_orig": 0.2487888290540554,
+    "headroom": 0.16118261088263558,
+    "variants": {
+      "e99": {
+        "L_W": 0.0801759922906568,
+        "rank_frac": 0.802734375,
+        "metric_value": 0.24590507214588087,
+        "retained": 0.9821087591745595
+      },
+      "e95": {
+        "L_W": 0.1965366815555773,
+        "rank_frac": 0.4296875,
+        "metric_value": 0.2459817996007228,
+        "retained": 0.98258478729212
+      },
+      "e90": {
+        "L_W": 0.2597081262338838,
+        "rank_frac": 0.2890625,
+        "metric_value": 0.24675213971194346,
+        "retained": 0.9873640876583458
+      },
+      "e80": {
+        "L_W": 0.3469971300289054,
+        "rank_frac": 0.1875,
+        "metric_value": 0.24811984431889736,
+        "retained": 0.995849522901418
+      },
+      "e70": {
+        "L_W": 0.39493784848275804,
+        "rank_frac": 0.14453125,
+        "metric_value": 0.24257960345414037,
+        "retained": 0.961477075188736
+      },
+      "e50": {
+        "L_W": 0.41533893378468695,
+        "rank_frac": 0.126953125,
+        "metric_value": 0.24478348324540888,
+        "retained": 0.9751502610193915
+      },
+      "k01": {
+        "L_W": 0.4169546616850142,
+        "rank_frac": 0.125,
+        "metric_value": 0.23603495898272187,
+        "retained": 0.9208731636651538
+      },
+      "k02": {
+        "L_W": 0.2835317188965681,
+        "rank_frac": 0.25,
+        "metric_value": 0.24554741672766547,
+        "retained": 0.979889813742066
+      },
+      "k03": {
+        "L_W": 0.2227250917789546,
+        "rank_frac": 0.375,
+        "metric_value": 0.24566843559264812,
+        "retained": 0.9806406321108712
+      },
+      "k04": {
+        "L_W": 0.17855416109112432,
+        "rank_frac": 0.5,
+        "metric_value": 0.2494687946383521,
+        "retained": 1.004218603859146
+      },
+      "k05": {
+        "L_W": 0.14283094893248982,
+        "rank_frac": 0.625,
+        "metric_value": 0.24903775971459483,
+        "retained": 1.0015444014659913
+      },
+      "k06": {
+        "L_W": 0.10830413987196451,
+        "rank_frac": 0.75,
+        "metric_value": 0.24562928892455274,
+        "retained": 0.9803977605760261
+      }
+    }
+  },
+  {
+    "task": "stsb_10templates",
+    "short": "stsb",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.14,
+    "headroom": 0.14,
+    "variants": {
+      "e99": {
+        "L_W": 0.07994404514637599,
+        "rank_frac": 0.802734375,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "e95": {
+        "L_W": 0.1959236319474922,
+        "rank_frac": 0.435546875,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "e90": {
+        "L_W": 0.2610014777822077,
+        "rank_frac": 0.291015625,
+        "metric_value": 0.14,
+        "retained": 1.0
+      },
+      "e80": {
+        "L_W": 0.34294600209663645,
+        "rank_frac": 0.185546875,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "e70": {
+        "L_W": 0.38365856095460577,
+        "rank_frac": 0.150390625,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "e50": {
+        "L_W": 0.41920637921369563,
+        "rank_frac": 0.12890625,
+        "metric_value": 0.14,
+        "retained": 1.0
+      },
+      "k01": {
+        "L_W": 0.424539651490266,
+        "rank_frac": 0.125,
+        "metric_value": 0.12,
+        "retained": 0.857142857142857
+      },
+      "k02": {
+        "L_W": 0.28867385553928687,
+        "rank_frac": 0.25,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "k03": {
+        "L_W": 0.2262303532454676,
+        "rank_frac": 0.375,
+        "metric_value": 0.14,
+        "retained": 1.0
+      },
+      "k04": {
+        "L_W": 0.18455557973073572,
+        "rank_frac": 0.5,
+        "metric_value": 0.18,
+        "retained": 1.2857142857142856
+      },
+      "k05": {
+        "L_W": 0.14734677708620264,
+        "rank_frac": 0.625,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      },
+      "k06": {
+        "L_W": 0.11101945493733781,
+        "rank_frac": 0.75,
+        "metric_value": 0.16,
+        "retained": 1.1428571428571428
+      }
+    }
+  },
+  {
+    "task": "yelp_polarity_reviews_10templates",
+    "short": "yelp_polarity_reviews",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.04,
+    "metric_orig": 0.38,
+    "headroom": 0.34,
+    "variants": {
+      "e99": {
+        "L_W": 0.07634542976429007,
+        "rank_frac": 0.845703125,
+        "metric_value": 0.38,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19660713425241674,
+        "rank_frac": 0.494140625,
+        "metric_value": 0.32,
+        "retained": 0.823529411764706
+      },
+      "e90": {
+        "L_W": 0.2681401319153788,
+        "rank_frac": 0.3359375,
+        "metric_value": 0.32,
+        "retained": 0.823529411764706
+      },
+      "e80": {
+        "L_W": 0.35809671958593897,
+        "rank_frac": 0.21484375,
+        "metric_value": 0.32,
+        "retained": 0.823529411764706
+      },
+      "e70": {
+        "L_W": 0.4113883383462166,
+        "rank_frac": 0.16796875,
+        "metric_value": 0.28,
+        "retained": 0.7058823529411765
+      },
+      "e50": {
+        "L_W": 0.47602896047556287,
+        "rank_frac": 0.126953125,
+        "metric_value": 0.28,
+        "retained": 0.7058823529411765
+      },
+      "k01": {
+        "L_W": 0.4783049189517981,
+        "rank_frac": 0.125,
+        "metric_value": 0.28,
+        "retained": 0.7058823529411765
+      },
+      "k02": {
+        "L_W": 0.3214487134861529,
+        "rank_frac": 0.25,
+        "metric_value": 0.32,
+        "retained": 0.823529411764706
+      },
+      "k03": {
+        "L_W": 0.24909171595330884,
+        "rank_frac": 0.375,
+        "metric_value": 0.32,
+        "retained": 0.823529411764706
+      },
+      "k04": {
+        "L_W": 0.20176250401634194,
+        "rank_frac": 0.5,
+        "metric_value": 0.34,
+        "retained": 0.8823529411764707
+      },
+      "k05": {
+        "L_W": 0.16098592287905264,
+        "rank_frac": 0.625,
+        "metric_value": 0.34,
+        "retained": 0.8823529411764707
+      },
+      "k06": {
+        "L_W": 0.12174023075732071,
+        "rank_frac": 0.75,
+        "metric_value": 0.38,
+        "retained": 1.0
+      }
+    }
+  }
+]

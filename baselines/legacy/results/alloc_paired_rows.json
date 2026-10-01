@@ -1,0 +1,2342 @@
+[
+ {
+  "pool": "LoRA Land",
+  "adapter": "glue_sst2",
+  "budget": 1004,
+  "S": 0.03825756827685439,
+  "du": 0.005235602094240788,
+  "uu": 1.0,
+  "dk": -56
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "gsm8k",
+  "budget": 1004,
+  "S": 0.11325481449689377,
+  "du": 0.10344827586206906,
+  "uu": 0.8620689655172412,
+  "dk": 62
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "hellaswag",
+  "budget": 1004,
+  "S": 0.059182677276353575,
+  "du": -0.12244897959183687,
+  "uu": 0.9795918367346939,
+  "dk": -91
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "viggo",
+  "budget": 1004,
+  "S": 0.08566521337241526,
+  "du": 0.006069148469993957,
+  "uu": 1.0195117593928054,
+  "dk": 68
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "wikisql",
+  "budget": 1004,
+  "S": 0.2257348626799333,
+  "du": 0.0,
+  "uu": 1.0223880597014925,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "glue_sst2",
+  "budget": 722,
+  "S": 0.03825756827685439,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -37
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "gsm8k",
+  "budget": 722,
+  "S": 0.11325481449689377,
+  "du": 0.1206896551724137,
+  "uu": 0.7413793103448275,
+  "dk": 73
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "hellaswag",
+  "budget": 722,
+  "S": 0.059182677276353575,
+  "du": -0.10204081632653073,
+  "uu": 0.9591836734693877,
+  "dk": -39
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "viggo",
+  "budget": 722,
+  "S": 0.08566521337241526,
+  "du": 0.0,
+  "uu": 1.0015144705694,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "wikisql",
+  "budget": 722,
+  "S": 0.2257348626799333,
+  "du": 0.0,
+  "uu": 1.0149253731343282,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "glue_sst2",
+  "budget": 580,
+  "S": 0.03825756827685439,
+  "du": -0.005235602094240788,
+  "uu": 1.0052356020942408,
+  "dk": -18
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "gsm8k",
+  "budget": 580,
+  "S": 0.11325481449689377,
+  "du": 1.0344827586206895,
+  "uu": -0.293103448275862,
+  "dk": 36
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "hellaswag",
+  "budget": 580,
+  "S": 0.059182677276353575,
+  "du": -0.08163265306122458,
+  "uu": 0.9387755102040816,
+  "dk": -24
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "viggo",
+  "budget": 580,
+  "S": 0.08566521337241526,
+  "du": 0.0,
+  "uu": 0.9980524531869542,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "wikisql",
+  "budget": 580,
+  "S": 0.2257348626799333,
+  "du": 0.0,
+  "uu": 0.09701492537313433,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "glue_sst2",
+  "budget": 405,
+  "S": 0.03825756827685439,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "gsm8k",
+  "budget": 405,
+  "S": 0.11325481449689377,
+  "du": 0.0,
+  "uu": 0.4655172413793102,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "hellaswag",
+  "budget": 405,
+  "S": 0.059182677276353575,
+  "du": 0.0,
+  "uu": 0.857142857142857,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "viggo",
+  "budget": 405,
+  "S": 0.08566521337241526,
+  "du": 0.0,
+  "uu": 0.9155002046942154,
+  "dk": 0
+ },
+ {
+  "pool": "LoRA Land",
+  "adapter": "wikisql",
+  "budget": 405,
+  "S": 0.2257348626799333,
+  "du": 0.0,
+  "uu": -0.014925373134328358,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0112",
+  "budget": 14069,
+  "S": 0.10945705324597421,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 249
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0149",
+  "budget": 14069,
+  "S": 0.04810195566879228,
+  "du": 0.012043376870181532,
+  "uu": 1.0120433768701815,
+  "dk": -278
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0223",
+  "budget": 14069,
+  "S": 0.15848341521147538,
+  "du": 0.1171790886515155,
+  "uu": 0.8765459452280494,
+  "dk": 246
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0260",
+  "budget": 14069,
+  "S": 0.02662714756375224,
+  "du": -0.21375840846785554,
+  "uu": 1.0,
+  "dk": -671
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0297",
+  "budget": 14069,
+  "S": 0.05343672710148084,
+  "du": 0.0,
+  "uu": 1.0112499445547223,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0334",
+  "budget": 14069,
+  "S": 0.06899597084029749,
+  "du": 0.0,
+  "uu": 1.0082536916578801,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0371",
+  "budget": 14069,
+  "S": 0.14152166165740046,
+  "du": -0.005230537711627958,
+  "uu": 0.9979918471285716,
+  "dk": 237
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0408",
+  "budget": 14069,
+  "S": 0.167021909198904,
+  "du": -0.03018582371484979,
+  "uu": 1.0309121066197764,
+  "dk": 255
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0593",
+  "budget": 14069,
+  "S": 0.07566757631169947,
+  "du": 0.0,
+  "uu": 0.9916522048686413,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0852",
+  "budget": 14069,
+  "S": 0.15882629286551075,
+  "du": 0.0022089853025538675,
+  "uu": 0.9868872086720069,
+  "dk": 236
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0889",
+  "budget": 14069,
+  "S": 0.033545624665687786,
+  "du": 0.0,
+  "uu": 0.9055383252350018,
+  "dk": -452
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0926",
+  "budget": 14069,
+  "S": 0.031015870595037215,
+  "du": 0.0034938164282563022,
+  "uu": 1.0,
+  "dk": -437
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1037",
+  "budget": 14069,
+  "S": 0.055321890496898334,
+  "du": 0.15340168339796967,
+  "uu": 0.9748828220003443,
+  "dk": -272
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1111",
+  "budget": 14069,
+  "S": 0.16633071044042466,
+  "du": -0.012142581983921152,
+  "uu": 1.0335840818354067,
+  "dk": 230
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1370",
+  "budget": 14069,
+  "S": 0.05230877529025968,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1407",
+  "budget": 14069,
+  "S": 0.11150824790794871,
+  "du": 0.015997891068938452,
+  "uu": 0.9544813119977017,
+  "dk": 247
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1444",
+  "budget": 14069,
+  "S": 0.1144119622340522,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 716
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1518",
+  "budget": 14069,
+  "S": 0.0409681939945328,
+  "du": 0.13199699151402688,
+  "uu": 1.023022731078028,
+  "dk": -430
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1592",
+  "budget": 14069,
+  "S": 0.05763827952022275,
+  "du": 0.0,
+  "uu": 0.9698023011895485,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0112",
+  "budget": 9091,
+  "S": 0.10945705324597421,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 219
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0149",
+  "budget": 9091,
+  "S": 0.04810195566879228,
+  "du": 0.012043376870181755,
+  "uu": 1.024086753740363,
+  "dk": -275
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0223",
+  "budget": 9091,
+  "S": 0.15848341521147538,
+  "du": 0.08898839958675442,
+  "uu": 0.787557545641295,
+  "dk": 259
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0260",
+  "budget": 9091,
+  "S": 0.02662714756375224,
+  "du": -0.20190629469886068,
+  "uu": 0.9881478862310051,
+  "dk": -385
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0297",
+  "budget": 9091,
+  "S": 0.05343672710148084,
+  "du": 0.0,
+  "uu": 1.0112499445547223,
+  "dk": -140
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0334",
+  "budget": 9091,
+  "S": 0.06899597084029749,
+  "du": 0.004126845828940073,
+  "uu": 1.0,
+  "dk": -122
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0371",
+  "budget": 9091,
+  "S": 0.14152166165740046,
+  "du": 0.04745512084541892,
+  "uu": 0.9505367262831527,
+  "dk": 225
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0408",
+  "budget": 9091,
+  "S": 0.167021909198904,
+  "du": 0.017243758840373102,
+  "uu": 1.0136683477794033,
+  "dk": 249
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0593",
+  "budget": 9091,
+  "S": 0.07566757631169947,
+  "du": 0.0,
+  "uu": 0.9962689897638646,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0852",
+  "budget": 9091,
+  "S": 0.15882629286551075,
+  "du": 0.01710083752562086,
+  "uu": 0.969786371146386,
+  "dk": 226
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0889",
+  "budget": 9091,
+  "S": 0.033545624665687786,
+  "du": 0.0,
+  "uu": 0.9055383252350018,
+  "dk": -341
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0926",
+  "budget": 9091,
+  "S": 0.031015870595037215,
+  "du": 0.0,
+  "uu": 1.0034938164282563,
+  "dk": -319
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1037",
+  "budget": 9091,
+  "S": 0.055321890496898334,
+  "du": -0.13968044307419747,
+  "uu": 1.128284505398314,
+  "dk": -156
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1111",
+  "budget": 9091,
+  "S": 0.16633071044042466,
+  "du": 0.014908572765599315,
+  "uu": 1.0186755090698074,
+  "dk": 278
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1370",
+  "budget": 9091,
+  "S": 0.05230877529025968,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1407",
+  "budget": 9091,
+  "S": 0.11150824790794871,
+  "du": 0.011381578370595169,
+  "uu": 0.9430997336271065,
+  "dk": 270
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1444",
+  "budget": 9091,
+  "S": 0.1144119622340522,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 210
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1518",
+  "budget": 9091,
+  "S": 0.0409681939945328,
+  "du": 0.0859515293579709,
+  "uu": 1.061393949541408,
+  "dk": -299
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1592",
+  "budget": 9091,
+  "S": 0.05763827952022275,
+  "du": -0.015098849405225767,
+  "uu": 0.9698023011895485,
+  "dk": -138
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0112",
+  "budget": 6401,
+  "S": 0.10945705324597421,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 86
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0149",
+  "budget": 6401,
+  "S": 0.04810195566879228,
+  "du": 0.0,
+  "uu": 1.0361301306105448,
+  "dk": -133
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0223",
+  "budget": 6401,
+  "S": 0.15848341521147538,
+  "du": 0.245810670700351,
+  "uu": 0.541746874940944,
+  "dk": 138
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0260",
+  "budget": 6401,
+  "S": 0.02662714756375224,
+  "du": -0.2076190436913098,
+  "uu": 0.9938606352234542,
+  "dk": -208
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0297",
+  "budget": 6401,
+  "S": 0.05343672710148084,
+  "du": 0.0,
+  "uu": 1.0112499445547223,
+  "dk": -144
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0334",
+  "budget": 6401,
+  "S": 0.06899597084029749,
+  "du": -0.008253691657880036,
+  "uu": 1.00412684582894,
+  "dk": -113
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0371",
+  "budget": 6401,
+  "S": 0.14152166165740046,
+  "du": 0.07965074322954047,
+  "uu": 0.8708859830536122,
+  "dk": 118
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0408",
+  "budget": 6401,
+  "S": 0.167021909198904,
+  "du": 0.045887348953240426,
+  "uu": 0.985024757666536,
+  "dk": 385
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0593",
+  "budget": 6401,
+  "S": 0.07566757631169947,
+  "du": 0.0,
+  "uu": 0.9889420704050836,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0852",
+  "budget": 6401,
+  "S": 0.15882629286551075,
+  "du": 0.029182983974986754,
+  "uu": 0.9406033871713992,
+  "dk": 122
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0889",
+  "budget": 6401,
+  "S": 0.033545624665687786,
+  "du": 0.0,
+  "uu": 0.9055383252350018,
+  "dk": -175
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0926",
+  "budget": 6401,
+  "S": 0.031015870595037215,
+  "du": 0.0,
+  "uu": 1.0034938164282563,
+  "dk": -163
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1037",
+  "budget": 6401,
+  "S": 0.055321890496898334,
+  "du": -0.11882957621346779,
+  "uu": 0.9886040623241165,
+  "dk": -183
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1111",
+  "budget": 6401,
+  "S": 0.16633071044042466,
+  "du": -0.04796903045487033,
+  "uu": 1.0666445395246777,
+  "dk": 171
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1370",
+  "budget": 6401,
+  "S": 0.05230877529025968,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -126
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1407",
+  "budget": 6401,
+  "S": 0.11150824790794871,
+  "du": 0.015353961687121664,
+  "uu": 0.9277457719399849,
+  "dk": 153
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1444",
+  "budget": 6401,
+  "S": 0.1144119622340522,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 319
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1518",
+  "budget": 6401,
+  "S": 0.0409681939945328,
+  "du": -0.007674243692675997,
+  "uu": 1.1550197225920549,
+  "dk": -144
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1592",
+  "budget": 6401,
+  "S": 0.05763827952022275,
+  "du": -0.04529654821567719,
+  "uu": 0.9547034517843227,
+  "dk": -128
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0112",
+  "budget": 3618,
+  "S": 0.10945705324597421,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0149",
+  "budget": 3618,
+  "S": 0.04810195566879228,
+  "du": 0.0,
+  "uu": 1.0361301306105448,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0223",
+  "budget": 3618,
+  "S": 0.15848341521147538,
+  "du": 0.0,
+  "uu": 0.35090014699185684,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0260",
+  "budget": 3618,
+  "S": 0.02662714756375224,
+  "du": 0.0,
+  "uu": 0.7862415915321445,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0297",
+  "budget": 3618,
+  "S": 0.05343672710148084,
+  "du": 0.0,
+  "uu": 1.0112499445547223,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0334",
+  "budget": 3618,
+  "S": 0.06899597084029749,
+  "du": 0.0,
+  "uu": 0.99587315417106,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0371",
+  "budget": 3618,
+  "S": 0.14152166165740046,
+  "du": 0.0,
+  "uu": 0.8127262732307612,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0408",
+  "budget": 3618,
+  "S": 0.167021909198904,
+  "du": 0.0,
+  "uu": 0.9274109073544553,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0593",
+  "budget": 3618,
+  "S": 0.07566757631169947,
+  "du": 0.0,
+  "uu": 0.9339712182005614,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0852",
+  "budget": 3618,
+  "S": 0.15882629286551075,
+  "du": 0.0,
+  "uu": 0.8997946428861339,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0889",
+  "budget": 3618,
+  "S": 0.033545624665687786,
+  "du": 0.0,
+  "uu": 0.9055383252350018,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task0926",
+  "budget": 3618,
+  "S": 0.031015870595037215,
+  "du": 0.0,
+  "uu": 1.0034938164282563,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1037",
+  "budget": 3618,
+  "S": 0.055321890496898334,
+  "du": 0.0,
+  "uu": 0.8697744861106487,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1111",
+  "budget": 3618,
+  "S": 0.16633071044042466,
+  "du": 0.0,
+  "uu": 1.0984042478635088,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1370",
+  "budget": 3618,
+  "S": 0.05230877529025968,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1407",
+  "budget": 3618,
+  "S": 0.11150824790794871,
+  "du": 0.0,
+  "uu": 0.8306892421411671,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1444",
+  "budget": 3618,
+  "S": 0.1144119622340522,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1518",
+  "budget": 3618,
+  "S": 0.0409681939945328,
+  "du": 0.0,
+  "uu": 1.1473454788993789,
+  "dk": 0
+ },
+ {
+  "pool": "Lots-of-LoRAs",
+  "adapter": "task1592",
+  "budget": 3618,
+  "S": 0.05763827952022275,
+  "du": 0.0,
+  "uu": 0.9094069035686455,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r1",
+  "budget": 5880,
+  "S": 0.00582156065818016,
+  "du": 0.0,
+  "uu": 0.5,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r2",
+  "budget": 5880,
+  "S": 0.005790989358348502,
+  "du": 0.0,
+  "uu": 0.6,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r3",
+  "budget": 5880,
+  "S": 0.006237941431893627,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "arc_challenge",
+  "budget": 5880,
+  "S": 0.04189219206084425,
+  "du": 0.10526315789473684,
+  "uu": 0.8421052631578947,
+  "dk": 140
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "bool_q",
+  "budget": 5880,
+  "S": 0.005307593707159623,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "common_gen",
+  "budget": 5880,
+  "S": 0.008292913464168782,
+  "du": 0.0,
+  "uu": 0.9305838968989112,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "copa",
+  "budget": 5880,
+  "S": 0.015427003445750419,
+  "du": 0.03846153846153855,
+  "uu": 0.9615384615384615,
+  "dk": 43
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "cosmos_qa",
+  "budget": 5880,
+  "S": 0.006977645575778585,
+  "du": 0.0,
+  "uu": 0.8823529411764705,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "dart",
+  "budget": 5880,
+  "S": 0.010625941928136515,
+  "du": 0.000844515965888637,
+  "uu": 0.9810602559715677,
+  "dk": 45
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "drop",
+  "budget": 5880,
+  "S": 0.007295302631977129,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "e2e_nlg",
+  "budget": 5880,
+  "S": 0.008869750805471116,
+  "du": 0.0,
+  "uu": 0.9705515892091295,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_mrpc",
+  "budget": 5880,
+  "S": 0.00402943193733118,
+  "du": -0.09090909090909083,
+  "uu": 1.0,
+  "dk": -53
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_qqp",
+  "budget": 5880,
+  "S": 0.004983843782561195,
+  "du": 0.0,
+  "uu": 0.8750000000000001,
+  "dk": -39
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "hellaswag",
+  "budget": 5880,
+  "S": 0.005923911367449549,
+  "du": 0.0,
+  "uu": 0.9285714285714285,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "imdb_reviews",
+  "budget": 5880,
+  "S": 0.0061214747371369435,
+  "du": 0.0,
+  "uu": 0.9736842105263158,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "mnli_mismatched",
+  "budget": 5880,
+  "S": 0.005063379323348547,
+  "du": -0.14285714285714302,
+  "uu": 1.0,
+  "dk": -40
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "multirc",
+  "budget": 5880,
+  "S": 0.005500293393142125,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "natural_questions",
+  "budget": 5880,
+  "S": 0.00671669961850207,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "openbookqa",
+  "budget": 5880,
+  "S": 0.008295814112087184,
+  "du": 0.0,
+  "uu": 0.8387096774193549,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "para_crawl_enes",
+  "budget": 5880,
+  "S": 0.007015453290511419,
+  "du": 0.0,
+  "uu": 0.9873640876583458,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "paws_wiki",
+  "budget": 5880,
+  "S": 0.00492467575469876,
+  "du": -0.05263157894736836,
+  "uu": 0.8421052631578947,
+  "dk": -35
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "piqa",
+  "budget": 5880,
+  "S": 0.006382893613515958,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "record",
+  "budget": 5880,
+  "S": 0.005903702505306512,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sentiment140",
+  "budget": 5880,
+  "S": 0.006653797827982058,
+  "du": 0.0,
+  "uu": 0.9615384615384615,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "snli",
+  "budget": 5880,
+  "S": 0.005890729125947939,
+  "du": 0.3333333333333335,
+  "uu": 1.0,
+  "dk": -39
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v1",
+  "budget": 5880,
+  "S": 0.006283086181824611,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v2",
+  "budget": 5880,
+  "S": 0.006339693912486361,
+  "du": 0.0,
+  "uu": 0.7916666666666667,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sst2",
+  "budget": 5880,
+  "S": 0.006794674340591948,
+  "du": 0.0,
+  "uu": 1.0454545454545454,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "story_cloze",
+  "budget": 5880,
+  "S": 0.001828291875310216,
+  "du": -0.33333333333333326,
+  "uu": 1.0,
+  "dk": -118
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "stsb",
+  "budget": 5880,
+  "S": 0.005900561411206915,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "trivia_qa",
+  "budget": 5880,
+  "S": 0.007049673785490909,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "web_nlg_en",
+  "budget": 5880,
+  "S": 0.010516670276263403,
+  "du": 0.013064844659159025,
+  "uu": 0.9850649442345732,
+  "dk": 44
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt14_enfr",
+  "budget": 5880,
+  "S": 0.0069673230353944765,
+  "du": 0.0,
+  "uu": 1.0091793553030604,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_csen",
+  "budget": 5880,
+  "S": 0.006972299820793313,
+  "du": 0.0,
+  "uu": 1.0035416277219662,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_deen",
+  "budget": 5880,
+  "S": 0.006733584372376083,
+  "du": 0.0,
+  "uu": 1.0371492544028833,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_fien",
+  "budget": 5880,
+  "S": 0.008128080727988327,
+  "du": 0.0,
+  "uu": 1.008756137502261,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_roen",
+  "budget": 5880,
+  "S": 0.007681734232160997,
+  "du": 0.0,
+  "uu": 0.9910137217223112,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_ruen",
+  "budget": 5880,
+  "S": 0.008051019478361947,
+  "du": 0.0,
+  "uu": 0.9458623478318554,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_tren",
+  "budget": 5880,
+  "S": 0.009383249287602091,
+  "du": 0.0,
+  "uu": 0.9959928615889012,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wnli",
+  "budget": 5880,
+  "S": 0.011281370575334085,
+  "du": 0.19999999999999996,
+  "uu": 0.6,
+  "dk": 43
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "yelp_polarity_reviews",
+  "budget": 5880,
+  "S": 0.005995909041552379,
+  "du": 0.0,
+  "uu": 0.823529411764706,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r1",
+  "budget": 3956,
+  "S": 0.00582156065818016,
+  "du": 0.0,
+  "uu": 0.5,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r2",
+  "budget": 3956,
+  "S": 0.005790989358348502,
+  "du": 0.0,
+  "uu": 0.39999999999999997,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r3",
+  "budget": 3956,
+  "S": 0.006237941431893627,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "arc_challenge",
+  "budget": 3956,
+  "S": 0.04189219206084425,
+  "du": 0.05263157894736836,
+  "uu": 0.7894736842105263,
+  "dk": 44
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "bool_q",
+  "budget": 3956,
+  "S": 0.005307593707159623,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -17
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "common_gen",
+  "budget": 3956,
+  "S": 0.008292913464168782,
+  "du": 0.0,
+  "uu": 0.8557642876740047,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "copa",
+  "budget": 3956,
+  "S": 0.015427003445750419,
+  "du": 0.07692307692307687,
+  "uu": 0.8846153846153846,
+  "dk": 24
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "cosmos_qa",
+  "budget": 3956,
+  "S": 0.006977645575778585,
+  "du": 0.0,
+  "uu": 0.823529411764706,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "dart",
+  "budget": 3956,
+  "S": 0.010625941928136515,
+  "du": 0.06223077915452668,
+  "uu": 0.918829476817041,
+  "dk": 33
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "drop",
+  "budget": 3956,
+  "S": 0.007295302631977129,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "e2e_nlg",
+  "budget": 3956,
+  "S": 0.008869750805471116,
+  "du": 0.01979840397511745,
+  "uu": 0.9507531852340121,
+  "dk": 50
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_mrpc",
+  "budget": 3956,
+  "S": 0.00402943193733118,
+  "du": -0.4545454545454546,
+  "uu": 0.9090909090909092,
+  "dk": -44
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_qqp",
+  "budget": 3956,
+  "S": 0.004983843782561195,
+  "du": -0.1250000000000001,
+  "uu": 0.8750000000000001,
+  "dk": -19
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "hellaswag",
+  "budget": 3956,
+  "S": 0.005923911367449549,
+  "du": 0.0,
+  "uu": 0.857142857142857,
+  "dk": -18
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "imdb_reviews",
+  "budget": 3956,
+  "S": 0.0061214747371369435,
+  "du": 0.0,
+  "uu": 0.8947368421052632,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "mnli_mismatched",
+  "budget": 3956,
+  "S": 0.005063379323348547,
+  "du": 0.0,
+  "uu": 0.857142857142857,
+  "dk": -31
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "multirc",
+  "budget": 3956,
+  "S": 0.005500293393142125,
+  "du": -0.33333333333333337,
+  "uu": 0.6666666666666666,
+  "dk": -21
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "natural_questions",
+  "budget": 3956,
+  "S": 0.00671669961850207,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "openbookqa",
+  "budget": 3956,
+  "S": 0.008295814112087184,
+  "du": 0.0,
+  "uu": 0.8387096774193549,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "para_crawl_enes",
+  "budget": 3956,
+  "S": 0.007015453290511419,
+  "du": 0.0,
+  "uu": 0.995849522901418,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "paws_wiki",
+  "budget": 3956,
+  "S": 0.00492467575469876,
+  "du": -0.1578947368421053,
+  "uu": 0.7894736842105263,
+  "dk": -38
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "piqa",
+  "budget": 3956,
+  "S": 0.006382893613515958,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "record",
+  "budget": 3956,
+  "S": 0.005903702505306512,
+  "du": 0.0,
+  "uu": 0.9565217391304347,
+  "dk": -19
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sentiment140",
+  "budget": 3956,
+  "S": 0.006653797827982058,
+  "du": 0.0,
+  "uu": 0.9615384615384615,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "snli",
+  "budget": 3956,
+  "S": 0.005890729125947939,
+  "du": 0.33333333333333326,
+  "uu": 1.3333333333333335,
+  "dk": -22
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v1",
+  "budget": 3956,
+  "S": 0.006283086181824611,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -16
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v2",
+  "budget": 3956,
+  "S": 0.006339693912486361,
+  "du": 0.0,
+  "uu": 0.7083333333333334,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sst2",
+  "budget": 3956,
+  "S": 0.006794674340591948,
+  "du": 0.0,
+  "uu": 0.8636363636363636,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "story_cloze",
+  "budget": 3956,
+  "S": 0.001828291875310216,
+  "du": -0.33333333333333326,
+  "uu": 1.0,
+  "dk": -72
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "stsb",
+  "budget": 3956,
+  "S": 0.005900561411206915,
+  "du": 0.0,
+  "uu": 1.1428571428571428,
+  "dk": -18
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "trivia_qa",
+  "budget": 3956,
+  "S": 0.007049673785490909,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "web_nlg_en",
+  "budget": 3956,
+  "S": 0.010516670276263403,
+  "du": 0.0016057586461906137,
+  "uu": 0.9834591855883826,
+  "dk": 27
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt14_enfr",
+  "budget": 3956,
+  "S": 0.0069673230353944765,
+  "du": 0.0,
+  "uu": 0.9989025486375572,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_csen",
+  "budget": 3956,
+  "S": 0.006972299820793313,
+  "du": 0.0,
+  "uu": 0.9048984981721122,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_deen",
+  "budget": 3956,
+  "S": 0.006733584372376083,
+  "du": 0.0,
+  "uu": 1.026674590943771,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_fien",
+  "budget": 3956,
+  "S": 0.008128080727988327,
+  "du": 0.007671068253235713,
+  "uu": 1.0010850692490252,
+  "dk": 43
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_roen",
+  "budget": 3956,
+  "S": 0.007681734232160997,
+  "du": 0.0,
+  "uu": 0.9787415787174482,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_ruen",
+  "budget": 3956,
+  "S": 0.008051019478361947,
+  "du": -0.03447334582048611,
+  "uu": 0.9803356936523415,
+  "dk": 45
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_tren",
+  "budget": 3956,
+  "S": 0.009383249287602091,
+  "du": 0.03878847943032915,
+  "uu": 0.9572043821585721,
+  "dk": 34
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wnli",
+  "budget": 3956,
+  "S": 0.011281370575334085,
+  "du": 0.0,
+  "uu": 0.6,
+  "dk": 28
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "yelp_polarity_reviews",
+  "budget": 3956,
+  "S": 0.005995909041552379,
+  "du": 0.0,
+  "uu": 0.823529411764706,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r1",
+  "budget": 3191,
+  "S": 0.00582156065818016,
+  "du": 0.0,
+  "uu": 0.5,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r2",
+  "budget": 3191,
+  "S": 0.005790989358348502,
+  "du": 0.0,
+  "uu": 0.19999999999999998,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r3",
+  "budget": 3191,
+  "S": 0.006237941431893627,
+  "du": -0.09999999999999998,
+  "uu": 0.8999999999999999,
+  "dk": -12
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "arc_challenge",
+  "budget": 3191,
+  "S": 0.04189219206084425,
+  "du": 0.0,
+  "uu": 0.8421052631578947,
+  "dk": 52
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "bool_q",
+  "budget": 3191,
+  "S": 0.005307593707159623,
+  "du": -0.034482758620689724,
+  "uu": 1.0,
+  "dk": -10
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "common_gen",
+  "budget": 3191,
+  "S": 0.008292913464168782,
+  "du": 0.0,
+  "uu": 0.7702719684527832,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "copa",
+  "budget": 3191,
+  "S": 0.015427003445750419,
+  "du": 0.0,
+  "uu": 0.9615384615384615,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "cosmos_qa",
+  "budget": 3191,
+  "S": 0.006977645575778585,
+  "du": 0.0,
+  "uu": 0.823529411764706,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "dart",
+  "budget": 3191,
+  "S": 0.010625941928136515,
+  "du": -0.0040273754715004495,
+  "uu": 0.9228568522885414,
+  "dk": 12
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "drop",
+  "budget": 3191,
+  "S": 0.007295302631977129,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 24
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "e2e_nlg",
+  "budget": 3191,
+  "S": 0.008869750805471116,
+  "du": 0.020465614306120594,
+  "uu": 0.9302875709278915,
+  "dk": 16
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_mrpc",
+  "budget": 3191,
+  "S": 0.00402943193733118,
+  "du": -0.18181818181818188,
+  "uu": 0.6363636363636365,
+  "dk": -19
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_qqp",
+  "budget": 3191,
+  "S": 0.004983843782561195,
+  "du": -0.31249999999999994,
+  "uu": 0.75,
+  "dk": -20
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "hellaswag",
+  "budget": 3191,
+  "S": 0.005923911367449549,
+  "du": -0.07142857142857129,
+  "uu": 0.857142857142857,
+  "dk": -12
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "imdb_reviews",
+  "budget": 3191,
+  "S": 0.0061214747371369435,
+  "du": 0.02631578947368418,
+  "uu": 0.868421052631579,
+  "dk": 32
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "mnli_mismatched",
+  "budget": 3191,
+  "S": 0.005063379323348547,
+  "du": 0.0,
+  "uu": 0.857142857142857,
+  "dk": -14
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "multirc",
+  "budget": 3191,
+  "S": 0.005500293393142125,
+  "du": -0.1666666666666666,
+  "uu": 0.33333333333333326,
+  "dk": -16
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "natural_questions",
+  "budget": 3191,
+  "S": 0.00671669961850207,
+  "du": 0.0,
+  "uu": 0.888888888888889,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "openbookqa",
+  "budget": 3191,
+  "S": 0.008295814112087184,
+  "du": 0.032258064516129115,
+  "uu": 0.8387096774193549,
+  "dk": -7
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "para_crawl_enes",
+  "budget": 3191,
+  "S": 0.007015453290511419,
+  "du": 0.034372447712682,
+  "uu": 0.961477075188736,
+  "dk": 22
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "paws_wiki",
+  "budget": 3191,
+  "S": 0.00492467575469876,
+  "du": 0.0,
+  "uu": 0.631578947368421,
+  "dk": -15
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "piqa",
+  "budget": 3191,
+  "S": 0.006382893613515958,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -9
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "record",
+  "budget": 3191,
+  "S": 0.005903702505306512,
+  "du": 0.0,
+  "uu": 0.9565217391304347,
+  "dk": -13
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sentiment140",
+  "budget": 3191,
+  "S": 0.006653797827982058,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "snli",
+  "budget": 3191,
+  "S": 0.005890729125947939,
+  "du": 0.0,
+  "uu": 1.6666666666666667,
+  "dk": -10
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v1",
+  "budget": 3191,
+  "S": 0.006283086181824611,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": -12
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v2",
+  "budget": 3191,
+  "S": 0.006339693912486361,
+  "du": -0.04166666666666674,
+  "uu": 0.6666666666666667,
+  "dk": -14
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sst2",
+  "budget": 3191,
+  "S": 0.006794674340591948,
+  "du": -0.0454545454545453,
+  "uu": 0.8181818181818181,
+  "dk": -8
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "story_cloze",
+  "budget": 3191,
+  "S": 0.001828291875310216,
+  "du": 0.0,
+  "uu": 0.6666666666666667,
+  "dk": -32
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "stsb",
+  "budget": 3191,
+  "S": 0.005900561411206915,
+  "du": -0.1428571428571428,
+  "uu": 1.1428571428571428,
+  "dk": -11
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "trivia_qa",
+  "budget": 3191,
+  "S": 0.007049673785490909,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": -10
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "web_nlg_en",
+  "budget": 3191,
+  "S": 0.010516670276263403,
+  "du": 0.0,
+  "uu": 0.9524317942534112,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt14_enfr",
+  "budget": 3191,
+  "S": 0.0069673230353944765,
+  "du": 0.0,
+  "uu": 1.018242215648386,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_csen",
+  "budget": 3191,
+  "S": 0.006972299820793313,
+  "du": -0.007575183099109761,
+  "uu": 1.022287473724046,
+  "dk": -8
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_deen",
+  "budget": 3191,
+  "S": 0.006733584372376083,
+  "du": 0.008659155966793008,
+  "uu": 1.0180154349769779,
+  "dk": 26
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_fien",
+  "budget": 3191,
+  "S": 0.008128080727988327,
+  "du": 0.0034165968083758047,
+  "uu": 0.9976684724406494,
+  "dk": 15
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_roen",
+  "budget": 3191,
+  "S": 0.007681734232160997,
+  "du": 0.0,
+  "uu": 0.9686518620749406,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_ruen",
+  "budget": 3191,
+  "S": 0.008051019478361947,
+  "du": 0.03812426475181219,
+  "uu": 0.9422114289005293,
+  "dk": 18
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_tren",
+  "budget": 3191,
+  "S": 0.009383249287602091,
+  "du": -0.14101286772357335,
+  "uu": 1.0982172498821454,
+  "dk": 15
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wnli",
+  "budget": 3191,
+  "S": 0.011281370575334085,
+  "du": 0.4,
+  "uu": 0.19999999999999998,
+  "dk": 18
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "yelp_polarity_reviews",
+  "budget": 3191,
+  "S": 0.005995909041552379,
+  "du": 0.0,
+  "uu": 0.7058823529411765,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r1",
+  "budget": 2683,
+  "S": 0.00582156065818016,
+  "du": 0.0,
+  "uu": 0.5,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r2",
+  "budget": 2683,
+  "S": 0.005790989358348502,
+  "du": 0.0,
+  "uu": 0.19999999999999998,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "anli_r3",
+  "budget": 2683,
+  "S": 0.006237941431893627,
+  "du": 0.0,
+  "uu": 0.7999999999999999,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "arc_challenge",
+  "budget": 2683,
+  "S": 0.04189219206084425,
+  "du": 0.0,
+  "uu": 0.6842105263157895,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "bool_q",
+  "budget": 2683,
+  "S": 0.005307593707159623,
+  "du": 0.0,
+  "uu": 0.9655172413793103,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "common_gen",
+  "budget": 2683,
+  "S": 0.008292913464168782,
+  "du": 0.0,
+  "uu": 0.8142997196331335,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "copa",
+  "budget": 2683,
+  "S": 0.015427003445750419,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "cosmos_qa",
+  "budget": 2683,
+  "S": 0.006977645575778585,
+  "du": 0.0,
+  "uu": 0.7647058823529411,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "dart",
+  "budget": 2683,
+  "S": 0.010625941928136515,
+  "du": 0.0,
+  "uu": 0.9310462689544704,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "drop",
+  "budget": 2683,
+  "S": 0.007295302631977129,
+  "du": 0.0,
+  "uu": 0.6666666666666666,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "e2e_nlg",
+  "budget": 2683,
+  "S": 0.008869750805471116,
+  "du": 0.0,
+  "uu": 0.9490605343575172,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_mrpc",
+  "budget": 2683,
+  "S": 0.00402943193733118,
+  "du": 0.0,
+  "uu": 0.4545454545454546,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "glue_qqp",
+  "budget": 2683,
+  "S": 0.004983843782561195,
+  "du": 0.0,
+  "uu": 0.43750000000000006,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "hellaswag",
+  "budget": 2683,
+  "S": 0.005923911367449549,
+  "du": 0.0,
+  "uu": 0.7857142857142857,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "imdb_reviews",
+  "budget": 2683,
+  "S": 0.0061214747371369435,
+  "du": 0.0,
+  "uu": 0.8421052631578947,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "mnli_mismatched",
+  "budget": 2683,
+  "S": 0.005063379323348547,
+  "du": 0.0,
+  "uu": 0.857142857142857,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "multirc",
+  "budget": 2683,
+  "S": 0.005500293393142125,
+  "du": 0.0,
+  "uu": 0.16666666666666666,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "natural_questions",
+  "budget": 2683,
+  "S": 0.00671669961850207,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "openbookqa",
+  "budget": 2683,
+  "S": 0.008295814112087184,
+  "du": 0.0,
+  "uu": 0.870967741935484,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "para_crawl_enes",
+  "budget": 2683,
+  "S": 0.007015453290511419,
+  "du": 0.0,
+  "uu": 0.9751502610193915,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "paws_wiki",
+  "budget": 2683,
+  "S": 0.00492467575469876,
+  "du": 0.0,
+  "uu": 0.631578947368421,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "piqa",
+  "budget": 2683,
+  "S": 0.006382893613515958,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "record",
+  "budget": 2683,
+  "S": 0.005903702505306512,
+  "du": 0.0,
+  "uu": 0.9565217391304347,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sentiment140",
+  "budget": 2683,
+  "S": 0.006653797827982058,
+  "du": 0.0,
+  "uu": 0.923076923076923,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "snli",
+  "budget": 2683,
+  "S": 0.005890729125947939,
+  "du": 0.0,
+  "uu": 1.6666666666666667,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v1",
+  "budget": 2683,
+  "S": 0.006283086181824611,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "squad_v2",
+  "budget": 2683,
+  "S": 0.006339693912486361,
+  "du": 0.0,
+  "uu": 0.625,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "sst2",
+  "budget": 2683,
+  "S": 0.006794674340591948,
+  "du": 0.0,
+  "uu": 0.7727272727272728,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "story_cloze",
+  "budget": 2683,
+  "S": 0.001828291875310216,
+  "du": 0.0,
+  "uu": 0.6666666666666667,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "stsb",
+  "budget": 2683,
+  "S": 0.005900561411206915,
+  "du": 0.0,
+  "uu": 1.0,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "trivia_qa",
+  "budget": 2683,
+  "S": 0.007049673785490909,
+  "du": 0.0,
+  "uu": 0.7777777777777779,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "web_nlg_en",
+  "budget": 2683,
+  "S": 0.010516670276263403,
+  "du": 0.0,
+  "uu": 0.9668654637354751,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt14_enfr",
+  "budget": 2683,
+  "S": 0.0069673230353944765,
+  "du": 0.0,
+  "uu": 0.9187176811698706,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_csen",
+  "budget": 2683,
+  "S": 0.006972299820793313,
+  "du": 0.0,
+  "uu": 1.0147122906249362,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_deen",
+  "budget": 2683,
+  "S": 0.006733584372376083,
+  "du": 0.0,
+  "uu": 1.0338698402116253,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_fien",
+  "budget": 2683,
+  "S": 0.008128080727988327,
+  "du": 0.0,
+  "uu": 1.019913457964326,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_roen",
+  "budget": 2683,
+  "S": 0.007681734232160997,
+  "du": 0.0,
+  "uu": 0.8942234269237986,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_ruen",
+  "budget": 2683,
+  "S": 0.008051019478361947,
+  "du": 0.0,
+  "uu": 0.9085886363557112,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wmt16_translate_tren",
+  "budget": 2683,
+  "S": 0.009383249287602091,
+  "du": 0.0,
+  "uu": 0.9905412506527369,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "wnli",
+  "budget": 2683,
+  "S": 0.011281370575334085,
+  "du": 0.0,
+  "uu": 0.19999999999999998,
+  "dk": 0
+ },
+ {
+  "pool": "LoraRetriever",
+  "adapter": "yelp_polarity_reviews",
+  "budget": 2683,
+  "S": 0.005995909041552379,
+  "du": 0.0,
+  "uu": 0.7058823529411765,
+  "dk": 0
+ }
+]

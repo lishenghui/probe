@@ -1,0 +1,28 @@
+{
+  "adapter": "panowan",
+  "repo": "YOUSIKI/PanoWan",
+  "family": "panorama",
+  "primary_metric": "panorama_seam",
+  "higher_is_better": true,
+  "variant": "full",
+  "tau": null,
+  "prompt_index": 3,
+  "prompt": "A seamless equirectangular panoramic view of ocean waves breaking around a rocky island",
+  "seed": 0,
+  "height": 448,
+  "width": 896,
+  "num_frames": 81,
+  "fps": 16,
+  "steps": 50,
+  "generation_seconds": 103.98058140799549,
+  "peak_cuda_gib": 22.620952606201172,
+  "compression": {
+    "kept_rank": 4800,
+    "total_rank": 4800,
+    "rank_fraction": 1.0,
+    "L_W": 0.0,
+    "mapped_modules": 300,
+    "lora_scale": 1.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/panowan/full/p003_s0000.mp4"
+}

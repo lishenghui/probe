@@ -1,0 +1,54 @@
+{
+  "spatial": {
+    "source": {
+      "repo_id": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b"
+    },
+    "rank": 64,
+    "ab_parameters": 221656576,
+    "adapter_bytes": 443446440,
+    "backend": "randomized_svd_flash_tsqr",
+    "sketch_width": 192,
+    "power_iterations": 2,
+    "non_lora_exact": true
+  },
+  "object": {
+    "source": {
+      "repo_id": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148"
+    },
+    "rank": 64,
+    "ab_parameters": 221656576,
+    "adapter_bytes": 443446440,
+    "backend": "randomized_svd_flash_tsqr",
+    "sketch_width": 192,
+    "power_iterations": 2,
+    "non_lora_exact": true
+  },
+  "goal": {
+    "source": {
+      "repo_id": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "revision": "c2d0f9fbbd82674683b397ff923168a12f6a307b"
+    },
+    "rank": 64,
+    "ab_parameters": 221656576,
+    "adapter_bytes": 443446440,
+    "backend": "randomized_svd_flash_tsqr",
+    "sketch_width": 192,
+    "power_iterations": 2,
+    "non_lora_exact": true
+  },
+  "10": {
+    "source": {
+      "repo_id": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "revision": "95220f9a3421a7ff12d4218e73d09ade830fa9a3"
+    },
+    "rank": 64,
+    "ab_parameters": 221656576,
+    "adapter_bytes": 443446440,
+    "backend": "randomized_svd_flash_tsqr",
+    "sketch_width": 192,
+    "power_iterations": 2,
+    "non_lora_exact": true
+  }
+}

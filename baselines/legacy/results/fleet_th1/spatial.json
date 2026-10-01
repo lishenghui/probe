@@ -1,0 +1,16 @@
+{
+  "mode": "batched",
+  "episodes": 4,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "load_s": 251.0,
+  "success": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 14.3,
+  "policy_calls": 11,
+  "s_per_episode": 3.58
+}

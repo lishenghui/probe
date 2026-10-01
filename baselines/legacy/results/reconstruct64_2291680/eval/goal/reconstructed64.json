@@ -1,0 +1,31 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/reconstruct64_2291680/adapters/goal",
+  "episodes": 8,
+  "task": "open the middle drawer of the cabinet",
+  "load_s": 619.3,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 23.86,
+  "policy_calls": 24,
+  "s_per_episode": 2.98,
+  "label": "reconstructed64",
+  "base": "/tmp/oft-reconstruct-2291680-HcGDP0/goal",
+  "adapter_mode": "reconstructed",
+  "metadata": "/tmp/oft-reconstruct-2291680-HcGDP0/goal",
+  "anchor": {
+    "formula": "W_common_base + reconstructed_B @ reconstructed_A",
+    "common_base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-7b-base",
+    "modules": 439,
+    "changed_modules": 439
+  }
+}

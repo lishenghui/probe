@@ -1,0 +1,40 @@
+[
+  {
+    "task": "hellaswag_10templates",
+    "short": "hellaswag",
+    "S": 0.005923911367449549,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 180,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.1943410245933834,
+        "rank_frac": 0.408203125,
+        "d_prompt": 7.811867972216618e-06,
+        "d_out": 1.8182017134272933e-05,
+        "prompt_positions": 1552,
+        "out_positions": 180
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_deen_10templates",
+    "short": "wmt16_translate_deen",
+    "S": 0.006733584372376083,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 304,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19383508598966206,
+        "rank_frac": 0.443359375,
+        "d_prompt": 6.921266333504968e-06,
+        "d_out": 6.916787601527942e-06,
+        "prompt_positions": 507,
+        "out_positions": 304
+      }
+    }
+  }
+]

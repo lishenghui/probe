@@ -1,0 +1,86 @@
+[
+  {
+    "task": "anli_r1_10templates",
+    "short": "anli_r1",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.17647058823529413,
+    "variants": {
+      "dense": {
+        "L_W": 0.4029330140703043,
+        "rank_frac": 0.171875,
+        "metric_value": 0.14705882352941177,
+        "retained": 0.8333333333333333
+      }
+    }
+  },
+  {
+    "task": "drop_10templates",
+    "short": "drop",
+    "metric": "em",
+    "domain": "reading comp",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "dense": {
+        "L_W": 0.45556920740875334,
+        "rank_frac": 0.125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.6
+      }
+    }
+  },
+  {
+    "task": "paws_wiki_10templates",
+    "short": "paws_wiki",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.35294117647058826,
+    "headroom": 0.35294117647058826,
+    "variants": {
+      "dense": {
+        "L_W": 0.29967627069344516,
+        "rank_frac": 0.220703125,
+        "metric_value": 0.2647058823529412,
+        "retained": 0.75
+      }
+    }
+  },
+  {
+    "task": "trivia_qa_10templates",
+    "short": "trivia_qa",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.14705882352941177,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "dense": {
+        "L_W": 0.3926357510046964,
+        "rank_frac": 0.125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.7999999999999999
+      }
+    }
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "drop": {
+    "as coded": {
+      "acc": 0.65,
+      "sample": [
+        [
+          "'Chaz Schilens'",
+          "Chaz Schilens"
+        ],
+        [
+          "'3'",
+          "2"
+        ],
+        [
+          "'Raiders'",
+          "Raiders"
+        ],
+        [
+          "'2'",
+          "2"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.64,
+      "sample": [
+        [
+          "'Chaz Schilens'",
+          "Chaz Schilens"
+        ],
+        [
+          "'3'",
+          "2"
+        ],
+        [
+          "'Oakland'",
+          "Raiders"
+        ],
+        [
+          "'2'",
+          "2"
+        ]
+      ]
+    }
+  },
+  "glue_stsb": {
+    "as coded": {
+      "acc": 0.28,
+      "sample": [
+        [
+          "'5.0'",
+          "5.0"
+        ],
+        [
+          "'4.8'",
+          "4.8"
+        ],
+        [
+          "'5.0'",
+          "5.0"
+        ],
+        [
+          "'2.5'",
+          "2.4"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.29,
+      "sample": [
+        [
+          "'5.0'",
+          "5.0"
+        ],
+        [
+          "'4.8'",
+          "4.8"
+        ],
+        [
+          "'5.0'",
+          "5.0"
+        ],
+        [
+          "'2.2'",
+          "2.4"
+        ]
+      ]
+    }
+  },
+  "cnn": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'.\"'",
+          "Zully Broussard decided to give a kidney to a stranger .\nA new computer program helped her donation spur transplants for six kidney patients ."
+        ],
+        [
+          "'s and retains '",
+          "The 20th MLS season begins this weekend .\nLeague has changed dramatically since its inception in 1996 .\nSome question whether rules regarding salary caps and transfers need to change ."
+        ],
+        [
+          "'Bafetimbi Gomi'",
+          "Bafetimbi Gomis collapses within 10 minutes of kickoff at Tottenham .\nBut he reportedly left the pitch conscious and wearing an oxygen mask .\nGomis later said that he was \"feeling well\"\nThe incident came three years after Fabrice Muamba collapsed at White Hart Lane ."
+        ],
+        [
+          "'Rory McIlroy p'",
+          "Rory McIlroy throws club into water at WGC Cadillac Championship .\nNorthern Irishman frustrated after pulling shot into water hazard ."
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'.\"'",
+          "Zully Broussard decided to give a kidney to a stranger .\nA new computer program helped her donation spur transplants for six kidney patients ."
+        ],
+        [
+          "'s and retains '",
+          "The 20th MLS season begins this weekend .\nLeague has changed dramatically since its inception in 1996 .\nSome question whether rules regarding salary caps and transfers need to change ."
+        ],
+        [
+          "'Bafetimbi Gomi'",
+          "Bafetimbi Gomis collapses within 10 minutes of kickoff at Tottenham .\nBut he reportedly left the pitch conscious and wearing an oxygen mask .\nGomis later said that he was \"feeling well\"\nThe incident came three years after Fabrice Muamba collapsed at White Hart Lane ."
+        ],
+        [
+          "'Rory McIlroy p'",
+          "Rory McIlroy throws club into water at WGC Cadillac Championship .\nNorthern Irishman frustrated after pulling shot into water hazard ."
+        ]
+      ]
+    }
+  },
+  "agnews_explained": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'{\"text_label\":'",
+          "Business"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'{\"text_label\":'",
+          "Business"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ],
+        [
+          "'{\"text_label\":'",
+          "Sci/Tech"
+        ]
+      ]
+    }
+  },
+  "hellaswag_processed": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'is holding a s'",
+          "starts pulling up roofing on a roof."
+        ],
+        [
+          "'then lifts the'",
+          "stands and lifts the weight over her head."
+        ],
+        [
+          "'are shown in t'",
+          "sit in a canoe while the man paddles."
+        ],
+        [
+          "'jumps over a h'",
+          "lifts his body above the height of a pole."
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'is holding a r'",
+          "starts pulling up roofing on a roof."
+        ],
+        [
+          "'then lifts the'",
+          "stands and lifts the weight over her head."
+        ],
+        [
+          "'are shown in t'",
+          "sit in a canoe while the man paddles."
+        ],
+        [
+          "'jumps over a h'",
+          "lifts his body above the height of a pole."
+        ]
+      ]
+    }
+  }
+}

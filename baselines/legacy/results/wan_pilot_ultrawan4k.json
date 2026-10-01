@@ -1,0 +1,11 @@
+[
+  {
+    "adapter": "ultrawan4k",
+    "probe": "an extremely sharp, highly detailed, ultra high resolution photograph",
+    "n_prompts": 4,
+    "metric_base": 0.19180524721741676,
+    "metric_orig": 0.19420871511101723,
+    "headroom": 0.002403467893600464,
+    "variants": {}
+  }
+]

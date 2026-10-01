@@ -1,0 +1,40 @@
+[
+  {
+    "task": "arc_easy_10templates",
+    "short": "arc_easy",
+    "S": 0.002716790267990824,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 130,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19775108463476254,
+        "rank_frac": 0.5234375,
+        "d_prompt": 8.25675941548491e-07,
+        "d_out": 2.7839424896788283e-06,
+        "prompt_positions": 938,
+        "out_positions": 130
+      }
+    }
+  },
+  {
+    "task": "rte_10templates",
+    "short": "rte",
+    "S": 0.002926464667918144,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 21,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19428983799142086,
+        "rank_frac": 0.5546875,
+        "d_prompt": 9.493614708241253e-07,
+        "d_out": 9.158871762338094e-06,
+        "prompt_positions": 1676,
+        "out_positions": 21
+      }
+    }
+  }
+]

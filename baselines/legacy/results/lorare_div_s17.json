@@ -1,0 +1,70 @@
+[
+  {
+    "task": "imdb_reviews_10templates",
+    "short": "imdb_reviews",
+    "S": 0.0061214747371369435,
+    "prompts": 50,
+    "gen_tokens": 265,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.06802340091957282,
+        "rank_frac": 0.884765625,
+        "d_prompt": 1.6754162551830155e-07,
+        "d_out": 2.4021595758107275e-06,
+        "prompt_positions": 17049,
+        "out_positions": 265
+      },
+      "e95": {
+        "L_W": 0.197887150861802,
+        "rank_frac": 0.564453125,
+        "d_prompt": 4.4940320239685046e-06,
+        "d_out": 5.4301022780391404e-05,
+        "prompt_positions": 17049,
+        "out_positions": 265
+      },
+      "e90": {
+        "L_W": 0.27511774173118014,
+        "rank_frac": 0.3828125,
+        "d_prompt": 1.8871267075933414e-05,
+        "d_out": 0.0004620166758475122,
+        "prompt_positions": 17049,
+        "out_positions": 265
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_fien_10templates",
+    "short": "wmt16_translate_fien",
+    "S": 0.008128080727988327,
+    "prompts": 50,
+    "gen_tokens": 1275,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.0831346906430241,
+        "rank_frac": 0.708984375,
+        "d_prompt": 1.7534254553771998e-06,
+        "d_out": 1.3042929519239502e-06,
+        "prompt_positions": 2276,
+        "out_positions": 1275
+      },
+      "e95": {
+        "L_W": 0.18515832562075885,
+        "rank_frac": 0.361328125,
+        "d_prompt": 9.73992211938965e-05,
+        "d_out": 4.0123807628725787e-05,
+        "prompt_positions": 2276,
+        "out_positions": 1275
+      },
+      "e90": {
+        "L_W": 0.239073517583994,
+        "rank_frac": 0.2578125,
+        "d_prompt": 0.0002658345674365916,
+        "d_out": 0.00015425796303258953,
+        "prompt_positions": 2276,
+        "out_positions": 1275
+      }
+    }
+  }
+]

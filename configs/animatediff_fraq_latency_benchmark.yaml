@@ -1,0 +1,35 @@
+- &benchmark
+  name: E100
+  inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_mode: runtime
+  motion_module_lora_configs: [{path: models/MotionLoRA/fraq/motionlora_stack_fraq_e100.ckpt, alpha: 1.0}]
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  seed: [43242532350557906, 43242532350557906, 43242532350557906, 43242532350557906]
+  steps: 25
+  guidance_scale: 7.5
+  prompt: &prompts
+    - &prompt "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
+    - *prompt
+    - *prompt
+    - *prompt
+  n_prompt: ["blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, deformed, distorted, disfigured, bad anatomy, low quality"]
+  W: 512
+  H: 512
+  L: 16
+- <<: *benchmark
+  name: E95
+  motion_module_lora_configs: [{path: models/MotionLoRA/fraq/motionlora_stack_fraq_e95.ckpt, alpha: 1.0}]
+  prompt: *prompts
+- <<: *benchmark
+  name: E90
+  motion_module_lora_configs: [{path: models/MotionLoRA/fraq/motionlora_stack_fraq_e90.ckpt, alpha: 1.0}]
+  prompt: *prompts
+- <<: *benchmark
+  name: E80
+  motion_module_lora_configs: [{path: models/MotionLoRA/fraq/motionlora_stack_fraq_e80.ckpt, alpha: 1.0}]
+  prompt: *prompts
+- <<: *benchmark
+  name: E70
+  motion_module_lora_configs: [{path: models/MotionLoRA/fraq/motionlora_stack_fraq_e70.ckpt, alpha: 1.0}]
+  prompt: *prompts

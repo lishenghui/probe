@@ -1,0 +1,37 @@
+[
+  {
+    "task": "cb_10templates",
+    "short": "cb",
+    "metric": "em",
+    "domain": "nli",
+    "n": 29,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.0,
+    "headroom": 0.0,
+    "variants": {}
+  },
+  {
+    "task": "wmt16_translate_csen_10templates",
+    "short": "wmt16_translate_csen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.06265164407805252,
+    "metric_orig": 0.14394464941457424,
+    "headroom": 0.08129300533652173,
+    "variants": {
+      "dense": {
+        "L_W": 0.2977223595684515,
+        "rank_frac": 0.181640625,
+        "metric_value": 0.13824083956415337,
+        "retained": 0.9298364007234164
+      }
+    }
+  }
+]

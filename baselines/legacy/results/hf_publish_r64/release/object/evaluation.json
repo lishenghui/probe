@@ -1,0 +1,36 @@
+{
+  "original": {
+    "episodes": 8,
+    "task": "pick up the alphabet soup and place it in the basket",
+    "success": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "rate": 1.0,
+    "policy_calls": 19,
+    "task_id": 0
+  },
+  "reconstructed64": {
+    "episodes": 8,
+    "task": "pick up the alphabet soup and place it in the basket",
+    "success": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "rate": 1.0,
+    "policy_calls": 19,
+    "task_id": 0
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "task": "dart_10templates",
+    "short": "dart",
+    "S": 0.010625941928136515,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 535,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08547075296885419,
+        "rank_frac": 0.654296875,
+        "d_prompt": 1.8537762055289409e-06,
+        "d_out": 1.6832750104449333e-06,
+        "prompt_positions": 892,
+        "out_positions": 535
+      }
+    }
+  },
+  {
+    "task": "story_cloze_10templates",
+    "short": "story_cloze",
+    "S": 0.001828291875310216,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 328,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.06404451989907074,
+        "rank_frac": 0.90234375,
+        "d_prompt": 1.4118091187040927e-08,
+        "d_out": 1.3971351836967576e-08,
+        "prompt_positions": 1291,
+        "out_positions": 328
+      }
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "backend": "native vLLM Llama pooling ALL, causal, unnormalized",
+  "scope": "language backbone only; excludes vision, heads and HTTP",
+  "completed": false,
+  "rows": [],
+  "gpu": "NVIDIA GH200 120GB",
+  "vllm_version": "0.23.0",
+  "hidden_max_absolute": 73.21875,
+  "hidden_relative_l2": 0.9760324954986572,
+  "error": "Traceback (most recent call last):\n  File \"/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/vla_fleet/bench_native_vllm.py\", line 80, in main\n    raise AssertionError('Native hidden-state parity failed; do not benchmark an incorrect path')\nAssertionError: Native hidden-state parity failed; do not benchmark an incorrect path\n"
+}

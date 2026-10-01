@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task0815",
+    "S": 0.023435402344041737,
+    "task": 815,
+    "dataset": "Lots-of-LoRAs/task815_pawsx_japanese_french_translation",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1458,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.7864583333333334,
+        "L_W": 0.20099640264933846,
+        "d_prompt": 1.9069089726460508e-05,
+        "d_out": 1.8281570118294635e-05,
+        "flip_out": 0.0013717421124828531,
+        "prompt_positions": 24439,
+        "out_positions": 1458,
+        "token_flip_rate": 0.0013717421124828531,
+        "seq_flip_rate": 0.041666666666666664,
+        "median_margin": 2.9791955947875977,
+        "median_erosion": -0.009587764739990234,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0112",
+    "S": 0.10945705324597421,
+    "task": 112,
+    "dataset": "Lots-of-LoRAs/task112_asset_simple_sentence_identification",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 144,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.5091145833333334,
+        "L_W": 0.2101215749487035,
+        "d_prompt": 0.0005696881181438139,
+        "d_out": 6.431806112397156e-08,
+        "flip_out": 0.0,
+        "prompt_positions": 20238,
+        "out_positions": 144,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 13.879026412963867,
+        "median_erosion": 0.11250782012939453,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1259",
+    "S": 0.16214147164020795,
+    "task": 1259,
+    "dataset": "Lots-of-LoRAs/task1259_ted_translation_pl_ar",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1422,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.7493489583333334,
+        "L_W": 0.19995485884404257,
+        "d_prompt": 0.0011749564922698217,
+        "d_out": 0.0004479773504706689,
+        "flip_out": 0.01617440225035162,
+        "prompt_positions": 31179,
+        "out_positions": 1422,
+        "token_flip_rate": 0.01617440225035162,
+        "seq_flip_rate": 0.3958333333333333,
+        "median_margin": 2.1383419036865234,
+        "median_erosion": 0.004281520843505859,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

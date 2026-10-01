@@ -1,0 +1,40 @@
+[
+  {
+    "task": "mnli_mismatched_10templates",
+    "short": "mnli_mismatched",
+    "S": 0.005063379323348547,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 36,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19530887670615785,
+        "rank_frac": 0.388671875,
+        "d_prompt": 2.4138615150556207e-05,
+        "d_out": 0.00021336181474554096,
+        "prompt_positions": 1317,
+        "out_positions": 36
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_ruen_10templates",
+    "short": "wmt16_translate_ruen",
+    "S": 0.008051019478361947,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 350,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.18901470057181693,
+        "rank_frac": 0.400390625,
+        "d_prompt": 8.809440941277802e-06,
+        "d_out": 1.035331334735799e-05,
+        "prompt_positions": 582,
+        "out_positions": 350
+      }
+    }
+  }
+]

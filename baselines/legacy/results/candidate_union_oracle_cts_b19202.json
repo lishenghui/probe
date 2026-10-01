@@ -1,0 +1,176 @@
+{
+  "budget": 19202,
+  "spent": 15922,
+  "objective_order": [
+    "worst",
+    "p10",
+    "mean"
+  ],
+  "quantile": {
+    "q": 0.1,
+    "method": "linear"
+  },
+  "stats": {
+    "mean": 1.0313329995513547,
+    "p10": 1.0,
+    "worst": 1.0
+  },
+  "allocation": {
+    "task0112": {
+      "k": 96,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "task0149": {
+      "k": 169,
+      "u": 1.0361301306105448,
+      "source": "Threshold-grid Oracle"
+    },
+    "task0223": {
+      "k": 1383,
+      "u": 1.0285930448274654,
+      "source": "A-SCT"
+    },
+    "task0260": {
+      "k": 1056,
+      "u": 1.0965867998325525,
+      "source": "FRA"
+    },
+    "task0297": {
+      "k": 178,
+      "u": 1.0112499445547223,
+      "source": "A-SCT"
+    },
+    "task0334": {
+      "k": 432,
+      "u": 1.0082536916578806,
+      "source": "2L A-SCT"
+    },
+    "task0371": {
+      "k": 1334,
+      "u": 1.0154114057574746,
+      "source": "A-SCT"
+    },
+    "task0408": {
+      "k": 721,
+      "u": 1.0309121066197764,
+      "source": "Uniform"
+    },
+    "task0593": {
+      "k": 1024,
+      "u": 1.0100909870333272,
+      "source": "FRA"
+    },
+    "task0704": {
+      "k": 222,
+      "u": 1.0919843311980437,
+      "source": "Threshold-grid Oracle"
+    },
+    "task0778": {
+      "k": 667,
+      "u": 1.0524133220115057,
+      "source": "SCT"
+    },
+    "task0815": {
+      "k": 1040,
+      "u": 1.001141488683584,
+      "source": "FRA"
+    },
+    "task0852": {
+      "k": 1340,
+      "u": 1.0020005577818478,
+      "source": "A-SCT"
+    },
+    "task0889": {
+      "k": 1432,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "task0926": {
+      "k": 174,
+      "u": 1.0034938164282563,
+      "source": "Threshold-grid Oracle"
+    },
+    "task0963": {
+      "k": 519,
+      "u": 1.0,
+      "source": "SCT"
+    },
+    "task1037": {
+      "k": 547,
+      "u": 1.128284505398314,
+      "source": "Threshold-grid Oracle"
+    },
+    "task1111": {
+      "k": 260,
+      "u": 1.0984042478635088,
+      "source": "Threshold-grid Oracle"
+    },
+    "task1148": {
+      "k": 309,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "task1333": {
+      "k": 48,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "task1370": {
+      "k": 32,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "task1407": {
+      "k": 1152,
+      "u": 1.013354885933008,
+      "source": "FRA"
+    },
+    "task1444": {
+      "k": 96,
+      "u": 1.0,
+      "source": "2L A-SCT"
+    },
+    "task1518": {
+      "k": 325,
+      "u": 1.1550197225920549,
+      "source": "Threshold-grid Oracle"
+    },
+    "task1592": {
+      "k": 1366,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    }
+  },
+  "solver": {
+    "type": "exact_pareto_dp",
+    "frontier_sizes": [
+      1,
+      1,
+      5,
+      12,
+      36,
+      32,
+      35,
+      35,
+      47,
+      47,
+      78,
+      115,
+      303,
+      751,
+      751,
+      741,
+      741,
+      741,
+      741,
+      741,
+      741,
+      904,
+      1438,
+      1438,
+      3942
+    ],
+    "final_states": 3942
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "adapter": "panowan",
+    "probe": "a 360 degree panoramic equirectangular view",
+    "n_prompts": 4,
+    "metric_base": 0.20846997946500778,
+    "metric_orig": 0.19810199737548828,
+    "headroom": -0.0103679820895195,
+    "variants": {}
+  }
+]

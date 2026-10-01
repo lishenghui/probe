@@ -1,0 +1,325 @@
+{
+  "n": 12,
+  "methods": {
+    "dense_asct": {
+      "mean": 0.8403840979530527,
+      "median": 0.9294656911059278,
+      "p10": 0.6823056280079136,
+      "worst": 0.116751269035533,
+      "per_adapter": {
+        "conllpp": {
+          "orig": 0.8070357142857145,
+          "base": 0.5072142857142858,
+          "compressed": 0.7384761904761906,
+          "retention": 0.7713321421481037
+        },
+        "dbpedia": {
+          "orig": 0.985,
+          "base": 0.0,
+          "compressed": 0.115,
+          "retention": 0.116751269035533
+        },
+        "e2e_nlg": {
+          "orig": 0.5444415686561219,
+          "base": 0.281521357697541,
+          "compressed": 0.5578041306876237,
+          "retention": 1.0508236395474626
+        },
+        "glue_cola": {
+          "orig": 0.89,
+          "base": 0.65,
+          "compressed": 0.86,
+          "retention": 0.8749999999999999
+        },
+        "glue_mrpc": {
+          "orig": 0.885,
+          "base": 0.69,
+          "compressed": 0.88,
+          "retention": 0.9743589743589743
+        },
+        "glue_qnli": {
+          "orig": 0.95,
+          "base": 0.035,
+          "compressed": 0.905,
+          "retention": 0.9508196721311476
+        },
+        "glue_qqp": {
+          "orig": 0.89,
+          "base": 0.225,
+          "compressed": 0.875,
+          "retention": 0.9774436090225563
+        },
+        "glue_sst2": {
+          "orig": 0.955,
+          "base": 0.0,
+          "compressed": 0.955,
+          "retention": 1.0
+        },
+        "gsm8k": {
+          "orig": 0.51,
+          "base": 0.22,
+          "compressed": 0.415,
+          "retention": 0.6724137931034481
+        },
+        "hellaswag": {
+          "orig": 0.8,
+          "base": 0.31,
+          "compressed": 0.72,
+          "retention": 0.8367346938775508
+        },
+        "viggo": {
+          "orig": 0.5547827455520425,
+          "base": 0.05719253095836252,
+          "compressed": 0.5291486994792131,
+          "retention": 0.9484836210178257
+        },
+        "wikisql": {
+          "orig": 0.68,
+          "base": 0.01,
+          "compressed": 0.62,
+          "retention": 0.9104477611940298
+        }
+      }
+    },
+    "two_level_prompt_js": {
+      "mean": 0.9021345929593118,
+      "median": 0.9471390399567785,
+      "p10": 0.9090136054421768,
+      "worst": 0.2586206896551723,
+      "per_adapter": {
+        "conllpp": {
+          "orig": 0.8070357142857145,
+          "base": 0.5072142857142858,
+          "compressed": 0.7900833333333334,
+          "retention": 0.9434584077824095
+        },
+        "dbpedia": {
+          "orig": 0.985,
+          "base": 0.0,
+          "compressed": 0.925,
+          "retention": 0.9390862944162437
+        },
+        "e2e_nlg": {
+          "orig": 0.5444415686561219,
+          "base": 0.281521357697541,
+          "compressed": 0.5493045323808496,
+          "retention": 1.0184959676815937
+        },
+        "glue_cola": {
+          "orig": 0.89,
+          "base": 0.65,
+          "compressed": 0.87,
+          "retention": 0.9166666666666666
+        },
+        "glue_mrpc": {
+          "orig": 0.885,
+          "base": 0.69,
+          "compressed": 0.885,
+          "retention": 1.0
+        },
+        "glue_qnli": {
+          "orig": 0.95,
+          "base": 0.035,
+          "compressed": 0.905,
+          "retention": 0.9508196721311476
+        },
+        "glue_qqp": {
+          "orig": 0.89,
+          "base": 0.225,
+          "compressed": 0.875,
+          "retention": 0.9774436090225563
+        },
+        "glue_sst2": {
+          "orig": 0.955,
+          "base": 0.0,
+          "compressed": 0.955,
+          "retention": 1.0
+        },
+        "gsm8k": {
+          "orig": 0.51,
+          "base": 0.22,
+          "compressed": 0.295,
+          "retention": 0.2586206896551723
+        },
+        "hellaswag": {
+          "orig": 0.8,
+          "base": 0.31,
+          "compressed": 0.755,
+          "retention": 0.9081632653061223
+        },
+        "viggo": {
+          "orig": 0.5547827455520425,
+          "base": 0.05719253095836252,
+          "compressed": 0.5225630838003142,
+          "retention": 0.9352486025513221
+        },
+        "wikisql": {
+          "orig": 0.68,
+          "base": 0.01,
+          "compressed": 0.665,
+          "retention": 0.9776119402985074
+        }
+      }
+    },
+    "two_level_output_js": {
+      "mean": 0.9260926446669419,
+      "median": 0.9607639177831406,
+      "p10": 0.786035662627171,
+      "worst": 0.6724137931034481,
+      "per_adapter": {
+        "conllpp": {
+          "orig": 0.8070357142857145,
+          "base": 0.5072142857142858,
+          "compressed": 0.7384761904761906,
+          "retention": 0.7713321421481037
+        },
+        "dbpedia": {
+          "orig": 0.985,
+          "base": 0.0,
+          "compressed": 0.94,
+          "retention": 0.9543147208121827
+        },
+        "e2e_nlg": {
+          "orig": 0.5444415686561219,
+          "base": 0.281521357697541,
+          "compressed": 0.5509003181659944,
+          "retention": 1.0245654355985967
+        },
+        "glue_cola": {
+          "orig": 0.89,
+          "base": 0.65,
+          "compressed": 0.875,
+          "retention": 0.9374999999999999
+        },
+        "glue_mrpc": {
+          "orig": 0.885,
+          "base": 0.69,
+          "compressed": 0.87,
+          "retention": 0.923076923076923
+        },
+        "glue_qnli": {
+          "orig": 0.95,
+          "base": 0.035,
+          "compressed": 0.92,
+          "retention": 0.9672131147540984
+        },
+        "glue_qqp": {
+          "orig": 0.89,
+          "base": 0.225,
+          "compressed": 0.875,
+          "retention": 0.9774436090225563
+        },
+        "glue_sst2": {
+          "orig": 0.955,
+          "base": 0.0,
+          "compressed": 0.955,
+          "retention": 1.0
+        },
+        "gsm8k": {
+          "orig": 0.51,
+          "base": 0.22,
+          "compressed": 0.415,
+          "retention": 0.6724137931034481
+        },
+        "hellaswag": {
+          "orig": 0.8,
+          "base": 0.31,
+          "compressed": 0.76,
+          "retention": 0.9183673469387754
+        },
+        "viggo": {
+          "orig": 0.5547827455520425,
+          "base": 0.05719253095836252,
+          "compressed": 0.5420182315225842,
+          "retention": 0.97434733711578
+        },
+        "wikisql": {
+          "orig": 0.68,
+          "base": 0.01,
+          "compressed": 0.675,
+          "retention": 0.9925373134328358
+        }
+      }
+    },
+    "squared_output_js": {
+      "mean": 0.9332548529266256,
+      "median": 0.9707860445565364,
+      "p10": 0.7890921885995776,
+      "worst": 0.7713321421481037,
+      "per_adapter": {
+        "conllpp": {
+          "orig": 0.8070357142857145,
+          "base": 0.5072142857142858,
+          "compressed": 0.7384761904761906,
+          "retention": 0.7713321421481037
+        },
+        "dbpedia": {
+          "orig": 0.985,
+          "base": 0.0,
+          "compressed": 0.895,
+          "retention": 0.9086294416243655
+        },
+        "e2e_nlg": {
+          "orig": 0.5444415686561219,
+          "base": 0.281521357697541,
+          "compressed": 0.5492989338230033,
+          "retention": 1.0184746739292956
+        },
+        "glue_cola": {
+          "orig": 0.89,
+          "base": 0.65,
+          "compressed": 0.875,
+          "retention": 0.9374999999999999
+        },
+        "glue_mrpc": {
+          "orig": 0.885,
+          "base": 0.69,
+          "compressed": 0.88,
+          "retention": 0.9743589743589743
+        },
+        "glue_qnli": {
+          "orig": 0.95,
+          "base": 0.035,
+          "compressed": 0.92,
+          "retention": 0.9672131147540984
+        },
+        "glue_qqp": {
+          "orig": 0.89,
+          "base": 0.225,
+          "compressed": 0.875,
+          "retention": 0.9774436090225563
+        },
+        "glue_sst2": {
+          "orig": 0.955,
+          "base": 0.0,
+          "compressed": 0.955,
+          "retention": 1.0
+        },
+        "gsm8k": {
+          "orig": 0.51,
+          "base": 0.22,
+          "compressed": 0.445,
+          "retention": 0.7758620689655171
+        },
+        "hellaswag": {
+          "orig": 0.8,
+          "base": 0.31,
+          "compressed": 0.755,
+          "retention": 0.9081632653061223
+        },
+        "viggo": {
+          "orig": 0.5547827455520425,
+          "base": 0.05719253095836252,
+          "compressed": 0.5460594938446287,
+          "retention": 0.9824690047119656
+        },
+        "wikisql": {
+          "orig": 0.68,
+          "base": 0.01,
+          "compressed": 0.665,
+          "retention": 0.9776119402985074
+        }
+      }
+    }
+  }
+}

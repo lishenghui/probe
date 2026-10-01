@@ -1,0 +1,41 @@
+{
+  "discussions": [
+    {
+      "num": 1,
+      "author": {
+        "_id": "5f1158120c833276f61f1a84",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+        "fullname": "Niels Rogge",
+        "name": "nielsr",
+        "type": "user",
+        "isPro": false,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 1302,
+        "isUserFollowing": false
+      },
+      "repo": {
+        "name": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+        "type": "model"
+      },
+      "title": "Add model card with metadata and usage example",
+      "status": "merged",
+      "createdAt": "2025-03-01T12:29:07.000Z",
+      "isPullRequest": true,
+      "numComments": 2,
+      "topReactions": [],
+      "numReactionUsers": 0,
+      "pinned": false,
+      "repoOwner": {
+        "name": "moojink",
+        "isParticipating": true,
+        "type": "user",
+        "isDiscussionAuthor": false
+      }
+    }
+  ],
+  "count": 1,
+  "start": 0,
+  "numClosedDiscussions": 1
+}

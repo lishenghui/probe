@@ -1,0 +1,79 @@
+[
+  {
+    "task": "anli_r3_10templates",
+    "short": "anli_r3",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense": {
+        "L_W": 0.3392208034054702,
+        "rank_frac": 0.19921875,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "glue_mrpc_10templates",
+    "short": "glue_mrpc",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense": {
+        "L_W": 0.3676785238570013,
+        "rank_frac": 0.189453125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.5714285714285714
+      }
+    }
+  },
+  {
+    "task": "qnli_10templates",
+    "short": "qnli",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {}
+  },
+  {
+    "task": "wmt14_enfr_10templates",
+    "short": "wmt14_enfr",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.10170946200950567,
+    "metric_orig": 0.2457817011320405,
+    "headroom": 0.14407223912253483,
+    "variants": {
+      "dense": {
+        "L_W": 0.4286698536391115,
+        "rank_frac": 0.125,
+        "metric_value": 0.23091800991489933,
+        "retained": 0.8968316775829418
+      }
+    }
+  }
+]

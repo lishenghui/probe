@@ -1,0 +1,164 @@
+[
+  {
+    "adapter": "task0260",
+    "S": 0.02662714756375224,
+    "task": 260,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 8.713933311810251e-07,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 1.8823886057361962e-05,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 6.146858213469386e-05,
+            "flip": 0.00625,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 1.06424619028336e-06,
+            "flip": 9.296704318319155e-05,
+            "positions": 21513
+          },
+          "e95": {
+            "d_js_mean": 2.4746125851865316e-05,
+            "flip": 0.0024171431227629804,
+            "positions": 21513
+          },
+          "e90": {
+            "d_js_mean": 9.223975008104667e-05,
+            "flip": 0.0074373634546553245,
+            "positions": 21513
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0297",
+    "S": 0.05343672710148084,
+    "task": 297,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 8.15685634734109e-06,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.00011304354993626475,
+            "flip": 0.00625,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.00048031327314674855,
+            "flip": 0.009375,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 6.51870261491124e-06,
+            "flip": 0.001867102323875571,
+            "positions": 29993
+          },
+          "e95": {
+            "d_js_mean": 8.648846869676479e-05,
+            "flip": 0.0043343446804254325,
+            "positions": 29993
+          },
+          "e90": {
+            "d_js_mean": 0.0003413768887054812,
+            "flip": 0.006734904811122595,
+            "positions": 29993
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0371",
+    "S": 0.14152166165740046,
+    "task": 371,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.112048820592463e-05,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.001150169037282467,
+            "flip": 0.00625,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.006688510626554489,
+            "flip": 0.028125,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.6632596153334186e-05,
+            "flip": 0.0035518571138623907,
+            "positions": 19708
+          },
+          "e95": {
+            "d_js_mean": 0.0012284023314865652,
+            "flip": 0.011112238684798052,
+            "positions": 19708
+          },
+          "e90": {
+            "d_js_mean": 0.006124747012385931,
+            "flip": 0.03308301197483256,
+            "positions": 19708
+          }
+        }
+      }
+    }
+  }
+]

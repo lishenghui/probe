@@ -1,0 +1,26 @@
+{
+  "adapter": "Wan2.1-1.3b-lora-speedcontrol-v1",
+  "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-speedcontrol-v1",
+  "family": "motion_control",
+  "primary_metric": "slow_motion_control",
+  "higher_is_better": true,
+  "variant": "base",
+  "tau": null,
+  "prompt_index": 0,
+  "prompt": "low speed, documentary footage of a white puppy running across a green field, side tracking shot",
+  "seed": 0,
+  "height": 480,
+  "width": 832,
+  "num_frames": 33,
+  "fps": 16,
+  "steps": 25,
+  "generation_seconds": 20.283245961007196,
+  "peak_cuda_gib": 22.327381134033203,
+  "compression": {
+    "kept_rank": 0,
+    "total_rank": 0,
+    "rank_fraction": 0.0,
+    "L_W": 0.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/Wan2.1-1.3b-lora-speedcontrol-v1/base/p000_s0000.mp4"
+}

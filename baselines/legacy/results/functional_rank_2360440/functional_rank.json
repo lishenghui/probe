@@ -1,0 +1,464 @@
+{
+  "source": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "suite": "spatial",
+  "task_ids": [
+    0
+  ],
+  "steps": 2,
+  "batch": 2,
+  "ridge_frac": 0.001,
+  "counts": {
+    "language_model.model.layers.0.qkv": 2420,
+    "language_model.model.layers.0.o": 2420,
+    "language_model.model.layers.0.gateup": 2420,
+    "language_model.model.layers.0.down": 2420,
+    "language_model.model.layers.1.qkv": 2420,
+    "language_model.model.layers.1.o": 2420,
+    "language_model.model.layers.1.gateup": 2420,
+    "language_model.model.layers.1.down": 2420,
+    "language_model.model.layers.2.qkv": 2420,
+    "language_model.model.layers.2.o": 2420,
+    "language_model.model.layers.2.gateup": 2420,
+    "language_model.model.layers.2.down": 2420,
+    "language_model.model.layers.3.qkv": 2420,
+    "language_model.model.layers.3.o": 2420,
+    "language_model.model.layers.3.gateup": 2420,
+    "language_model.model.layers.3.down": 2420,
+    "language_model.model.layers.4.qkv": 2420,
+    "language_model.model.layers.4.o": 2420,
+    "language_model.model.layers.4.gateup": 2420,
+    "language_model.model.layers.4.down": 2420,
+    "language_model.model.layers.5.qkv": 2420,
+    "language_model.model.layers.5.o": 2420,
+    "language_model.model.layers.5.gateup": 2420,
+    "language_model.model.layers.5.down": 2420,
+    "language_model.model.layers.6.qkv": 2420,
+    "language_model.model.layers.6.o": 2420,
+    "language_model.model.layers.6.gateup": 2420,
+    "language_model.model.layers.6.down": 2420,
+    "language_model.model.layers.7.qkv": 2420,
+    "language_model.model.layers.7.o": 2420,
+    "language_model.model.layers.7.gateup": 2420,
+    "language_model.model.layers.7.down": 2420,
+    "language_model.model.layers.8.qkv": 2420,
+    "language_model.model.layers.8.o": 2420,
+    "language_model.model.layers.8.gateup": 2420,
+    "language_model.model.layers.8.down": 2420,
+    "language_model.model.layers.9.qkv": 2420,
+    "language_model.model.layers.9.o": 2420,
+    "language_model.model.layers.9.gateup": 2420,
+    "language_model.model.layers.9.down": 2420,
+    "language_model.model.layers.10.qkv": 2420,
+    "language_model.model.layers.10.o": 2420,
+    "language_model.model.layers.10.gateup": 2420,
+    "language_model.model.layers.10.down": 2420,
+    "language_model.model.layers.11.qkv": 2420,
+    "language_model.model.layers.11.o": 2420,
+    "language_model.model.layers.11.gateup": 2420,
+    "language_model.model.layers.11.down": 2420,
+    "language_model.model.layers.12.qkv": 2420,
+    "language_model.model.layers.12.o": 2420,
+    "language_model.model.layers.12.gateup": 2420,
+    "language_model.model.layers.12.down": 2420,
+    "language_model.model.layers.13.qkv": 2420,
+    "language_model.model.layers.13.o": 2420,
+    "language_model.model.layers.13.gateup": 2420,
+    "language_model.model.layers.13.down": 2420,
+    "language_model.model.layers.14.qkv": 2420,
+    "language_model.model.layers.14.o": 2420,
+    "language_model.model.layers.14.gateup": 2420,
+    "language_model.model.layers.14.down": 2420,
+    "language_model.model.layers.15.qkv": 2420,
+    "language_model.model.layers.15.o": 2420,
+    "language_model.model.layers.15.gateup": 2420,
+    "language_model.model.layers.15.down": 2420,
+    "language_model.model.layers.16.qkv": 2420,
+    "language_model.model.layers.16.o": 2420,
+    "language_model.model.layers.16.gateup": 2420,
+    "language_model.model.layers.16.down": 2420,
+    "language_model.model.layers.17.qkv": 2420,
+    "language_model.model.layers.17.o": 2420,
+    "language_model.model.layers.17.gateup": 2420,
+    "language_model.model.layers.17.down": 2420,
+    "language_model.model.layers.18.qkv": 2420,
+    "language_model.model.layers.18.o": 2420,
+    "language_model.model.layers.18.gateup": 2420,
+    "language_model.model.layers.18.down": 2420,
+    "language_model.model.layers.19.qkv": 2420,
+    "language_model.model.layers.19.o": 2420,
+    "language_model.model.layers.19.gateup": 2420,
+    "language_model.model.layers.19.down": 2420,
+    "language_model.model.layers.20.qkv": 2420,
+    "language_model.model.layers.20.o": 2420,
+    "language_model.model.layers.20.gateup": 2420,
+    "language_model.model.layers.20.down": 2420,
+    "language_model.model.layers.21.qkv": 2420,
+    "language_model.model.layers.21.o": 2420,
+    "language_model.model.layers.21.gateup": 2420,
+    "language_model.model.layers.21.down": 2420,
+    "language_model.model.layers.22.qkv": 2420,
+    "language_model.model.layers.22.o": 2420,
+    "language_model.model.layers.22.gateup": 2420,
+    "language_model.model.layers.22.down": 2420,
+    "language_model.model.layers.23.qkv": 2420,
+    "language_model.model.layers.23.o": 2420,
+    "language_model.model.layers.23.gateup": 2420,
+    "language_model.model.layers.23.down": 2420,
+    "language_model.model.layers.24.qkv": 2420,
+    "language_model.model.layers.24.o": 2420,
+    "language_model.model.layers.24.gateup": 2420,
+    "language_model.model.layers.24.down": 2420,
+    "language_model.model.layers.25.qkv": 2420,
+    "language_model.model.layers.25.o": 2420,
+    "language_model.model.layers.25.gateup": 2420,
+    "language_model.model.layers.25.down": 2420,
+    "language_model.model.layers.26.qkv": 2420,
+    "language_model.model.layers.26.o": 2420,
+    "language_model.model.layers.26.gateup": 2420,
+    "language_model.model.layers.26.down": 2420,
+    "language_model.model.layers.27.qkv": 2420,
+    "language_model.model.layers.27.o": 2420,
+    "language_model.model.layers.27.gateup": 2420,
+    "language_model.model.layers.27.down": 2420,
+    "language_model.model.layers.28.qkv": 2420,
+    "language_model.model.layers.28.o": 2420,
+    "language_model.model.layers.28.gateup": 2420,
+    "language_model.model.layers.28.down": 2420,
+    "language_model.model.layers.29.qkv": 2420,
+    "language_model.model.layers.29.o": 2420,
+    "language_model.model.layers.29.gateup": 2420,
+    "language_model.model.layers.29.down": 2420,
+    "language_model.model.layers.30.qkv": 2420,
+    "language_model.model.layers.30.o": 2420,
+    "language_model.model.layers.30.gateup": 2420,
+    "language_model.model.layers.30.down": 2420,
+    "language_model.model.layers.31.qkv": 2420,
+    "language_model.model.layers.31.o": 2420,
+    "language_model.model.layers.31.gateup": 2420,
+    "language_model.model.layers.31.down": 2420
+  },
+  "records": [
+    {
+      "module": "language_model.model.layers.0.mlp.down_proj",
+      "proj": "mlp.down_proj",
+      "group": "down",
+      "shape": [
+        4096,
+        11008
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 3.0529659241437913e-05,
+      "stable_rank_weight": 117.2459945678711,
+      "stable_rank_output": 1.722891092300415,
+      "spectral": {
+        "32": 0.5674187570329247,
+        "64": 0.5336211711302723,
+        "128": 0.4847552964128436,
+        "256": 0.43244715572274167,
+        "512": 0.36204958575406904,
+        "1024": 0.27892769791425276,
+        "2048": 0.16904265235281477,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.17781114492252012,
+        "64": 0.11764482827112199,
+        "128": 0.08185148979024305,
+        "256": 0.05448002286375577,
+        "512": 0.031997165848606686,
+        "1024": 0.015527656221394617,
+        "2048": 0.00714436583336613,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 4096,
+        "0.05": 4096,
+        "0.10": 4096,
+        "0.20": 2048
+      },
+      "whitened_r": {
+        "0.01": 2048,
+        "0.05": 512,
+        "0.10": 128,
+        "0.20": 32
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.mlp.gate_proj",
+      "proj": "mlp.gate_proj",
+      "group": "gateup",
+      "shape": [
+        11008,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.003333481550216675,
+      "stable_rank_weight": 81.8184814453125,
+      "stable_rank_output": 3.2740373611450195,
+      "spectral": {
+        "32": 0.8155446250689982,
+        "64": 0.7729810630648741,
+        "128": 0.718618172252128,
+        "256": 0.6293454301618666,
+        "512": 0.5066328011805075,
+        "1024": 0.3635422950949623,
+        "2048": 0.22063766298121412,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.3749807869439787,
+        "64": 0.285957451942457,
+        "128": 0.19710260207990601,
+        "256": 0.12127803423711354,
+        "512": 0.06297535357032454,
+        "1024": 0.02524230348996639,
+        "2048": 0.010483328071024051,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 4096,
+        "0.05": 4096,
+        "0.10": 4096,
+        "0.20": 4096
+      },
+      "whitened_r": {
+        "0.01": 4096,
+        "0.05": 1024,
+        "0.10": 512,
+        "0.20": 128
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.mlp.up_proj",
+      "proj": "mlp.up_proj",
+      "group": "gateup",
+      "shape": [
+        11008,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.003333481550216675,
+      "stable_rank_weight": 95.62580871582031,
+      "stable_rank_output": 3.8767430782318115,
+      "spectral": {
+        "32": 0.869651016562515,
+        "64": 0.8288195771689957,
+        "128": 0.7736584926780902,
+        "256": 0.6841148967152706,
+        "512": 0.5524444564131276,
+        "1024": 0.4041532512905851,
+        "2048": 0.24563393365984254,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.4022602994725219,
+        "64": 0.3092179082595911,
+        "128": 0.21445891853664262,
+        "256": 0.13254758415630544,
+        "512": 0.06907146006281209,
+        "1024": 0.02775653001220563,
+        "2048": 0.01154949224966599,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 4096,
+        "0.05": 4096,
+        "0.10": 4096,
+        "0.20": 4096
+      },
+      "whitened_r": {
+        "0.01": 4096,
+        "0.05": 1024,
+        "0.10": 512,
+        "0.20": 256
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.k_proj",
+      "proj": "self_attn.k_proj",
+      "group": "qkv",
+      "shape": [
+        4096,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.004484554290771484,
+      "stable_rank_weight": 9.345783233642578,
+      "stable_rank_output": 1.5523189306259155,
+      "spectral": {
+        "32": 0.28902603904752733,
+        "64": 0.19368045832130001,
+        "128": 0.11385790134173981,
+        "256": 0.04773202829826457,
+        "512": 0.015651921727027247,
+        "1024": 0.0035132751391928592,
+        "2048": 0.0004448939156478975,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.053588163332129325,
+        "64": 0.019821381365855324,
+        "128": 0.006397529657237484,
+        "256": 0.0022720296363653476,
+        "512": 0.0008744795999781064,
+        "1024": 0.000326855970468223,
+        "2048": 7.898530254821451e-05,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 1024,
+        "0.05": 256,
+        "0.10": 256,
+        "0.20": 64
+      },
+      "whitened_r": {
+        "0.01": 128,
+        "0.05": 64,
+        "0.10": 32,
+        "0.20": 32
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.o_proj",
+      "proj": "self_attn.o_proj",
+      "group": "o",
+      "shape": [
+        4096,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.0018739718198776247,
+      "stable_rank_weight": 33.88499450683594,
+      "stable_rank_output": 1.0186761617660522,
+      "spectral": {
+        "32": 0.338253836221916,
+        "64": 0.27476098227315415,
+        "128": 0.20380799116019827,
+        "256": 0.13648087731908468,
+        "512": 0.07968427332943287,
+        "1024": 0.038330114534547974,
+        "2048": 0.013979404539468283,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.01952374805976793,
+        "64": 0.017593624480586996,
+        "128": 0.015426347561945192,
+        "256": 0.012827683465041963,
+        "512": 0.0097550733752507,
+        "1024": 0.006210338864327142,
+        "2048": 0.002562186222938435,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 4096,
+        "0.05": 1024,
+        "0.10": 512,
+        "0.20": 256
+      },
+      "whitened_r": {
+        "0.01": 512,
+        "0.05": 32,
+        "0.10": 32,
+        "0.20": 32
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.q_proj",
+      "proj": "self_attn.q_proj",
+      "group": "qkv",
+      "shape": [
+        4096,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.004484554290771484,
+      "stable_rank_weight": 6.312694549560547,
+      "stable_rank_output": 1.5837339162826538,
+      "spectral": {
+        "32": 0.25206646366743973,
+        "64": 0.15407470145657765,
+        "128": 0.07648208099853802,
+        "256": 0.035824383980875785,
+        "512": 0.014394410197952229,
+        "1024": 0.003391577538097586,
+        "2048": 0.00046286165274426333,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.04602234682410611,
+        "64": 0.015434602666795002,
+        "128": 0.004693354456163179,
+        "256": 0.0018079048658557872,
+        "512": 0.0007785469899994826,
+        "1024": 0.00030354758376618783,
+        "2048": 7.532458718824308e-05,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 1024,
+        "0.05": 256,
+        "0.10": 128,
+        "0.20": 64
+      },
+      "whitened_r": {
+        "0.01": 128,
+        "0.05": 32,
+        "0.10": 32,
+        "0.20": 32
+      }
+    },
+    {
+      "module": "language_model.model.layers.0.self_attn.v_proj",
+      "proj": "self_attn.v_proj",
+      "group": "qkv",
+      "shape": [
+        4096,
+        4096
+      ],
+      "n": 4096,
+      "tokens": 2420,
+      "ridge_lambda": 0.004484554290771484,
+      "stable_rank_weight": 142.09776306152344,
+      "stable_rank_output": 2.9591946601867676,
+      "spectral": {
+        "32": 0.8505730717127488,
+        "64": 0.7769642989532003,
+        "128": 0.6914184121993731,
+        "256": 0.5969490399447838,
+        "512": 0.49244160707267676,
+        "1024": 0.36102628000589565,
+        "2048": 0.21923304836775895,
+        "4096": 0.0
+      },
+      "whitened": {
+        "32": 0.291471112066354,
+        "64": 0.19917137854348071,
+        "128": 0.12611655655368523,
+        "256": 0.07816119845536852,
+        "512": 0.049069395028793004,
+        "1024": 0.02897882376416572,
+        "2048": 0.012033100790868174,
+        "4096": 0.0
+      },
+      "spectral_r": {
+        "0.01": 4096,
+        "0.05": 4096,
+        "0.10": 4096,
+        "0.20": 4096
+      },
+      "whitened_r": {
+        "0.01": 4096,
+        "0.05": 512,
+        "0.10": 256,
+        "0.20": 64
+      }
+    }
+  ]
+}

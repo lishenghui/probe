@@ -1,0 +1,19 @@
+{
+  "scope": "capability probe, not a throughput benchmark",
+  "platform": "aarch64",
+  "packages": {
+    "torch": "2.11.0",
+    "vllm": "0.23.0",
+    "tensorrt": null,
+    "tensorrt_llm": null
+  },
+  "checks": {
+    "native_openvla_import": true,
+    "native_openvla_supports_lora": false,
+    "native_openvla_predict_action": false,
+    "native_openvla_get_action": false
+  },
+  "gpu": "NVIDIA GH200 120GB",
+  "throughput_requests_per_second": null,
+  "completed": true
+}

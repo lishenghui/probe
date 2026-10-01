@@ -1,0 +1,110 @@
+[
+  {
+    "task": "anli_r2_10templates",
+    "short": "anli_r2",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.11764705882352941,
+    "headroom": 0.11764705882352941,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.31013614955453084,
+        "rank_frac": 0.3125,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.7500000000000001
+      },
+      "dense3191": {
+        "L_W": 0.4180406784109349,
+        "rank_frac": 0.15625,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.7500000000000001
+      }
+    }
+  },
+  {
+    "task": "e2e_nlg_10templates",
+    "short": "e2e_nlg",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.16605652303181895,
+    "metric_orig": 0.4941002453627578,
+    "headroom": 0.32804372233093887,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.3020461543122975,
+        "rank_frac": 0.203125,
+        "metric_value": 0.4830592007391328,
+        "retained": 0.9663427650888361
+      },
+      "dense3191": {
+        "L_W": 0.3929787786080037,
+        "rank_frac": 0.125,
+        "metric_value": 0.4664072884319634,
+        "retained": 0.9155815062272185
+      }
+    }
+  },
+  {
+    "task": "piqa_10templates",
+    "short": "piqa",
+    "metric": "em",
+    "domain": "commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.3235294117647059,
+    "headroom": 0.3235294117647059,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.36270005363954727,
+        "rank_frac": 0.171875,
+        "metric_value": 0.3235294117647059,
+        "retained": 1.0
+      },
+      "dense3191": {
+        "L_W": 0.4279075127682296,
+        "rank_frac": 0.125,
+        "metric_value": 0.3235294117647059,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "web_nlg_en_10templates",
+    "short": "web_nlg_en",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.17630387455096158,
+    "metric_orig": 0.5558538962919234,
+    "headroom": 0.3795500217409618,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.23882552537082524,
+        "rank_frac": 0.203125,
+        "metric_value": 0.5518603105071259,
+        "retained": 0.9894781041864278
+      },
+      "dense3191": {
+        "L_W": 0.32832207574563477,
+        "rank_frac": 0.125,
+        "metric_value": 0.5302202141565853,
+        "retained": 0.932462967548365
+      }
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "a panoramic view of a mountain valley at sunrise",
+    "modules": 300,
+    "pixel_rel_change": 0.47465547919273376,
+    "clip_base": 0.2170427143573761,
+    "clip_full": 0.19037340581417084,
+    "delta": -0.02666930854320526
+  },
+  {
+    "prompt": "a 360 degree view of a busy city square",
+    "modules": 300,
+    "pixel_rel_change": 0.5036022067070007,
+    "clip_base": 0.21619261801242828,
+    "clip_full": 0.21642695367336273,
+    "delta": 0.00023433566093444824
+  },
+  {
+    "prompt": "a panoramic shot of waves breaking on a rocky shore",
+    "modules": 300,
+    "pixel_rel_change": 0.47868746519088745,
+    "clip_base": 0.1902446746826172,
+    "clip_full": 0.1884702444076538,
+    "delta": -0.001774430274963379
+  }
+]

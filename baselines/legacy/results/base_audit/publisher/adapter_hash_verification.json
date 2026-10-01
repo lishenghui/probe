@@ -1,0 +1,66 @@
+[
+  {
+    "suite": "spatial",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "checks": [
+      {
+        "file": "lora_adapter/adapter_model.safetensors",
+        "local_sha": "4bd2e808805f9b67af090c37e70f239b3b4da7a6473ec621ead6702b16a302ec",
+        "remote": {
+          "sha256": "4bd2e808805f9b67af090c37e70f239b3b4da7a6473ec621ead6702b16a302ec",
+          "size": 484458600,
+          "pointerSize": 134
+        },
+        "match": true
+      }
+    ]
+  },
+  {
+    "suite": "object",
+    "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+    "checks": [
+      {
+        "file": "lora_adapter/adapter_model.safetensors",
+        "local_sha": "7e8c81b0960747337141c666f39f607dca0ba7581933fb94b232d96e5dc6d7d8",
+        "remote": {
+          "sha256": "7e8c81b0960747337141c666f39f607dca0ba7581933fb94b232d96e5dc6d7d8",
+          "size": 484458600,
+          "pointerSize": 134
+        },
+        "match": true
+      }
+    ]
+  },
+  {
+    "suite": "goal",
+    "revision": "c2d0f9fbbd82674683b397ff923168a12f6a307b",
+    "checks": [
+      {
+        "file": "lora_adapter/adapter_model.safetensors",
+        "local_sha": "1e94a9d9641a385852d37a85d24d3f3c2db05a4d3d772379bff37c9d5f1520ae",
+        "remote": {
+          "sha256": "1e94a9d9641a385852d37a85d24d3f3c2db05a4d3d772379bff37c9d5f1520ae",
+          "size": 484458600,
+          "pointerSize": 134
+        },
+        "match": true
+      }
+    ]
+  },
+  {
+    "suite": "10",
+    "revision": "95220f9a3421a7ff12d4218e73d09ade830fa9a3",
+    "checks": [
+      {
+        "file": "lora_adapter/adapter_model.safetensors",
+        "local_sha": "18736bd4c8c6a23e42d94e96f25cf16587ccae53c9f2cee9e016094b72284dae",
+        "remote": {
+          "sha256": "18736bd4c8c6a23e42d94e96f25cf16587ccae53c9f2cee9e016094b72284dae",
+          "size": 484458600,
+          "pointerSize": 134
+        },
+        "match": true
+      }
+    ]
+  }
+]

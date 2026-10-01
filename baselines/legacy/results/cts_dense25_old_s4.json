@@ -1,0 +1,42 @@
+[
+  {
+    "adapter": "task0149",
+    "task": 149,
+    "S": 0.04810195566879228,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.05966809991978248,
+    "exact_base": 0.0,
+    "metric_orig": 0.89,
+    "exact_orig": 0.89,
+    "variants": {
+      "dense": {
+        "L_W": 0.7234781907339711,
+        "rank_frac": 0.0625,
+        "metric": 0.93,
+        "exact": 0.93,
+        "retained": 1.0481735074807264
+      }
+    }
+  },
+  {
+    "adapter": "task1407",
+    "task": 1407,
+    "S": 0.11150824790794871,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.29902851377968337,
+    "exact_base": 0.0,
+    "metric_orig": 0.5436108031288486,
+    "exact_orig": 0.04,
+    "variants": {
+      "dense": {
+        "L_W": 0.31896930978402227,
+        "rank_frac": 0.388671875,
+        "metric": 0.5341362002537813,
+        "exact": 0.03,
+        "retained": 0.9612621056893397
+      }
+    }
+  }
+]

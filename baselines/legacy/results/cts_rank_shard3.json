@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task0741",
+    "S": 0.020376792310846287,
+    "task": 741,
+    "dataset": "Lots-of-LoRAs/task741_lhoestq_answer_generation_place",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 5.015649367123842e-05,
+        "d_js_p90": 9.273392788600177e-05,
+        "d_hidden": 0.013315263204276562,
+        "argmax_flip": 0.0019322782480677217,
+        "rank_frac": 0.61328125,
+        "retained_energy": 0.9112829392155012
+      },
+      "k08": {
+        "d_js_mean": 0.00010531000589253381,
+        "d_js_p90": 0.0001722922024782747,
+        "d_hidden": 0.018081989139318466,
+        "argmax_flip": 0.004821494295178506,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8532670270651579
+      }
+    }
+  },
+  {
+    "adapter": "task1518",
+    "S": 0.0409681939945328,
+    "task": 1518,
+    "dataset": "Lots-of-LoRAs/task1518_limit_answer_generation",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.00020130605844315141,
+        "d_js_p90": 0.0004291948862373829,
+        "d_hidden": 0.0215066559612751,
+        "argmax_flip": 0.02099946836788942,
+        "rank_frac": 0.4915364583333333,
+        "retained_energy": 0.9113397368540367
+      },
+      "k08": {
+        "d_js_mean": 0.00016252890054602176,
+        "d_js_p90": 0.000382421538233757,
+        "d_hidden": 0.019591985270380974,
+        "argmax_flip": 0.02412280701754386,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9000667581955591
+      }
+    }
+  },
+  {
+    "adapter": "task1407",
+    "S": 0.11150824790794871,
+    "task": 1407,
+    "dataset": "Lots-of-LoRAs/task1407_dart_question_generation",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.001104959286749363,
+        "d_js_p90": 0.0024254804011434317,
+        "d_hidden": 0.05584268271923065,
+        "argmax_flip": 0.033905725543610446,
+        "rank_frac": 0.5078125,
+        "retained_energy": 0.9122677072882652
+      },
+      "k08": {
+        "d_js_mean": 0.0008784850360825658,
+        "d_js_p90": 0.0021480075083673,
+        "d_hidden": 0.05014212056994438,
+        "argmax_flip": 0.03307875662791263,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9015484557797512
+      }
+    }
+  }
+]

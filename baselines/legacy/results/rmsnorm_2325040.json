@@ -1,0 +1,48 @@
+{
+  "scope": "BF16 RMSNorm alone; not model latency",
+  "rows": [
+    {
+      "rows": 8,
+      "width": 1024,
+      "reference_us": 13.027200102806091,
+      "fused_us": 1.772800087928772,
+      "max_absolute": 0.0
+    },
+    {
+      "rows": 8,
+      "width": 4096,
+      "reference_us": 15.945599973201752,
+      "fused_us": 1.8592000007629395,
+      "max_absolute": 0.0
+    },
+    {
+      "rows": 512,
+      "width": 1024,
+      "reference_us": 17.8847998380661,
+      "fused_us": 1.9648000597953796,
+      "max_absolute": 0.0
+    },
+    {
+      "rows": 512,
+      "width": 4096,
+      "reference_us": 36.396801471710205,
+      "fused_us": 3.0751999467611313,
+      "max_absolute": 0.0
+    },
+    {
+      "rows": 4616,
+      "width": 1024,
+      "reference_us": 63.475197553634644,
+      "fused_us": 4.521600157022476,
+      "max_absolute": 0.015625
+    },
+    {
+      "rows": 4616,
+      "width": 4096,
+      "reference_us": 272.4064111709595,
+      "fused_us": 23.104000091552734,
+      "max_absolute": 0.03125
+    }
+  ],
+  "completed": true
+}

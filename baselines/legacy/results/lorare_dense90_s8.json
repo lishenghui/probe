@@ -1,0 +1,44 @@
+[
+  {
+    "task": "copa_10templates",
+    "short": "copa",
+    "metric": "em",
+    "domain": "commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.6176470588235294,
+    "headroom": 0.6176470588235294,
+    "variants": {
+      "dense": {
+        "L_W": 0.09828953259663417,
+        "rank_frac": 0.466796875,
+        "metric_value": 0.6176470588235294,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_fien_10templates",
+    "short": "wmt16_translate_fien",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.06999316637776642,
+    "metric_orig": 0.22656585196457807,
+    "headroom": 0.15657268558681164,
+    "variants": {
+      "dense": {
+        "L_W": 0.28397670514864853,
+        "rank_frac": 0.201171875,
+        "metric_value": 0.22374077820251675,
+        "retained": 0.9819567905380601
+      }
+    }
+  }
+]

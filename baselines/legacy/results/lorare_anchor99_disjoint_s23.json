@@ -1,0 +1,40 @@
+[
+  {
+    "task": "para_crawl_enes_10templates",
+    "short": "para_crawl_enes",
+    "S": 0.007015453290511419,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 560,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.0801759922906568,
+        "rank_frac": 0.802734375,
+        "d_prompt": 8.932577055502468e-07,
+        "d_out": 3.830544114537458e-07,
+        "prompt_positions": 898,
+        "out_positions": 560
+      }
+    }
+  },
+  {
+    "task": "yelp_polarity_reviews_10templates",
+    "short": "yelp_polarity_reviews",
+    "S": 0.005995909041552379,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 242,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.07634542976429007,
+        "rank_frac": 0.845703125,
+        "d_prompt": 4.973832934919456e-07,
+        "d_out": 2.8737722497064453e-06,
+        "prompt_positions": 3473,
+        "out_positions": 242
+      }
+    }
+  }
+]

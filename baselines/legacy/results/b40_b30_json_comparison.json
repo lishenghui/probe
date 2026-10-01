@@ -1,0 +1,746 @@
+[
+  {
+    "budget": "b40",
+    "suite": "spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "source": "artifacts/rq3/results/fleet_remaining_b40_2258806/spatial",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "spatial",
+          "compressed": "spatial#2"
+        },
+        "s_per_episode": {
+          "original": 2.94,
+          "compressed": 2.55
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/spatial"
+        },
+        "wall_s": {
+          "original": 23.53,
+          "compressed": 20.42
+        }
+      },
+      {
+        "label": {
+          "original": "spatial#3",
+          "compressed": "spatial#4"
+        },
+        "s_per_episode": {
+          "original": 2.56,
+          "compressed": 2.55
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/spatial"
+        },
+        "wall_s": {
+          "original": 20.51,
+          "compressed": 20.43
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b40",
+    "suite": "object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "source": "artifacts/rq3/results/fleet_remaining_b40_2258806/object",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "object",
+          "compressed": "object#2"
+        },
+        "s_per_episode": {
+          "original": 3.83,
+          "compressed": 3.31
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/object"
+        },
+        "wall_s": {
+          "original": 30.6,
+          "compressed": 26.44
+        },
+        "load_s": {
+          "original": 83.3,
+          "compressed": 84.3
+        }
+      },
+      {
+        "label": {
+          "original": "object#3",
+          "compressed": "object#4"
+        },
+        "s_per_episode": {
+          "original": 3.28,
+          "compressed": 3.32
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/object"
+        },
+        "wall_s": {
+          "original": 26.27,
+          "compressed": 26.53
+        },
+        "load_s": {
+          "original": 82.4,
+          "compressed": 83.9
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b40",
+    "suite": "goal",
+    "task": "open the middle drawer of the cabinet",
+    "source": "artifacts/rq3/results/fleet_remaining_b40_2258806/goal",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "goal",
+          "compressed": "goal#2"
+        },
+        "s_per_episode": {
+          "original": 3.74,
+          "compressed": 3.21
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/goal"
+        },
+        "wall_s": {
+          "original": 29.94,
+          "compressed": 25.71
+        },
+        "load_s": {
+          "original": 91.1,
+          "compressed": 89.7
+        },
+        "policy_calls": {
+          "original": 19,
+          "compressed": 20
+        }
+      },
+      {
+        "label": {
+          "original": "goal#3",
+          "compressed": "goal#4"
+        },
+        "s_per_episode": {
+          "original": 3.13,
+          "compressed": 3.19
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/goal"
+        },
+        "wall_s": {
+          "original": 25.07,
+          "compressed": 25.53
+        },
+        "load_s": {
+          "original": 90.5,
+          "compressed": 91.5
+        },
+        "policy_calls": {
+          "original": 18,
+          "compressed": 20
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b40_recheck",
+    "suite": "goal",
+    "task": "open the middle drawer of the cabinet",
+    "source": "artifacts/rq3/results/fleet_remaining_b40_2261837/goal",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "goal",
+          "compressed": "goal#2"
+        },
+        "s_per_episode": {
+          "original": 3.2,
+          "compressed": 3.11
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/goal"
+        },
+        "wall_s": {
+          "original": 25.63,
+          "compressed": 24.91
+        },
+        "load_s": {
+          "original": 83.7,
+          "compressed": 83.6
+        },
+        "policy_calls": {
+          "original": 18,
+          "compressed": 20
+        }
+      },
+      {
+        "label": {
+          "original": "goal#3",
+          "compressed": "goal#4"
+        },
+        "s_per_episode": {
+          "original": 3.2,
+          "compressed": 3.11
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/goal"
+        },
+        "wall_s": {
+          "original": 25.64,
+          "compressed": 24.91
+        },
+        "policy_calls": {
+          "original": 18,
+          "compressed": 20
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b40_recheck",
+    "suite": "10",
+    "task": "put both the alphabet soup and the tomato sauce in the basket",
+    "source": "artifacts/rq3/results/fleet_remaining_b40_2261837/10",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "10",
+          "compressed": "10#2"
+        },
+        "s_per_episode": {
+          "original": 6.72,
+          "compressed": 6.87
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/10"
+        },
+        "wall_s": {
+          "original": 53.74,
+          "compressed": 54.99
+        },
+        "load_s": {
+          "original": 89.4,
+          "compressed": 90.0
+        },
+        "policy_calls": {
+          "original": 46,
+          "compressed": 48
+        }
+      },
+      {
+        "label": {
+          "original": "10#3",
+          "compressed": "10#4"
+        },
+        "s_per_episode": {
+          "original": 6.78,
+          "compressed": 6.88
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b40/10"
+        },
+        "wall_s": {
+          "original": 54.22,
+          "compressed": 55.06
+        },
+        "load_s": {
+          "original": 90.4,
+          "compressed": 88.6
+        },
+        "policy_calls": {
+          "original": 46,
+          "compressed": 48
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b30",
+    "suite": "spatial",
+    "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "source": "artifacts/rq3/results/fleet_remaining_b30_2258807/spatial",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "spatial",
+          "compressed": "spatial#2"
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/spatial"
+        },
+        "wall_s": {
+          "original": 20.74,
+          "compressed": 20.7
+        }
+      },
+      {
+        "label": {
+          "original": "spatial#3",
+          "compressed": "spatial#4"
+        },
+        "s_per_episode": {
+          "original": 2.55,
+          "compressed": 2.59
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/spatial"
+        },
+        "wall_s": {
+          "original": 20.37,
+          "compressed": 20.73
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b30",
+    "suite": "object",
+    "task": "pick up the alphabet soup and place it in the basket",
+    "source": "artifacts/rq3/results/fleet_remaining_b30_2258807/object",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "object",
+          "compressed": "object#2"
+        },
+        "s_per_episode": {
+          "original": 3.31,
+          "compressed": 3.65
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/object"
+        },
+        "wall_s": {
+          "original": 26.46,
+          "compressed": 29.17
+        },
+        "load_s": {
+          "original": 84.5,
+          "compressed": 85.1
+        },
+        "policy_calls": {
+          "original": 19,
+          "compressed": 25
+        }
+      },
+      {
+        "label": {
+          "original": "object#3",
+          "compressed": "object#4"
+        },
+        "s_per_episode": {
+          "original": 3.27,
+          "compressed": 3.57
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/object"
+        },
+        "wall_s": {
+          "original": 26.17,
+          "compressed": 28.57
+        },
+        "load_s": {
+          "original": 83.7,
+          "compressed": 85.5
+        },
+        "policy_calls": {
+          "original": 19,
+          "compressed": 25
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b30",
+    "suite": "goal",
+    "task": "open the middle drawer of the cabinet",
+    "source": "artifacts/rq3/results/fleet_remaining_b30_2258807/goal",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "goal",
+          "compressed": "goal#2"
+        },
+        "s_per_episode": {
+          "original": 2.83,
+          "compressed": 2.8
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/goal"
+        },
+        "wall_s": {
+          "original": 22.64,
+          "compressed": 22.38
+        },
+        "load_s": {
+          "original": 85.8,
+          "compressed": 86.6
+        },
+        "policy_calls": {
+          "original": 18,
+          "compressed": 19
+        }
+      },
+      {
+        "label": {
+          "original": "goal#3",
+          "compressed": "goal#4"
+        },
+        "s_per_episode": {
+          "original": 2.86,
+          "compressed": 2.79
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/goal"
+        },
+        "wall_s": {
+          "original": 22.88,
+          "compressed": 22.32
+        },
+        "load_s": {
+          "original": 87.2,
+          "compressed": 87.5
+        },
+        "policy_calls": {
+          "original": 18,
+          "compressed": 19
+        }
+      }
+    ]
+  },
+  {
+    "budget": "b30",
+    "suite": "10",
+    "task": "put both the alphabet soup and the tomato sauce in the basket",
+    "source": "artifacts/rq3/results/fleet_remaining_b30_2258807/10",
+    "paired_differences": [
+      {
+        "label": {
+          "original": "10",
+          "compressed": "10#2"
+        },
+        "s_per_episode": {
+          "original": 6.56,
+          "compressed": 6.5
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/10"
+        },
+        "wall_s": {
+          "original": 52.45,
+          "compressed": 51.98
+        },
+        "load_s": {
+          "original": 104.3,
+          "compressed": 103.7
+        },
+        "policy_calls": {
+          "original": 46,
+          "compressed": 48
+        }
+      },
+      {
+        "label": {
+          "original": "10#3",
+          "compressed": "10#4"
+        },
+        "s_per_episode": {
+          "original": 6.49,
+          "compressed": 6.5
+        },
+        "anchor": {
+          "original": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 0
+          },
+          "compressed": {
+            "formula": "W_published + delta_variant - delta_reference",
+            "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10/lora_adapter",
+            "modules": 439,
+            "changed_modules": 439
+          }
+        },
+        "checkpoint": {
+          "original": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/10",
+          "compressed": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/10"
+        },
+        "wall_s": {
+          "original": 51.89,
+          "compressed": 52.02
+        },
+        "load_s": {
+          "original": 104.6,
+          "compressed": 102.9
+        },
+        "policy_calls": {
+          "original": 46,
+          "compressed": 48
+        }
+      }
+    ]
+  }
+]

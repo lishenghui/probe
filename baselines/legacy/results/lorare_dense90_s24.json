@@ -1,0 +1,23 @@
+[
+  {
+    "task": "paws_wiki_10templates",
+    "short": "paws_wiki",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.35294117647058826,
+    "headroom": 0.35294117647058826,
+    "variants": {
+      "dense": {
+        "L_W": 0.16978207340880022,
+        "rank_frac": 0.447265625,
+        "metric_value": 0.35294117647058826,
+        "retained": 1.0
+      }
+    }
+  }
+]

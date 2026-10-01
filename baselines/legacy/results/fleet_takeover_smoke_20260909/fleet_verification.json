@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "run": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/fleet_takeover_smoke_20260909",
+  "expected_results": 4,
+  "workers": 4,
+  "single_gpu_reference": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/vec_check2/vec_batched_8.json",
+  "errors": []
+}

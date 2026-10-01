@@ -1,0 +1,52 @@
+[
+  {
+    "adapter": "task0815",
+    "S": 0.023435402344041737,
+    "task": 815,
+    "dataset": "Lots-of-LoRAs/task815_pawsx_japanese_french_translation",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 6.112748087616637e-05,
+        "d_js_p90": 0.00012078846339136362,
+        "d_hidden": 0.010837551206350327,
+        "argmax_flip": 0.0010638733172388395,
+        "rank_frac": 0.6399739583333334,
+        "retained_energy": 0.9125401986142
+      },
+      "k08": {
+        "d_js_mean": 0.00013355126429814845,
+        "d_js_p90": 0.0002642375184223056,
+        "d_hidden": 0.015324624255299568,
+        "argmax_flip": 0.005073857359139081,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8365062524875005
+      }
+    }
+  },
+  {
+    "adapter": "task1370",
+    "S": 0.05230877529025968,
+    "task": 1370,
+    "dataset": "Lots-of-LoRAs/task1370_newscomm_classification",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.0004998929798603058,
+        "d_js_p90": 0.0012713770847767591,
+        "d_hidden": 0.03987912833690643,
+        "argmax_flip": 0.016171075497200232,
+        "rank_frac": 0.4361979166666667,
+        "retained_energy": 0.911136357113719
+      },
+      "k08": {
+        "d_js_mean": 0.00041845778468996286,
+        "d_js_p90": 0.0010932359145954251,
+        "d_hidden": 0.03648759797215462,
+        "argmax_flip": 0.017764047113342344,
+        "rank_frac": 0.5,
+        "retained_energy": 0.921774847432971
+      }
+    }
+  }
+]

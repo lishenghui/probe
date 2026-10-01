@@ -1,0 +1,31 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b50/spatial",
+  "episodes": 8,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "load_s": 85.0,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 20.68,
+  "policy_calls": 11,
+  "s_per_episode": 2.59,
+  "label": "spatial#4",
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "adapter_mode": "anchored",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "anchor": {
+    "formula": "W_published + delta_variant - delta_reference",
+    "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/lora_adapter",
+    "modules": 439,
+    "changed_modules": 439
+  }
+}

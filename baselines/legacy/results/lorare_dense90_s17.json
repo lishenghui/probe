@@ -1,0 +1,23 @@
+[
+  {
+    "task": "imdb_reviews_10templates",
+    "short": "imdb_reviews",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.7647058823529411,
+    "headroom": 0.7647058823529411,
+    "variants": {
+      "dense": {
+        "L_W": 0.26508035635829663,
+        "rank_frac": 0.388671875,
+        "metric_value": 0.7647058823529411,
+        "retained": 1.0
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "task": "dart_10templates",
+    "short": "dart",
+    "S": 0.010625941928136515,
+    "prompts": 50,
+    "gen_tokens": 1577,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.31313204878989664,
+        "rank_frac": 0.16796875,
+        "d_prompt": 0.0010667913874647808,
+        "d_out": 0.0007412644128563779,
+        "prompt_positions": 2599,
+        "out_positions": 1577
+      },
+      "e70": {
+        "L_W": 0.33447971525790904,
+        "rank_frac": 0.14453125,
+        "d_prompt": 0.0012149991623114146,
+        "d_out": 0.0008460998882999621,
+        "prompt_positions": 2599,
+        "out_positions": 1577
+      },
+      "e50": {
+        "L_W": 0.36074857260745896,
+        "rank_frac": 0.125,
+        "d_prompt": 0.0028032734760783094,
+        "d_out": 0.0014661151689011308,
+        "prompt_positions": 2599,
+        "out_positions": 1577
+      }
+    }
+  },
+  {
+    "task": "story_cloze_10templates",
+    "short": "story_cloze",
+    "S": 0.001828291875310216,
+    "prompts": 50,
+    "gen_tokens": 597,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.37860806826833043,
+        "rank_frac": 0.27734375,
+        "d_prompt": 4.077845260052753e-06,
+        "d_out": 1.6190888238949873e-05,
+        "prompt_positions": 3990,
+        "out_positions": 597
+      },
+      "e70": {
+        "L_W": 0.4595478199919399,
+        "rank_frac": 0.19921875,
+        "d_prompt": 1.967153891239474e-05,
+        "d_out": 5.6631920983627985e-05,
+        "prompt_positions": 3990,
+        "out_positions": 597
+      },
+      "e50": {
+        "L_W": 0.5485955371626143,
+        "rank_frac": 0.13671875,
+        "d_prompt": 7.246580840856359e-05,
+        "d_out": 0.00018400781365950753,
+        "prompt_positions": 3990,
+        "out_positions": 597
+      }
+    }
+  }
+]

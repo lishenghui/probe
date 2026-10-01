@@ -1,0 +1,206 @@
+[
+  {
+    "task": "arc_easy_10templates",
+    "short": "arc_easy",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {
+      "e99": {
+        "L_W": 0.07134143521757122,
+        "rank_frac": 0.85546875,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19775108463476254,
+        "rank_frac": 0.5234375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e90": {
+        "L_W": 0.275535699538375,
+        "rank_frac": 0.359375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e80": {
+        "L_W": 0.36361114457986204,
+        "rank_frac": 0.2421875,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e70": {
+        "L_W": 0.4321093499331371,
+        "rank_frac": 0.181640625,
+        "metric_value": 0.0,
+        "retained": 0.0
+      },
+      "e50": {
+        "L_W": 0.49533790140075984,
+        "rank_frac": 0.138671875,
+        "metric_value": 0.0,
+        "retained": 0.0
+      }
+    }
+  },
+  {
+    "task": "hellaswag_10templates",
+    "short": "hellaswag",
+    "metric": "em",
+    "domain": "commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.23529411764705882,
+    "headroom": 0.23529411764705882,
+    "variants": {
+      "e99": {
+        "L_W": 0.08225894099358985,
+        "rank_frac": 0.767578125,
+        "metric_value": 0.23529411764705882,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.1943410245933834,
+        "rank_frac": 0.408203125,
+        "metric_value": 0.23529411764705882,
+        "retained": 1.0
+      },
+      "e90": {
+        "L_W": 0.26148409451876664,
+        "rank_frac": 0.2734375,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.875
+      },
+      "e80": {
+        "L_W": 0.3280786526044556,
+        "rank_frac": 0.189453125,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.875
+      },
+      "e70": {
+        "L_W": 0.3768114908385646,
+        "rank_frac": 0.154296875,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.875
+      },
+      "e50": {
+        "L_W": 0.41272513009036516,
+        "rank_frac": 0.130859375,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.875
+      }
+    }
+  },
+  {
+    "task": "rte_10templates",
+    "short": "rte",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {
+      "e99": {
+        "L_W": 0.07185001950110055,
+        "rank_frac": 0.87109375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19428983799142086,
+        "rank_frac": 0.5546875,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e90": {
+        "L_W": 0.27311542540228373,
+        "rank_frac": 0.380859375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e80": {
+        "L_W": 0.3663068492618911,
+        "rank_frac": 0.24609375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e70": {
+        "L_W": 0.43702336611546855,
+        "rank_frac": 0.18359375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      },
+      "e50": {
+        "L_W": 0.5086997405887744,
+        "rank_frac": 0.130859375,
+        "metric_value": 0.029411764705882353,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_deen_10templates",
+    "short": "wmt16_translate_deen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.07916999337763772,
+    "metric_orig": 0.23066207750724252,
+    "headroom": 0.1514920841296048,
+    "variants": {
+      "e99": {
+        "L_W": 0.07999465698853664,
+        "rank_frac": 0.802734375,
+        "metric_value": 0.23066207750724252,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19383508598966206,
+        "rank_frac": 0.443359375,
+        "metric_value": 0.23364380944778576,
+        "retained": 1.019682427353711
+      },
+      "e90": {
+        "L_W": 0.26672849365201434,
+        "rank_frac": 0.296875,
+        "metric_value": 0.23559740036767252,
+        "retained": 1.0325780907219397
+      },
+      "e80": {
+        "L_W": 0.3442727562094991,
+        "rank_frac": 0.197265625,
+        "metric_value": 0.23087814637185186,
+        "retained": 1.0014262716487845
+      },
+      "e70": {
+        "L_W": 0.40907517083975603,
+        "rank_frac": 0.146484375,
+        "metric_value": 0.22855291509921272,
+        "retained": 0.9860774084656109
+      },
+      "e50": {
+        "L_W": 0.43696009341169223,
+        "rank_frac": 0.12890625,
+        "metric_value": 0.22977700707174226,
+        "retained": 0.9941576456579535
+      }
+    }
+  }
+]

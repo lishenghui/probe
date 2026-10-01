@@ -1,0 +1,10 @@
+# tectonic build products
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+__pycache__/
+
+# reproducibility bundles are regenerated from artifacts, not source
+bundles/*.tar.gz

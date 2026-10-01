@@ -1,0 +1,40 @@
+[
+  {
+    "task": "anli_r3_10templates",
+    "short": "anli_r3",
+    "S": 0.006237941431893627,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 99,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19653401923253336,
+        "rank_frac": 0.509765625,
+        "d_prompt": 3.142089903095898e-05,
+        "d_out": 0.00017545272170206192,
+        "prompt_positions": 2246,
+        "out_positions": 99
+      }
+    }
+  },
+  {
+    "task": "qnli_10templates",
+    "short": "qnli",
+    "S": 0.0054387315208884015,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 107,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19722055471692812,
+        "rank_frac": 0.44921875,
+        "d_prompt": 9.21994970133913e-06,
+        "d_out": 2.9766514408293345e-05,
+        "prompt_positions": 1210,
+        "out_positions": 107
+      }
+    }
+  }
+]

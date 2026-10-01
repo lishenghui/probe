@@ -1,0 +1,23 @@
+[
+  {
+    "task": "record_10templates",
+    "short": "record",
+    "metric": "em",
+    "domain": "read.comp.w:commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.4411764705882353,
+    "headroom": 0.4411764705882353,
+    "variants": {
+      "dense": {
+        "L_W": 0.3667621183219839,
+        "rank_frac": 0.154296875,
+        "metric_value": 0.4411764705882353,
+        "retained": 1.0
+      }
+    }
+  }
+]

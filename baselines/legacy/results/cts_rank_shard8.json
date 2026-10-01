@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task1148",
+    "S": 0.027896844558524245,
+    "task": 1148,
+    "dataset": "Lots-of-LoRAs/task1148_maximum_ascii_value",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.00028882018523290753,
+        "d_js_p90": 0.0005178787978366017,
+        "d_hidden": 0.02306516095995903,
+        "argmax_flip": 0.011578735400724929,
+        "rank_frac": 0.4596354166666667,
+        "retained_energy": 0.9109427550186714
+      },
+      "k08": {
+        "d_js_mean": 0.0002190466329921037,
+        "d_js_p90": 0.00030628207605332136,
+        "d_hidden": 0.018099788576364517,
+        "argmax_flip": 0.010773258155457108,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9134724009782076
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "dataset": "Lots-of-LoRAs/task1037_pib_translation_telugu_urdu",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.0015994440764188766,
+        "d_js_p90": 0.0032602129504084587,
+        "d_hidden": 0.04581870883703232,
+        "argmax_flip": 0.03145090778172093,
+        "rank_frac": 0.533203125,
+        "retained_energy": 0.9121726552645365
+      },
+      "k08": {
+        "d_js_mean": 0.001593925291672349,
+        "d_js_p90": 0.003293979912996292,
+        "d_hidden": 0.04769227281212807,
+        "argmax_flip": 0.029059301548115004,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8881084118038416
+      }
+    }
+  },
+  {
+    "adapter": "task0223",
+    "S": 0.15848341521147538,
+    "task": 223,
+    "dataset": "Lots-of-LoRAs/task223_quartz_explanation_generation",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.010274584405124187,
+        "d_js_p90": 0.027264080941677094,
+        "d_hidden": 0.12881092727184296,
+        "argmax_flip": 0.07101907101907103,
+        "rank_frac": 0.484375,
+        "retained_energy": 0.9122454716513554
+      },
+      "k08": {
+        "d_js_mean": 0.009585535153746605,
+        "d_js_p90": 0.02107718586921692,
+        "d_hidden": 0.12355463951826096,
+        "argmax_flip": 0.06241956241956242,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9094327359149853
+      }
+    }
+  }
+]

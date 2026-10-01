@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task0963",
+    "S": 0.020012099966760486,
+    "task": 963,
+    "dataset": "Lots-of-LoRAs/task963_librispeech_asr_next_word_prediction",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 116,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.70703125,
+        "L_W": 0.2066850400747449,
+        "d_prompt": 2.3307468471471917e-05,
+        "d_out": 3.0937487547911086e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 6524,
+        "out_positions": 116,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 3.7572360038757324,
+        "median_erosion": 0.014327526092529297,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0889",
+    "S": 0.033545624665687786,
+    "task": 889,
+    "dataset": "Lots-of-LoRAs/task889_goemotions_classification",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 143,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.7096354166666666,
+        "L_W": 0.20763347384342112,
+        "d_prompt": 4.3889077093833026e-05,
+        "d_out": 6.945115732715412e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 7601,
+        "out_positions": 143,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 9.475483894348145,
+        "median_erosion": 0.026224136352539062,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "dataset": "Lots-of-LoRAs/task1037_pib_translation_telugu_urdu",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1507,
+    "variants": {
+      "e95": {
+        "rank_frac": 0.6920572916666666,
+        "L_W": 0.20654983452952008,
+        "d_prompt": 0.0005045937725725485,
+        "d_out": 0.0003277433757418699,
+        "flip_out": 0.013934970139349702,
+        "prompt_positions": 38886,
+        "out_positions": 1507,
+        "token_flip_rate": 0.013934970139349702,
+        "seq_flip_rate": 0.3541666666666667,
+        "median_margin": 1.9722175598144531,
+        "median_erosion": 0.014815330505371094,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

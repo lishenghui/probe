@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "run": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/fleet_remaining_b40_2258806/goal",
+  "expected_results": 4,
+  "workers": 4,
+  "single_gpu_reference": null,
+  "errors": [
+    "goal#3.policy_calls differs from goal for /nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal"
+  ]
+}

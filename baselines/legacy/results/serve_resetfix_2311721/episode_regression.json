@@ -1,0 +1,162 @@
+{
+  "cleanup_fix": true,
+  "initial_states_unchanged": true,
+  "passes": [
+    {
+      "reset_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "episodes": [
+        {
+          "episode": 0,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 1,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 2,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 3,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 4,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 5,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 6,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 7,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        }
+      ]
+    },
+    {
+      "reset_order": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "episodes": [
+        {
+          "episode": 0,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 1,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 2,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 3,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 4,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 5,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 6,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        },
+        {
+          "episode": 7,
+          "applied_state_max_abs": 0.0,
+          "state_drift": 0.0,
+          "changed_pixels": 0,
+          "pixel_mae": 0.0,
+          "wrist_changed_pixels": 0
+        }
+      ]
+    }
+  ]
+}

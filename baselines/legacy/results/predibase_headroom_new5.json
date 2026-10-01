@@ -1,0 +1,32 @@
+{
+  "drop": {
+    "base": 0.1957222222222222,
+    "full": 0.7663333333333333,
+    "headroom": 0.5706111111111112,
+    "usable": true
+  },
+  "glue_stsb": {
+    "base": 0.7923999999999997,
+    "full": 0.9344,
+    "headroom": 0.14200000000000035,
+    "usable": true
+  },
+  "cnn": {
+    "base": 0.2286441023140851,
+    "full": 0.2979702679043147,
+    "headroom": 0.06932616559022958,
+    "usable": true
+  },
+  "agnews_explained": {
+    "base": 0.0,
+    "full": 0.93,
+    "headroom": 0.93,
+    "usable": true
+  },
+  "hellaswag_processed": {
+    "base": 0.11091127253494455,
+    "full": 0.2664375309488408,
+    "headroom": 0.15552625841389628,
+    "usable": true
+  }
+}

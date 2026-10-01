@@ -1,0 +1,13 @@
+{
+  "wall_s": 705.0,
+  "adapters": 4,
+  "completed": 4,
+  "gpu_hours_billed": 0.783,
+  "gpu_hours_per_adapter": 0.196,
+  "rates": {
+    "spatial": 1.0,
+    "spatial#2": 1.0,
+    "spatial#3": 1.0,
+    "spatial#4": 1.0
+  }
+}

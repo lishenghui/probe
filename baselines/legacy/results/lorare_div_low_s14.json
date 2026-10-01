@@ -1,0 +1,70 @@
+[
+  {
+    "task": "glue_mrpc_10templates",
+    "short": "glue_mrpc",
+    "S": 0.00402943193733118,
+    "prompts": 50,
+    "gen_tokens": 73,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.34831325684529924,
+        "rank_frac": 0.216796875,
+        "d_prompt": 0.00030549169048968265,
+        "d_out": 0.0055611727859710075,
+        "prompt_positions": 4352,
+        "out_positions": 73
+      },
+      "e70": {
+        "L_W": 0.4129146856942407,
+        "rank_frac": 0.16796875,
+        "d_prompt": 0.0006491150587167152,
+        "d_out": 0.01120858524658092,
+        "prompt_positions": 4352,
+        "out_positions": 73
+      },
+      "e50": {
+        "L_W": 0.46941621880113854,
+        "rank_frac": 0.130859375,
+        "d_prompt": 0.0019278331310488284,
+        "d_out": 0.029546194590232652,
+        "prompt_positions": 4352,
+        "out_positions": 73
+      }
+    }
+  },
+  {
+    "task": "wmt14_enfr_10templates",
+    "short": "wmt14_enfr",
+    "S": 0.0069673230353944765,
+    "prompts": 50,
+    "gen_tokens": 1192,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.3381176680791688,
+        "rank_frac": 0.193359375,
+        "d_prompt": 0.0002908812939701464,
+        "d_out": 0.0003110008025557528,
+        "prompt_positions": 2026,
+        "out_positions": 1192
+      },
+      "e70": {
+        "L_W": 0.3874263048058697,
+        "rank_frac": 0.154296875,
+        "d_prompt": 0.0005445180659394744,
+        "d_out": 0.0007191479996967148,
+        "prompt_positions": 2026,
+        "out_positions": 1192
+      },
+      "e50": {
+        "L_W": 0.4286698536391115,
+        "rank_frac": 0.125,
+        "d_prompt": 0.0008444111759297234,
+        "d_out": 0.001280488590018405,
+        "prompt_positions": 2026,
+        "out_positions": 1192
+      }
+    }
+  }
+]

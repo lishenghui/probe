@@ -1,0 +1,4409 @@
+{
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-7b-base",
+  "published": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+  "backend": "randomized_svd_flash_tsqr",
+  "rank": 64,
+  "scale": 1.0,
+  "sketch_width": 96,
+  "power_iterations": 2,
+  "seed": 0,
+  "numerical_gate": 1.6747238987591118e-05,
+  "non_lora_exact": true,
+  "layers": [
+    {
+      "key": "language_model.lm_head.weight",
+      "rank": 64,
+      "weight_shape": [
+        32064,
+        4096
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.008872574893757701
+    },
+    {
+      "key": "language_model.model.layers.0.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002826008014380932,
+      "decomposition_s": 0.02592270588502288
+    },
+    {
+      "key": "language_model.model.layers.0.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028306306339800358,
+      "decomposition_s": 0.025836884044110775
+    },
+    {
+      "key": "language_model.model.layers.0.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028346420731395483,
+      "decomposition_s": 0.025730711175128818
+    },
+    {
+      "key": "language_model.model.layers.0.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0027052992954850197,
+      "decomposition_s": 0.021968324203044176
+    },
+    {
+      "key": "language_model.model.layers.0.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0027879022527486086,
+      "decomposition_s": 0.022067361045628786
+    },
+    {
+      "key": "language_model.model.layers.0.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028359312564134598,
+      "decomposition_s": 0.021935460856184363
+    },
+    {
+      "key": "language_model.model.layers.0.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028058262541890144,
+      "decomposition_s": 0.021974468138068914
+    },
+    {
+      "key": "language_model.model.layers.1.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002813076600432396,
+      "decomposition_s": 0.025378112914040685
+    },
+    {
+      "key": "language_model.model.layers.1.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028350199572741985,
+      "decomposition_s": 0.02571048797108233
+    },
+    {
+      "key": "language_model.model.layers.1.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028345598839223385,
+      "decomposition_s": 0.025666330009698868
+    },
+    {
+      "key": "language_model.model.layers.1.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0027901828289031982,
+      "decomposition_s": 0.02188349491916597
+    },
+    {
+      "key": "language_model.model.layers.1.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0027974413242191076,
+      "decomposition_s": 0.02197590796276927
+    },
+    {
+      "key": "language_model.model.layers.1.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002914791228249669,
+      "decomposition_s": 0.02191037405282259
+    },
+    {
+      "key": "language_model.model.layers.1.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002812040038406849,
+      "decomposition_s": 0.021916965954005718
+    },
+    {
+      "key": "language_model.model.layers.10.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028505672235041857,
+      "decomposition_s": 0.025253956904634833
+    },
+    {
+      "key": "language_model.model.layers.10.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028843670152127743,
+      "decomposition_s": 0.025491263018921018
+    },
+    {
+      "key": "language_model.model.layers.10.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028750747442245483,
+      "decomposition_s": 0.025537180015817285
+    },
+    {
+      "key": "language_model.model.layers.10.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028649650048464537,
+      "decomposition_s": 0.021863047033548355
+    },
+    {
+      "key": "language_model.model.layers.10.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028460705652832985,
+      "decomposition_s": 0.022097631823271513
+    },
+    {
+      "key": "language_model.model.layers.10.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002860365202650428,
+      "decomposition_s": 0.02181309787556529
+    },
+    {
+      "key": "language_model.model.layers.10.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002834188984706998,
+      "decomposition_s": 0.0218772878870368
+    },
+    {
+      "key": "language_model.model.layers.11.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002859703730791807,
+      "decomposition_s": 0.02527123806066811
+    },
+    {
+      "key": "language_model.model.layers.11.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028870103415101767,
+      "decomposition_s": 0.025414272909983993
+    },
+    {
+      "key": "language_model.model.layers.11.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002876409562304616,
+      "decomposition_s": 0.025510428939014673
+    },
+    {
+      "key": "language_model.model.layers.11.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028694509528577328,
+      "decomposition_s": 0.021928452886641026
+    },
+    {
+      "key": "language_model.model.layers.11.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028472980484366417,
+      "decomposition_s": 0.022139168111607432
+    },
+    {
+      "key": "language_model.model.layers.11.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002862554043531418,
+      "decomposition_s": 0.021888325922191143
+    },
+    {
+      "key": "language_model.model.layers.11.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028319181874394417,
+      "decomposition_s": 0.02189290104433894
+    },
+    {
+      "key": "language_model.model.layers.12.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028594001196324825,
+      "decomposition_s": 0.025337985949590802
+    },
+    {
+      "key": "language_model.model.layers.12.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002888598944991827,
+      "decomposition_s": 0.025443744147196412
+    },
+    {
+      "key": "language_model.model.layers.12.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002877851016819477,
+      "decomposition_s": 0.025637593120336533
+    },
+    {
+      "key": "language_model.model.layers.12.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002878057537600398,
+      "decomposition_s": 0.021797192050144076
+    },
+    {
+      "key": "language_model.model.layers.12.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028587731067091227,
+      "decomposition_s": 0.021901158848777413
+    },
+    {
+      "key": "language_model.model.layers.12.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028708940371870995,
+      "decomposition_s": 0.021816808031871915
+    },
+    {
+      "key": "language_model.model.layers.12.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002840733155608177,
+      "decomposition_s": 0.021860999055206776
+    },
+    {
+      "key": "language_model.model.layers.13.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002856448758393526,
+      "decomposition_s": 0.025300420122221112
+    },
+    {
+      "key": "language_model.model.layers.13.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028872161637991667,
+      "decomposition_s": 0.025544125121086836
+    },
+    {
+      "key": "language_model.model.layers.13.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028764773160219193,
+      "decomposition_s": 0.025462334044277668
+    },
+    {
+      "key": "language_model.model.layers.13.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028771343640983105,
+      "decomposition_s": 0.021756522823125124
+    },
+    {
+      "key": "language_model.model.layers.13.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028508238028734922,
+      "decomposition_s": 0.021841000067070127
+    },
+    {
+      "key": "language_model.model.layers.13.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028650008607655764,
+      "decomposition_s": 0.02173668215982616
+    },
+    {
+      "key": "language_model.model.layers.13.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028430025558918715,
+      "decomposition_s": 0.021909957053139806
+    },
+    {
+      "key": "language_model.model.layers.14.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002861176850274205,
+      "decomposition_s": 0.025260998168960214
+    },
+    {
+      "key": "language_model.model.layers.14.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002893344033509493,
+      "decomposition_s": 0.02551423804834485
+    },
+    {
+      "key": "language_model.model.layers.14.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028780398424714804,
+      "decomposition_s": 0.025746104074642062
+    },
+    {
+      "key": "language_model.model.layers.14.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028790112119168043,
+      "decomposition_s": 0.02184701501391828
+    },
+    {
+      "key": "language_model.model.layers.14.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028416409622877836,
+      "decomposition_s": 0.022013667039573193
+    },
+    {
+      "key": "language_model.model.layers.14.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028749871999025345,
+      "decomposition_s": 0.021895878948271275
+    },
+    {
+      "key": "language_model.model.layers.14.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028428041841834784,
+      "decomposition_s": 0.02197216497734189
+    },
+    {
+      "key": "language_model.model.layers.15.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028615884948521852,
+      "decomposition_s": 0.025241830153390765
+    },
+    {
+      "key": "language_model.model.layers.15.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002895685378462076,
+      "decomposition_s": 0.025447807973250747
+    },
+    {
+      "key": "language_model.model.layers.15.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028842247556895018,
+      "decomposition_s": 0.02563064987771213
+    },
+    {
+      "key": "language_model.model.layers.15.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028835604898631573,
+      "decomposition_s": 0.021794376894831657
+    },
+    {
+      "key": "language_model.model.layers.15.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028523714281618595,
+      "decomposition_s": 0.021912900963798165
+    },
+    {
+      "key": "language_model.model.layers.15.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002885030349716544,
+      "decomposition_s": 0.021856294944882393
+    },
+    {
+      "key": "language_model.model.layers.15.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002841982990503311,
+      "decomposition_s": 0.021942246006801724
+    },
+    {
+      "key": "language_model.model.layers.16.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028637207578867674,
+      "decomposition_s": 0.02537264209240675
+    },
+    {
+      "key": "language_model.model.layers.16.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002896574093028903,
+      "decomposition_s": 0.025534429121762514
+    },
+    {
+      "key": "language_model.model.layers.16.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028854296542704105,
+      "decomposition_s": 0.025622906861826777
+    },
+    {
+      "key": "language_model.model.layers.16.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002886002417653799,
+      "decomposition_s": 0.021930628921836615
+    },
+    {
+      "key": "language_model.model.layers.16.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028539879713207483,
+      "decomposition_s": 0.021802666131407022
+    },
+    {
+      "key": "language_model.model.layers.16.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.00288045359775424,
+      "decomposition_s": 0.022134687984362245
+    },
+    {
+      "key": "language_model.model.layers.16.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028505171649158,
+      "decomposition_s": 0.021899973042309284
+    },
+    {
+      "key": "language_model.model.layers.17.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028792223893105984,
+      "decomposition_s": 0.025220101000741124
+    },
+    {
+      "key": "language_model.model.layers.17.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029026104602962732,
+      "decomposition_s": 0.025410847971215844
+    },
+    {
+      "key": "language_model.model.layers.17.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002901437459513545,
+      "decomposition_s": 0.02547497395426035
+    },
+    {
+      "key": "language_model.model.layers.17.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028814254328608513,
+      "decomposition_s": 0.021812007995322347
+    },
+    {
+      "key": "language_model.model.layers.17.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002845051698386669,
+      "decomposition_s": 0.021948582027107477
+    },
+    {
+      "key": "language_model.model.layers.17.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028841705061495304,
+      "decomposition_s": 0.021908260881900787
+    },
+    {
+      "key": "language_model.model.layers.17.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028432393446564674,
+      "decomposition_s": 0.021958565805107355
+    },
+    {
+      "key": "language_model.model.layers.18.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002878712024539709,
+      "decomposition_s": 0.02524854801595211
+    },
+    {
+      "key": "language_model.model.layers.18.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002903039800003171,
+      "decomposition_s": 0.025397504912689328
+    },
+    {
+      "key": "language_model.model.layers.18.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002897083293646574,
+      "decomposition_s": 0.025589274941012263
+    },
+    {
+      "key": "language_model.model.layers.18.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028746300376951694,
+      "decomposition_s": 0.021851143101230264
+    },
+    {
+      "key": "language_model.model.layers.18.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028463939670473337,
+      "decomposition_s": 0.021982501028105617
+    },
+    {
+      "key": "language_model.model.layers.18.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002892104210332036,
+      "decomposition_s": 0.021851528203114867
+    },
+    {
+      "key": "language_model.model.layers.18.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028438416775316,
+      "decomposition_s": 0.022111263824626803
+    },
+    {
+      "key": "language_model.model.layers.19.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028818862047046423,
+      "decomposition_s": 0.025216071167960763
+    },
+    {
+      "key": "language_model.model.layers.19.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029016153421252966,
+      "decomposition_s": 0.025509277125820518
+    },
+    {
+      "key": "language_model.model.layers.19.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002897135680541396,
+      "decomposition_s": 0.02550466894172132
+    },
+    {
+      "key": "language_model.model.layers.19.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028941233176738024,
+      "decomposition_s": 0.021952324081212282
+    },
+    {
+      "key": "language_model.model.layers.19.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.00286292377859354,
+      "decomposition_s": 0.02197549189440906
+    },
+    {
+      "key": "language_model.model.layers.19.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029103050474077463,
+      "decomposition_s": 0.021772457053884864
+    },
+    {
+      "key": "language_model.model.layers.19.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028584643732756376,
+      "decomposition_s": 0.021901382133364677
+    },
+    {
+      "key": "language_model.model.layers.2.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028313191141933203,
+      "decomposition_s": 0.025368194095790386
+    },
+    {
+      "key": "language_model.model.layers.2.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028467888478189707,
+      "decomposition_s": 0.02557129110209644
+    },
+    {
+      "key": "language_model.model.layers.2.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028454563580453396,
+      "decomposition_s": 0.025482717901468277
+    },
+    {
+      "key": "language_model.model.layers.2.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028453192207962275,
+      "decomposition_s": 0.021783368894830346
+    },
+    {
+      "key": "language_model.model.layers.2.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028209195006638765,
+      "decomposition_s": 0.021870438009500504
+    },
+    {
+      "key": "language_model.model.layers.2.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028520592022687197,
+      "decomposition_s": 0.021830055862665176
+    },
+    {
+      "key": "language_model.model.layers.2.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002838801359757781,
+      "decomposition_s": 0.02189626288600266
+    },
+    {
+      "key": "language_model.model.layers.20.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002880606334656477,
+      "decomposition_s": 0.025317667052149773
+    },
+    {
+      "key": "language_model.model.layers.20.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.00289932475425303,
+      "decomposition_s": 0.02532326616346836
+    },
+    {
+      "key": "language_model.model.layers.20.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029019045177847147,
+      "decomposition_s": 0.025582876056432724
+    },
+    {
+      "key": "language_model.model.layers.20.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002899946877732873,
+      "decomposition_s": 0.02183437580242753
+    },
+    {
+      "key": "language_model.model.layers.20.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028639216907322407,
+      "decomposition_s": 0.02187978196889162
+    },
+    {
+      "key": "language_model.model.layers.20.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029061338864266872,
+      "decomposition_s": 0.02190794190391898
+    },
+    {
+      "key": "language_model.model.layers.20.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028577542398124933,
+      "decomposition_s": 0.021834952989593148
+    },
+    {
+      "key": "language_model.model.layers.21.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028904960490763187,
+      "decomposition_s": 0.025366273941472173
+    },
+    {
+      "key": "language_model.model.layers.21.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029027306009083986,
+      "decomposition_s": 0.025431934976950288
+    },
+    {
+      "key": "language_model.model.layers.21.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002901765052229166,
+      "decomposition_s": 0.025538204004988074
+    },
+    {
+      "key": "language_model.model.layers.21.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002909652190282941,
+      "decomposition_s": 0.02184698381461203
+    },
+    {
+      "key": "language_model.model.layers.21.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002868582494556904,
+      "decomposition_s": 0.021973188035190105
+    },
+    {
+      "key": "language_model.model.layers.21.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002908968133851886,
+      "decomposition_s": 0.02211337606422603
+    },
+    {
+      "key": "language_model.model.layers.21.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028528026305139065,
+      "decomposition_s": 0.022017730865627527
+    },
+    {
+      "key": "language_model.model.layers.22.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002893708646297455,
+      "decomposition_s": 0.025357474107295275
+    },
+    {
+      "key": "language_model.model.layers.22.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029031536541879177,
+      "decomposition_s": 0.025479647098109126
+    },
+    {
+      "key": "language_model.model.layers.22.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002901895437389612,
+      "decomposition_s": 0.025397313991561532
+    },
+    {
+      "key": "language_model.model.layers.22.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028960355557501316,
+      "decomposition_s": 0.022074560169130564
+    },
+    {
+      "key": "language_model.model.layers.22.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028235234785825014,
+      "decomposition_s": 0.021975395968183875
+    },
+    {
+      "key": "language_model.model.layers.22.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029084549751132727,
+      "decomposition_s": 0.02220508619211614
+    },
+    {
+      "key": "language_model.model.layers.22.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028402183670550585,
+      "decomposition_s": 0.021893030032515526
+    },
+    {
+      "key": "language_model.model.layers.23.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002885863883420825,
+      "decomposition_s": 0.02529248408973217
+    },
+    {
+      "key": "language_model.model.layers.23.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028977985493838787,
+      "decomposition_s": 0.02543667098507285
+    },
+    {
+      "key": "language_model.model.layers.23.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028972974978387356,
+      "decomposition_s": 0.025515486020594835
+    },
+    {
+      "key": "language_model.model.layers.23.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029052228201180696,
+      "decomposition_s": 0.02199683617800474
+    },
+    {
+      "key": "language_model.model.layers.23.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028535828460007906,
+      "decomposition_s": 0.021888551069423556
+    },
+    {
+      "key": "language_model.model.layers.23.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029174266383051872,
+      "decomposition_s": 0.022053504828363657
+    },
+    {
+      "key": "language_model.model.layers.23.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002850429154932499,
+      "decomposition_s": 0.021876037819311023
+    },
+    {
+      "key": "language_model.model.layers.24.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028930804692208767,
+      "decomposition_s": 0.025219622999429703
+    },
+    {
+      "key": "language_model.model.layers.24.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029033017344772816,
+      "decomposition_s": 0.02548540709540248
+    },
+    {
+      "key": "language_model.model.layers.24.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028985138051211834,
+      "decomposition_s": 0.025463487021625042
+    },
+    {
+      "key": "language_model.model.layers.24.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029198210686445236,
+      "decomposition_s": 0.021771914092823863
+    },
+    {
+      "key": "language_model.model.layers.24.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028318765107542276,
+      "decomposition_s": 0.021900999126955867
+    },
+    {
+      "key": "language_model.model.layers.24.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002915138378739357,
+      "decomposition_s": 0.021915398072451353
+    },
+    {
+      "key": "language_model.model.layers.24.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028544734232127666,
+      "decomposition_s": 0.021884070010855794
+    },
+    {
+      "key": "language_model.model.layers.25.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028845977503806353,
+      "decomposition_s": 0.025181894889101386
+    },
+    {
+      "key": "language_model.model.layers.25.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029073648620396852,
+      "decomposition_s": 0.025620409986004233
+    },
+    {
+      "key": "language_model.model.layers.25.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028917607851326466,
+      "decomposition_s": 0.025427136104553938
+    },
+    {
+      "key": "language_model.model.layers.25.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002909414703026414,
+      "decomposition_s": 0.02176973898895085
+    },
+    {
+      "key": "language_model.model.layers.25.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002875373698771,
+      "decomposition_s": 0.021964196115732193
+    },
+    {
+      "key": "language_model.model.layers.25.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.00293915206566453,
+      "decomposition_s": 0.021831976948305964
+    },
+    {
+      "key": "language_model.model.layers.25.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028494056314229965,
+      "decomposition_s": 0.021897638915106654
+    },
+    {
+      "key": "language_model.model.layers.26.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002887546084821224,
+      "decomposition_s": 0.025186055107042193
+    },
+    {
+      "key": "language_model.model.layers.26.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0029031699523329735,
+      "decomposition_s": 0.025491165928542614
+    },
+    {
+      "key": "language_model.model.layers.26.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028911889530718327,
+      "decomposition_s": 0.02542390301823616
+    },
+    {
+      "key": "language_model.model.layers.26.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.00291031738743186,
+      "decomposition_s": 0.021803369978442788
+    },
+    {
+      "key": "language_model.model.layers.26.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002832055324688554,
+      "decomposition_s": 0.02187466318719089
+    },
+    {
+      "key": "language_model.model.layers.26.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029190327040851116,
+      "decomposition_s": 0.021802375791594386
+    },
+    {
+      "key": "language_model.model.layers.26.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028482095804065466,
+      "decomposition_s": 0.02182775200344622
+    },
+    {
+      "key": "language_model.model.layers.27.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002870011143386364,
+      "decomposition_s": 0.02514775306917727
+    },
+    {
+      "key": "language_model.model.layers.27.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002897587837651372,
+      "decomposition_s": 0.025438814889639616
+    },
+    {
+      "key": "language_model.model.layers.27.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028782538138329983,
+      "decomposition_s": 0.025437375996261835
+    },
+    {
+      "key": "language_model.model.layers.27.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002919877413660288,
+      "decomposition_s": 0.02177092107012868
+    },
+    {
+      "key": "language_model.model.layers.27.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002832344500347972,
+      "decomposition_s": 0.02186215086840093
+    },
+    {
+      "key": "language_model.model.layers.27.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.00292000244371593,
+      "decomposition_s": 0.021781961899250746
+    },
+    {
+      "key": "language_model.model.layers.27.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002847159281373024,
+      "decomposition_s": 0.02186624798923731
+    },
+    {
+      "key": "language_model.model.layers.28.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028604876715689898,
+      "decomposition_s": 0.025288196047767997
+    },
+    {
+      "key": "language_model.model.layers.28.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002894547302275896,
+      "decomposition_s": 0.025748982094228268
+    },
+    {
+      "key": "language_model.model.layers.28.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002872229553759098,
+      "decomposition_s": 0.025804533855989575
+    },
+    {
+      "key": "language_model.model.layers.28.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029168445616960526,
+      "decomposition_s": 0.021806249162182212
+    },
+    {
+      "key": "language_model.model.layers.28.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028231514152139425,
+      "decomposition_s": 0.02195955696515739
+    },
+    {
+      "key": "language_model.model.layers.28.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002903374843299389,
+      "decomposition_s": 0.021851432044059038
+    },
+    {
+      "key": "language_model.model.layers.28.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028252508491277695,
+      "decomposition_s": 0.02191309304907918
+    },
+    {
+      "key": "language_model.model.layers.29.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002867867471650243,
+      "decomposition_s": 0.025304386857897043
+    },
+    {
+      "key": "language_model.model.layers.29.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028838105499744415,
+      "decomposition_s": 0.025424128165468574
+    },
+    {
+      "key": "language_model.model.layers.29.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002870080294087529,
+      "decomposition_s": 0.025635097874328494
+    },
+    {
+      "key": "language_model.model.layers.29.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029090221505612135,
+      "decomposition_s": 0.0217902478761971
+    },
+    {
+      "key": "language_model.model.layers.29.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002831435529515147,
+      "decomposition_s": 0.021854246966540813
+    },
+    {
+      "key": "language_model.model.layers.29.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002921387553215027,
+      "decomposition_s": 0.02178305108100176
+    },
+    {
+      "key": "language_model.model.layers.29.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028272292111068964,
+      "decomposition_s": 0.021915879100561142
+    },
+    {
+      "key": "language_model.model.layers.3.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028352520894259214,
+      "decomposition_s": 0.025502525037154555
+    },
+    {
+      "key": "language_model.model.layers.3.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002850303892046213,
+      "decomposition_s": 0.025672056945040822
+    },
+    {
+      "key": "language_model.model.layers.3.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002856475068256259,
+      "decomposition_s": 0.025660057086497545
+    },
+    {
+      "key": "language_model.model.layers.3.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028753073420375586,
+      "decomposition_s": 0.021874886006116867
+    },
+    {
+      "key": "language_model.model.layers.3.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002830483252182603,
+      "decomposition_s": 0.021973347989842296
+    },
+    {
+      "key": "language_model.model.layers.3.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028811413794755936,
+      "decomposition_s": 0.021817417116835713
+    },
+    {
+      "key": "language_model.model.layers.3.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002824353752657771,
+      "decomposition_s": 0.02207353594712913
+    },
+    {
+      "key": "language_model.model.layers.30.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028723878785967827,
+      "decomposition_s": 0.025271523976698518
+    },
+    {
+      "key": "language_model.model.layers.30.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028533218428492546,
+      "decomposition_s": 0.02545337495394051
+    },
+    {
+      "key": "language_model.model.layers.30.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.00282952724955976,
+      "decomposition_s": 0.02548988605849445
+    },
+    {
+      "key": "language_model.model.layers.30.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002910596551373601,
+      "decomposition_s": 0.021838311105966568
+    },
+    {
+      "key": "language_model.model.layers.30.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002822369337081909,
+      "decomposition_s": 0.021904197987169027
+    },
+    {
+      "key": "language_model.model.layers.30.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002894967095926404,
+      "decomposition_s": 0.021865928079932928
+    },
+    {
+      "key": "language_model.model.layers.30.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002813964383676648,
+      "decomposition_s": 0.021894758101552725
+    },
+    {
+      "key": "language_model.model.layers.31.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028925847727805376,
+      "decomposition_s": 0.025257732952013612
+    },
+    {
+      "key": "language_model.model.layers.31.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002846118761226535,
+      "decomposition_s": 0.025530621875077486
+    },
+    {
+      "key": "language_model.model.layers.31.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028364979662001133,
+      "decomposition_s": 0.0255623331759125
+    },
+    {
+      "key": "language_model.model.layers.31.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002912121592089534,
+      "decomposition_s": 0.02217900613322854
+    },
+    {
+      "key": "language_model.model.layers.31.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002804727293550968,
+      "decomposition_s": 0.02206806605681777
+    },
+    {
+      "key": "language_model.model.layers.31.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0029132403433322906,
+      "decomposition_s": 0.021842247107997537
+    },
+    {
+      "key": "language_model.model.layers.31.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028153578750789165,
+      "decomposition_s": 0.021985187893733382
+    },
+    {
+      "key": "language_model.model.layers.4.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002842661226168275,
+      "decomposition_s": 0.025408801855519414
+    },
+    {
+      "key": "language_model.model.layers.4.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028526769019663334,
+      "decomposition_s": 0.025499068899080157
+    },
+    {
+      "key": "language_model.model.layers.4.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002855943748727441,
+      "decomposition_s": 0.025553500978276134
+    },
+    {
+      "key": "language_model.model.layers.4.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028536194004118443,
+      "decomposition_s": 0.02184570301324129
+    },
+    {
+      "key": "language_model.model.layers.4.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028349366039037704,
+      "decomposition_s": 0.02194106113165617
+    },
+    {
+      "key": "language_model.model.layers.4.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002861419226974249,
+      "decomposition_s": 0.021762953838333488
+    },
+    {
+      "key": "language_model.model.layers.4.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028259558603167534,
+      "decomposition_s": 0.021887878887355328
+    },
+    {
+      "key": "language_model.model.layers.5.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028452679980546236,
+      "decomposition_s": 0.025281700072810054
+    },
+    {
+      "key": "language_model.model.layers.5.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028639505617320538,
+      "decomposition_s": 0.025496765971183777
+    },
+    {
+      "key": "language_model.model.layers.5.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028670167084783316,
+      "decomposition_s": 0.025586268166080117
+    },
+    {
+      "key": "language_model.model.layers.5.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028396304696798325,
+      "decomposition_s": 0.021899014012888074
+    },
+    {
+      "key": "language_model.model.layers.5.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002814395120367408,
+      "decomposition_s": 0.021884710993617773
+    },
+    {
+      "key": "language_model.model.layers.5.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028429380618035793,
+      "decomposition_s": 0.021907045040279627
+    },
+    {
+      "key": "language_model.model.layers.5.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002825242467224598,
+      "decomposition_s": 0.022134271916002035
+    },
+    {
+      "key": "language_model.model.layers.6.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.002842841437086463,
+      "decomposition_s": 0.025303362868726254
+    },
+    {
+      "key": "language_model.model.layers.6.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028632094617933035,
+      "decomposition_s": 0.025447167921811342
+    },
+    {
+      "key": "language_model.model.layers.6.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028543577063828707,
+      "decomposition_s": 0.025542299961671233
+    },
+    {
+      "key": "language_model.model.layers.6.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028302522841840982,
+      "decomposition_s": 0.021846249932423234
+    },
+    {
+      "key": "language_model.model.layers.6.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002818279666826129,
+      "decomposition_s": 0.022170207928866148
+    },
+    {
+      "key": "language_model.model.layers.6.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002827873919159174,
+      "decomposition_s": 0.02182532288134098
+    },
+    {
+      "key": "language_model.model.layers.6.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002817391185089946,
+      "decomposition_s": 0.022150016855448484
+    },
+    {
+      "key": "language_model.model.layers.7.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028473855927586555,
+      "decomposition_s": 0.02531959000043571
+    },
+    {
+      "key": "language_model.model.layers.7.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002860849257558584,
+      "decomposition_s": 0.025550239020958543
+    },
+    {
+      "key": "language_model.model.layers.7.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002862109337002039,
+      "decomposition_s": 0.025736953131854534
+    },
+    {
+      "key": "language_model.model.layers.7.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028609116561710835,
+      "decomposition_s": 0.021943046944215894
+    },
+    {
+      "key": "language_model.model.layers.7.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028305230662226677,
+      "decomposition_s": 0.021971429930999875
+    },
+    {
+      "key": "language_model.model.layers.7.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028421198949217796,
+      "decomposition_s": 0.021776843816041946
+    },
+    {
+      "key": "language_model.model.layers.7.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002817912492901087,
+      "decomposition_s": 0.02195850294083357
+    },
+    {
+      "key": "language_model.model.layers.8.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028439383022487164,
+      "decomposition_s": 0.025233000051230192
+    },
+    {
+      "key": "language_model.model.layers.8.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.0028771176002919674,
+      "decomposition_s": 0.02557443012483418
+    },
+    {
+      "key": "language_model.model.layers.8.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.00286590657196939,
+      "decomposition_s": 0.025450177025049925
+    },
+    {
+      "key": "language_model.model.layers.8.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002841182751581073,
+      "decomposition_s": 0.02174026914872229
+    },
+    {
+      "key": "language_model.model.layers.8.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002824079245328903,
+      "decomposition_s": 0.02188237593509257
+    },
+    {
+      "key": "language_model.model.layers.8.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002840691478922963,
+      "decomposition_s": 0.021871977020055056
+    },
+    {
+      "key": "language_model.model.layers.8.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028225097339600325,
+      "decomposition_s": 0.021947366883978248
+    },
+    {
+      "key": "language_model.model.layers.9.mlp.down_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        11008
+      ],
+      "merged_relative_l2": 0.0028495474252849817,
+      "decomposition_s": 0.025371555937454104
+    },
+    {
+      "key": "language_model.model.layers.9.mlp.gate_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002875514794141054,
+      "decomposition_s": 0.02548278495669365
+    },
+    {
+      "key": "language_model.model.layers.9.mlp.up_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        11008,
+        4096
+      ],
+      "merged_relative_l2": 0.002865804359316826,
+      "decomposition_s": 0.025505600031465292
+    },
+    {
+      "key": "language_model.model.layers.9.self_attn.k_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028655414935201406,
+      "decomposition_s": 0.021769451908767223
+    },
+    {
+      "key": "language_model.model.layers.9.self_attn.o_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028305083978921175,
+      "decomposition_s": 0.022075971122831106
+    },
+    {
+      "key": "language_model.model.layers.9.self_attn.q_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028544573578983545,
+      "decomposition_s": 0.021873448975384235
+    },
+    {
+      "key": "language_model.model.layers.9.self_attn.v_proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.0028280660044401884,
+      "decomposition_s": 0.021916519850492477
+    },
+    {
+      "key": "projector.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        8704,
+        2176
+      ],
+      "merged_relative_l2": 0.00287906127050519,
+      "decomposition_s": 0.02484686695970595
+    },
+    {
+      "key": "projector.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        8704
+      ],
+      "merged_relative_l2": 0.002930525690317154,
+      "decomposition_s": 0.025121932150796056
+    },
+    {
+      "key": "projector.fc3.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "merged_relative_l2": 0.002880545798689127,
+      "decomposition_s": 0.02208397095091641
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.0.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0025702076964080334,
+      "decomposition_s": 0.0165643859654665
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.0.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0025788284838199615,
+      "decomposition_s": 0.01932443492114544
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.0.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027502465527504683,
+      "decomposition_s": 0.01912959199398756
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.0.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002717037685215473,
+      "decomposition_s": 0.018832895904779434
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.1.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002603925531730056,
+      "decomposition_s": 0.016233963193371892
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.1.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027183385100215673,
+      "decomposition_s": 0.019326418871060014
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.1.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027482949662953615,
+      "decomposition_s": 0.019411504035815597
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.1.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002738505369052291,
+      "decomposition_s": 0.018850784981623292
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.10.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002669557696208358,
+      "decomposition_s": 0.01646611699834466
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.10.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027552463579922915,
+      "decomposition_s": 0.01902911509387195
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.10.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002767720492556691,
+      "decomposition_s": 0.01907762512564659
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.10.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027566917706280947,
+      "decomposition_s": 0.018688069190829992
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.11.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026681763119995594,
+      "decomposition_s": 0.01627383497543633
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.11.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.00275007588788867,
+      "decomposition_s": 0.018981373170390725
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.11.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002770122140645981,
+      "decomposition_s": 0.01937044900842011
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.11.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002764212666079402,
+      "decomposition_s": 0.018864447018131614
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.12.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026605501770973206,
+      "decomposition_s": 0.016193099785596132
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.12.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027437787503004074,
+      "decomposition_s": 0.019198101945221424
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.12.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002768064383417368,
+      "decomposition_s": 0.01933134696446359
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.12.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027481059078127146,
+      "decomposition_s": 0.01902281097136438
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.13.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026583459693938494,
+      "decomposition_s": 0.016491140006110072
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.13.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.002753258915618062,
+      "decomposition_s": 0.01914389617741108
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.13.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002775541739538312,
+      "decomposition_s": 0.01912648812867701
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.13.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027519904542714357,
+      "decomposition_s": 0.018681572983041406
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.14.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026678121648728848,
+      "decomposition_s": 0.016324040945619345
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.14.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027538526337593794,
+      "decomposition_s": 0.019010300049558282
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.14.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.00277325720526278,
+      "decomposition_s": 0.019064538180828094
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.14.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027563965413719416,
+      "decomposition_s": 0.018947229022160172
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.15.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002653106115758419,
+      "decomposition_s": 0.01648595603182912
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.15.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027455706149339676,
+      "decomposition_s": 0.019092665053904057
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.15.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027740681543946266,
+      "decomposition_s": 0.019101849058642983
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.15.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002747146412730217,
+      "decomposition_s": 0.01869520405307412
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.16.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026600630953907967,
+      "decomposition_s": 0.016237387200817466
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.16.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027396036311984062,
+      "decomposition_s": 0.019121656892821193
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.16.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027676972094923258,
+      "decomposition_s": 0.019308659015223384
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.16.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027456162497401237,
+      "decomposition_s": 0.018847104161977768
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.17.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002657685661688447,
+      "decomposition_s": 0.016264457954093814
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.17.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027428448665887117,
+      "decomposition_s": 0.01897193188779056
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.17.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027694469317793846,
+      "decomposition_s": 0.019151959102600813
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.17.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027469403576105833,
+      "decomposition_s": 0.01865491713397205
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.18.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026455482002347708,
+      "decomposition_s": 0.016285001998767257
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.18.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027445699088275433,
+      "decomposition_s": 0.019133560126647353
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.18.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.00277239503338933,
+      "decomposition_s": 0.019248628988862038
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.18.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002738197799772024,
+      "decomposition_s": 0.018929885933175683
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.19.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002653489587828517,
+      "decomposition_s": 0.016367144184187055
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.19.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.002745046280324459,
+      "decomposition_s": 0.01933531416580081
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.19.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027709840796887875,
+      "decomposition_s": 0.019161720061674714
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.19.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027435559313744307,
+      "decomposition_s": 0.018858496099710464
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.2.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026210988871753216,
+      "decomposition_s": 0.016543843084946275
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.2.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.002700090641155839,
+      "decomposition_s": 0.019325394881889224
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.2.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027430877089500427,
+      "decomposition_s": 0.019104856997728348
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.2.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002739741001278162,
+      "decomposition_s": 0.01885583996772766
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.20.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002660739002749324,
+      "decomposition_s": 0.016598465153947473
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.20.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027459023986011744,
+      "decomposition_s": 0.019300914835184813
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.20.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027747496496886015,
+      "decomposition_s": 0.019270643824711442
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.20.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027549215592443943,
+      "decomposition_s": 0.018905790988355875
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.21.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026425046380609274,
+      "decomposition_s": 0.01639712695032358
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.21.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027379440143704414,
+      "decomposition_s": 0.01909608906134963
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.21.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002772646490484476,
+      "decomposition_s": 0.019296532031148672
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.21.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027332897298038006,
+      "decomposition_s": 0.01895654108375311
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.22.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002634270815178752,
+      "decomposition_s": 0.016408775001764297
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.22.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.002735428512096405,
+      "decomposition_s": 0.019219669979065657
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.22.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.002763281110674143,
+      "decomposition_s": 0.019217718159779906
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.22.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027232402935624123,
+      "decomposition_s": 0.018743937835097313
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.23.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0023998671676963568
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.23.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0029482028912752867
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.23.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0031863718759268522
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.23.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0037892030086368322
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.3.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026224360335618258,
+      "decomposition_s": 0.016550722997635603
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.3.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.002720464253798127,
+      "decomposition_s": 0.019140118965879083
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.3.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027501725126057863,
+      "decomposition_s": 0.019090168876573443
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.3.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027497373521327972,
+      "decomposition_s": 0.01882745698094368
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.4.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026646205224096775,
+      "decomposition_s": 0.016406982904300094
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.4.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027552235405892134,
+      "decomposition_s": 0.019029050832614303
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.4.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027595607098191977,
+      "decomposition_s": 0.019101592944934964
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.4.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002742017386481166,
+      "decomposition_s": 0.01865299791097641
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.5.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026384168304502964,
+      "decomposition_s": 0.016189645044505596
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.5.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027400015387684107,
+      "decomposition_s": 0.01904905098490417
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.5.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027487087063491344,
+      "decomposition_s": 0.019136535935103893
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.5.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002747207647189498,
+      "decomposition_s": 0.018736867932602763
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.6.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002657203236594796,
+      "decomposition_s": 0.0162377399392426
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.6.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027610277757048607,
+      "decomposition_s": 0.019237717147916555
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.6.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027488525956869125,
+      "decomposition_s": 0.019282163120806217
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.6.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002754035172984004,
+      "decomposition_s": 0.01889075106009841
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.7.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026702950708568096,
+      "decomposition_s": 0.016375079983845353
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.7.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027613556012511253,
+      "decomposition_s": 0.01893366198055446
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.7.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027588510420173407,
+      "decomposition_s": 0.019376944983378053
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.7.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027560179587453604,
+      "decomposition_s": 0.018664006143808365
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.8.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.0026783468201756477,
+      "decomposition_s": 0.016528066946193576
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.8.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027558719739317894,
+      "decomposition_s": 0.019146359991282225
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.8.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027704578824341297,
+      "decomposition_s": 0.019142326898872852
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.8.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.0027555597480386496,
+      "decomposition_s": 0.018691940000280738
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.9.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        1024
+      ],
+      "merged_relative_l2": 0.002670988440513611,
+      "decomposition_s": 0.016490116016939282
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.9.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3072,
+        1024
+      ],
+      "merged_relative_l2": 0.0027527662459760904,
+      "decomposition_s": 0.019204852869734168
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.9.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4096,
+        1024
+      ],
+      "merged_relative_l2": 0.0027691195718944073,
+      "decomposition_s": 0.019089977024123073
+    },
+    {
+      "key": "vision_backbone.featurizer.blocks.9.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "merged_relative_l2": 0.002755765337496996,
+      "decomposition_s": 0.018577735871076584
+    },
+    {
+      "key": "vision_backbone.featurizer.patch_embed.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1024,
+        3,
+        14,
+        14
+      ],
+      "merged_relative_l2": 0.002532833255827427,
+      "decomposition_s": 0.041991204023361206
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.attn_pool.kv.weight",
+      "rank": 64,
+      "weight_shape": [
+        2304,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0031804521568119526
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.attn_pool.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.003535290015861392
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.attn_pool.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0037850108928978443
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.attn_pool.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0029059001244604588
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.attn_pool.q.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.0029221230652183294
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.0.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027424406725913286,
+      "decomposition_s": 0.018665541894733906
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.0.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0026898523792624474,
+      "decomposition_s": 0.020859334152191877
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.0.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0027179704047739506,
+      "decomposition_s": 0.02196634281426668
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.0.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002766088582575321,
+      "decomposition_s": 0.021241019014269114
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.1.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0028585318941622972,
+      "decomposition_s": 0.018703653011471033
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.1.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.002798883942887187,
+      "decomposition_s": 0.020028478000313044
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.1.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002794177271425724,
+      "decomposition_s": 0.02161169587634504
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.1.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027891031932085752,
+      "decomposition_s": 0.021035233046859503
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.10.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002733178436756134,
+      "decomposition_s": 0.018807457061484456
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.10.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028001454193145037,
+      "decomposition_s": 0.020216024946421385
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.10.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028166454285383224,
+      "decomposition_s": 0.02158033801242709
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.10.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0028029445093125105,
+      "decomposition_s": 0.021303224842995405
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.11.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027345619164407253,
+      "decomposition_s": 0.018547753104940057
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.11.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027968152426183224,
+      "decomposition_s": 0.020020799012854695
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.11.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002808924298733473,
+      "decomposition_s": 0.021747980965301394
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.11.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027805923018604517,
+      "decomposition_s": 0.02118806098587811
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.12.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002729353727772832,
+      "decomposition_s": 0.018560905009508133
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.12.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027960531879216433,
+      "decomposition_s": 0.02006866899318993
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.12.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028122616931796074,
+      "decomposition_s": 0.021771851927042007
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.12.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002778321737423539,
+      "decomposition_s": 0.021149469073861837
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.13.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027315106708556414,
+      "decomposition_s": 0.01875152299180627
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.13.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.002795836189761758,
+      "decomposition_s": 0.02030591107904911
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.13.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028066779486835003,
+      "decomposition_s": 0.02170657296665013
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.13.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027795161586254835,
+      "decomposition_s": 0.02135023195296526
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.14.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002731430111452937,
+      "decomposition_s": 0.018490346847102046
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.14.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027924885507673025,
+      "decomposition_s": 0.02004230208694935
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.14.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002811460057273507,
+      "decomposition_s": 0.021650223061442375
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.14.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002778712660074234,
+      "decomposition_s": 0.021180317038670182
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.15.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002743692370131612,
+      "decomposition_s": 0.018725635949522257
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.15.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027989528607577085,
+      "decomposition_s": 0.02028527087531984
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.15.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028067382518202066,
+      "decomposition_s": 0.02149445191025734
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.15.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027829527389258146,
+      "decomposition_s": 0.021137214032933116
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.16.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002730319742113352,
+      "decomposition_s": 0.0185753358528018
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.16.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028046048246324062,
+      "decomposition_s": 0.020065980963408947
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.16.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0027303569950163364,
+      "decomposition_s": 0.0214239580091089
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.16.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0028084598015993834,
+      "decomposition_s": 0.021438229829072952
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.17.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027489473577588797,
+      "decomposition_s": 0.01888678316026926
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.17.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028075678274035454,
+      "decomposition_s": 0.02007481292821467
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.17.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0024527644272893667,
+      "decomposition_s": 0.021498740185052156
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.17.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002800749382004142,
+      "decomposition_s": 0.02112351916730404
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.18.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002742196898907423,
+      "decomposition_s": 0.018868703860789537
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.18.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028021386824548244,
+      "decomposition_s": 0.020171961979940534
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.18.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002277341904118657,
+      "decomposition_s": 0.021588497096672654
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.18.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002792270388454199,
+      "decomposition_s": 0.021110303001478314
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.19.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002718786709010601,
+      "decomposition_s": 0.01852513011544943
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.19.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.002801113063469529,
+      "decomposition_s": 0.020084955962374806
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.19.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0017752049025148153,
+      "decomposition_s": 0.021480723982676864
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.19.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027768847066909075,
+      "decomposition_s": 0.021097854943946004
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.2.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002726526465266943,
+      "decomposition_s": 0.01858631195500493
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.2.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027849464677274227,
+      "decomposition_s": 0.020017439033836126
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.2.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002788498532027006,
+      "decomposition_s": 0.021723854122683406
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.2.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027987726498395205,
+      "decomposition_s": 0.021193756954744458
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.20.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027331027667969465,
+      "decomposition_s": 0.018815936986356974
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.20.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.00279904599301517,
+      "decomposition_s": 0.020187641959637403
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.20.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.001394537859596312,
+      "decomposition_s": 0.021655728109180927
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.20.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027664098888635635,
+      "decomposition_s": 0.021206267876550555
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.21.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002701657358556986,
+      "decomposition_s": 0.018695683917030692
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.21.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027893807273358107,
+      "decomposition_s": 0.02029608702287078
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.21.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0010136027121916413,
+      "decomposition_s": 0.021787883946672082
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.21.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027534880209714174,
+      "decomposition_s": 0.021371575072407722
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.22.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002707935171201825,
+      "decomposition_s": 0.01868528500199318
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.22.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.002789607271552086,
+      "decomposition_s": 0.020450834184885025
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.22.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0006687081186100841,
+      "decomposition_s": 0.021565170027315617
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.22.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002742725657299161,
+      "decomposition_s": 0.021243771072477102
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.23.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002698831493034959,
+      "decomposition_s": 0.018579112133011222
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.23.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027952250093221664,
+      "decomposition_s": 0.020010974956676364
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.23.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0006227042758837342,
+      "decomposition_s": 0.021638416219502687
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.23.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027443754952400923,
+      "decomposition_s": 0.02126274607144296
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.24.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0026653476525098085,
+      "decomposition_s": 0.018807040993124247
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.24.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.002777772257104516,
+      "decomposition_s": 0.02026139898225665
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.24.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0007525735418312252,
+      "decomposition_s": 0.021485781064257026
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.24.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027465445455163717,
+      "decomposition_s": 0.020982371177524328
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.25.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0026506339199841022,
+      "decomposition_s": 0.018634982174262404
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.25.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027538060676306486,
+      "decomposition_s": 0.020178393926471472
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.25.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0012942817993462086,
+      "decomposition_s": 0.021481460193172097
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.25.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027372862678021193,
+      "decomposition_s": 0.021202747942879796
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.26.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.002914859913289547
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.26.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.003255074145272374
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.26.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.003537242067977786
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.26.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0,
+      "decomposition_s": 0.003932910040020943
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.3.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027566226199269295,
+      "decomposition_s": 0.018585063982754946
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.3.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027986487839370966,
+      "decomposition_s": 0.02008697297424078
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.3.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002810999285429716,
+      "decomposition_s": 0.021394518902525306
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.3.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027937896084040403,
+      "decomposition_s": 0.0211258539929986
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.4.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002753055654466152,
+      "decomposition_s": 0.01857840782031417
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.4.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028022215701639652,
+      "decomposition_s": 0.020146874012425542
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.4.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002815623302012682,
+      "decomposition_s": 0.02155739418230951
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.4.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002788209356367588,
+      "decomposition_s": 0.021095966920256615
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.5.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002771580358967185,
+      "decomposition_s": 0.018723971908912063
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.5.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028065829537808895,
+      "decomposition_s": 0.020238487981259823
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.5.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028154903557151556,
+      "decomposition_s": 0.0214973958209157
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.5.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002794056897982955,
+      "decomposition_s": 0.021486612036824226
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.6.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027444171719253063,
+      "decomposition_s": 0.018563017016276717
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.6.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0028045445214957,
+      "decomposition_s": 0.02029838995076716
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.6.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028125490061938763,
+      "decomposition_s": 0.021603632951155305
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.6.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002797364490106702,
+      "decomposition_s": 0.021261914866045117
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.7.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.0027450162451714277,
+      "decomposition_s": 0.01880310522392392
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.7.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.00280359061434865,
+      "decomposition_s": 0.02009849203750491
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.7.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.00281275762245059,
+      "decomposition_s": 0.021725293016061187
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.7.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027887108735740185,
+      "decomposition_s": 0.021317529026418924
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.8.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002731560030952096,
+      "decomposition_s": 0.01872688392177224
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.8.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027738274075090885,
+      "decomposition_s": 0.02020050515420735
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.8.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.0028198580257594585,
+      "decomposition_s": 0.02179492311552167
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.8.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.0027958343271166086,
+      "decomposition_s": 0.021023233188316226
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.9.attn.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        1152
+      ],
+      "merged_relative_l2": 0.002738840412348509,
+      "decomposition_s": 0.018540841061621904
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.9.attn.qkv.weight",
+      "rank": 64,
+      "weight_shape": [
+        3456,
+        1152
+      ],
+      "merged_relative_l2": 0.0027981821913272142,
+      "decomposition_s": 0.02002348587848246
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.9.mlp.fc1.weight",
+      "rank": 64,
+      "weight_shape": [
+        4304,
+        1152
+      ],
+      "merged_relative_l2": 0.002814137376844883,
+      "decomposition_s": 0.021452276967465878
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.blocks.9.mlp.fc2.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        4304
+      ],
+      "merged_relative_l2": 0.002801105147227645,
+      "decomposition_s": 0.02118396502919495
+    },
+    {
+      "key": "vision_backbone.fused_featurizer.patch_embed.proj.weight",
+      "rank": 64,
+      "weight_shape": [
+        1152,
+        3,
+        14,
+        14
+      ],
+      "merged_relative_l2": 0.0025502925273030996,
+      "decomposition_s": 0.01851197797805071
+    }
+  ],
+  "ab_parameters": 221656576
+}

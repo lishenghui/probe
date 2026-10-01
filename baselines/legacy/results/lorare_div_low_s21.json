@@ -1,0 +1,70 @@
+[
+  {
+    "task": "natural_questions_10templates",
+    "short": "natural_questions",
+    "S": 0.00671669961850207,
+    "prompts": 50,
+    "gen_tokens": 898,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.34030964167091626,
+        "rank_frac": 0.1796875,
+        "d_prompt": 0.00022220498267451415,
+        "d_out": 0.00015922182026725752,
+        "prompt_positions": 1018,
+        "out_positions": 898
+      },
+      "e70": {
+        "L_W": 0.3810716113409674,
+        "rank_frac": 0.146484375,
+        "d_prompt": 0.0004071225091990647,
+        "d_out": 0.00030404590197293327,
+        "prompt_positions": 1018,
+        "out_positions": 898
+      },
+      "e50": {
+        "L_W": 0.40791962034629253,
+        "rank_frac": 0.12890625,
+        "d_prompt": 0.000529925590509106,
+        "d_out": 0.00039285277706137413,
+        "prompt_positions": 1018,
+        "out_positions": 898
+      }
+    }
+  },
+  {
+    "task": "wnli_10templates",
+    "short": "wnli",
+    "S": 0.011281370575334085,
+    "prompts": 50,
+    "gen_tokens": 60,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.29078263761153733,
+        "rank_frac": 0.171875,
+        "d_prompt": 0.0019311955781130415,
+        "d_out": 0.010822229657424031,
+        "prompt_positions": 3137,
+        "out_positions": 60
+      },
+      "e70": {
+        "L_W": 0.36233881427722736,
+        "rank_frac": 0.13671875,
+        "d_prompt": 0.004518504379507763,
+        "d_out": 0.037350986250385174,
+        "prompt_positions": 3137,
+        "out_positions": 60
+      },
+      "e50": {
+        "L_W": 0.38126601694642315,
+        "rank_frac": 0.125,
+        "d_prompt": 0.006720486134148191,
+        "d_out": 0.04950866723132397,
+        "prompt_positions": 3137,
+        "out_positions": 60
+      }
+    }
+  }
+]

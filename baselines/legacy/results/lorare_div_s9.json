@@ -1,0 +1,70 @@
+[
+  {
+    "task": "cosmos_qa_10templates",
+    "short": "cosmos_qa",
+    "S": 0.006977645575778585,
+    "prompts": 50,
+    "gen_tokens": 374,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08063846174039978,
+        "rank_frac": 0.7578125,
+        "d_prompt": 5.187851822113515e-07,
+        "d_out": 1.7342369109401796e-06,
+        "prompt_positions": 7032,
+        "out_positions": 374
+      },
+      "e95": {
+        "L_W": 0.18546399024230417,
+        "rank_frac": 0.41796875,
+        "d_prompt": 1.6658685327188637e-05,
+        "d_out": 6.928572305608889e-05,
+        "prompt_positions": 7032,
+        "out_positions": 374
+      },
+      "e90": {
+        "L_W": 0.24924673115769153,
+        "rank_frac": 0.287109375,
+        "d_prompt": 6.236015822721457e-05,
+        "d_out": 0.00023036531124757056,
+        "prompt_positions": 7032,
+        "out_positions": 374
+      }
+    }
+  },
+  {
+    "task": "sst2_10templates",
+    "short": "sst2",
+    "S": 0.006794674340591948,
+    "prompts": 50,
+    "gen_tokens": 101,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08290392393920404,
+        "rank_frac": 0.732421875,
+        "d_prompt": 1.9017344140048635e-06,
+        "d_out": 9.654017261628624e-06,
+        "prompt_positions": 2719,
+        "out_positions": 101
+      },
+      "e95": {
+        "L_W": 0.19123963379533074,
+        "rank_frac": 0.3671875,
+        "d_prompt": 2.9401462732356296e-05,
+        "d_out": 0.00034321397844797676,
+        "prompt_positions": 2719,
+        "out_positions": 101
+      },
+      "e90": {
+        "L_W": 0.2553705322848018,
+        "rank_frac": 0.244140625,
+        "d_prompt": 0.00014362467278881562,
+        "d_out": 0.0019251429957786049,
+        "prompt_positions": 2719,
+        "out_positions": 101
+      }
+    }
+  }
+]

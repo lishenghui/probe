@@ -1,0 +1,44 @@
+[
+  {
+    "task": "glue_mrpc_10templates",
+    "short": "glue_mrpc",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense": {
+        "L_W": 0.20837518370713923,
+        "rank_frac": 0.40625,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "yelp_polarity_reviews_10templates",
+    "short": "yelp_polarity_reviews",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.058823529411764705,
+    "metric_orig": 0.4117647058823529,
+    "headroom": 0.3529411764705882,
+    "variants": {
+      "dense": {
+        "L_W": 0.30747441256319485,
+        "rank_frac": 0.255859375,
+        "metric_value": 0.35294117647058826,
+        "retained": 0.8333333333333335
+      }
+    }
+  }
+]

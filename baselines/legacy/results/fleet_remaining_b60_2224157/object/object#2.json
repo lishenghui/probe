@@ -1,0 +1,31 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b60/object",
+  "episodes": 8,
+  "task": "pick up the alphabet soup and place it in the basket",
+  "load_s": 86.7,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 25.98,
+  "policy_calls": 19,
+  "s_per_episode": 3.25,
+  "label": "object#2",
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+  "adapter_mode": "anchored",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object",
+  "anchor": {
+    "formula": "W_published + delta_variant - delta_reference",
+    "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/lora_adapter",
+    "modules": 439,
+    "changed_modules": 439
+  }
+}

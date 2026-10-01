@@ -1,0 +1,274 @@
+[
+  {
+    "adapter": "task0704",
+    "S": 0.019509197068532765,
+    "task": 704,
+    "dataset": "Lots-of-LoRAs/task704_mmmlu_answer_generation_high_school_government_and_politics",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9303385416666666,
+        "d_prompt": 7.1920703703654e-07,
+        "d_out": 2.751891656771477e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.7135416666666666,
+        "d_prompt": 7.768698560539633e-06,
+        "d_out": 2.862881046894472e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.5546875,
+        "d_prompt": 3.2012222800403836e-05,
+        "d_out": 9.545632565277629e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task0778",
+    "S": 0.02326880978730321,
+    "task": 778,
+    "dataset": "Lots-of-LoRAs/task778_pawsx_english_french_translation",
+    "prompts": 48,
+    "gen_tokens": 384,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9635416666666666,
+        "d_prompt": 5.351334948500153e-07,
+        "d_out": 2.407134047643922e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 384
+      },
+      "e95": {
+        "rank_frac": 0.7805989583333334,
+        "d_prompt": 1.0674764052964746e-05,
+        "d_out": 8.419424375460949e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 384
+      },
+      "e90": {
+        "rank_frac": 0.6321614583333334,
+        "d_prompt": 4.710063221864402e-05,
+        "d_out": 1.7178441339638084e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 384
+      }
+    }
+  },
+  {
+    "adapter": "task0926",
+    "S": 0.031015870595037215,
+    "task": 926,
+    "dataset": "Lots-of-LoRAs/task926_coached_conv_pref_word_generation",
+    "prompts": 48,
+    "gen_tokens": 963,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9140625,
+        "d_prompt": 4.688473701732394e-06,
+        "d_out": 1.4739410983916881e-06,
+        "flip_out": 0.005192107995846314,
+        "prompt_positions": 15348,
+        "out_positions": 963
+      },
+      "e95": {
+        "rank_frac": 0.6692708333333334,
+        "d_prompt": 6.633203191226866e-05,
+        "d_out": 1.9168897296405753e-05,
+        "flip_out": 0.005192107995846314,
+        "prompt_positions": 15348,
+        "out_positions": 963
+      },
+      "e90": {
+        "rank_frac": 0.50390625,
+        "d_prompt": 0.00031419183815212216,
+        "d_out": 7.87352656043613e-05,
+        "flip_out": 0.01142263759086189,
+        "prompt_positions": 15348,
+        "out_positions": 963
+      }
+    }
+  },
+  {
+    "adapter": "task1518",
+    "S": 0.0409681939945328,
+    "task": 1518,
+    "dataset": "Lots-of-LoRAs/task1518_limit_answer_generation",
+    "prompts": 48,
+    "gen_tokens": 141,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9147135416666666,
+        "d_prompt": 3.3926763666233825e-06,
+        "d_out": 2.4402733367314278e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 14941,
+        "out_positions": 141
+      },
+      "e95": {
+        "rank_frac": 0.662109375,
+        "d_prompt": 5.7243417603656334e-05,
+        "d_out": 5.160720390404417e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 14941,
+        "out_positions": 141
+      },
+      "e90": {
+        "rank_frac": 0.4915364583333333,
+        "d_prompt": 0.0001991951907824404,
+        "d_out": 0.00021284224844716427,
+        "flip_out": 0.02127659574468085,
+        "prompt_positions": 14941,
+        "out_positions": 141
+      }
+    }
+  },
+  {
+    "adapter": "task0297",
+    "S": 0.05343672710148084,
+    "task": 297,
+    "dataset": "Lots-of-LoRAs/task297_storycloze_incorrect_end_classification",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.908203125,
+        "d_prompt": 8.16021129139699e-06,
+        "d_out": 3.6373967304825783e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.66015625,
+        "d_prompt": 0.00011304495856165886,
+        "d_out": 4.00396493205335e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.4889322916666667,
+        "d_prompt": 0.00048032142221927644,
+        "d_out": 2.2551455913344398e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task0593",
+    "S": 0.07566757631169947,
+    "task": 593,
+    "dataset": "Lots-of-LoRAs/task593_sciq_explanation_generation",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9466145833333334,
+        "d_prompt": 5.3954699978930876e-06,
+        "d_out": 4.300377895560814e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.7317708333333334,
+        "d_prompt": 0.00012072604149580002,
+        "d_out": 0.00010580461093923077,
+        "flip_out": 0.03125,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.5703125,
+        "d_prompt": 0.0003692579921334982,
+        "d_out": 0.0002562700829003006,
+        "flip_out": 0.0625,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task1444",
+    "S": 0.1144119622340522,
+    "task": 1444,
+    "dataset": "Lots-of-LoRAs/task1444_round_power_of_two",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8372395833333334,
+        "d_prompt": 7.774095865897834e-05,
+        "d_out": 0.0001705756294541061,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.533203125,
+        "d_prompt": 0.001454594172537327,
+        "d_out": 0.0032061166130006313,
+        "flip_out": 0.03125,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.37109375,
+        "d_prompt": 0.00474812388420105,
+        "d_out": 0.010532515123486519,
+        "flip_out": 0.0625,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task0852",
+    "S": 0.15882629286551075,
+    "task": 852,
+    "dataset": "Lots-of-LoRAs/task852_synthetic_multiply_odds",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8723958333333334,
+        "d_prompt": 0.00012076809071004391,
+        "d_out": 8.027785224840045e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.5911458333333334,
+        "d_prompt": 0.0008413957431912423,
+        "d_out": 0.004445570521056652,
+        "flip_out": 0.0625,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.4375,
+        "d_prompt": 0.002422337979078293,
+        "d_out": 0.015238498337566853,
+        "flip_out": 0.0625,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  }
+]

@@ -1,0 +1,90 @@
+{
+ "definition": "per-statistic best achievable over the candidate union at each budget; entries in one row may come from different allocations",
+ "candidate_union": [
+  "Uniform",
+  "Threshold-grid",
+  "Intra-Spec",
+  "E2E-Spec",
+  "FuncDP",
+  "FRA"
+ ],
+ "full_rank_capacity_per_adapter": {
+  "land": 512,
+  "cts": 1536,
+  "lorare": 512
+ },
+ "sources": {
+  "land": {
+   "Intra-Spec": "intraspec_eval",
+   "E2E-Spec": "spec512_eval",
+   "FuncDP": "funcdp0_eval",
+   "FRA": "fra_clean_eval"
+  },
+  "cts": {
+   "Intra-Spec": "intraspec_eval",
+   "E2E-Spec": "fra_rungs_eval",
+   "FuncDP": "funcdp0_eval",
+   "FRA": "fra_clean_eval"
+  },
+  "lorare": {
+   "Intra-Spec": "intraspec_eval",
+   "E2E-Spec": "fra_rungs_eval",
+   "FuncDP": "funcdp0_eval",
+   "FRA": "fra_clean_eval"
+  }
+ },
+ "note": "fra_rungs_eval is STALE for land (k=256 cap); land E2E-Spec must come from spec512_eval",
+ "results": {
+  "land": {
+   "2289": {
+    "mean": 1.0093111836352924,
+    "p10": 0.9897959183673469,
+    "worst": 0.9655172413793103
+   },
+   "1321": {
+    "mean": 0.9826884744587457,
+    "p10": 0.9489795918367346,
+    "worst": 0.8793103448275861
+   },
+   "943": {
+    "mean": 0.9209948106926235,
+    "p10": 0.8781417510422865,
+    "worst": 0.6724137931034481
+   }
+  },
+  "cts": {
+   "19202": {
+    "mean": 1.03286831715563,
+    "p10": 1.0,
+    "worst": 1.0
+   },
+   "8811": {
+    "mean": 1.0169957328164332,
+    "p10": 0.9737198073609064,
+    "worst": 0.9548662486002483
+   },
+   "4924": {
+    "mean": 0.9983954084020266,
+    "p10": 0.9225579184274424,
+    "worst": 0.8773827282777151
+   }
+  },
+  "lorare": {
+   "5880": {
+    "mean": 0.9862660511610627,
+    "p10": 0.8967206768361012,
+    "worst": 0.7500000000000001
+   },
+   "3191": {
+    "mean": 0.9332869369586042,
+    "p10": 0.7841153762512172,
+    "worst": 0.5
+   },
+   "2683": {
+    "mean": 0.8742561893092963,
+    "p10": 0.6666666666666667,
+    "worst": 0.25
+   }
+  }
+ }
+}

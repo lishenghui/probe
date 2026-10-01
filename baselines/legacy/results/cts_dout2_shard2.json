@@ -1,0 +1,161 @@
+[
+  {
+    "adapter": "task0963",
+    "S": 0.020012099966760486,
+    "task": 963,
+    "dataset": "Lots-of-LoRAs/task963_librispeech_asr_next_word_prediction",
+    "split": "test",
+    "prompts": 15,
+    "gen_tokens": 30,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9388020833333334,
+        "L_W": 0.07241502126658994,
+        "d_prompt": 1.1872024189634976e-06,
+        "d_out": 7.029666808951636e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 2113,
+        "out_positions": 30,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 3.4897541999816895,
+        "median_erosion": 0.0010004043579101562,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e95": {
+        "rank_frac": 0.70703125,
+        "L_W": 0.2066850400747449,
+        "d_prompt": 2.198030231577832e-05,
+        "d_out": 7.621669434835591e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 2113,
+        "out_positions": 30,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 3.4897541999816895,
+        "median_erosion": 0.013453483581542969,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e90": {
+        "rank_frac": 0.5364583333333334,
+        "L_W": 0.2992612972175006,
+        "d_prompt": 8.318919231837472e-05,
+        "d_out": 2.8736962303810287e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 2113,
+        "out_positions": 30,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 3.4897541999816895,
+        "median_erosion": 0.025389671325683594,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0889",
+    "S": 0.033545624665687786,
+    "task": 889,
+    "dataset": "Lots-of-LoRAs/task889_goemotions_classification",
+    "split": "test",
+    "prompts": 48,
+    "gen_tokens": 140,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9322916666666666,
+        "L_W": 0.07365827875666685,
+        "d_prompt": 2.373035835761877e-06,
+        "d_out": 7.680286573576366e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 7522,
+        "out_positions": 140,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 9.374214172363281,
+        "median_erosion": 0.0046062469482421875,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e95": {
+        "rank_frac": 0.7096354166666666,
+        "L_W": 0.20763347384342112,
+        "d_prompt": 4.598267123348787e-05,
+        "d_out": 1.2473570484213984e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 7522,
+        "out_positions": 140,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 9.374214172363281,
+        "median_erosion": 0.01651620864868164,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e90": {
+        "rank_frac": 0.5455729166666666,
+        "L_W": 0.3008503042157094,
+        "d_prompt": 0.00017625561473820318,
+        "d_out": 5.114561437145377e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 7522,
+        "out_positions": 140,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 9.374214172363281,
+        "median_erosion": 0.024303436279296875,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "dataset": "Lots-of-LoRAs/task1037_pib_translation_telugu_urdu",
+    "split": "test",
+    "prompts": 48,
+    "gen_tokens": 1441,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9231770833333334,
+        "L_W": 0.07220672514559166,
+        "d_prompt": 2.5889995434781938e-05,
+        "d_out": 2.6787471899983787e-05,
+        "flip_out": 0.0034698126301179735,
+        "prompt_positions": 37526,
+        "out_positions": 1441,
+        "token_flip_rate": 0.0034698126301179735,
+        "seq_flip_rate": 0.08333333333333333,
+        "median_margin": 2.005457878112793,
+        "median_erosion": 0.00328826904296875,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e95": {
+        "rank_frac": 0.6920572916666666,
+        "L_W": 0.20654983452952008,
+        "d_prompt": 0.0004993096587246607,
+        "d_out": 0.00033464384220649104,
+        "flip_out": 0.012491325468424705,
+        "prompt_positions": 37526,
+        "out_positions": 1441,
+        "token_flip_rate": 0.012491325468424705,
+        "seq_flip_rate": 0.3125,
+        "median_margin": 2.005457878112793,
+        "median_erosion": 0.01401519775390625,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e90": {
+        "rank_frac": 0.533203125,
+        "L_W": 0.29679619859471795,
+        "d_prompt": 0.0015663783722313165,
+        "d_out": 0.0011131725872502941,
+        "flip_out": 0.020818875780707843,
+        "prompt_positions": 37526,
+        "out_positions": 1441,
+        "token_flip_rate": 0.020818875780707843,
+        "seq_flip_rate": 0.4791666666666667,
+        "median_margin": 2.005457878112793,
+        "median_erosion": 0.028316497802734375,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "task": "common_gen_10templates",
+    "short": "common_gen",
+    "S": 0.008292913464168782,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 265,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.18272286466061194,
+        "rank_frac": 0.359375,
+        "d_prompt": 2.5356853988912236e-05,
+        "d_out": 7.487643616634228e-05,
+        "prompt_positions": 389,
+        "out_positions": 265
+      }
+    }
+  },
+  {
+    "task": "squad_v1_10templates",
+    "short": "squad_v1",
+    "S": 0.006283086181824611,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 157,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.1964856148600564,
+        "rank_frac": 0.41015625,
+        "d_prompt": 3.70591565915126e-06,
+        "d_out": 1.795845878549913e-05,
+        "prompt_positions": 3980,
+        "out_positions": 157
+      }
+    }
+  }
+]

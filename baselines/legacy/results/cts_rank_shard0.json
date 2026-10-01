@@ -1,0 +1,102 @@
+[
+  {
+    "adapter": "task0667",
+    "S": 0.014865846399790555,
+    "task": 667,
+    "dataset": "Lots-of-LoRAs/task667_mmmlu_answer_generation_business_ethics",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 3.7658766814274713e-05,
+        "d_js_p90": 7.391301915049553e-05,
+        "d_hidden": 0.011001741513609886,
+        "argmax_flip": 0.001770761427413788,
+        "rank_frac": 0.5696614583333334,
+        "retained_energy": 0.9105379202713569
+      },
+      "k08": {
+        "d_js_mean": 8.028985030250624e-05,
+        "d_js_p90": 0.0001550540328025818,
+        "d_hidden": 0.015428490936756134,
+        "argmax_flip": 0.006482787598667427,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8713666989157597
+      }
+    }
+  },
+  {
+    "adapter": "task0889",
+    "S": 0.033545624665687786,
+    "task": 889,
+    "dataset": "Lots-of-LoRAs/task889_goemotions_classification",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.00015286143752746284,
+        "d_js_p90": 0.0003956385189667344,
+        "d_hidden": 0.019946664571762085,
+        "argmax_flip": 0.008683068017366137,
+        "rank_frac": 0.5455729166666666,
+        "retained_energy": 0.9100688503434261
+      },
+      "k08": {
+        "d_js_mean": 0.0002240840985905379,
+        "d_js_p90": 0.000538032385520637,
+        "d_hidden": 0.023803742602467537,
+        "argmax_flip": 0.008419944744112617,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8833711675057808
+      }
+    }
+  },
+  {
+    "adapter": "task0334",
+    "S": 0.06899597084029749,
+    "task": 334,
+    "dataset": "Lots-of-LoRAs/task334_hateeval_classification_hate_es",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.0008675726130604744,
+        "d_js_p90": 0.001736285979859531,
+        "d_hidden": 0.03850485011935234,
+        "argmax_flip": 0.03163000863844774,
+        "rank_frac": 0.4296875,
+        "retained_energy": 0.9120982699096203
+      },
+      "k08": {
+        "d_js_mean": 0.0005825138068757951,
+        "d_js_p90": 0.0014191081281751394,
+        "d_hidden": 0.03298404440283775,
+        "argmax_flip": 0.018340089042461292,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9260239793608586
+      }
+    }
+  },
+  {
+    "adapter": "task1259",
+    "S": 0.16214147164020795,
+    "task": 1259,
+    "dataset": "Lots-of-LoRAs/task1259_ted_translation_pl_ar",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.004943187814205885,
+        "d_js_p90": 0.009808787144720554,
+        "d_hidden": 0.07966553419828415,
+        "argmax_flip": 0.05644825042496552,
+        "rank_frac": 0.6028645833333334,
+        "retained_energy": 0.912416223436594
+      },
+      "k08": {
+        "d_js_mean": 0.005533131770789623,
+        "d_js_p90": 0.01229997631162405,
+        "d_hidden": 0.1005813330411911,
+        "argmax_flip": 0.05208634016485455,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8594165785859028
+      }
+    }
+  }
+]

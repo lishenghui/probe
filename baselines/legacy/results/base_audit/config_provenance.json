@@ -1,0 +1,34 @@
+{
+  "spatial": {
+    "adapter_config.json": {
+      "sha256": "30462bf8022279e5c8fe8c58db30d4c9c919b0a43feb0a99b5ca8f8b54c286df"
+    },
+    "model.safetensors.index.json": {
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    }
+  },
+  "object": {
+    "adapter_config.json": {
+      "sha256": "ad2e63387460d2ee5758c4f3b2cdf1e5a92cf37d120ec4ff3ed2e90d9f46aa6a"
+    },
+    "model.safetensors.index.json": {
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    }
+  },
+  "goal": {
+    "adapter_config.json": {
+      "sha256": "7577940217bcf5275d6049ab1230176715655baf90024b37e82b4d918e8d3216"
+    },
+    "model.safetensors.index.json": {
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    }
+  },
+  "10": {
+    "adapter_config.json": {
+      "sha256": "c850e90d75021750ecf6bb1a8c6d293194aab63417607f8ae4af7032256f038a"
+    },
+    "model.safetensors.index.json": {
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    }
+  }
+}

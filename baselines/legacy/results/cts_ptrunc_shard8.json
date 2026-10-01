@@ -1,0 +1,164 @@
+[
+  {
+    "adapter": "task1148",
+    "S": 0.027896844558524245,
+    "task": 1148,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 3.5296012705118453e-06,
+            "flip": 0.00030205396697543293,
+            "positions": 9932
+          },
+          "e95": {
+            "d_js_mean": 7.624109744488521e-05,
+            "flip": 0.005739025372533226,
+            "positions": 9932
+          },
+          "e90": {
+            "d_js_mean": 0.0002888201897573049,
+            "flip": 0.011578735400724929,
+            "positions": 9932
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 3.5296012705118453e-06,
+            "flip": 0.00030205396697543293,
+            "positions": 9932
+          },
+          "e95": {
+            "d_js_mean": 7.624109744488521e-05,
+            "flip": 0.005739025372533226,
+            "positions": 9932
+          },
+          "e90": {
+            "d_js_mean": 0.0002888201897573049,
+            "flip": 0.011578735400724929,
+            "positions": 9932
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.097523829434067e-05,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.00023698187433183194,
+            "flip": 0.015625,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.0008689263835549354,
+            "flip": 0.025,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.586694055586595e-05,
+            "flip": 0.00540040117265854,
+            "positions": 38886
+          },
+          "e95": {
+            "d_js_mean": 0.0005045879640090198,
+            "flip": 0.018027053438255412,
+            "positions": 38886
+          },
+          "e90": {
+            "d_js_mean": 0.0015994442445483956,
+            "flip": 0.03145090778172093,
+            "positions": 38886
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0223",
+    "S": 0.15848341521147538,
+    "task": 223,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.0003455533646047115,
+            "flip": 0.009375,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.0033276431262493134,
+            "flip": 0.05,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.009433118999004364,
+            "flip": 0.06875,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.0003670814899418024,
+            "flip": 0.010296010296010296,
+            "positions": 17094
+          },
+          "e95": {
+            "d_js_mean": 0.0035994962264016676,
+            "flip": 0.05036855036855037,
+            "positions": 17094
+          },
+          "e90": {
+            "d_js_mean": 0.01027458449393054,
+            "flip": 0.07101907101907103,
+            "positions": 17094
+          }
+        }
+      }
+    }
+  }
+]

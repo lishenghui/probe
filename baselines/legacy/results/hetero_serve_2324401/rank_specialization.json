@@ -1,0 +1,39 @@
+{
+  "segmented": {
+    "after_first_rank": {
+      "_shrink": 1,
+      "_expand": 1
+    },
+    "after_all_ranks": {
+      "_shrink": 12,
+      "_expand": 12
+    },
+    "new_variants": 22
+  },
+  "heterogeneous": {
+    "after_first_rank": {
+      "_shrink": 13,
+      "_expand": 13
+    },
+    "after_all_ranks": {
+      "_shrink": 13,
+      "_expand": 13
+    },
+    "new_variants": 0
+  },
+  "completed": true,
+  "ranks": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    13,
+    16,
+    17,
+    25,
+    31,
+    32
+  ]
+}

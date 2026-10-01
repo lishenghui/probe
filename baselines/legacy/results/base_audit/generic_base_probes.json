@@ -1,0 +1,102 @@
+[
+  {
+    "suite": "spatial",
+    "key": "language_model.model.layers.0.self_attn.q_proj.weight",
+    "relative_l2": 0.25674745440483093
+  },
+  {
+    "suite": "object",
+    "key": "language_model.model.layers.0.self_attn.q_proj.weight",
+    "relative_l2": 0.26800209283828735
+  },
+  {
+    "suite": "goal",
+    "key": "language_model.model.layers.0.self_attn.q_proj.weight",
+    "relative_l2": 0.00169160938821733
+  },
+  {
+    "suite": "10",
+    "key": "language_model.model.layers.0.self_attn.q_proj.weight",
+    "relative_l2": 0.053227655589580536
+  },
+  {
+    "suite": "spatial",
+    "key": "language_model.model.layers.15.self_attn.q_proj.weight",
+    "relative_l2": 0.16890253126621246
+  },
+  {
+    "suite": "object",
+    "key": "language_model.model.layers.15.self_attn.q_proj.weight",
+    "relative_l2": 0.2109382152557373
+  },
+  {
+    "suite": "goal",
+    "key": "language_model.model.layers.15.self_attn.q_proj.weight",
+    "relative_l2": 0.0017663147300481796
+  },
+  {
+    "suite": "10",
+    "key": "language_model.model.layers.15.self_attn.q_proj.weight",
+    "relative_l2": 0.21238869428634644
+  },
+  {
+    "suite": "spatial",
+    "key": "language_model.model.layers.31.mlp.down_proj.weight",
+    "relative_l2": 0.19148677587509155
+  },
+  {
+    "suite": "object",
+    "key": "language_model.model.layers.31.mlp.down_proj.weight",
+    "relative_l2": 0.2222239375114441
+  },
+  {
+    "suite": "goal",
+    "key": "language_model.model.layers.31.mlp.down_proj.weight",
+    "relative_l2": 0.0017454528715461493
+  },
+  {
+    "suite": "10",
+    "key": "language_model.model.layers.31.mlp.down_proj.weight",
+    "relative_l2": 0.24450315535068512
+  },
+  {
+    "suite": "spatial",
+    "key": "projector.fc1.weight",
+    "relative_l2": 0.20975658297538757
+  },
+  {
+    "suite": "object",
+    "key": "projector.fc1.weight",
+    "relative_l2": 0.21863175928592682
+  },
+  {
+    "suite": "goal",
+    "key": "projector.fc1.weight",
+    "relative_l2": 0.0017664344049990177
+  },
+  {
+    "suite": "10",
+    "key": "projector.fc1.weight",
+    "relative_l2": 0.24217335879802704
+  },
+  {
+    "suite": "spatial",
+    "key": "vision_backbone.featurizer.blocks.0.attn.qkv.weight",
+    "relative_l2": 0.19561323523521423
+  },
+  {
+    "suite": "object",
+    "key": "vision_backbone.featurizer.blocks.0.attn.qkv.weight",
+    "relative_l2": 0.20738698542118073
+  },
+  {
+    "suite": "goal",
+    "key": "vision_backbone.featurizer.blocks.0.attn.qkv.weight",
+    "relative_l2": 0.0016935189487412572
+  },
+  {
+    "suite": "10",
+    "key": "vision_backbone.featurizer.blocks.0.attn.qkv.weight",
+    "relative_l2": 0.20900017023086548
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "adapter": "task0704",
+    "task": 704,
+    "S": 0.019509197068532765,
+    "split": "test+valid",
+    "n": 35,
+    "metric_base": 0.09306189933153762,
+    "exact_base": 0.0,
+    "metric_orig": 0.7142857142857143,
+    "exact_orig": 0.7142857142857143,
+    "variants": {
+      "dense": {
+        "L_W": 0.7673644104572674,
+        "rank_frac": 0.0625,
+        "metric": 0.7714285714285715,
+        "exact": 0.7714285714285715,
+        "retained": 1.0919843311980437
+      }
+    }
+  },
+  {
+    "adapter": "task0963",
+    "task": 963,
+    "S": 0.020012099966760486,
+    "split": "test+valid",
+    "n": 30,
+    "metric_base": 0.06701298701298701,
+    "exact_base": 0.0,
+    "metric_orig": 0.23333333333333334,
+    "exact_orig": 0.23333333333333334,
+    "variants": {
+      "dense": {
+        "L_W": 0.7177252808832326,
+        "rank_frac": 0.11458333333333333,
+        "metric": 0.2,
+        "exact": 0.2,
+        "retained": 0.799583550234253
+      }
+    }
+  },
+  {
+    "adapter": "task1333",
+    "task": 1333,
+    "S": 0.021743797085548622,
+    "split": "test+valid",
+    "n": 36,
+    "metric_base": 0.16011197781792746,
+    "exact_base": 0.0,
+    "metric_orig": 1.0,
+    "exact_orig": 1.0,
+    "variants": {
+      "dense": {
+        "L_W": 0.7527450530479212,
+        "rank_frac": 0.0625,
+        "metric": 1.0,
+        "exact": 1.0,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "adapter": "task0778",
+    "task": 778,
+    "S": 0.02326880978730321,
+    "split": "test+valid",
+    "n": 50,
+    "metric_base": 0.5686075835617812,
+    "exact_base": 0.0,
+    "metric_orig": 0.6953219596870386,
+    "exact_orig": 0.04,
+    "variants": {
+      "dense": {
+        "L_W": 0.7761193690998853,
+        "rank_frac": 0.09375,
+        "metric": 0.6839574193864475,
+        "exact": 0.02,
+        "retained": 0.9103137256552705
+      }
+    }
+  },
+  {
+    "adapter": "task0815",
+    "task": 815,
+    "S": 0.023435402344041737,
+    "split": "test+valid",
+    "n": 50,
+    "metric_base": 0.24567710989892977,
+    "exact_base": 0.0,
+    "metric_orig": 0.5084314084551853,
+    "exact_orig": 0.0,
+    "variants": {
+      "dense": {
+        "L_W": 0.7634320638590937,
+        "rank_frac": 0.15625,
+        "metric": 0.5106205975440092,
+        "exact": 0.0,
+        "retained": 1.0083316965730067
+      }
+    }
+  },
+  {
+    "adapter": "task1148",
+    "task": 1148,
+    "S": 0.027896844558524245,
+    "split": "test+valid",
+    "n": 40,
+    "metric_base": 0.008823529411764706,
+    "exact_base": 0.0,
+    "metric_orig": 0.9,
+    "exact_orig": 0.9,
+    "variants": {
+      "dense": {
+        "L_W": 0.6774413741553031,
+        "rank_frac": 0.11458333333333333,
+        "metric": 0.9,
+        "exact": 0.9,
+        "retained": 1.0
+      }
+    }
+  }
+]

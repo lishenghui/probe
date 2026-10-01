@@ -1,0 +1,1452 @@
+{
+  "gpu": "NVIDIA GH200 120GB",
+  "scope": "same inputs and factors; full LoRA branch; contiguous request segments; graph replay",
+  "rows": [
+    {
+      "requests": 4,
+      "tokens_per_request": 8,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 14.105600118637085,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.336000382900238,
+          "relative_error": 0.0019226660951972008
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.025600254535675,
+          "relative_error": 0.0019226660951972008
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.371199905872345,
+          "relative_error": 0.0019226660951972008
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.14719969034195,
+          "relative_error": 0.0019226660951972008
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 8,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 14.236800372600555,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.281600713729858,
+          "relative_error": 0.0025388787034898996
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.230400323867798,
+          "relative_error": 0.0025388787034898996
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.550399780273438,
+          "relative_error": 0.0025388787034898996
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.24960047006607,
+          "relative_error": 0.0025388787034898996
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 8,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 14.364799857139587,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.406399428844452,
+          "relative_error": 0.002254695165902376
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.345599710941315,
+          "relative_error": 0.002254695165902376
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.655999839305878,
+          "relative_error": 0.002254695165902376
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.403200149536133,
+          "relative_error": 0.002254695165902376
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 8,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 14.057600498199463,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.156800508499146,
+          "relative_error": 0.002668684581294656
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.057600498199463,
+          "relative_error": 0.002668684581294656
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.425599575042725,
+          "relative_error": 0.002668684581294656
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.140799641609192,
+          "relative_error": 0.002668684581294656
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 8,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 14.59520012140274,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.563199877738953,
+          "relative_error": 0.0024371431209146976
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.428800344467163,
+          "relative_error": 0.0024371431209146976
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.892800152301788,
+          "relative_error": 0.0024371431209146976
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.524799585342407,
+          "relative_error": 0.0024371431209146976
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 32,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 14.24960047006607,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.41279947757721,
+          "relative_error": 0.0024850310292094946
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.460800588130951,
+          "relative_error": 0.0024850310292094946
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.608000218868256,
+          "relative_error": 0.0024850310292094946
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.51520025730133,
+          "relative_error": 0.0024850310292094946
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 32,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 14.43520039319992,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.59520012140274,
+          "relative_error": 0.0027151633985340595
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.553600549697876,
+          "relative_error": 0.0027151633985340595
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.825600385665894,
+          "relative_error": 0.0027151633985340595
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.643199741840363,
+          "relative_error": 0.0027151633985340595
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 32,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 14.451199769973755,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.630399644374847,
+          "relative_error": 0.002457748167216778
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.665600657463074,
+          "relative_error": 0.002457748167216778
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.860799908638,
+          "relative_error": 0.002457748167216778
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.70080018043518,
+          "relative_error": 0.002457748167216778
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 32,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 14.403200149536133,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.59520012140274,
+          "relative_error": 0.002239079447463155
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.575999975204468,
+          "relative_error": 0.002239079447463155
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 14.80959951877594,
+          "relative_error": 0.002239079447463155
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.726400375366211,
+          "relative_error": 0.002239079447463155
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 32,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 14.963200688362122,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 14.944000542163849,
+          "relative_error": 0.00256778160110116
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 14.748799800872803,
+          "relative_error": 0.00256778160110116
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 15.145599842071533,
+          "relative_error": 0.00256778160110116
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 14.80640023946762,
+          "relative_error": 0.00256778160110116
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 257,
+      "k": 1024,
+      "n": 1024,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 7.8752003610134125,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 8.06720033288002,
+          "relative_error": 0.0022520937491208315
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 7.8592002391815186,
+          "relative_error": 0.0022520937491208315
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 8.083199709653854,
+          "relative_error": 0.0022520937491208315
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 8.124800026416779,
+          "relative_error": 0.0022520937491208315
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 257,
+      "k": 1024,
+      "n": 1024,
+      "ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 8.140800148248672,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 8.495999872684479,
+          "relative_error": 0.0033058736007660627
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 8.06720033288002,
+          "relative_error": 0.0033058736007660627
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 8.588799834251404,
+          "relative_error": 0.0033058736007660627
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 8.371199667453766,
+          "relative_error": 0.0033058736007660627
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 257,
+      "k": 1024,
+      "n": 1024,
+      "ranks": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 8.25280025601387,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 8.524800091981888,
+          "relative_error": 0.001966896466910839
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 8.179199695587158,
+          "relative_error": 0.001966896466910839
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 8.62720012664795,
+          "relative_error": 0.001966896466910839
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 8.38719978928566,
+          "relative_error": 0.001966896466910839
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 257,
+      "k": 1024,
+      "n": 1024,
+      "ranks": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 8.105599880218506,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 8.454400300979614,
+          "relative_error": 0.0021968837827444077
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 8.060800284147263,
+          "relative_error": 0.0021968837827444077
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 8.515200018882751,
+          "relative_error": 0.0021968837827444077
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 8.367999643087387,
+          "relative_error": 0.0021968837827444077
+        }
+      ]
+    },
+    {
+      "requests": 4,
+      "tokens_per_request": 257,
+      "k": 1024,
+      "n": 1024,
+      "ranks": [
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 9.097599983215332,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 9.145600348711014,
+          "relative_error": 0.0021862902212888002
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 8.604799956083298,
+          "relative_error": 0.0021862902212888002
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 9.23520028591156,
+          "relative_error": 0.0021862902212888002
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 8.883199840784073,
+          "relative_error": 0.0021862902212888002
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 257,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 41.08479917049408,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 43.36000084877014,
+          "relative_error": 0.0023512556217610836
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 39.85919952392578,
+          "relative_error": 0.0023512556217610836
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 41.82719886302948,
+          "relative_error": 0.0023512556217610836
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 39.715200662612915,
+          "relative_error": 0.0023512556217610836
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 257,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 43.24159920215607,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 45.10720074176788,
+          "relative_error": 0.003853672882542014
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 41.10080003738403,
+          "relative_error": 0.003853672882542014
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 43.615999817848206,
+          "relative_error": 0.003853672882542014
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 40.835198760032654,
+          "relative_error": 0.003853672882542014
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 257,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 44.05440092086792,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 45.25440037250519,
+          "relative_error": 0.005016668234020472
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 41.51360094547272,
+          "relative_error": 0.005016668234020472
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 43.7855988740921,
+          "relative_error": 0.005016668234020472
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 41.337600350379944,
+          "relative_error": 0.005016668234020472
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 257,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        1,
+        4,
+        8,
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 39.238399267196655,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 40.31040072441101,
+          "relative_error": 0.0037906488869339228
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 37.564799189567566,
+          "relative_error": 0.0037906488869339228
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 39.35039937496185,
+          "relative_error": 0.0037906488869339228
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 37.43999898433685,
+          "relative_error": 0.0037906488869339228
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 257,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        4,
+        16,
+        32,
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 43.49760115146637,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 43.350398540496826,
+          "relative_error": 0.0021969496738165617
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 39.68319892883301,
+          "relative_error": 0.0021969496738165617
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 42.53439903259277,
+          "relative_error": 0.0021969496738165617
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 39.423999190330505,
+          "relative_error": 0.0021969496738165617
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 64.70720171928406,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 68.45759749412537,
+          "relative_error": 0.0023935879580676556
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 62.195199728012085,
+          "relative_error": 0.0023935879580676556
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 66.08960032463074,
+          "relative_error": 0.0023935879580676556
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 60.553598403930664,
+          "relative_error": 0.0023935879580676556
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 69.18079853057861,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 72.74240255355835,
+          "relative_error": 0.0031722893472760916
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 63.945597410202026,
+          "relative_error": 0.0031722893472760916
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 68.88319849967957,
+          "relative_error": 0.0031722893472760916
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 62.511998414993286,
+          "relative_error": 0.0031722893472760916
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 69.67679858207703,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 71.99360132217407,
+          "relative_error": 0.003220892511308193
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 63.64160180091858,
+          "relative_error": 0.003220892511308193
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 67.98080205917358,
+          "relative_error": 0.003220892511308193
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 62.49920129776001,
+          "relative_error": 0.003220892511308193
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        1,
+        4,
+        8,
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 61.94239854812622,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 63.87839913368225,
+          "relative_error": 0.002768569393083453
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 58.01600217819214,
+          "relative_error": 0.002768569393083453
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 60.98560094833374,
+          "relative_error": 0.002768569393083453
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 56.940799951553345,
+          "relative_error": 0.002768569393083453
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 4096,
+      "ranks": [
+        0,
+        4,
+        16,
+        32,
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 67.76319742202759,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 67.14239716529846,
+          "relative_error": 0.0022198983933776617
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 59.52640175819397,
+          "relative_error": 0.0022198983933776617
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 63.99040222167969,
+          "relative_error": 0.0022198983933776617
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 58.5536003112793,
+          "relative_error": 0.0022198983933776617
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 11008,
+      "ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 112.88959980010986,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 123.97439479827881,
+          "relative_error": 0.003342245938256383
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 104.96640205383301,
+          "relative_error": 0.003342245938256383
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 113.68000507354736,
+          "relative_error": 0.003342245938256383
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 101.19999647140503,
+          "relative_error": 0.003342245938256383
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 11008,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 123.17759990692139,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 130.36479949951172,
+          "relative_error": 0.0034640738740563393
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 107.46560096740723,
+          "relative_error": 0.0034640738740563393
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 120.05759477615356,
+          "relative_error": 0.0034640738740563393
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 104.55679893493652,
+          "relative_error": 0.0034640738740563393
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 11008,
+      "ranks": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 124.19519424438477,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 130.4543972015381,
+          "relative_error": 0.003049511229619384
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 108.80320072174072,
+          "relative_error": 0.003049511229619384
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 119.89439725875854,
+          "relative_error": 0.003049511229619384
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 105.99679946899414,
+          "relative_error": 0.003049511229619384
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 11008,
+      "ranks": [
+        0,
+        1,
+        4,
+        8,
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 110.48640012741089,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 113.97440433502197,
+          "relative_error": 0.0039215730503201485
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 99.47199821472168,
+          "relative_error": 0.0039215730503201485
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 107.38879442214966,
+          "relative_error": 0.0039215730503201485
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 97.2000002861023,
+          "relative_error": 0.0039215730503201485
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 4096,
+      "n": 11008,
+      "ranks": [
+        0,
+        4,
+        16,
+        32,
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 122.92159795761108,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 122.49280214309692,
+          "relative_error": 0.0026970331091433764
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 103.75360250473022,
+          "relative_error": 0.0026970331091433764
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 114.50560092926025,
+          "relative_error": 0.0026970331091433764
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 100.99519491195679,
+          "relative_error": 0.0026970331091433764
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 11008,
+      "n": 4096,
+      "ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "segmented_us": 107.24799633026123,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 111.68960332870483,
+          "relative_error": 0.0029622777365148067
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 104.5151948928833,
+          "relative_error": 0.0029622777365148067
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 107.90400505065918,
+          "relative_error": 0.0029622777365148067
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 103.1872034072876,
+          "relative_error": 0.0029622777365148067
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 11008,
+      "n": 4096,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "segmented_us": 112.10240125656128,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 115.6607985496521,
+          "relative_error": 0.003798722056671977
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 107.1679949760437,
+          "relative_error": 0.003798722056671977
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 112.10559606552124,
+          "relative_error": 0.003798722056671977
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 105.55200576782227,
+          "relative_error": 0.003798722056671977
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 11008,
+      "n": 4096,
+      "ranks": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "segmented_us": 111.97119951248169,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 114.22719955444336,
+          "relative_error": 0.003406352363526821
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 106.5727949142456,
+          "relative_error": 0.003406352363526821
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 110.68480014801025,
+          "relative_error": 0.003406352363526821
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 105.22559881210327,
+          "relative_error": 0.003406352363526821
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 11008,
+      "n": 4096,
+      "ranks": [
+        0,
+        1,
+        4,
+        8,
+        0,
+        1,
+        4,
+        8
+      ],
+      "segmented_us": 105.03040552139282,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 106.63360357284546,
+          "relative_error": 0.003368648234754801
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 100.66560506820679,
+          "relative_error": 0.003368648234754801
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 104.05759811401367,
+          "relative_error": 0.003368648234754801
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 99.99039769172668,
+          "relative_error": 0.003368648234754801
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens_per_request": 577,
+      "k": 11008,
+      "n": 4096,
+      "ranks": [
+        0,
+        4,
+        16,
+        32,
+        0,
+        4,
+        16,
+        32
+      ],
+      "segmented_us": 110.94720363616943,
+      "heterogeneous": [
+        {
+          "expand_m": 32,
+          "expand_n": 64,
+          "us": 110.54400205612183,
+          "relative_error": 0.0021749234292656183
+        },
+        {
+          "expand_m": 32,
+          "expand_n": 128,
+          "us": 103.30560207366943,
+          "relative_error": 0.0021749234292656183
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 64,
+          "us": 107.84319639205933,
+          "relative_error": 0.0021749234292656183
+        },
+        {
+          "expand_m": 64,
+          "expand_n": 128,
+          "us": 102.12479829788208,
+          "relative_error": 0.0021749234292656183
+        }
+      ]
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "task": "arc_easy_10templates",
+    "short": "arc_easy",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {}
+  },
+  {
+    "task": "web_nlg_en_10templates",
+    "short": "web_nlg_en",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.17630387455096158,
+    "metric_orig": 0.5558538962919234,
+    "headroom": 0.3795500217409618,
+    "variants": {
+      "dense": {
+        "L_W": 0.23320015594903867,
+        "rank_frac": 0.193359375,
+        "metric_value": 0.5394732985257934,
+        "retained": 0.9568420581535112
+      }
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "adapter": "task0667",
+    "S": 0.014865846399790555,
+    "task": 667,
+    "dataset": "Lots-of-LoRAs/task667_mmmlu_answer_generation_business_ethics",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 96,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9368489583333334,
+        "L_W": 0.07256334883052347,
+        "d_prompt": 5.217975335980376e-07,
+        "d_out": 7.46827511980778e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 33319,
+        "out_positions": 96,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 5.486485481262207,
+        "median_erosion": -0.002830028533935547,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1148",
+    "S": 0.027896844558524245,
+    "task": 1148,
+    "dataset": "Lots-of-LoRAs/task1148_maximum_ascii_value",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 96,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8932291666666666,
+        "L_W": 0.08254303475657496,
+        "d_prompt": 3.5307632142770174e-06,
+        "d_out": 1.7696153532115177e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 9932,
+        "out_positions": 96,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 10.894965171813965,
+        "median_erosion": -0.0018877983093261719,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1370",
+    "S": 0.05230877529025968,
+    "task": 1370,
+    "dataset": "Lots-of-LoRAs/task1370_newscomm_classification",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 171,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.875,
+        "L_W": 0.08599471369463983,
+        "d_prompt": 1.219406339686438e-05,
+        "d_out": 6.091380233228086e-10,
+        "flip_out": 0.0,
+        "prompt_positions": 20716,
+        "out_positions": 171,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 14.096258163452148,
+        "median_erosion": 0.021806716918945312,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1222",
+    "S": 0.11169591450521815,
+    "task": 1222,
+    "dataset": "Lots-of-LoRAs/task1222_ted_translation_ja_en",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 969,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9524739583333334,
+        "L_W": 0.0569005386882898,
+        "d_prompt": 2.8384453755443743e-05,
+        "d_out": 2.0147069730654514e-05,
+        "flip_out": 0.0010319917440660474,
+        "prompt_positions": 19009,
+        "out_positions": 969,
+        "token_flip_rate": 0.0010319917440660474,
+        "seq_flip_rate": 0.020833333333333332,
+        "median_margin": 1.4199867248535156,
+        "median_erosion": -0.00080108642578125,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0408",
+    "S": 0.167021909198904,
+    "task": 408,
+    "dataset": "Lots-of-LoRAs/task408_mickey_it_sentence_perturbation_generation",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 893,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8977864583333334,
+        "L_W": 0.08439412801889049,
+        "d_prompt": 3.938155145498401e-05,
+        "d_out": 2.457397775283899e-05,
+        "flip_out": 0.004479283314669653,
+        "prompt_positions": 15224,
+        "out_positions": 893,
+        "token_flip_rate": 0.004479283314669653,
+        "seq_flip_rate": 0.08333333333333333,
+        "median_margin": 4.695833206176758,
+        "median_erosion": -0.0021228790283203125,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

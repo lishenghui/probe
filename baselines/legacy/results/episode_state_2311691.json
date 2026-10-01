@@ -1,0 +1,58 @@
+[
+  {
+    "episode": 0,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 16977,
+    "pixel_mae": 6.263468424479167
+  },
+  {
+    "episode": 1,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 119.25066630045573
+  },
+  {
+    "episode": 2,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 119.14666748046875
+  },
+  {
+    "episode": 3,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 117.67059326171875
+  },
+  {
+    "episode": 4,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 117.92473856608073
+  },
+  {
+    "episode": 5,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 117.92277018229167
+  },
+  {
+    "episode": 6,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 65536,
+    "pixel_mae": 118.81525166829427
+  },
+  {
+    "episode": 7,
+    "applied_state_max_abs": 0.0,
+    "state_drift": 0.0,
+    "changed_pixels": 0,
+    "pixel_mae": 0.0
+  }
+]

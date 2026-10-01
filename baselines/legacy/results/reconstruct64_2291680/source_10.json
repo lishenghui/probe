@@ -1,0 +1,27 @@
+{
+  "repo": "moojink/openvla-7b-oft-finetuned-libero-10",
+  "revision": "95220f9a3421a7ff12d4218e73d09ade830fa9a3",
+  "staged": "/tmp/oft-reconstruct-2291680-HcGDP0/10",
+  "files": [
+    {
+      "file": "model-00001-of-00004.safetensors",
+      "sha256": "099772b16c1ba077c5bcff25a62e35595d2704b66f2f680af4dcf21cea03e9d4",
+      "size": 4925122448
+    },
+    {
+      "file": "model-00002-of-00004.safetensors",
+      "sha256": "31540314f94a71c9388b4b6b6c9d64162932174e2f3b92ea666bb73560891354",
+      "size": 4947392496
+    },
+    {
+      "file": "model-00003-of-00004.safetensors",
+      "sha256": "d5d817a597b121e25f7f77ac0743fed3e49e627d039e5df57af6102064f3e9a9",
+      "size": 4947417456
+    },
+    {
+      "file": "model-00004-of-00004.safetensors",
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    }
+  ]
+}

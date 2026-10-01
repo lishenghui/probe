@@ -1,0 +1,26 @@
+{
+  "adapter": "ultrawan1k",
+  "repo": "APRIL-AIGC/UltraWan",
+  "family": "high_resolution",
+  "primary_metric": "imaging_quality",
+  "higher_is_better": true,
+  "variant": "base",
+  "tau": null,
+  "prompt_index": 0,
+  "prompt": "A close-up cinematic video of a hummingbird hovering beside a flower, intricate feathers, natural daylight",
+  "seed": 0,
+  "height": 1088,
+  "width": 1920,
+  "num_frames": 33,
+  "fps": 16,
+  "steps": 25,
+  "generation_seconds": 209.3074286240153,
+  "peak_cuda_gib": 58.497066497802734,
+  "compression": {
+    "kept_rank": 0,
+    "total_rank": 0,
+    "rank_fraction": 0.0,
+    "L_W": 0.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/ultrawan1k/base/p000_s0000.mp4"
+}

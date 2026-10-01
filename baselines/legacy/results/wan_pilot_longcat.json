@@ -1,0 +1,11 @@
+[
+  {
+    "adapter": "longcat",
+    "probe": "a smooth, temporally coherent, cleanly rendered video",
+    "n_prompts": 4,
+    "metric_base": 0.1961105763912201,
+    "metric_orig": 0.19470667466521263,
+    "headroom": -0.0014039017260074615,
+    "variants": {}
+  }
+]

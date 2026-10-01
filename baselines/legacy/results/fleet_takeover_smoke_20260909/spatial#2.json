@@ -1,0 +1,16 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "episodes": 2,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "load_s": 88.2,
+  "success": [
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 11.49,
+  "policy_calls": 11,
+  "s_per_episode": 5.75,
+  "label": "spatial#2"
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "adapter": "task0704",
+    "S": 0.019509197068532765,
+    "task": 704,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 7.187105438788421e-07,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 7.77037494117394e-06,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 3.201630315743387e-05,
+            "flip": 0.01875,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.933900387326907e-07,
+            "flip": 0.0013809819063186968,
+            "positions": 35482
+          },
+          "e95": {
+            "d_js_mean": 7.031095370572178e-06,
+            "flip": 0.0016628149484245534,
+            "positions": 35482
+          },
+          "e90": {
+            "d_js_mean": 2.8997103020999863e-05,
+            "flip": 0.008595907784228623,
+            "positions": 35482
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0556",
+    "S": 0.033945819562422284,
+    "task": 556,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 1.6263216821243987e-06,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 2.3320858599618077e-05,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 7.615211652591824e-05,
+            "flip": 0.003125,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.177361253724081e-06,
+            "flip": 0.003281103522164189,
+            "positions": 29868
+          },
+          "e95": {
+            "d_js_mean": 3.699841269894235e-05,
+            "flip": 0.005089058524173028,
+            "positions": 29868
+          },
+          "e90": {
+            "d_js_mean": 0.00011823257875159927,
+            "flip": 0.00679657158162582,
+            "positions": 29868
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0593",
+    "S": 0.07566757631169947,
+    "task": 593,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.395318294176832e-06,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.00012073067482560873,
+            "flip": 0.00625,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.00036924963351339104,
+            "flip": 0.0125,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.767468831696076e-06,
+            "flip": 0.00011667250029168125,
+            "positions": 17142
+          },
+          "e95": {
+            "d_js_mean": 0.0001207485991912494,
+            "flip": 0.006183642515459106,
+            "positions": 17142
+          },
+          "e90": {
+            "d_js_mean": 0.0003923731501274078,
+            "flip": 0.012542293781355735,
+            "positions": 17142
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task1111",
+    "S": 0.16633071044042466,
+    "task": 1111,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.00016002425691112875,
+            "flip": 0.015625,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.002454153075814247,
+            "flip": 0.053125,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.012943172454833984,
+            "flip": 0.13125,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.00017025152565368118,
+            "flip": 0.01596190308214648,
+            "positions": 22679
+          },
+          "e95": {
+            "d_js_mean": 0.0027632369104267046,
+            "flip": 0.06746329203227655,
+            "positions": 22679
+          },
+          "e90": {
+            "d_js_mean": 0.01438779892747567,
+            "flip": 0.14617046606993253,
+            "positions": 22679
+          }
+        }
+      }
+    }
+  }
+]

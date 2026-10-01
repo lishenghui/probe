@@ -1,0 +1,23 @@
+[
+  {
+    "task": "para_crawl_enes_10templates",
+    "short": "para_crawl_enes",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.10000832298001852,
+    "metric_orig": 0.24776793940641503,
+    "headroom": 0.1477596164263965,
+    "variants": {
+      "dense": {
+        "L_W": 0.4112913353227989,
+        "rank_frac": 0.126953125,
+        "metric_value": 0.24547863134891412,
+        "retained": 0.9845065376259874
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "task": "snli_10templates",
+    "short": "snli",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.08823529411764706,
+    "headroom": 0.08823529411764706,
+    "variants": {
+      "dense": {
+        "L_W": 0.24540102584046133,
+        "rank_frac": 0.26953125,
+        "metric_value": 0.08823529411764706,
+        "retained": 1.0
+      }
+    }
+  }
+]

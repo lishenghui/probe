@@ -1,0 +1,3562 @@
+{
+  "original": {
+    "summary": {
+      "variant": "original",
+      "total_evaluated": 100,
+      "mean_clip_score": null,
+      "mean_lpips_vs_original": 0.0,
+      "mean_ssim_vs_original": 1.0,
+      "mean_psnr_vs_original": Infinity
+    },
+    "items": {
+      "0693916e1ca5ec48e36fa9af64352f2128facc305eb9af9391e85fdb8480a601": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "077de0554f2217ec92dfd64b78e8036aa2ea8349819aef924e77beedd975a51c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "00b1ad87c296635c73bbc9728a63d3df4a9ab07aee0d34cd45784e39f2c699ba": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "036181161501952553b4233ebf0f5be1ab16aacb5e0299362c10b57be28e06b6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0850228cdbf7df721a10d73003db4b8d9d83e17c480b79a6d5d643eff6c8c163": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "114adf5c2de3beca3f9dfc4c40550ff2807f69f69a236dd7a5c079cd7ae7c262": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0fc5ed68d19ef648aae46287d09ef378388358a66e1867b5448f3ae11c1fdf25": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "1739cfd2ce73a04e284ecd48a252e262b129dd39c8706b73ee6dd73cbf66347b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0343987d0a3f4438bf025f759d7d019f0a0129a48f00f656fb9b6c75f6775404": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "03f5c560f5725ad6ca55fd7e6c0af4c4c7a7ca94c444a584f2a9f316d3b35ea2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "04603070f8ff9d79427d864cb19a1614478e82a4746379dc07506f9103961ea8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0032cd2f169847864c28e5e190c2496c03ddd1a5e68d52145634164ebe57d3ac": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "04dc353499a2cc18d2a89d5d61e99ef91dba62adcb1767566f883ad37677ba5a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "1535598bb417f4891f9d6b842edeed288e73cd05129e2fdd076bb8ce152fb718": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "02edaedb5016e1c5c9d9746275e8acdcb78b38fda68b051a6b29271b0ae131de": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0742f6f08fec5b4ad92c1720fa53408780a8adb4dad0e92c8817a4f46c45074b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "008c201a7eff27ce0413f7931a48e92cf05ded9d9b7cf16cc2276ff3b80c7b22": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "01cd1a4633b366cec002b9a7eb183a918ae2f36a05467eaa74f4cda79a54d449": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0777b243c09e2dff3274f46aa43d412faaec9bf5731c213c92571af668c606f0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "03c53f58fc38f5bce2cb4301261711bc43469905c2eeca17e3fd9a6556bd6a88": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "056f10c6b6e4ae3aef042286b65d19278b14ad03d3f8144e70b42af5950b3f90": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "001dccbc1f78146a9f03861026613d8e73f39f372b545b26118e37a23c740d5f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "028819075f0c9b19455e99a7f9a4867a160a6749151ee72ae3e87d03c49aa3d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "050bedc5622e4dfd7528217b7694266e7bbe18d23f899ab6705fa1d6513ac72d": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "10e39f37e37a8aa7fcc734e0decf55d05f29e18b2aac0c2ba77e7c76f314abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "00def8c08b0a092efa8b6aa444f1bb411333d6bdc7926885c7a72680d189a3c8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0a6c01ac3212768772f8f6eca86314c72d5ca320c3e3def148ddaceab23c07f4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "00e3fa12dff0aa4791ee9077de752c29a77e7b64c809c326e93f13df23c84875": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "04b9beb07e5d9d48198b877b2d0342e92a754d200c8eef3bacc3e2c7f94747e1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0c7c65cc7dee6b43fdfd64af290be4146a8e09e7817eade9d5e10f67cfa245f6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "14eb48a50e37df548894ab6d8cd628a21dae14bbe6c462e894616fc5962e6c49": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "033d379d3db90c25bd068c504d466770e4248ef6c3ab1f15a31a9e2f05874c7b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0a4151528bffc2ced33f2dd932b482a22a179bca95e5db00c6ca95d5147b9f50": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0a1b7c20a92c43c6b8954b1ac909fb2f0fa8b2997b80604bc8bbec80a1cb2da3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0776bac9491fb1b9c957c871d9093ac5131fb35d6a6e99eb4e7e39671f768766": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "15b7037e947e7d11730bcfbf1ba16fcedd9818098f20aa19b17f73db628e5069": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "137b1f244a6eeaa52119c1be2cdf13516dd5a1ee5b5df2c25a13ce777a25610e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "04253694e8cc1ce9a9db14bdd5372beb91375c8fb0cebd43733fc9f1ecfd5e9a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0bf7b4f02c70d8d2a71065c5f0de346c8d7210af7448870da68edb3d58071bfb": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "1025f0686d72bde0daaf718c1149c7d1dfcf975040e2c0e3bac3184ad700eab8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "10a7f0cde2c6db7d74763e7d1ea15201cac71a0724d77c31a072d893a90fd7ca": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0bfab69b5b2b692d066b4435f2f6406357772aa53a3e17c3e0b8598083848a7a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "10ece64d5be441fb1bd351d201d629bc17eefe9ca706c77a5f6cd1af4fa7b1f3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0a45aa466f114e6daa13a82775e7bd5fc295e37a1e3d61deb3741a7e7a1b1f8a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "1081d2d0d9fac68ded196b1b0f5d157e0a1e887b50c698edb715a5d536df09b1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "036b0f4b8070789373dd08617539756187ed9f64bbbb6c17cfa5277815714579": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0602fa4dc0f80c82534f1d5d39977732143a7f87f5524bf68cc85f93760f4121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "055a07eca9dd8c5e95c2e6e2bb9f83691cfc835415e76d2dc99e75d59f502513": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "111b656feff1b7c6f888b3ab5fb37969597a53c8d91cc447614406960d0b6383": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0f622eaabc6dce5039205fc8828455202f40c6adab371ab707bd1e89a2f86a2e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "12aa6a12145314fb4cdf7fc725fc1cd089fe6ce3763bfc48f27a603db9af99c7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "14839cfd0908fe0a302f16538382693fcfae7111e26a555b46975d06c171ae68": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "103a4f1ba8fc0677a5ad6248f6a81d0233851d003316b44358abd159509475c2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "089c0262673d945f7e333635321ce6d6065238ce96ae50c7f36d078cf15b601f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "118c08ef7cb92f466525cf0f6e3f116222a281f3cc844bfce5ab46c2b22acb07": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "1061e37c81beab5b7ae2a0dbdefd5e8af848ea721e7ff08c4a78902ff9b19925": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "079fa662f29b06eda156a5f76255541aa2581e0bccd257c6a48103f271cea191": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "135fc2a1c31c80698903deec6728067ed03de4f600df0a0f530d8f72cc5bb821": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "07439544cfe342ced9fbf5cb6184b14e6d099d00edff8e4e212b8b86dcb7c121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0e155e942fdb70ca7cc4fb8aae606604896f02b9db57717124a9991da0a6abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0ef7c0d6e3f22768d008ba1c4f1a9003fbebc9859e5fc9fbd14af61879f798e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "07d469b7e483a73bc6f8ab305e00f6b4fb3c4e9745a32b0f7df028aae265d8f7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0e90a9d4b08fac209c89aa412e17e36be1d7d829c5ab2e58bfa0b0f492c54e94": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0a78c25f77c1ba1d1a3f07c18c9735ae1254a9a71290734b8836eefbefaadbc7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "010533f24832d83a2d2466daba201490528d132a5a2752520a4fbd98df5c1a23": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "00534f5868a6f72e77befbdb06e35ee9dc34e175dddf0e64e8b1922e494c8e24": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "17281837e808c89f1690dd0a141a9050cad1d7725c7abd38947c51712b0498a9": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "052e3e6371272bb633487276b4e7aebad6ca8886a547bf04775a0e6b6b56a7b0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "05aca9a7a430b3ff3a40e2d7e374ae5ff9b1a499e1e99b00279b8cea37e7c317": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "118a7b19306ba5f85761dc88dae92ded99272f97b35edcb6c545359c2616b5b3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "03780d41bd120b109e5ccd238dbe83ac00d62e57322dfce55007b2f561fdc43b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "074b65972001df859504b51561de914b800856c49debd41ded904ed1b2e196bd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0b328f5b774157256ac3851a51b544039f5a3dfdff2f2c901beee768e6e41fcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0de7a53aad7ddffd26f7db5d3f7ce61d27b3344de2b037289443259da7dac805": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "15bf33e5ae243dde13c7bfb8a72032ff6852756476b42891356f295749edba0c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "10ce285298eef1bad72ae9ef7359ad5a495be13433dded078e049c3df3365408": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "15d1be332021708faa84b4fd63c8043a885415912a3fac82d44f35810476f204": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "11831da4c16e2e25347cad97d2bba2f3e0f63dcbea6567a6f0eee4534cdf1dcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "133b128a5608a1333e0a9a2e8c94b3cfff73b50893c9257e348186c4250390e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "006771db3c057280f9277e735be6daa24339657ce999216c38da68002a443fed": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "010cf78dd4aa5f9de2c83cb366e4ac7fd44791eee7dc5234b3104f752f76b15b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0de066d59107da7fa259b5f99962d164c926b85a49dcb057bcc793937ae34a10": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "05c8b23b4c3a186d81efad50fd82be9841b694b5edd818f6f23619a494936746": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0e24a8c5a728a4d0f1d3d131ca339a93da01b119e6c01bb7b290fad3a201816f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "169bb02044a0fd43289301d5e3f25fa29675b1d0479b664b7e3d30c9eea0995e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "068bda6b2f8abe1eb088f3f819b7dfcb8dc354c2fbd3a2d29baa53be06d00f40": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0b5635d53b3b33294d7e49d75d96046c1157ad0713571138e51f1524a164cfce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "00713c8c22cf3b2ef6495b1da5484da9972921442d85a0a3c8be57f7aa9bbbb5": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "07dea22dcbe1fbd7a85370a48091cd46cdf395a81464de82c7f7d71461973518": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "056d915100f84a301df23477002d6b250c73db29351e4cb87f4e9346d6b370ea": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0f638de8c5c80d3d71bd2d007d440e64588bd49714bf460212497ed57a531ab4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "022b2aef50ac9921330737cd60f1a6d83d59f8b50840cf9b6d23bb6f664c9205": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0c6f5d61c7936a255784bc6ffae6f4055e6a00482581b20f031ef02905009e46": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "0194be61f9f49138751dd43bc51e7a46f87cbeebf5bb3d60f94a0dd08eeaeca3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "15f9f75bedcfdfd7d0befc486e102d09263105f9fef2602310409964354376aa": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "171069b48122d3b58b5fdf64b4c5b576b633dd637c8e36c7ee40ded8715251ce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "01c4ec9845f988da2907c5013357cbeb421be08bfa062266b0b2c015d5f9a9d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "09faef52cd70e3c604c7b82a74239dae84d2a8f05d6daaae8bdd8f9659ff40fd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "166336194f24c90f0a54eeb88f03862d3ff90df5a591fe28633e630cd02cf04e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      },
+      "17831e0e881d05566575b2b8b2723c1c4966eecdbf76b5b14d2e5b025136bb33": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": Infinity,
+        "ssim_vs_original": 1.0,
+        "lpips_vs_original": 0.0
+      }
+    }
+  },
+  "e99": {
+    "summary": {
+      "variant": "e99",
+      "total_evaluated": 100,
+      "mean_clip_score": null,
+      "mean_lpips_vs_original": 0.16064489722251893,
+      "mean_ssim_vs_original": 0.8102414476165096,
+      "mean_psnr_vs_original": 26.778985020992046
+    },
+    "items": {
+      "0693916e1ca5ec48e36fa9af64352f2128facc305eb9af9391e85fdb8480a601": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.55936906945208,
+        "ssim_vs_original": 0.9430132787397969,
+        "lpips_vs_original": 0.09114252030849457
+      },
+      "077de0554f2217ec92dfd64b78e8036aa2ea8349819aef924e77beedd975a51c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.25775301324138,
+        "ssim_vs_original": 0.8731562114850727,
+        "lpips_vs_original": 0.14518265426158905
+      },
+      "00b1ad87c296635c73bbc9728a63d3df4a9ab07aee0d34cd45784e39f2c699ba": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.188133832413655,
+        "ssim_vs_original": 0.9790077051717337,
+        "lpips_vs_original": 0.06054506078362465
+      },
+      "036181161501952553b4233ebf0f5be1ab16aacb5e0299362c10b57be28e06b6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.076576584482396,
+        "ssim_vs_original": 0.8162343626532191,
+        "lpips_vs_original": 0.19044554233551025
+      },
+      "0850228cdbf7df721a10d73003db4b8d9d83e17c480b79a6d5d643eff6c8c163": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.44162569571383,
+        "ssim_vs_original": 0.6142435938980692,
+        "lpips_vs_original": 0.21564604341983795
+      },
+      "114adf5c2de3beca3f9dfc4c40550ff2807f69f69a236dd7a5c079cd7ae7c262": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.933102301538778,
+        "ssim_vs_original": 0.9204607781615943,
+        "lpips_vs_original": 0.08791652321815491
+      },
+      "0fc5ed68d19ef648aae46287d09ef378388358a66e1867b5448f3ae11c1fdf25": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.08483603887159,
+        "ssim_vs_original": 0.8386654437390652,
+        "lpips_vs_original": 0.1501665860414505
+      },
+      "1739cfd2ce73a04e284ecd48a252e262b129dd39c8706b73ee6dd73cbf66347b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.13157721310644,
+        "ssim_vs_original": 0.9756244529102526,
+        "lpips_vs_original": 0.10453514009714127
+      },
+      "0343987d0a3f4438bf025f759d7d019f0a0129a48f00f656fb9b6c75f6775404": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.363733873619257,
+        "ssim_vs_original": 0.9263854155144082,
+        "lpips_vs_original": 0.08516368269920349
+      },
+      "03f5c560f5725ad6ca55fd7e6c0af4c4c7a7ca94c444a584f2a9f316d3b35ea2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.236586419376295,
+        "ssim_vs_original": 0.9773308528915654,
+        "lpips_vs_original": 0.0881563127040863
+      },
+      "04603070f8ff9d79427d864cb19a1614478e82a4746379dc07506f9103961ea8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.65489429788893,
+        "ssim_vs_original": 0.9632186847092339,
+        "lpips_vs_original": 0.06694735586643219
+      },
+      "0032cd2f169847864c28e5e190c2496c03ddd1a5e68d52145634164ebe57d3ac": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.790073289001924,
+        "ssim_vs_original": 0.5213744962153668,
+        "lpips_vs_original": 0.2757585048675537
+      },
+      "04dc353499a2cc18d2a89d5d61e99ef91dba62adcb1767566f883ad37677ba5a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.164770184876417,
+        "ssim_vs_original": 0.7461965448411337,
+        "lpips_vs_original": 0.1868824064731598
+      },
+      "1535598bb417f4891f9d6b842edeed288e73cd05129e2fdd076bb8ce152fb718": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.816428397388899,
+        "ssim_vs_original": 0.3161554200618731,
+        "lpips_vs_original": 0.4421800374984741
+      },
+      "02edaedb5016e1c5c9d9746275e8acdcb78b38fda68b051a6b29271b0ae131de": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.26607939653297,
+        "ssim_vs_original": 0.3627645443154056,
+        "lpips_vs_original": 0.3661468029022217
+      },
+      "0742f6f08fec5b4ad92c1720fa53408780a8adb4dad0e92c8817a4f46c45074b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.65891767501322,
+        "ssim_vs_original": 0.9521872884184797,
+        "lpips_vs_original": 0.06786949187517166
+      },
+      "008c201a7eff27ce0413f7931a48e92cf05ded9d9b7cf16cc2276ff3b80c7b22": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.495128639953542,
+        "ssim_vs_original": 0.25154858816595654,
+        "lpips_vs_original": 0.44496163725852966
+      },
+      "01cd1a4633b366cec002b9a7eb183a918ae2f36a05467eaa74f4cda79a54d449": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.138865296541553,
+        "ssim_vs_original": 0.8492769280592792,
+        "lpips_vs_original": 0.11920834332704544
+      },
+      "0777b243c09e2dff3274f46aa43d412faaec9bf5731c213c92571af668c606f0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.922399519546943,
+        "ssim_vs_original": 0.6395101109883273,
+        "lpips_vs_original": 0.3189791738986969
+      },
+      "03c53f58fc38f5bce2cb4301261711bc43469905c2eeca17e3fd9a6556bd6a88": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.5315633043776,
+        "ssim_vs_original": 0.59186909193224,
+        "lpips_vs_original": 0.29679057002067566
+      },
+      "056f10c6b6e4ae3aef042286b65d19278b14ad03d3f8144e70b42af5950b3f90": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.54275341367693,
+        "ssim_vs_original": 0.9138742143420211,
+        "lpips_vs_original": 0.09167761355638504
+      },
+      "001dccbc1f78146a9f03861026613d8e73f39f372b545b26118e37a23c740d5f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.921006689256316,
+        "ssim_vs_original": 0.8483784310381671,
+        "lpips_vs_original": 0.1452738642692566
+      },
+      "028819075f0c9b19455e99a7f9a4867a160a6749151ee72ae3e87d03c49aa3d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 40.46714783061484,
+        "ssim_vs_original": 0.981200910509851,
+        "lpips_vs_original": 0.06880006194114685
+      },
+      "050bedc5622e4dfd7528217b7694266e7bbe18d23f899ab6705fa1d6513ac72d": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.705156837843408,
+        "ssim_vs_original": 0.7701685827859232,
+        "lpips_vs_original": 0.1562701314687729
+      },
+      "10e39f37e37a8aa7fcc734e0decf55d05f29e18b2aac0c2ba77e7c76f314abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.24615103132314,
+        "ssim_vs_original": 0.942743233857454,
+        "lpips_vs_original": 0.06578291952610016
+      },
+      "00def8c08b0a092efa8b6aa444f1bb411333d6bdc7926885c7a72680d189a3c8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.24564930474856,
+        "ssim_vs_original": 0.48562821368578923,
+        "lpips_vs_original": 0.3643229305744171
+      },
+      "0a6c01ac3212768772f8f6eca86314c72d5ca320c3e3def148ddaceab23c07f4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.397563529100445,
+        "ssim_vs_original": 0.8609598886798902,
+        "lpips_vs_original": 0.12687614560127258
+      },
+      "00e3fa12dff0aa4791ee9077de752c29a77e7b64c809c326e93f13df23c84875": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 39.14770533614008,
+        "ssim_vs_original": 0.9708442526528201,
+        "lpips_vs_original": 0.07617491483688354
+      },
+      "04b9beb07e5d9d48198b877b2d0342e92a754d200c8eef3bacc3e2c7f94747e1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.879979275355915,
+        "ssim_vs_original": 0.9706585260261893,
+        "lpips_vs_original": 0.051039937883615494
+      },
+      "0c7c65cc7dee6b43fdfd64af290be4146a8e09e7817eade9d5e10f67cfa245f6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.053779899443054,
+        "ssim_vs_original": 0.6847135776548336,
+        "lpips_vs_original": 0.19489772617816925
+      },
+      "14eb48a50e37df548894ab6d8cd628a21dae14bbe6c462e894616fc5962e6c49": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.729759649165633,
+        "ssim_vs_original": 0.8457805606075468,
+        "lpips_vs_original": 0.22329482436180115
+      },
+      "033d379d3db90c25bd068c504d466770e4248ef6c3ab1f15a31a9e2f05874c7b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.649179643767727,
+        "ssim_vs_original": 0.8904679919054475,
+        "lpips_vs_original": 0.18135318160057068
+      },
+      "0a4151528bffc2ced33f2dd932b482a22a179bca95e5db00c6ca95d5147b9f50": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.24191736164889,
+        "ssim_vs_original": 0.8951751126730099,
+        "lpips_vs_original": 0.13289690017700195
+      },
+      "0a1b7c20a92c43c6b8954b1ac909fb2f0fa8b2997b80604bc8bbec80a1cb2da3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.985467846910849,
+        "ssim_vs_original": 0.5197272717355268,
+        "lpips_vs_original": 0.29311272501945496
+      },
+      "0776bac9491fb1b9c957c871d9093ac5131fb35d6a6e99eb4e7e39671f768766": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.632846762493983,
+        "ssim_vs_original": 0.9093339900809597,
+        "lpips_vs_original": 0.07912661880254745
+      },
+      "15b7037e947e7d11730bcfbf1ba16fcedd9818098f20aa19b17f73db628e5069": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.225422626439865,
+        "ssim_vs_original": 0.5046458816867317,
+        "lpips_vs_original": 0.40680450201034546
+      },
+      "137b1f244a6eeaa52119c1be2cdf13516dd5a1ee5b5df2c25a13ce777a25610e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.4040959512976,
+        "ssim_vs_original": 0.6036691910694691,
+        "lpips_vs_original": 0.26459789276123047
+      },
+      "04253694e8cc1ce9a9db14bdd5372beb91375c8fb0cebd43733fc9f1ecfd5e9a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.55599472689266,
+        "ssim_vs_original": 0.6402221212649765,
+        "lpips_vs_original": 0.1812480092048645
+      },
+      "0bf7b4f02c70d8d2a71065c5f0de346c8d7210af7448870da68edb3d58071bfb": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.996029111922535,
+        "ssim_vs_original": 0.8218072402634025,
+        "lpips_vs_original": 0.15024839341640472
+      },
+      "1025f0686d72bde0daaf718c1149c7d1dfcf975040e2c0e3bac3184ad700eab8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.818760931171624,
+        "ssim_vs_original": 0.7180746390608846,
+        "lpips_vs_original": 0.18863040208816528
+      },
+      "10a7f0cde2c6db7d74763e7d1ea15201cac71a0724d77c31a072d893a90fd7ca": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.218873303183027,
+        "ssim_vs_original": 0.9481658633026181,
+        "lpips_vs_original": 0.0802266076207161
+      },
+      "0bfab69b5b2b692d066b4435f2f6406357772aa53a3e17c3e0b8598083848a7a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.52245990131832,
+        "ssim_vs_original": 0.9681936641877372,
+        "lpips_vs_original": 0.05970345810055733
+      },
+      "10ece64d5be441fb1bd351d201d629bc17eefe9ca706c77a5f6cd1af4fa7b1f3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.67430059463361,
+        "ssim_vs_original": 0.9410264099410303,
+        "lpips_vs_original": 0.08356980979442596
+      },
+      "0a45aa466f114e6daa13a82775e7bd5fc295e37a1e3d61deb3741a7e7a1b1f8a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.682301761947016,
+        "ssim_vs_original": 0.8999855314814321,
+        "lpips_vs_original": 0.09078706800937653
+      },
+      "1081d2d0d9fac68ded196b1b0f5d157e0a1e887b50c698edb715a5d536df09b1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.995020884685788,
+        "ssim_vs_original": 0.5316018231789085,
+        "lpips_vs_original": 0.3342446982860565
+      },
+      "036b0f4b8070789373dd08617539756187ed9f64bbbb6c17cfa5277815714579": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.470311431482273,
+        "ssim_vs_original": 0.8944727468098321,
+        "lpips_vs_original": 0.09155059605836868
+      },
+      "0602fa4dc0f80c82534f1d5d39977732143a7f87f5524bf68cc85f93760f4121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.37177564223868,
+        "ssim_vs_original": 0.9774002704840096,
+        "lpips_vs_original": 0.09302695840597153
+      },
+      "055a07eca9dd8c5e95c2e6e2bb9f83691cfc835415e76d2dc99e75d59f502513": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.343826396646243,
+        "ssim_vs_original": 0.9306754486281444,
+        "lpips_vs_original": 0.08405792713165283
+      },
+      "111b656feff1b7c6f888b3ab5fb37969597a53c8d91cc447614406960d0b6383": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.70943080454122,
+        "ssim_vs_original": 0.9780068733091718,
+        "lpips_vs_original": 0.04058684781193733
+      },
+      "0f622eaabc6dce5039205fc8828455202f40c6adab371ab707bd1e89a2f86a2e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.773996131418166,
+        "ssim_vs_original": 0.9591466474776724,
+        "lpips_vs_original": 0.07390183955430984
+      },
+      "12aa6a12145314fb4cdf7fc725fc1cd089fe6ce3763bfc48f27a603db9af99c7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.37408424334086,
+        "ssim_vs_original": 0.7582207510589674,
+        "lpips_vs_original": 0.23573406040668488
+      },
+      "14839cfd0908fe0a302f16538382693fcfae7111e26a555b46975d06c171ae68": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.80195956295047,
+        "ssim_vs_original": 0.812569760383925,
+        "lpips_vs_original": 0.1665361374616623
+      },
+      "103a4f1ba8fc0677a5ad6248f6a81d0233851d003316b44358abd159509475c2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.783709933193617,
+        "ssim_vs_original": 0.7440539311630977,
+        "lpips_vs_original": 0.16166087985038757
+      },
+      "089c0262673d945f7e333635321ce6d6065238ce96ae50c7f36d078cf15b601f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.50647014633853,
+        "ssim_vs_original": 0.9541099242467371,
+        "lpips_vs_original": 0.1067911833524704
+      },
+      "118c08ef7cb92f466525cf0f6e3f116222a281f3cc844bfce5ab46c2b22acb07": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.12465998531231,
+        "ssim_vs_original": 0.9502606366362498,
+        "lpips_vs_original": 0.08778375387191772
+      },
+      "1061e37c81beab5b7ae2a0dbdefd5e8af848ea721e7ff08c4a78902ff9b19925": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.05371969946003,
+        "ssim_vs_original": 0.6757899076781891,
+        "lpips_vs_original": 0.20738732814788818
+      },
+      "079fa662f29b06eda156a5f76255541aa2581e0bccd257c6a48103f271cea191": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.51330043037769,
+        "ssim_vs_original": 0.7861730661045647,
+        "lpips_vs_original": 0.22188091278076172
+      },
+      "135fc2a1c31c80698903deec6728067ed03de4f600df0a0f530d8f72cc5bb821": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.98602791084685,
+        "ssim_vs_original": 0.7470441144765718,
+        "lpips_vs_original": 0.15494956076145172
+      },
+      "07439544cfe342ced9fbf5cb6184b14e6d099d00edff8e4e212b8b86dcb7c121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.063140616084713,
+        "ssim_vs_original": 0.8683798138546485,
+        "lpips_vs_original": 0.10446971654891968
+      },
+      "0e155e942fdb70ca7cc4fb8aae606604896f02b9db57717124a9991da0a6abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.283098964766886,
+        "ssim_vs_original": 0.9687048326658887,
+        "lpips_vs_original": 0.07310996949672699
+      },
+      "0ef7c0d6e3f22768d008ba1c4f1a9003fbebc9859e5fc9fbd14af61879f798e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.854201521100396,
+        "ssim_vs_original": 0.7476457504166991,
+        "lpips_vs_original": 0.19133126735687256
+      },
+      "07d469b7e483a73bc6f8ab305e00f6b4fb3c4e9745a32b0f7df028aae265d8f7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.960685706471594,
+        "ssim_vs_original": 0.8068278940916704,
+        "lpips_vs_original": 0.1572832614183426
+      },
+      "0e90a9d4b08fac209c89aa412e17e36be1d7d829c5ab2e58bfa0b0f492c54e94": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.083461915598534,
+        "ssim_vs_original": 0.772166847770049,
+        "lpips_vs_original": 0.18483348190784454
+      },
+      "0a78c25f77c1ba1d1a3f07c18c9735ae1254a9a71290734b8836eefbefaadbc7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.708561669215968,
+        "ssim_vs_original": 0.874584258813098,
+        "lpips_vs_original": 0.1011451706290245
+      },
+      "010533f24832d83a2d2466daba201490528d132a5a2752520a4fbd98df5c1a23": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.53472076627112,
+        "ssim_vs_original": 0.7100692565336757,
+        "lpips_vs_original": 0.2093600034713745
+      },
+      "00534f5868a6f72e77befbdb06e35ee9dc34e175dddf0e64e8b1922e494c8e24": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.220409912282474,
+        "ssim_vs_original": 0.8428856375681594,
+        "lpips_vs_original": 0.11589913815259933
+      },
+      "17281837e808c89f1690dd0a141a9050cad1d7725c7abd38947c51712b0498a9": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.2128147964535,
+        "ssim_vs_original": 0.9688345097855129,
+        "lpips_vs_original": 0.11755412817001343
+      },
+      "052e3e6371272bb633487276b4e7aebad6ca8886a547bf04775a0e6b6b56a7b0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.551945293354244,
+        "ssim_vs_original": 0.9520825445375986,
+        "lpips_vs_original": 0.05691983923316002
+      },
+      "05aca9a7a430b3ff3a40e2d7e374ae5ff9b1a499e1e99b00279b8cea37e7c317": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.172808500975176,
+        "ssim_vs_original": 0.8735742479016315,
+        "lpips_vs_original": 0.12067190557718277
+      },
+      "118a7b19306ba5f85761dc88dae92ded99272f97b35edcb6c545359c2616b5b3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.94040403997001,
+        "ssim_vs_original": 0.975348314455548,
+        "lpips_vs_original": 0.047521065920591354
+      },
+      "03780d41bd120b109e5ccd238dbe83ac00d62e57322dfce55007b2f561fdc43b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.038916497863937,
+        "ssim_vs_original": 0.8516638254231121,
+        "lpips_vs_original": 0.1532060205936432
+      },
+      "074b65972001df859504b51561de914b800856c49debd41ded904ed1b2e196bd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.4707446531524,
+        "ssim_vs_original": 0.5859303745147879,
+        "lpips_vs_original": 0.31789737939834595
+      },
+      "0b328f5b774157256ac3851a51b544039f5a3dfdff2f2c901beee768e6e41fcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.865562128035993,
+        "ssim_vs_original": 0.8980348165406234,
+        "lpips_vs_original": 0.12224626541137695
+      },
+      "0de7a53aad7ddffd26f7db5d3f7ce61d27b3344de2b037289443259da7dac805": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.69459220913042,
+        "ssim_vs_original": 0.9312721402745694,
+        "lpips_vs_original": 0.09054216742515564
+      },
+      "15bf33e5ae243dde13c7bfb8a72032ff6852756476b42891356f295749edba0c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.92761581987612,
+        "ssim_vs_original": 0.9306298910888627,
+        "lpips_vs_original": 0.11156834661960602
+      },
+      "10ce285298eef1bad72ae9ef7359ad5a495be13433dded078e049c3df3365408": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.305670196600126,
+        "ssim_vs_original": 0.671809543229133,
+        "lpips_vs_original": 0.23160330951213837
+      },
+      "15d1be332021708faa84b4fd63c8043a885415912a3fac82d44f35810476f204": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.93483622938317,
+        "ssim_vs_original": 0.49006466472221444,
+        "lpips_vs_original": 0.43691083788871765
+      },
+      "11831da4c16e2e25347cad97d2bba2f3e0f63dcbea6567a6f0eee4534cdf1dcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.48027645888974,
+        "ssim_vs_original": 0.8178057801546055,
+        "lpips_vs_original": 0.10311254113912582
+      },
+      "133b128a5608a1333e0a9a2e8c94b3cfff73b50893c9257e348186c4250390e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.08020609217166,
+        "ssim_vs_original": 0.9561047841698987,
+        "lpips_vs_original": 0.08452056348323822
+      },
+      "006771db3c057280f9277e735be6daa24339657ce999216c38da68002a443fed": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.40706421537789,
+        "ssim_vs_original": 0.9695708625619431,
+        "lpips_vs_original": 0.08286730945110321
+      },
+      "010cf78dd4aa5f9de2c83cb366e4ac7fd44791eee7dc5234b3104f752f76b15b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.923032909393584,
+        "ssim_vs_original": 0.8939146837754918,
+        "lpips_vs_original": 0.11470073461532593
+      },
+      "0de066d59107da7fa259b5f99962d164c926b85a49dcb057bcc793937ae34a10": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.337438195177942,
+        "ssim_vs_original": 0.8883964207188322,
+        "lpips_vs_original": 0.10355105996131897
+      },
+      "05c8b23b4c3a186d81efad50fd82be9841b694b5edd818f6f23619a494936746": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.18979274309454,
+        "ssim_vs_original": 0.8559469885762007,
+        "lpips_vs_original": 0.13610613346099854
+      },
+      "0e24a8c5a728a4d0f1d3d131ca339a93da01b119e6c01bb7b290fad3a201816f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.73547436958365,
+        "ssim_vs_original": 0.9691284401524026,
+        "lpips_vs_original": 0.10707296431064606
+      },
+      "169bb02044a0fd43289301d5e3f25fa29675b1d0479b664b7e3d30c9eea0995e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.795276830199626,
+        "ssim_vs_original": 0.9316017091435027,
+        "lpips_vs_original": 0.06742964684963226
+      },
+      "068bda6b2f8abe1eb088f3f819b7dfcb8dc354c2fbd3a2d29baa53be06d00f40": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.880522695419273,
+        "ssim_vs_original": 0.6681295262395741,
+        "lpips_vs_original": 0.23394156992435455
+      },
+      "0b5635d53b3b33294d7e49d75d96046c1157ad0713571138e51f1524a164cfce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.801683554683994,
+        "ssim_vs_original": 0.9449781026731795,
+        "lpips_vs_original": 0.10278864949941635
+      },
+      "00713c8c22cf3b2ef6495b1da5484da9972921442d85a0a3c8be57f7aa9bbbb5": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.744244000448415,
+        "ssim_vs_original": 0.6856769310622738,
+        "lpips_vs_original": 0.23891805112361908
+      },
+      "07dea22dcbe1fbd7a85370a48091cd46cdf395a81464de82c7f7d71461973518": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 42.92789198362371,
+        "ssim_vs_original": 0.9834379478651811,
+        "lpips_vs_original": 0.07872652262449265
+      },
+      "056d915100f84a301df23477002d6b250c73db29351e4cb87f4e9346d6b370ea": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.358604366967604,
+        "ssim_vs_original": 0.9677722087816545,
+        "lpips_vs_original": 0.06488628685474396
+      },
+      "0f638de8c5c80d3d71bd2d007d440e64588bd49714bf460212497ed57a531ab4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.61844996418332,
+        "ssim_vs_original": 0.9478601378306514,
+        "lpips_vs_original": 0.06456853449344635
+      },
+      "022b2aef50ac9921330737cd60f1a6d83d59f8b50840cf9b6d23bb6f664c9205": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.968283140168875,
+        "ssim_vs_original": 0.9316108070580482,
+        "lpips_vs_original": 0.08010058104991913
+      },
+      "0c6f5d61c7936a255784bc6ffae6f4055e6a00482581b20f031ef02905009e46": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.319669340684559,
+        "ssim_vs_original": 0.3716218093039172,
+        "lpips_vs_original": 0.4337194263935089
+      },
+      "0194be61f9f49138751dd43bc51e7a46f87cbeebf5bb3d60f94a0dd08eeaeca3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.32867998410674,
+        "ssim_vs_original": 0.9608481815150753,
+        "lpips_vs_original": 0.08025572448968887
+      },
+      "15f9f75bedcfdfd7d0befc486e102d09263105f9fef2602310409964354376aa": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.19163797700246,
+        "ssim_vs_original": 0.9743189028472684,
+        "lpips_vs_original": 0.06311029940843582
+      },
+      "171069b48122d3b58b5fdf64b4c5b576b633dd637c8e36c7ee40ded8715251ce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.981912593306,
+        "ssim_vs_original": 0.9695269136414681,
+        "lpips_vs_original": 0.0669216513633728
+      },
+      "01c4ec9845f988da2907c5013357cbeb421be08bfa062266b0b2c015d5f9a9d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.348652023309118,
+        "ssim_vs_original": 0.5409622944135609,
+        "lpips_vs_original": 0.22566300630569458
+      },
+      "09faef52cd70e3c604c7b82a74239dae84d2a8f05d6daaae8bdd8f9659ff40fd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.473254771876736,
+        "ssim_vs_original": 0.6091002376226036,
+        "lpips_vs_original": 0.2563755512237549
+      },
+      "166336194f24c90f0a54eeb88f03862d3ff90df5a591fe28633e630cd02cf04e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.52205793067944,
+        "ssim_vs_original": 0.7326542632768541,
+        "lpips_vs_original": 0.3354291319847107
+      },
+      "17831e0e881d05566575b2b8b2723c1c4966eecdbf76b5b14d2e5b025136bb33": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.195193956202278,
+        "ssim_vs_original": 0.43947266907745347,
+        "lpips_vs_original": 0.37421679496765137
+      }
+    }
+  },
+  "e95": {
+    "summary": {
+      "variant": "e95",
+      "total_evaluated": 100,
+      "mean_clip_score": null,
+      "mean_lpips_vs_original": 0.15899076357483863,
+      "mean_ssim_vs_original": 0.8146670171087478,
+      "mean_psnr_vs_original": 26.820874800289953
+    },
+    "items": {
+      "0693916e1ca5ec48e36fa9af64352f2128facc305eb9af9391e85fdb8480a601": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.5861766604809,
+        "ssim_vs_original": 0.3883545825410024,
+        "lpips_vs_original": 0.39832887053489685
+      },
+      "077de0554f2217ec92dfd64b78e8036aa2ea8349819aef924e77beedd975a51c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.074084463808703,
+        "ssim_vs_original": 0.9112951922087692,
+        "lpips_vs_original": 0.11032956093549728
+      },
+      "00b1ad87c296635c73bbc9728a63d3df4a9ab07aee0d34cd45784e39f2c699ba": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.802749221646934,
+        "ssim_vs_original": 0.9808945611715344,
+        "lpips_vs_original": 0.05889469385147095
+      },
+      "036181161501952553b4233ebf0f5be1ab16aacb5e0299362c10b57be28e06b6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.912999016898617,
+        "ssim_vs_original": 0.8806375737099149,
+        "lpips_vs_original": 0.14456988871097565
+      },
+      "0850228cdbf7df721a10d73003db4b8d9d83e17c480b79a6d5d643eff6c8c163": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.768016274784102,
+        "ssim_vs_original": 0.6686587697576429,
+        "lpips_vs_original": 0.18819782137870789
+      },
+      "114adf5c2de3beca3f9dfc4c40550ff2807f69f69a236dd7a5c079cd7ae7c262": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.943698692926272,
+        "ssim_vs_original": 0.9022486647786696,
+        "lpips_vs_original": 0.09710124135017395
+      },
+      "0fc5ed68d19ef648aae46287d09ef378388358a66e1867b5448f3ae11c1fdf25": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.628191524904146,
+        "ssim_vs_original": 0.6449716875700993,
+        "lpips_vs_original": 0.2621781826019287
+      },
+      "1739cfd2ce73a04e284ecd48a252e262b129dd39c8706b73ee6dd73cbf66347b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.43887457577494,
+        "ssim_vs_original": 0.9766143826605752,
+        "lpips_vs_original": 0.1074216291308403
+      },
+      "0343987d0a3f4438bf025f759d7d019f0a0129a48f00f656fb9b6c75f6775404": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.33843982539403,
+        "ssim_vs_original": 0.9548223555224914,
+        "lpips_vs_original": 0.0675673559308052
+      },
+      "03f5c560f5725ad6ca55fd7e6c0af4c4c7a7ca94c444a584f2a9f316d3b35ea2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 40.7823560770778,
+        "ssim_vs_original": 0.9792430785544647,
+        "lpips_vs_original": 0.08587023615837097
+      },
+      "04603070f8ff9d79427d864cb19a1614478e82a4746379dc07506f9103961ea8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.51369335356705,
+        "ssim_vs_original": 0.9262256829557564,
+        "lpips_vs_original": 0.09135297685861588
+      },
+      "0032cd2f169847864c28e5e190c2496c03ddd1a5e68d52145634164ebe57d3ac": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.88844638543519,
+        "ssim_vs_original": 0.8449289071741883,
+        "lpips_vs_original": 0.12450399994850159
+      },
+      "04dc353499a2cc18d2a89d5d61e99ef91dba62adcb1767566f883ad37677ba5a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.21227647470685,
+        "ssim_vs_original": 0.4431990050195034,
+        "lpips_vs_original": 0.40267089009284973
+      },
+      "1535598bb417f4891f9d6b842edeed288e73cd05129e2fdd076bb8ce152fb718": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.039850043123515,
+        "ssim_vs_original": 0.49469618166009355,
+        "lpips_vs_original": 0.3026144504547119
+      },
+      "02edaedb5016e1c5c9d9746275e8acdcb78b38fda68b051a6b29271b0ae131de": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.64375902352191,
+        "ssim_vs_original": 0.6746607440636199,
+        "lpips_vs_original": 0.200681671500206
+      },
+      "0742f6f08fec5b4ad92c1720fa53408780a8adb4dad0e92c8817a4f46c45074b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.83990941869945,
+        "ssim_vs_original": 0.9443127416264625,
+        "lpips_vs_original": 0.0715884417295456
+      },
+      "008c201a7eff27ce0413f7931a48e92cf05ded9d9b7cf16cc2276ff3b80c7b22": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.487875250570527,
+        "ssim_vs_original": 0.24971589565768307,
+        "lpips_vs_original": 0.4449872076511383
+      },
+      "01cd1a4633b366cec002b9a7eb183a918ae2f36a05467eaa74f4cda79a54d449": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.447040193653738,
+        "ssim_vs_original": 0.8729205609272405,
+        "lpips_vs_original": 0.10998319089412689
+      },
+      "0777b243c09e2dff3274f46aa43d412faaec9bf5731c213c92571af668c606f0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.211777334547325,
+        "ssim_vs_original": 0.7229653286901785,
+        "lpips_vs_original": 0.2532125413417816
+      },
+      "03c53f58fc38f5bce2cb4301261711bc43469905c2eeca17e3fd9a6556bd6a88": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.018596403421977,
+        "ssim_vs_original": 0.5188786138857804,
+        "lpips_vs_original": 0.3410632014274597
+      },
+      "056f10c6b6e4ae3aef042286b65d19278b14ad03d3f8144e70b42af5950b3f90": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.13314917735842,
+        "ssim_vs_original": 0.9441779591751961,
+        "lpips_vs_original": 0.07793022692203522
+      },
+      "001dccbc1f78146a9f03861026613d8e73f39f372b545b26118e37a23c740d5f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.768700859832755,
+        "ssim_vs_original": 0.9187926510229943,
+        "lpips_vs_original": 0.1093086302280426
+      },
+      "028819075f0c9b19455e99a7f9a4867a160a6749151ee72ae3e87d03c49aa3d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 40.66451514359723,
+        "ssim_vs_original": 0.9814159129069276,
+        "lpips_vs_original": 0.06920478492975235
+      },
+      "050bedc5622e4dfd7528217b7694266e7bbe18d23f899ab6705fa1d6513ac72d": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.606087267943813,
+        "ssim_vs_original": 0.799101178270554,
+        "lpips_vs_original": 0.1431097537279129
+      },
+      "10e39f37e37a8aa7fcc734e0decf55d05f29e18b2aac0c2ba77e7c76f314abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.82669798519234,
+        "ssim_vs_original": 0.9579845655068085,
+        "lpips_vs_original": 0.05905287712812424
+      },
+      "00def8c08b0a092efa8b6aa444f1bb411333d6bdc7926885c7a72680d189a3c8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.730674662151653,
+        "ssim_vs_original": 0.622112889457315,
+        "lpips_vs_original": 0.28220388293266296
+      },
+      "0a6c01ac3212768772f8f6eca86314c72d5ca320c3e3def148ddaceab23c07f4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.358361709966434,
+        "ssim_vs_original": 0.8108389991717867,
+        "lpips_vs_original": 0.15247707068920135
+      },
+      "00e3fa12dff0aa4791ee9077de752c29a77e7b64c809c326e93f13df23c84875": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 39.88099040988001,
+        "ssim_vs_original": 0.972926471191018,
+        "lpips_vs_original": 0.0733996331691742
+      },
+      "04b9beb07e5d9d48198b877b2d0342e92a754d200c8eef3bacc3e2c7f94747e1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.931702655959224,
+        "ssim_vs_original": 0.9640602009566996,
+        "lpips_vs_original": 0.055862907320261
+      },
+      "0c7c65cc7dee6b43fdfd64af290be4146a8e09e7817eade9d5e10f67cfa245f6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.695905096310135,
+        "ssim_vs_original": 0.8513921271938198,
+        "lpips_vs_original": 0.11409636586904526
+      },
+      "14eb48a50e37df548894ab6d8cd628a21dae14bbe6c462e894616fc5962e6c49": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.23764643554791,
+        "ssim_vs_original": 0.7538430001805334,
+        "lpips_vs_original": 0.30719029903411865
+      },
+      "033d379d3db90c25bd068c504d466770e4248ef6c3ab1f15a31a9e2f05874c7b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.48836723380638,
+        "ssim_vs_original": 0.8773820648348551,
+        "lpips_vs_original": 0.19838112592697144
+      },
+      "0a4151528bffc2ced33f2dd932b482a22a179bca95e5db00c6ca95d5147b9f50": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.675801779329614,
+        "ssim_vs_original": 0.8959658365805591,
+        "lpips_vs_original": 0.13381639122962952
+      },
+      "0a1b7c20a92c43c6b8954b1ac909fb2f0fa8b2997b80604bc8bbec80a1cb2da3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.769423079554423,
+        "ssim_vs_original": 0.4862314509980752,
+        "lpips_vs_original": 0.31826627254486084
+      },
+      "0776bac9491fb1b9c957c871d9093ac5131fb35d6a6e99eb4e7e39671f768766": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.73763729350389,
+        "ssim_vs_original": 0.9047336111647883,
+        "lpips_vs_original": 0.08558137714862823
+      },
+      "15b7037e947e7d11730bcfbf1ba16fcedd9818098f20aa19b17f73db628e5069": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.000159516974275,
+        "ssim_vs_original": 0.5231955258092563,
+        "lpips_vs_original": 0.3948240876197815
+      },
+      "137b1f244a6eeaa52119c1be2cdf13516dd5a1ee5b5df2c25a13ce777a25610e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.36603356410394,
+        "ssim_vs_original": 0.6022373811219562,
+        "lpips_vs_original": 0.26540541648864746
+      },
+      "04253694e8cc1ce9a9db14bdd5372beb91375c8fb0cebd43733fc9f1ecfd5e9a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.998233563802103,
+        "ssim_vs_original": 0.8724552940901618,
+        "lpips_vs_original": 0.09007436037063599
+      },
+      "0bf7b4f02c70d8d2a71065c5f0de346c8d7210af7448870da68edb3d58071bfb": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.30807442354712,
+        "ssim_vs_original": 0.8666698194758018,
+        "lpips_vs_original": 0.13282154500484467
+      },
+      "1025f0686d72bde0daaf718c1149c7d1dfcf975040e2c0e3bac3184ad700eab8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.875536764658037,
+        "ssim_vs_original": 0.6147021850452229,
+        "lpips_vs_original": 0.2492401897907257
+      },
+      "10a7f0cde2c6db7d74763e7d1ea15201cac71a0724d77c31a072d893a90fd7ca": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.849744157127724,
+        "ssim_vs_original": 0.8329501131910106,
+        "lpips_vs_original": 0.14457698166370392
+      },
+      "0bfab69b5b2b692d066b4435f2f6406357772aa53a3e17c3e0b8598083848a7a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.14627381764374,
+        "ssim_vs_original": 0.9656181214338507,
+        "lpips_vs_original": 0.061063140630722046
+      },
+      "10ece64d5be441fb1bd351d201d629bc17eefe9ca706c77a5f6cd1af4fa7b1f3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.79252269991238,
+        "ssim_vs_original": 0.9628856558464756,
+        "lpips_vs_original": 0.0718732476234436
+      },
+      "0a45aa466f114e6daa13a82775e7bd5fc295e37a1e3d61deb3741a7e7a1b1f8a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.065162588762785,
+        "ssim_vs_original": 0.9376998083397549,
+        "lpips_vs_original": 0.07268092781305313
+      },
+      "1081d2d0d9fac68ded196b1b0f5d157e0a1e887b50c698edb715a5d536df09b1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.34424259784277,
+        "ssim_vs_original": 0.5073243251135505,
+        "lpips_vs_original": 0.3389996886253357
+      },
+      "036b0f4b8070789373dd08617539756187ed9f64bbbb6c17cfa5277815714579": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.38402821164733,
+        "ssim_vs_original": 0.8972185229292096,
+        "lpips_vs_original": 0.09431897103786469
+      },
+      "0602fa4dc0f80c82534f1d5d39977732143a7f87f5524bf68cc85f93760f4121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.030051525014095,
+        "ssim_vs_original": 0.976353881898627,
+        "lpips_vs_original": 0.0942620187997818
+      },
+      "055a07eca9dd8c5e95c2e6e2bb9f83691cfc835415e76d2dc99e75d59f502513": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.013992101867828,
+        "ssim_vs_original": 0.9104478374631612,
+        "lpips_vs_original": 0.0942077562212944
+      },
+      "111b656feff1b7c6f888b3ab5fb37969597a53c8d91cc447614406960d0b6383": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.712464621700676,
+        "ssim_vs_original": 0.9777199055209878,
+        "lpips_vs_original": 0.040144894272089005
+      },
+      "0f622eaabc6dce5039205fc8828455202f40c6adab371ab707bd1e89a2f86a2e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.31656852055594,
+        "ssim_vs_original": 0.9568289961877492,
+        "lpips_vs_original": 0.07725000381469727
+      },
+      "12aa6a12145314fb4cdf7fc725fc1cd089fe6ce3763bfc48f27a603db9af99c7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.3095817941643,
+        "ssim_vs_original": 0.9335457460790161,
+        "lpips_vs_original": 0.08980849385261536
+      },
+      "14839cfd0908fe0a302f16538382693fcfae7111e26a555b46975d06c171ae68": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.91621247264481,
+        "ssim_vs_original": 0.7866367994483051,
+        "lpips_vs_original": 0.18676164746284485
+      },
+      "103a4f1ba8fc0677a5ad6248f6a81d0233851d003316b44358abd159509475c2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.39290360286,
+        "ssim_vs_original": 0.7324654179464556,
+        "lpips_vs_original": 0.1644248217344284
+      },
+      "089c0262673d945f7e333635321ce6d6065238ce96ae50c7f36d078cf15b601f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.32057602037396,
+        "ssim_vs_original": 0.9707870404752135,
+        "lpips_vs_original": 0.09959812462329865
+      },
+      "118c08ef7cb92f466525cf0f6e3f116222a281f3cc844bfce5ab46c2b22acb07": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.79246203458338,
+        "ssim_vs_original": 0.9530767380388663,
+        "lpips_vs_original": 0.08606109768152237
+      },
+      "1061e37c81beab5b7ae2a0dbdefd5e8af848ea721e7ff08c4a78902ff9b19925": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.81164692370573,
+        "ssim_vs_original": 0.7643122212387452,
+        "lpips_vs_original": 0.1663907766342163
+      },
+      "079fa662f29b06eda156a5f76255541aa2581e0bccd257c6a48103f271cea191": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.847269631195147,
+        "ssim_vs_original": 0.8183607610674328,
+        "lpips_vs_original": 0.1983271688222885
+      },
+      "135fc2a1c31c80698903deec6728067ed03de4f600df0a0f530d8f72cc5bb821": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.14308111249009,
+        "ssim_vs_original": 0.745384512289972,
+        "lpips_vs_original": 0.1534576714038849
+      },
+      "07439544cfe342ced9fbf5cb6184b14e6d099d00edff8e4e212b8b86dcb7c121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.54455128455697,
+        "ssim_vs_original": 0.8442247591089617,
+        "lpips_vs_original": 0.11595025658607483
+      },
+      "0e155e942fdb70ca7cc4fb8aae606604896f02b9db57717124a9991da0a6abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.38303278372599,
+        "ssim_vs_original": 0.9569771744420371,
+        "lpips_vs_original": 0.08658944070339203
+      },
+      "0ef7c0d6e3f22768d008ba1c4f1a9003fbebc9859e5fc9fbd14af61879f798e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.255723333184445,
+        "ssim_vs_original": 0.7525824604800675,
+        "lpips_vs_original": 0.1673017293214798
+      },
+      "07d469b7e483a73bc6f8ab305e00f6b4fb3c4e9745a32b0f7df028aae265d8f7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.071601468303328,
+        "ssim_vs_original": 0.8102158598462657,
+        "lpips_vs_original": 0.15666116774082184
+      },
+      "0e90a9d4b08fac209c89aa412e17e36be1d7d829c5ab2e58bfa0b0f492c54e94": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.662420728017242,
+        "ssim_vs_original": 0.7673066669429556,
+        "lpips_vs_original": 0.18684321641921997
+      },
+      "0a78c25f77c1ba1d1a3f07c18c9735ae1254a9a71290734b8836eefbefaadbc7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.792677924005677,
+        "ssim_vs_original": 0.8310842381054607,
+        "lpips_vs_original": 0.1187751442193985
+      },
+      "010533f24832d83a2d2466daba201490528d132a5a2752520a4fbd98df5c1a23": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.081275463178738,
+        "ssim_vs_original": 0.7223875494891129,
+        "lpips_vs_original": 0.19885915517807007
+      },
+      "00534f5868a6f72e77befbdb06e35ee9dc34e175dddf0e64e8b1922e494c8e24": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.706576794934396,
+        "ssim_vs_original": 0.8826671035065625,
+        "lpips_vs_original": 0.09663647413253784
+      },
+      "17281837e808c89f1690dd0a141a9050cad1d7725c7abd38947c51712b0498a9": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.62159666082412,
+        "ssim_vs_original": 0.9194638012093826,
+        "lpips_vs_original": 0.14705045521259308
+      },
+      "052e3e6371272bb633487276b4e7aebad6ca8886a547bf04775a0e6b6b56a7b0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.16061479951706,
+        "ssim_vs_original": 0.9562352973584212,
+        "lpips_vs_original": 0.05489635467529297
+      },
+      "05aca9a7a430b3ff3a40e2d7e374ae5ff9b1a499e1e99b00279b8cea37e7c317": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.137385763952352,
+        "ssim_vs_original": 0.9060783553259494,
+        "lpips_vs_original": 0.10782600194215775
+      },
+      "118a7b19306ba5f85761dc88dae92ded99272f97b35edcb6c545359c2616b5b3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.933527850426174,
+        "ssim_vs_original": 0.9746553854519835,
+        "lpips_vs_original": 0.0478891059756279
+      },
+      "03780d41bd120b109e5ccd238dbe83ac00d62e57322dfce55007b2f561fdc43b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.197676177931594,
+        "ssim_vs_original": 0.8788464511134629,
+        "lpips_vs_original": 0.13572612404823303
+      },
+      "074b65972001df859504b51561de914b800856c49debd41ded904ed1b2e196bd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.677497542518175,
+        "ssim_vs_original": 0.6345876364033871,
+        "lpips_vs_original": 0.2855429947376251
+      },
+      "0b328f5b774157256ac3851a51b544039f5a3dfdff2f2c901beee768e6e41fcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.400441330646416,
+        "ssim_vs_original": 0.8982034384821314,
+        "lpips_vs_original": 0.12440381944179535
+      },
+      "0de7a53aad7ddffd26f7db5d3f7ce61d27b3344de2b037289443259da7dac805": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.317023094640234,
+        "ssim_vs_original": 0.9163318068241337,
+        "lpips_vs_original": 0.10275983065366745
+      },
+      "15bf33e5ae243dde13c7bfb8a72032ff6852756476b42891356f295749edba0c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.771301936605706,
+        "ssim_vs_original": 0.9017624947833718,
+        "lpips_vs_original": 0.12940683960914612
+      },
+      "10ce285298eef1bad72ae9ef7359ad5a495be13433dded078e049c3df3365408": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.40663638437807,
+        "ssim_vs_original": 0.5320141563446441,
+        "lpips_vs_original": 0.3353135585784912
+      },
+      "15d1be332021708faa84b4fd63c8043a885415912a3fac82d44f35810476f204": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.54454972510683,
+        "ssim_vs_original": 0.4996080003710351,
+        "lpips_vs_original": 0.40170037746429443
+      },
+      "11831da4c16e2e25347cad97d2bba2f3e0f63dcbea6567a6f0eee4534cdf1dcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.26750442817179,
+        "ssim_vs_original": 0.8062204334700179,
+        "lpips_vs_original": 0.10667753964662552
+      },
+      "133b128a5608a1333e0a9a2e8c94b3cfff73b50893c9257e348186c4250390e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.467187170096622,
+        "ssim_vs_original": 0.9286406474854572,
+        "lpips_vs_original": 0.10503469407558441
+      },
+      "006771db3c057280f9277e735be6daa24339657ce999216c38da68002a443fed": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.72132768817256,
+        "ssim_vs_original": 0.9683261550382534,
+        "lpips_vs_original": 0.0835948958992958
+      },
+      "010cf78dd4aa5f9de2c83cb366e4ac7fd44791eee7dc5234b3104f752f76b15b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.19316373266232,
+        "ssim_vs_original": 0.887843886989037,
+        "lpips_vs_original": 0.11940007656812668
+      },
+      "0de066d59107da7fa259b5f99962d164c926b85a49dcb057bcc793937ae34a10": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.610775112411392,
+        "ssim_vs_original": 0.9178417478093189,
+        "lpips_vs_original": 0.08904364705085754
+      },
+      "05c8b23b4c3a186d81efad50fd82be9841b694b5edd818f6f23619a494936746": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.035556116166465,
+        "ssim_vs_original": 0.9421208637286508,
+        "lpips_vs_original": 0.07640925794839859
+      },
+      "0e24a8c5a728a4d0f1d3d131ca339a93da01b119e6c01bb7b290fad3a201816f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.092114440862325,
+        "ssim_vs_original": 0.9730088741617535,
+        "lpips_vs_original": 0.10257688909769058
+      },
+      "169bb02044a0fd43289301d5e3f25fa29675b1d0479b664b7e3d30c9eea0995e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.608292134676887,
+        "ssim_vs_original": 0.9526084743289592,
+        "lpips_vs_original": 0.05809169262647629
+      },
+      "068bda6b2f8abe1eb088f3f819b7dfcb8dc354c2fbd3a2d29baa53be06d00f40": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.046523771575423,
+        "ssim_vs_original": 0.7465006898365545,
+        "lpips_vs_original": 0.19519926607608795
+      },
+      "0b5635d53b3b33294d7e49d75d96046c1157ad0713571138e51f1524a164cfce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.83794879953522,
+        "ssim_vs_original": 0.931404937348457,
+        "lpips_vs_original": 0.12070246785879135
+      },
+      "00713c8c22cf3b2ef6495b1da5484da9972921442d85a0a3c8be57f7aa9bbbb5": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.762729489253402,
+        "ssim_vs_original": 0.5674404782368468,
+        "lpips_vs_original": 0.3127779960632324
+      },
+      "07dea22dcbe1fbd7a85370a48091cd46cdf395a81464de82c7f7d71461973518": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 42.798895504020805,
+        "ssim_vs_original": 0.9834022104338436,
+        "lpips_vs_original": 0.07904865592718124
+      },
+      "056d915100f84a301df23477002d6b250c73db29351e4cb87f4e9346d6b370ea": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.32207062719646,
+        "ssim_vs_original": 0.8277602274867699,
+        "lpips_vs_original": 0.12239551544189453
+      },
+      "0f638de8c5c80d3d71bd2d007d440e64588bd49714bf460212497ed57a531ab4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.920223391918803,
+        "ssim_vs_original": 0.9361480173894685,
+        "lpips_vs_original": 0.07154975086450577
+      },
+      "022b2aef50ac9921330737cd60f1a6d83d59f8b50840cf9b6d23bb6f664c9205": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.898291226094212,
+        "ssim_vs_original": 0.8740684470196963,
+        "lpips_vs_original": 0.10335082560777664
+      },
+      "0c6f5d61c7936a255784bc6ffae6f4055e6a00482581b20f031ef02905009e46": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 12.364276760590919,
+        "ssim_vs_original": 0.3306476250241569,
+        "lpips_vs_original": 0.48231303691864014
+      },
+      "0194be61f9f49138751dd43bc51e7a46f87cbeebf5bb3d60f94a0dd08eeaeca3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.73027183683308,
+        "ssim_vs_original": 0.963211275323881,
+        "lpips_vs_original": 0.078487329185009
+      },
+      "15f9f75bedcfdfd7d0befc486e102d09263105f9fef2602310409964354376aa": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.310238613173944,
+        "ssim_vs_original": 0.975690021529975,
+        "lpips_vs_original": 0.06139606237411499
+      },
+      "171069b48122d3b58b5fdf64b4c5b576b633dd637c8e36c7ee40ded8715251ce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.98055619332988,
+        "ssim_vs_original": 0.9652985800107773,
+        "lpips_vs_original": 0.07075201719999313
+      },
+      "01c4ec9845f988da2907c5013357cbeb421be08bfa062266b0b2c015d5f9a9d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.670018361271495,
+        "ssim_vs_original": 0.6609255943151888,
+        "lpips_vs_original": 0.15628021955490112
+      },
+      "09faef52cd70e3c604c7b82a74239dae84d2a8f05d6daaae8bdd8f9659ff40fd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.49547108063373,
+        "ssim_vs_original": 0.6114960348191184,
+        "lpips_vs_original": 0.2601208984851837
+      },
+      "166336194f24c90f0a54eeb88f03862d3ff90df5a591fe28633e630cd02cf04e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.650841548419063,
+        "ssim_vs_original": 0.7392381694145234,
+        "lpips_vs_original": 0.32952725887298584
+      },
+      "17831e0e881d05566575b2b8b2723c1c4966eecdbf76b5b14d2e5b025136bb33": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.815797683418573,
+        "ssim_vs_original": 0.5615456452863793,
+        "lpips_vs_original": 0.30464163422584534
+      }
+    }
+  },
+  "e90": {
+    "summary": {
+      "variant": "e90",
+      "total_evaluated": 100,
+      "mean_clip_score": null,
+      "mean_lpips_vs_original": 0.1604800943657756,
+      "mean_ssim_vs_original": 0.8147074576696015,
+      "mean_psnr_vs_original": 26.839536033833824
+    },
+    "items": {
+      "0693916e1ca5ec48e36fa9af64352f2128facc305eb9af9391e85fdb8480a601": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.35075898042821,
+        "ssim_vs_original": 0.9170498768510573,
+        "lpips_vs_original": 0.11687468737363815
+      },
+      "077de0554f2217ec92dfd64b78e8036aa2ea8349819aef924e77beedd975a51c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.373964510385832,
+        "ssim_vs_original": 0.8940728402663287,
+        "lpips_vs_original": 0.12969852983951569
+      },
+      "00b1ad87c296635c73bbc9728a63d3df4a9ab07aee0d34cd45784e39f2c699ba": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.162140650857566,
+        "ssim_vs_original": 0.9785817139433644,
+        "lpips_vs_original": 0.062006160616874695
+      },
+      "036181161501952553b4233ebf0f5be1ab16aacb5e0299362c10b57be28e06b6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.688816196713546,
+        "ssim_vs_original": 0.9683488152102327,
+        "lpips_vs_original": 0.10186148434877396
+      },
+      "0850228cdbf7df721a10d73003db4b8d9d83e17c480b79a6d5d643eff6c8c163": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.95244975191905,
+        "ssim_vs_original": 0.6619995561573602,
+        "lpips_vs_original": 0.19375185668468475
+      },
+      "114adf5c2de3beca3f9dfc4c40550ff2807f69f69a236dd7a5c079cd7ae7c262": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.084829762877327,
+        "ssim_vs_original": 0.8271820532766498,
+        "lpips_vs_original": 0.1448756754398346
+      },
+      "0fc5ed68d19ef648aae46287d09ef378388358a66e1867b5448f3ae11c1fdf25": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.95769138409589,
+        "ssim_vs_original": 0.6147808785352565,
+        "lpips_vs_original": 0.27652430534362793
+      },
+      "1739cfd2ce73a04e284ecd48a252e262b129dd39c8706b73ee6dd73cbf66347b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.420625489211666,
+        "ssim_vs_original": 0.9754216696760992,
+        "lpips_vs_original": 0.11103764176368713
+      },
+      "0343987d0a3f4438bf025f759d7d019f0a0129a48f00f656fb9b6c75f6775404": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.422650693667972,
+        "ssim_vs_original": 0.8709720882985871,
+        "lpips_vs_original": 0.11285915970802307
+      },
+      "03f5c560f5725ad6ca55fd7e6c0af4c4c7a7ca94c444a584f2a9f316d3b35ea2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.9717148076989,
+        "ssim_vs_original": 0.9773249139018827,
+        "lpips_vs_original": 0.08873209357261658
+      },
+      "04603070f8ff9d79427d864cb19a1614478e82a4746379dc07506f9103961ea8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.49324470500294,
+        "ssim_vs_original": 0.9241604171058058,
+        "lpips_vs_original": 0.09337181597948074
+      },
+      "0032cd2f169847864c28e5e190c2496c03ddd1a5e68d52145634164ebe57d3ac": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.7511466620195,
+        "ssim_vs_original": 0.527597911218185,
+        "lpips_vs_original": 0.2716355323791504
+      },
+      "04dc353499a2cc18d2a89d5d61e99ef91dba62adcb1767566f883ad37677ba5a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.447934948930737,
+        "ssim_vs_original": 0.6723339448044485,
+        "lpips_vs_original": 0.2100602686405182
+      },
+      "1535598bb417f4891f9d6b842edeed288e73cd05129e2fdd076bb8ce152fb718": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.239746975287815,
+        "ssim_vs_original": 0.31957703363814877,
+        "lpips_vs_original": 0.4353681206703186
+      },
+      "02edaedb5016e1c5c9d9746275e8acdcb78b38fda68b051a6b29271b0ae131de": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.52939681878115,
+        "ssim_vs_original": 0.7168876662451698,
+        "lpips_vs_original": 0.17957240343093872
+      },
+      "0742f6f08fec5b4ad92c1720fa53408780a8adb4dad0e92c8817a4f46c45074b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.5410701222583,
+        "ssim_vs_original": 0.9663725403852526,
+        "lpips_vs_original": 0.06397636979818344
+      },
+      "008c201a7eff27ce0413f7931a48e92cf05ded9d9b7cf16cc2276ff3b80c7b22": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.551995075828675,
+        "ssim_vs_original": 0.8738725916919171,
+        "lpips_vs_original": 0.12256082892417908
+      },
+      "01cd1a4633b366cec002b9a7eb183a918ae2f36a05467eaa74f4cda79a54d449": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.531712513220235,
+        "ssim_vs_original": 0.5940365650228004,
+        "lpips_vs_original": 0.27409136295318604
+      },
+      "0777b243c09e2dff3274f46aa43d412faaec9bf5731c213c92571af668c606f0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.457528897410313,
+        "ssim_vs_original": 0.7812952122912201,
+        "lpips_vs_original": 0.20907925069332123
+      },
+      "03c53f58fc38f5bce2cb4301261711bc43469905c2eeca17e3fd9a6556bd6a88": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.519274056677508,
+        "ssim_vs_original": 0.49012358024599745,
+        "lpips_vs_original": 0.3578411340713501
+      },
+      "056f10c6b6e4ae3aef042286b65d19278b14ad03d3f8144e70b42af5950b3f90": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.347260301377304,
+        "ssim_vs_original": 0.938128944589874,
+        "lpips_vs_original": 0.08010411262512207
+      },
+      "001dccbc1f78146a9f03861026613d8e73f39f372b545b26118e37a23c740d5f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.360969539909124,
+        "ssim_vs_original": 0.855241334623453,
+        "lpips_vs_original": 0.14323222637176514
+      },
+      "028819075f0c9b19455e99a7f9a4867a160a6749151ee72ae3e87d03c49aa3d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 40.6120434315181,
+        "ssim_vs_original": 0.9812897903809691,
+        "lpips_vs_original": 0.0703776478767395
+      },
+      "050bedc5622e4dfd7528217b7694266e7bbe18d23f899ab6705fa1d6513ac72d": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.551615367211614,
+        "ssim_vs_original": 0.502462561856047,
+        "lpips_vs_original": 0.32560834288597107
+      },
+      "10e39f37e37a8aa7fcc734e0decf55d05f29e18b2aac0c2ba77e7c76f314abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.222190255167504,
+        "ssim_vs_original": 0.8705930364292724,
+        "lpips_vs_original": 0.10147005319595337
+      },
+      "00def8c08b0a092efa8b6aa444f1bb411333d6bdc7926885c7a72680d189a3c8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.950501633042887,
+        "ssim_vs_original": 0.7783435138853003,
+        "lpips_vs_original": 0.17213065922260284
+      },
+      "0a6c01ac3212768772f8f6eca86314c72d5ca320c3e3def148ddaceab23c07f4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.86155273631715,
+        "ssim_vs_original": 0.864201618219381,
+        "lpips_vs_original": 0.12734144926071167
+      },
+      "00e3fa12dff0aa4791ee9077de752c29a77e7b64c809c326e93f13df23c84875": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.301140455137364,
+        "ssim_vs_original": 0.9661770877471129,
+        "lpips_vs_original": 0.07813328504562378
+      },
+      "04b9beb07e5d9d48198b877b2d0342e92a754d200c8eef3bacc3e2c7f94747e1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.045308824201445,
+        "ssim_vs_original": 0.965709464213805,
+        "lpips_vs_original": 0.05582506209611893
+      },
+      "0c7c65cc7dee6b43fdfd64af290be4146a8e09e7817eade9d5e10f67cfa245f6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.608989311435188,
+        "ssim_vs_original": 0.7228815911733727,
+        "lpips_vs_original": 0.17125742137432098
+      },
+      "14eb48a50e37df548894ab6d8cd628a21dae14bbe6c462e894616fc5962e6c49": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.159577526784442,
+        "ssim_vs_original": 0.8487980550592534,
+        "lpips_vs_original": 0.21778517961502075
+      },
+      "033d379d3db90c25bd068c504d466770e4248ef6c3ab1f15a31a9e2f05874c7b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.513673399290205,
+        "ssim_vs_original": 0.9346901292140986,
+        "lpips_vs_original": 0.13273479044437408
+      },
+      "0a4151528bffc2ced33f2dd932b482a22a179bca95e5db00c6ca95d5147b9f50": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.3939330685697,
+        "ssim_vs_original": 0.9061941620703488,
+        "lpips_vs_original": 0.13060010969638824
+      },
+      "0a1b7c20a92c43c6b8954b1ac909fb2f0fa8b2997b80604bc8bbec80a1cb2da3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.224217001544801,
+        "ssim_vs_original": 0.4469761834102288,
+        "lpips_vs_original": 0.3429792821407318
+      },
+      "0776bac9491fb1b9c957c871d9093ac5131fb35d6a6e99eb4e7e39671f768766": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.193486287109046,
+        "ssim_vs_original": 0.920206101611133,
+        "lpips_vs_original": 0.07713845372200012
+      },
+      "15b7037e947e7d11730bcfbf1ba16fcedd9818098f20aa19b17f73db628e5069": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.371397877568747,
+        "ssim_vs_original": 0.4454412542824362,
+        "lpips_vs_original": 0.45639467239379883
+      },
+      "137b1f244a6eeaa52119c1be2cdf13516dd5a1ee5b5df2c25a13ce777a25610e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.34326097741644,
+        "ssim_vs_original": 0.602439756266888,
+        "lpips_vs_original": 0.2650349736213684
+      },
+      "04253694e8cc1ce9a9db14bdd5372beb91375c8fb0cebd43733fc9f1ecfd5e9a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.934698729941804,
+        "ssim_vs_original": 0.954449793120651,
+        "lpips_vs_original": 0.05241413414478302
+      },
+      "0bf7b4f02c70d8d2a71065c5f0de346c8d7210af7448870da68edb3d58071bfb": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.265904921069783,
+        "ssim_vs_original": 0.7976775995755774,
+        "lpips_vs_original": 0.1683979481458664
+      },
+      "1025f0686d72bde0daaf718c1149c7d1dfcf975040e2c0e3bac3184ad700eab8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.593650897279122,
+        "ssim_vs_original": 0.7870299542095666,
+        "lpips_vs_original": 0.15770703554153442
+      },
+      "10a7f0cde2c6db7d74763e7d1ea15201cac71a0724d77c31a072d893a90fd7ca": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.96243108502125,
+        "ssim_vs_original": 0.8262639705656856,
+        "lpips_vs_original": 0.145379900932312
+      },
+      "0bfab69b5b2b692d066b4435f2f6406357772aa53a3e17c3e0b8598083848a7a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.9293297219563,
+        "ssim_vs_original": 0.9656907904022949,
+        "lpips_vs_original": 0.06328999996185303
+      },
+      "10ece64d5be441fb1bd351d201d629bc17eefe9ca706c77a5f6cd1af4fa7b1f3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.8065806550033,
+        "ssim_vs_original": 0.9522369799383336,
+        "lpips_vs_original": 0.07754730433225632
+      },
+      "0a45aa466f114e6daa13a82775e7bd5fc295e37a1e3d61deb3741a7e7a1b1f8a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.401746399216815,
+        "ssim_vs_original": 0.8515666436101801,
+        "lpips_vs_original": 0.11971715837717056
+      },
+      "1081d2d0d9fac68ded196b1b0f5d157e0a1e887b50c698edb715a5d536df09b1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.93969034101005,
+        "ssim_vs_original": 0.7324942144241254,
+        "lpips_vs_original": 0.1955413967370987
+      },
+      "036b0f4b8070789373dd08617539756187ed9f64bbbb6c17cfa5277815714579": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.376121875854935,
+        "ssim_vs_original": 0.9134070347055716,
+        "lpips_vs_original": 0.08493322879076004
+      },
+      "0602fa4dc0f80c82534f1d5d39977732143a7f87f5524bf68cc85f93760f4121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.59663706427743,
+        "ssim_vs_original": 0.9759107701566947,
+        "lpips_vs_original": 0.0967642068862915
+      },
+      "055a07eca9dd8c5e95c2e6e2bb9f83691cfc835415e76d2dc99e75d59f502513": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.29312441800278,
+        "ssim_vs_original": 0.9602004169750865,
+        "lpips_vs_original": 0.06855674833059311
+      },
+      "111b656feff1b7c6f888b3ab5fb37969597a53c8d91cc447614406960d0b6383": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 37.42414218038997,
+        "ssim_vs_original": 0.9751825292950903,
+        "lpips_vs_original": 0.04208416864275932
+      },
+      "0f622eaabc6dce5039205fc8828455202f40c6adab371ab707bd1e89a2f86a2e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.40203558345832,
+        "ssim_vs_original": 0.9273697308854766,
+        "lpips_vs_original": 0.09712032228708267
+      },
+      "12aa6a12145314fb4cdf7fc725fc1cd089fe6ce3763bfc48f27a603db9af99c7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.581837708811523,
+        "ssim_vs_original": 0.9115535549337663,
+        "lpips_vs_original": 0.10645370185375214
+      },
+      "14839cfd0908fe0a302f16538382693fcfae7111e26a555b46975d06c171ae68": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.066047770248105,
+        "ssim_vs_original": 0.8381134127864192,
+        "lpips_vs_original": 0.15089669823646545
+      },
+      "103a4f1ba8fc0677a5ad6248f6a81d0233851d003316b44358abd159509475c2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.739507583960823,
+        "ssim_vs_original": 0.7424821792089588,
+        "lpips_vs_original": 0.16100552678108215
+      },
+      "089c0262673d945f7e333635321ce6d6065238ce96ae50c7f36d078cf15b601f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.547748605198926,
+        "ssim_vs_original": 0.9708745257610956,
+        "lpips_vs_original": 0.10236447304487228
+      },
+      "118c08ef7cb92f466525cf0f6e3f116222a281f3cc844bfce5ab46c2b22acb07": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.33458495513974,
+        "ssim_vs_original": 0.9568733331650637,
+        "lpips_vs_original": 0.08314608782529831
+      },
+      "1061e37c81beab5b7ae2a0dbdefd5e8af848ea721e7ff08c4a78902ff9b19925": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.928340091003538,
+        "ssim_vs_original": 0.835486293116049,
+        "lpips_vs_original": 0.13407470285892487
+      },
+      "079fa662f29b06eda156a5f76255541aa2581e0bccd257c6a48103f271cea191": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.230230966240637,
+        "ssim_vs_original": 0.8410710294506627,
+        "lpips_vs_original": 0.18290174007415771
+      },
+      "135fc2a1c31c80698903deec6728067ed03de4f600df0a0f530d8f72cc5bb821": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.704222672130008,
+        "ssim_vs_original": 0.694113463099075,
+        "lpips_vs_original": 0.18128134310245514
+      },
+      "07439544cfe342ced9fbf5cb6184b14e6d099d00edff8e4e212b8b86dcb7c121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.38310772881653,
+        "ssim_vs_original": 0.7037647839299889,
+        "lpips_vs_original": 0.20821011066436768
+      },
+      "0e155e942fdb70ca7cc4fb8aae606604896f02b9db57717124a9991da0a6abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.00077648369673,
+        "ssim_vs_original": 0.9675673978074297,
+        "lpips_vs_original": 0.07308883219957352
+      },
+      "0ef7c0d6e3f22768d008ba1c4f1a9003fbebc9859e5fc9fbd14af61879f798e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.183338341038702,
+        "ssim_vs_original": 0.7662773205748158,
+        "lpips_vs_original": 0.16023291647434235
+      },
+      "07d469b7e483a73bc6f8ab305e00f6b4fb3c4e9745a32b0f7df028aae265d8f7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.15801726778373,
+        "ssim_vs_original": 0.7546823229023785,
+        "lpips_vs_original": 0.18977048993110657
+      },
+      "0e90a9d4b08fac209c89aa412e17e36be1d7d829c5ab2e58bfa0b0f492c54e94": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.236089400483888,
+        "ssim_vs_original": 0.770113933046367,
+        "lpips_vs_original": 0.1852044314146042
+      },
+      "0a78c25f77c1ba1d1a3f07c18c9735ae1254a9a71290734b8836eefbefaadbc7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.77690343925701,
+        "ssim_vs_original": 0.7317267746631106,
+        "lpips_vs_original": 0.16323640942573547
+      },
+      "010533f24832d83a2d2466daba201490528d132a5a2752520a4fbd98df5c1a23": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.824687462375767,
+        "ssim_vs_original": 0.7249062382340493,
+        "lpips_vs_original": 0.19581100344657898
+      },
+      "00534f5868a6f72e77befbdb06e35ee9dc34e175dddf0e64e8b1922e494c8e24": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.38875787443364,
+        "ssim_vs_original": 0.8508692207772721,
+        "lpips_vs_original": 0.11416143923997879
+      },
+      "17281837e808c89f1690dd0a141a9050cad1d7725c7abd38947c51712b0498a9": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.1145513068106,
+        "ssim_vs_original": 0.9516450863965212,
+        "lpips_vs_original": 0.1417299062013626
+      },
+      "052e3e6371272bb633487276b4e7aebad6ca8886a547bf04775a0e6b6b56a7b0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.58566828211951,
+        "ssim_vs_original": 0.9688840965850674,
+        "lpips_vs_original": 0.04915045574307442
+      },
+      "05aca9a7a430b3ff3a40e2d7e374ae5ff9b1a499e1e99b00279b8cea37e7c317": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.803346721733543,
+        "ssim_vs_original": 0.8351489795320275,
+        "lpips_vs_original": 0.14136098325252533
+      },
+      "118a7b19306ba5f85761dc88dae92ded99272f97b35edcb6c545359c2616b5b3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.37130780301853,
+        "ssim_vs_original": 0.9711913594690156,
+        "lpips_vs_original": 0.05057132616639137
+      },
+      "03780d41bd120b109e5ccd238dbe83ac00d62e57322dfce55007b2f561fdc43b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.54710592892757,
+        "ssim_vs_original": 0.7835853241968075,
+        "lpips_vs_original": 0.19796834886074066
+      },
+      "074b65972001df859504b51561de914b800856c49debd41ded904ed1b2e196bd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.960885967796626,
+        "ssim_vs_original": 0.5063252959801207,
+        "lpips_vs_original": 0.3944891393184662
+      },
+      "0b328f5b774157256ac3851a51b544039f5a3dfdff2f2c901beee768e6e41fcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.78170939936041,
+        "ssim_vs_original": 0.9134504853929034,
+        "lpips_vs_original": 0.11445224285125732
+      },
+      "0de7a53aad7ddffd26f7db5d3f7ce61d27b3344de2b037289443259da7dac805": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.21904848292935,
+        "ssim_vs_original": 0.9031129622289076,
+        "lpips_vs_original": 0.10728316754102707
+      },
+      "15bf33e5ae243dde13c7bfb8a72032ff6852756476b42891356f295749edba0c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 36.251638343979046,
+        "ssim_vs_original": 0.9643831213144312,
+        "lpips_vs_original": 0.09971769154071808
+      },
+      "10ce285298eef1bad72ae9ef7359ad5a495be13433dded078e049c3df3365408": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.997865693311716,
+        "ssim_vs_original": 0.6026736775062733,
+        "lpips_vs_original": 0.28882819414138794
+      },
+      "15d1be332021708faa84b4fd63c8043a885415912a3fac82d44f35810476f204": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.807616194457857,
+        "ssim_vs_original": 0.47222954205277023,
+        "lpips_vs_original": 0.4467604458332062
+      },
+      "11831da4c16e2e25347cad97d2bba2f3e0f63dcbea6567a6f0eee4534cdf1dcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.72374790419406,
+        "ssim_vs_original": 0.8991976619672701,
+        "lpips_vs_original": 0.07786332815885544
+      },
+      "133b128a5608a1333e0a9a2e8c94b3cfff73b50893c9257e348186c4250390e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.86764753138455,
+        "ssim_vs_original": 0.9451003038248341,
+        "lpips_vs_original": 0.09333785623311996
+      },
+      "006771db3c057280f9277e735be6daa24339657ce999216c38da68002a443fed": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.7029568161053,
+        "ssim_vs_original": 0.9659111973866282,
+        "lpips_vs_original": 0.08764136582612991
+      },
+      "010cf78dd4aa5f9de2c83cb366e4ac7fd44791eee7dc5234b3104f752f76b15b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.014728369607347,
+        "ssim_vs_original": 0.8546997115918851,
+        "lpips_vs_original": 0.14186660945415497
+      },
+      "0de066d59107da7fa259b5f99962d164c926b85a49dcb057bcc793937ae34a10": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.53330875058531,
+        "ssim_vs_original": 0.9230995248523438,
+        "lpips_vs_original": 0.08507944643497467
+      },
+      "05c8b23b4c3a186d81efad50fd82be9841b694b5edd818f6f23619a494936746": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.388868611344495,
+        "ssim_vs_original": 0.6687053117117537,
+        "lpips_vs_original": 0.27462270855903625
+      },
+      "0e24a8c5a728a4d0f1d3d131ca339a93da01b119e6c01bb7b290fad3a201816f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.44122102818534,
+        "ssim_vs_original": 0.9669212215746844,
+        "lpips_vs_original": 0.10986295342445374
+      },
+      "169bb02044a0fd43289301d5e3f25fa29675b1d0479b664b7e3d30c9eea0995e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.796710443932824,
+        "ssim_vs_original": 0.9562102281051872,
+        "lpips_vs_original": 0.05663779750466347
+      },
+      "068bda6b2f8abe1eb088f3f819b7dfcb8dc354c2fbd3a2d29baa53be06d00f40": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.467763238272678,
+        "ssim_vs_original": 0.6677381127163896,
+        "lpips_vs_original": 0.2395077496767044
+      },
+      "0b5635d53b3b33294d7e49d75d96046c1157ad0713571138e51f1524a164cfce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.527564664129503,
+        "ssim_vs_original": 0.9326413493210138,
+        "lpips_vs_original": 0.11693330854177475
+      },
+      "00713c8c22cf3b2ef6495b1da5484da9972921442d85a0a3c8be57f7aa9bbbb5": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.817399047631739,
+        "ssim_vs_original": 0.4689531090969521,
+        "lpips_vs_original": 0.3873443305492401
+      },
+      "07dea22dcbe1fbd7a85370a48091cd46cdf395a81464de82c7f7d71461973518": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 42.433130914261646,
+        "ssim_vs_original": 0.983112003490164,
+        "lpips_vs_original": 0.08188088238239288
+      },
+      "056d915100f84a301df23477002d6b250c73db29351e4cb87f4e9346d6b370ea": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.673439863917203,
+        "ssim_vs_original": 0.9349085784876465,
+        "lpips_vs_original": 0.08366019278764725
+      },
+      "0f638de8c5c80d3d71bd2d007d440e64588bd49714bf460212497ed57a531ab4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.189777462610067,
+        "ssim_vs_original": 0.9387075580439724,
+        "lpips_vs_original": 0.07071578502655029
+      },
+      "022b2aef50ac9921330737cd60f1a6d83d59f8b50840cf9b6d23bb6f664c9205": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 32.2057265056878,
+        "ssim_vs_original": 0.9536921951561319,
+        "lpips_vs_original": 0.07024651020765305
+      },
+      "0c6f5d61c7936a255784bc6ffae6f4055e6a00482581b20f031ef02905009e46": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 12.641095564558446,
+        "ssim_vs_original": 0.34295483153163525,
+        "lpips_vs_original": 0.47837311029434204
+      },
+      "0194be61f9f49138751dd43bc51e7a46f87cbeebf5bb3d60f94a0dd08eeaeca3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.47544499980144,
+        "ssim_vs_original": 0.9570245000387749,
+        "lpips_vs_original": 0.08342291414737701
+      },
+      "15f9f75bedcfdfd7d0befc486e102d09263105f9fef2602310409964354376aa": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 38.966458133477055,
+        "ssim_vs_original": 0.9776284964490319,
+        "lpips_vs_original": 0.06112516298890114
+      },
+      "171069b48122d3b58b5fdf64b4c5b576b633dd637c8e36c7ee40ded8715251ce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 35.59530200661866,
+        "ssim_vs_original": 0.9701472723518114,
+        "lpips_vs_original": 0.06276822835206985
+      },
+      "01c4ec9845f988da2907c5013357cbeb421be08bfa062266b0b2c015d5f9a9d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.70228446435302,
+        "ssim_vs_original": 0.6068214198788202,
+        "lpips_vs_original": 0.19372229278087616
+      },
+      "09faef52cd70e3c604c7b82a74239dae84d2a8f05d6daaae8bdd8f9659ff40fd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.476505193448272,
+        "ssim_vs_original": 0.6082720233439686,
+        "lpips_vs_original": 0.2508630156517029
+      },
+      "166336194f24c90f0a54eeb88f03862d3ff90df5a591fe28633e630cd02cf04e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.46553934826375,
+        "ssim_vs_original": 0.7350068541265139,
+        "lpips_vs_original": 0.3383031189441681
+      },
+      "17831e0e881d05566575b2b8b2723c1c4966eecdbf76b5b14d2e5b025136bb33": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.88613517659229,
+        "ssim_vs_original": 0.5589397061383039,
+        "lpips_vs_original": 0.30469900369644165
+      }
+    }
+  },
+  "base": {
+    "summary": {
+      "variant": "base",
+      "total_evaluated": 100,
+      "mean_clip_score": null,
+      "mean_lpips_vs_original": 0.2996232587844133,
+      "mean_ssim_vs_original": 0.620753865153582,
+      "mean_psnr_vs_original": 20.30271138779039
+    },
+    "items": {
+      "0693916e1ca5ec48e36fa9af64352f2128facc305eb9af9391e85fdb8480a601": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.424333454321054,
+        "ssim_vs_original": 0.36018935452283,
+        "lpips_vs_original": 0.47579139471054077
+      },
+      "077de0554f2217ec92dfd64b78e8036aa2ea8349819aef924e77beedd975a51c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.09910873810207,
+        "ssim_vs_original": 0.5060476338924522,
+        "lpips_vs_original": 0.426847368478775
+      },
+      "00b1ad87c296635c73bbc9728a63d3df4a9ab07aee0d34cd45784e39f2c699ba": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.239709036581214,
+        "ssim_vs_original": 0.7748689348075956,
+        "lpips_vs_original": 0.18468080461025238
+      },
+      "036181161501952553b4233ebf0f5be1ab16aacb5e0299362c10b57be28e06b6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.00882782716994,
+        "ssim_vs_original": 0.6664672935709379,
+        "lpips_vs_original": 0.39188477396965027
+      },
+      "0850228cdbf7df721a10d73003db4b8d9d83e17c480b79a6d5d643eff6c8c163": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.128721631039381,
+        "ssim_vs_original": 0.42639198878968054,
+        "lpips_vs_original": 0.37645983695983887
+      },
+      "114adf5c2de3beca3f9dfc4c40550ff2807f69f69a236dd7a5c079cd7ae7c262": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.950345314697444,
+        "ssim_vs_original": 0.7182199626801841,
+        "lpips_vs_original": 0.28035715222358704
+      },
+      "0fc5ed68d19ef648aae46287d09ef378388358a66e1867b5448f3ae11c1fdf25": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.18519370566393,
+        "ssim_vs_original": 0.6511232441438677,
+        "lpips_vs_original": 0.2666279673576355
+      },
+      "1739cfd2ce73a04e284ecd48a252e262b129dd39c8706b73ee6dd73cbf66347b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.231897520958626,
+        "ssim_vs_original": 0.9077934752956024,
+        "lpips_vs_original": 0.1866392344236374
+      },
+      "0343987d0a3f4438bf025f759d7d019f0a0129a48f00f656fb9b6c75f6775404": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.073574668977145,
+        "ssim_vs_original": 0.38319748100501744,
+        "lpips_vs_original": 0.35381388664245605
+      },
+      "03f5c560f5725ad6ca55fd7e6c0af4c4c7a7ca94c444a584f2a9f316d3b35ea2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 30.882741471496225,
+        "ssim_vs_original": 0.9483187872780179,
+        "lpips_vs_original": 0.11411501467227936
+      },
+      "04603070f8ff9d79427d864cb19a1614478e82a4746379dc07506f9103961ea8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.759240320004018,
+        "ssim_vs_original": 0.5819702473851801,
+        "lpips_vs_original": 0.3047426640987396
+      },
+      "0032cd2f169847864c28e5e190c2496c03ddd1a5e68d52145634164ebe57d3ac": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.602440296224252,
+        "ssim_vs_original": 0.5311595732470401,
+        "lpips_vs_original": 0.287809818983078
+      },
+      "04dc353499a2cc18d2a89d5d61e99ef91dba62adcb1767566f883ad37677ba5a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.574818848101188,
+        "ssim_vs_original": 0.5587353010626768,
+        "lpips_vs_original": 0.3127528131008148
+      },
+      "1535598bb417f4891f9d6b842edeed288e73cd05129e2fdd076bb8ce152fb718": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.249912321344983,
+        "ssim_vs_original": 0.46364685871486533,
+        "lpips_vs_original": 0.3334237337112427
+      },
+      "02edaedb5016e1c5c9d9746275e8acdcb78b38fda68b051a6b29271b0ae131de": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.066721775962318,
+        "ssim_vs_original": 0.18747760416506917,
+        "lpips_vs_original": 0.5256537199020386
+      },
+      "0742f6f08fec5b4ad92c1720fa53408780a8adb4dad0e92c8817a4f46c45074b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.11122125785888,
+        "ssim_vs_original": 0.8953002900353578,
+        "lpips_vs_original": 0.10626433789730072
+      },
+      "008c201a7eff27ce0413f7931a48e92cf05ded9d9b7cf16cc2276ff3b80c7b22": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.644133571944137,
+        "ssim_vs_original": 0.24295445217435777,
+        "lpips_vs_original": 0.4747043251991272
+      },
+      "01cd1a4633b366cec002b9a7eb183a918ae2f36a05467eaa74f4cda79a54d449": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.68180540421156,
+        "ssim_vs_original": 0.6141925600478358,
+        "lpips_vs_original": 0.28970447182655334
+      },
+      "0777b243c09e2dff3274f46aa43d412faaec9bf5731c213c92571af668c606f0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.855681808503741,
+        "ssim_vs_original": 0.45790396974318887,
+        "lpips_vs_original": 0.5031048655509949
+      },
+      "03c53f58fc38f5bce2cb4301261711bc43469905c2eeca17e3fd9a6556bd6a88": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 12.065278740271195,
+        "ssim_vs_original": 0.26343372405483156,
+        "lpips_vs_original": 0.572814404964447
+      },
+      "056f10c6b6e4ae3aef042286b65d19278b14ad03d3f8144e70b42af5950b3f90": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.117340517535727,
+        "ssim_vs_original": 0.7234532948076597,
+        "lpips_vs_original": 0.20453035831451416
+      },
+      "001dccbc1f78146a9f03861026613d8e73f39f372b545b26118e37a23c740d5f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.625225664410983,
+        "ssim_vs_original": 0.7721399175026051,
+        "lpips_vs_original": 0.2087583690881729
+      },
+      "028819075f0c9b19455e99a7f9a4867a160a6749151ee72ae3e87d03c49aa3d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 34.23504641975461,
+        "ssim_vs_original": 0.9702729690502271,
+        "lpips_vs_original": 0.09116993099451065
+      },
+      "050bedc5622e4dfd7528217b7694266e7bbe18d23f899ab6705fa1d6513ac72d": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.014151129379458,
+        "ssim_vs_original": 0.4018201931494057,
+        "lpips_vs_original": 0.43407517671585083
+      },
+      "10e39f37e37a8aa7fcc734e0decf55d05f29e18b2aac0c2ba77e7c76f314abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.007350073171416,
+        "ssim_vs_original": 0.6087995457070218,
+        "lpips_vs_original": 0.2339310497045517
+      },
+      "00def8c08b0a092efa8b6aa444f1bb411333d6bdc7926885c7a72680d189a3c8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.732669415655726,
+        "ssim_vs_original": 0.36843121063578643,
+        "lpips_vs_original": 0.5065531730651855
+      },
+      "0a6c01ac3212768772f8f6eca86314c72d5ca320c3e3def148ddaceab23c07f4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.889421004416551,
+        "ssim_vs_original": 0.5432646920491291,
+        "lpips_vs_original": 0.4546678066253662
+      },
+      "00e3fa12dff0aa4791ee9077de752c29a77e7b64c809c326e93f13df23c84875": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.5793446553667,
+        "ssim_vs_original": 0.8900843586116459,
+        "lpips_vs_original": 0.14834542572498322
+      },
+      "04b9beb07e5d9d48198b877b2d0342e92a754d200c8eef3bacc3e2c7f94747e1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.34787120943831,
+        "ssim_vs_original": 0.9104145405719732,
+        "lpips_vs_original": 0.10558850318193436
+      },
+      "0c7c65cc7dee6b43fdfd64af290be4146a8e09e7817eade9d5e10f67cfa245f6": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.391833650207563,
+        "ssim_vs_original": 0.3896559866626232,
+        "lpips_vs_original": 0.3671025335788727
+      },
+      "14eb48a50e37df548894ab6d8cd628a21dae14bbe6c462e894616fc5962e6c49": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.488266577700909,
+        "ssim_vs_original": 0.6062432471731639,
+        "lpips_vs_original": 0.4718865752220154
+      },
+      "033d379d3db90c25bd068c504d466770e4248ef6c3ab1f15a31a9e2f05874c7b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.360677903230012,
+        "ssim_vs_original": 0.8056991768319435,
+        "lpips_vs_original": 0.2922002375125885
+      },
+      "0a4151528bffc2ced33f2dd932b482a22a179bca95e5db00c6ca95d5147b9f50": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.560173120547855,
+        "ssim_vs_original": 0.5214613199864319,
+        "lpips_vs_original": 0.35149604082107544
+      },
+      "0a1b7c20a92c43c6b8954b1ac909fb2f0fa8b2997b80604bc8bbec80a1cb2da3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.102112454272737,
+        "ssim_vs_original": 0.4071252461633145,
+        "lpips_vs_original": 0.42372095584869385
+      },
+      "0776bac9491fb1b9c957c871d9093ac5131fb35d6a6e99eb4e7e39671f768766": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.047341858437566,
+        "ssim_vs_original": 0.5287846044418658,
+        "lpips_vs_original": 0.2503179907798767
+      },
+      "15b7037e947e7d11730bcfbf1ba16fcedd9818098f20aa19b17f73db628e5069": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.78667042304283,
+        "ssim_vs_original": 0.37237004253460926,
+        "lpips_vs_original": 0.5244758129119873
+      },
+      "137b1f244a6eeaa52119c1be2cdf13516dd5a1ee5b5df2c25a13ce777a25610e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 15.908247116528807,
+        "ssim_vs_original": 0.48198606904264435,
+        "lpips_vs_original": 0.3810638189315796
+      },
+      "04253694e8cc1ce9a9db14bdd5372beb91375c8fb0cebd43733fc9f1ecfd5e9a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.651966569412732,
+        "ssim_vs_original": 0.503563009118213,
+        "lpips_vs_original": 0.28267455101013184
+      },
+      "0bf7b4f02c70d8d2a71065c5f0de346c8d7210af7448870da68edb3d58071bfb": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.700798462599312,
+        "ssim_vs_original": 0.8653688863730663,
+        "lpips_vs_original": 0.13774484395980835
+      },
+      "1025f0686d72bde0daaf718c1149c7d1dfcf975040e2c0e3bac3184ad700eab8": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.588540605414742,
+        "ssim_vs_original": 0.48756296559074597,
+        "lpips_vs_original": 0.3177056312561035
+      },
+      "10a7f0cde2c6db7d74763e7d1ea15201cac71a0724d77c31a072d893a90fd7ca": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.721884985781594,
+        "ssim_vs_original": 0.31217216657407276,
+        "lpips_vs_original": 0.4539735019207001
+      },
+      "0bfab69b5b2b692d066b4435f2f6406357772aa53a3e17c3e0b8598083848a7a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.5111783641901,
+        "ssim_vs_original": 0.8734003613395284,
+        "lpips_vs_original": 0.12699496746063232
+      },
+      "10ece64d5be441fb1bd351d201d629bc17eefe9ca706c77a5f6cd1af4fa7b1f3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.74994072263248,
+        "ssim_vs_original": 0.7355395053735369,
+        "lpips_vs_original": 0.20564161241054535
+      },
+      "0a45aa466f114e6daa13a82775e7bd5fc295e37a1e3d61deb3741a7e7a1b1f8a": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.285806214370618,
+        "ssim_vs_original": 0.28511266480257363,
+        "lpips_vs_original": 0.4453929662704468
+      },
+      "1081d2d0d9fac68ded196b1b0f5d157e0a1e887b50c698edb715a5d536df09b1": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.915762022099628,
+        "ssim_vs_original": 0.42633803436586915,
+        "lpips_vs_original": 0.5089522004127502
+      },
+      "036b0f4b8070789373dd08617539756187ed9f64bbbb6c17cfa5277815714579": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.471698118159214,
+        "ssim_vs_original": 0.7835204820048389,
+        "lpips_vs_original": 0.17444075644016266
+      },
+      "0602fa4dc0f80c82534f1d5d39977732143a7f87f5524bf68cc85f93760f4121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.053112732863823,
+        "ssim_vs_original": 0.6976141497659675,
+        "lpips_vs_original": 0.301916241645813
+      },
+      "055a07eca9dd8c5e95c2e6e2bb9f83691cfc835415e76d2dc99e75d59f502513": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.72262202221775,
+        "ssim_vs_original": 0.916466236434946,
+        "lpips_vs_original": 0.11238022148609161
+      },
+      "111b656feff1b7c6f888b3ab5fb37969597a53c8d91cc447614406960d0b6383": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 31.03720577351861,
+        "ssim_vs_original": 0.937670288141748,
+        "lpips_vs_original": 0.06463147699832916
+      },
+      "0f622eaabc6dce5039205fc8828455202f40c6adab371ab707bd1e89a2f86a2e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.815477565684777,
+        "ssim_vs_original": 0.6380414779173585,
+        "lpips_vs_original": 0.2683813273906708
+      },
+      "12aa6a12145314fb4cdf7fc725fc1cd089fe6ce3763bfc48f27a603db9af99c7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.170123062252706,
+        "ssim_vs_original": 0.7099397681568209,
+        "lpips_vs_original": 0.26532652974128723
+      },
+      "14839cfd0908fe0a302f16538382693fcfae7111e26a555b46975d06c171ae68": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.136921697278172,
+        "ssim_vs_original": 0.5814588904692133,
+        "lpips_vs_original": 0.30996280908584595
+      },
+      "103a4f1ba8fc0677a5ad6248f6a81d0233851d003316b44358abd159509475c2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.807876241220875,
+        "ssim_vs_original": 0.6930124131638223,
+        "lpips_vs_original": 0.21530413627624512
+      },
+      "089c0262673d945f7e333635321ce6d6065238ce96ae50c7f36d078cf15b601f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.51452650950487,
+        "ssim_vs_original": 0.8522117260042784,
+        "lpips_vs_original": 0.19964942336082458
+      },
+      "118c08ef7cb92f466525cf0f6e3f116222a281f3cc844bfce5ab46c2b22acb07": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.764602159377255,
+        "ssim_vs_original": 0.7555873770012093,
+        "lpips_vs_original": 0.21336396038532257
+      },
+      "1061e37c81beab5b7ae2a0dbdefd5e8af848ea721e7ff08c4a78902ff9b19925": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.16685090854546,
+        "ssim_vs_original": 0.6807755843922793,
+        "lpips_vs_original": 0.2235017567873001
+      },
+      "079fa662f29b06eda156a5f76255541aa2581e0bccd257c6a48103f271cea191": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.414964564955007,
+        "ssim_vs_original": 0.692223060837379,
+        "lpips_vs_original": 0.3337247371673584
+      },
+      "135fc2a1c31c80698903deec6728067ed03de4f600df0a0f530d8f72cc5bb821": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.93165415665759,
+        "ssim_vs_original": 0.5764133927163518,
+        "lpips_vs_original": 0.27140676975250244
+      },
+      "07439544cfe342ced9fbf5cb6184b14e6d099d00edff8e4e212b8b86dcb7c121": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.511423783105887,
+        "ssim_vs_original": 0.6720882730708999,
+        "lpips_vs_original": 0.23450061678886414
+      },
+      "0e155e942fdb70ca7cc4fb8aae606604896f02b9db57717124a9991da0a6abad": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 22.133504148560274,
+        "ssim_vs_original": 0.7592824212955259,
+        "lpips_vs_original": 0.21520556509494781
+      },
+      "0ef7c0d6e3f22768d008ba1c4f1a9003fbebc9859e5fc9fbd14af61879f798e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.1160488440066,
+        "ssim_vs_original": 0.5293566933059849,
+        "lpips_vs_original": 0.3114948570728302
+      },
+      "07d469b7e483a73bc6f8ab305e00f6b4fb3c4e9745a32b0f7df028aae265d8f7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.849271756505,
+        "ssim_vs_original": 0.5477633501713598,
+        "lpips_vs_original": 0.3227958083152771
+      },
+      "0e90a9d4b08fac209c89aa412e17e36be1d7d829c5ab2e58bfa0b0f492c54e94": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.08486369845753,
+        "ssim_vs_original": 0.5277530309635269,
+        "lpips_vs_original": 0.3185831904411316
+      },
+      "0a78c25f77c1ba1d1a3f07c18c9735ae1254a9a71290734b8836eefbefaadbc7": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.111034391685404,
+        "ssim_vs_original": 0.6265300131481023,
+        "lpips_vs_original": 0.24031656980514526
+      },
+      "010533f24832d83a2d2466daba201490528d132a5a2752520a4fbd98df5c1a23": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.700250473691625,
+        "ssim_vs_original": 0.5509575540419875,
+        "lpips_vs_original": 0.36000993847846985
+      },
+      "00534f5868a6f72e77befbdb06e35ee9dc34e175dddf0e64e8b1922e494c8e24": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.3700553891417,
+        "ssim_vs_original": 0.46459557947532987,
+        "lpips_vs_original": 0.375525563955307
+      },
+      "17281837e808c89f1690dd0a141a9050cad1d7725c7abd38947c51712b0498a9": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.09092964027764,
+        "ssim_vs_original": 0.8326068040934814,
+        "lpips_vs_original": 0.21168141067028046
+      },
+      "052e3e6371272bb633487276b4e7aebad6ca8886a547bf04775a0e6b6b56a7b0": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 25.19025899038706,
+        "ssim_vs_original": 0.8256927412503009,
+        "lpips_vs_original": 0.14972452819347382
+      },
+      "05aca9a7a430b3ff3a40e2d7e374ae5ff9b1a499e1e99b00279b8cea37e7c317": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.712419022372398,
+        "ssim_vs_original": 0.6943472525174792,
+        "lpips_vs_original": 0.23285822570323944
+      },
+      "118a7b19306ba5f85761dc88dae92ded99272f97b35edcb6c545359c2616b5b3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.204364977850133,
+        "ssim_vs_original": 0.9227301647632732,
+        "lpips_vs_original": 0.09224905073642731
+      },
+      "03780d41bd120b109e5ccd238dbe83ac00d62e57322dfce55007b2f561fdc43b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 24.655121912755174,
+        "ssim_vs_original": 0.8827029519826503,
+        "lpips_vs_original": 0.15579164028167725
+      },
+      "074b65972001df859504b51561de914b800856c49debd41ded904ed1b2e196bd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 12.838146653496459,
+        "ssim_vs_original": 0.40677441030707867,
+        "lpips_vs_original": 0.5232545733451843
+      },
+      "0b328f5b774157256ac3851a51b544039f5a3dfdff2f2c901beee768e6e41fcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.45284650362817,
+        "ssim_vs_original": 0.6056834701784887,
+        "lpips_vs_original": 0.3108009994029999
+      },
+      "0de7a53aad7ddffd26f7db5d3f7ce61d27b3344de2b037289443259da7dac805": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.953650898536388,
+        "ssim_vs_original": 0.6976548911902025,
+        "lpips_vs_original": 0.24285222589969635
+      },
+      "15bf33e5ae243dde13c7bfb8a72032ff6852756476b42891356f295749edba0c": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 21.381548565738285,
+        "ssim_vs_original": 0.7023580144466939,
+        "lpips_vs_original": 0.26277807354927063
+      },
+      "10ce285298eef1bad72ae9ef7359ad5a495be13433dded078e049c3df3365408": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 13.845251302892292,
+        "ssim_vs_original": 0.33840169943003534,
+        "lpips_vs_original": 0.6179784536361694
+      },
+      "15d1be332021708faa84b4fd63c8043a885415912a3fac82d44f35810476f204": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 12.820760637227675,
+        "ssim_vs_original": 0.42214835012809676,
+        "lpips_vs_original": 0.5263562202453613
+      },
+      "11831da4c16e2e25347cad97d2bba2f3e0f63dcbea6567a6f0eee4534cdf1dcf": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 14.457081799118493,
+        "ssim_vs_original": 0.2823850200649424,
+        "lpips_vs_original": 0.4187632203102112
+      },
+      "133b128a5608a1333e0a9a2e8c94b3cfff73b50893c9257e348186c4250390e3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.921086120326862,
+        "ssim_vs_original": 0.5787821199302259,
+        "lpips_vs_original": 0.3036288321018219
+      },
+      "006771db3c057280f9277e735be6daa24339657ce999216c38da68002a443fed": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 27.570865980780823,
+        "ssim_vs_original": 0.8815486097870977,
+        "lpips_vs_original": 0.15805529057979584
+      },
+      "010cf78dd4aa5f9de2c83cb366e4ac7fd44791eee7dc5234b3104f752f76b15b": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.465806720644466,
+        "ssim_vs_original": 0.5661152375294803,
+        "lpips_vs_original": 0.3250143527984619
+      },
+      "0de066d59107da7fa259b5f99962d164c926b85a49dcb057bcc793937ae34a10": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.57023105948407,
+        "ssim_vs_original": 0.626086171257201,
+        "lpips_vs_original": 0.2667396366596222
+      },
+      "05c8b23b4c3a186d81efad50fd82be9841b694b5edd818f6f23619a494936746": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 18.520857214489336,
+        "ssim_vs_original": 0.626248916795349,
+        "lpips_vs_original": 0.3228466510772705
+      },
+      "0e24a8c5a728a4d0f1d3d131ca339a93da01b119e6c01bb7b290fad3a201816f": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.971177753937916,
+        "ssim_vs_original": 0.804915325798533,
+        "lpips_vs_original": 0.22499333322048187
+      },
+      "169bb02044a0fd43289301d5e3f25fa29675b1d0479b664b7e3d30c9eea0995e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.605091578297966,
+        "ssim_vs_original": 0.5605584326206876,
+        "lpips_vs_original": 0.22689373791217804
+      },
+      "068bda6b2f8abe1eb088f3f819b7dfcb8dc354c2fbd3a2d29baa53be06d00f40": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 19.68843494720209,
+        "ssim_vs_original": 0.559355863388538,
+        "lpips_vs_original": 0.30477944016456604
+      },
+      "0b5635d53b3b33294d7e49d75d96046c1157ad0713571138e51f1524a164cfce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.01568556571159,
+        "ssim_vs_original": 0.7947221149921911,
+        "lpips_vs_original": 0.23846067488193512
+      },
+      "00713c8c22cf3b2ef6495b1da5484da9972921442d85a0a3c8be57f7aa9bbbb5": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 11.354629246095625,
+        "ssim_vs_original": 0.22507333660602574,
+        "lpips_vs_original": 0.61769700050354
+      },
+      "07dea22dcbe1fbd7a85370a48091cd46cdf395a81464de82c7f7d71461973518": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 33.31960232751134,
+        "ssim_vs_original": 0.9769174286093542,
+        "lpips_vs_original": 0.10291367024183273
+      },
+      "056d915100f84a301df23477002d6b250c73db29351e4cb87f4e9346d6b370ea": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.579239696698977,
+        "ssim_vs_original": 0.7165320645594258,
+        "lpips_vs_original": 0.18968838453292847
+      },
+      "0f638de8c5c80d3d71bd2d007d440e64588bd49714bf460212497ed57a531ab4": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 20.56609680671129,
+        "ssim_vs_original": 0.7349502750914867,
+        "lpips_vs_original": 0.2091536968946457
+      },
+      "022b2aef50ac9921330737cd60f1a6d83d59f8b50840cf9b6d23bb6f664c9205": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 23.3083931040228,
+        "ssim_vs_original": 0.7484787551412193,
+        "lpips_vs_original": 0.18491922318935394
+      },
+      "0c6f5d61c7936a255784bc6ffae6f4055e6a00482581b20f031ef02905009e46": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 10.96300717035699,
+        "ssim_vs_original": 0.21478233143894293,
+        "lpips_vs_original": 0.6286847591400146
+      },
+      "0194be61f9f49138751dd43bc51e7a46f87cbeebf5bb3d60f94a0dd08eeaeca3": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 29.984890122239484,
+        "ssim_vs_original": 0.8714833036122138,
+        "lpips_vs_original": 0.1496330350637436
+      },
+      "15f9f75bedcfdfd7d0befc486e102d09263105f9fef2602310409964354376aa": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 28.956304967921962,
+        "ssim_vs_original": 0.9059298038208421,
+        "lpips_vs_original": 0.121353879570961
+      },
+      "171069b48122d3b58b5fdf64b4c5b576b633dd637c8e36c7ee40ded8715251ce": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 26.891249519864903,
+        "ssim_vs_original": 0.889941925836041,
+        "lpips_vs_original": 0.1386275440454483
+      },
+      "01c4ec9845f988da2907c5013357cbeb421be08bfa062266b0b2c015d5f9a9d2": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 16.43728153257664,
+        "ssim_vs_original": 0.336511179742457,
+        "lpips_vs_original": 0.4091515839099884
+      },
+      "09faef52cd70e3c604c7b82a74239dae84d2a8f05d6daaae8bdd8f9659ff40fd": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.747667357073812,
+        "ssim_vs_original": 0.5759340798641469,
+        "lpips_vs_original": 0.2954162657260895
+      },
+      "166336194f24c90f0a54eeb88f03862d3ff90df5a591fe28633e630cd02cf04e": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.887787471160046,
+        "ssim_vs_original": 0.7124328498492021,
+        "lpips_vs_original": 0.3531275689601898
+      },
+      "17831e0e881d05566575b2b8b2723c1c4966eecdbf76b5b14d2e5b025136bb33": {
+        "num_frames": 49,
+        "clip_score": null,
+        "psnr_vs_original": 17.303954761227562,
+        "ssim_vs_original": 0.43088211117963404,
+        "lpips_vs_original": 0.4158798158168793
+      }
+    }
+  }
+}

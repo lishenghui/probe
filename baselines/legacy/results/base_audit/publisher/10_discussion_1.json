@@ -1,0 +1,86 @@
+{
+  "_id": "67c6c26efb9af84caf96c089",
+  "author": {
+    "_id": "664c3101d1ba9237d34ae972",
+    "avatarUrl": "/avatars/a830c0ee4c95571419770f1ffb41ef11.svg",
+    "fullname": "BrahimFarhat",
+    "name": "ifarhatTII",
+    "type": "user",
+    "isPro": false,
+    "isHf": false,
+    "isHfAdmin": false,
+    "isMod": false,
+    "followerCount": 5,
+    "isUserFollowing": false
+  },
+  "num": 1,
+  "repo": {
+    "name": "moojink/openvla-7b-oft-finetuned-libero-10",
+    "type": "model"
+  },
+  "title": "loading model question",
+  "status": "open",
+  "createdAt": "2025-03-04T09:05:50.000Z",
+  "events": [
+    {
+      "id": "67c6c26efb9af84caf96c089",
+      "author": {
+        "_id": "664c3101d1ba9237d34ae972",
+        "avatarUrl": "/avatars/a830c0ee4c95571419770f1ffb41ef11.svg",
+        "fullname": "BrahimFarhat",
+        "name": "ifarhatTII",
+        "type": "user",
+        "isPro": false,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 5,
+        "isUserFollowing": false,
+        "isOwner": false,
+        "isOrgMember": false
+      },
+      "createdAt": "2025-03-04T09:05:50.000Z",
+      "type": "comment",
+      "data": {
+        "edited": false,
+        "hidden": false,
+        "latest": {
+          "raw": "thank you for making this public and open source, \r\ndo we load this model same as openvla ? can we have a model card with the benchmark results ?\r\nThanks!",
+          "html": "<p>thank you for making this public and open source,<br>do we load this model same as openvla ? can we have a model card with the benchmark results ?<br>Thanks!</p>\n",
+          "updatedAt": "2025-03-04T09:05:50.799Z",
+          "author": {
+            "_id": "664c3101d1ba9237d34ae972",
+            "avatarUrl": "/avatars/a830c0ee4c95571419770f1ffb41ef11.svg",
+            "fullname": "BrahimFarhat",
+            "name": "ifarhatTII",
+            "type": "user",
+            "isPro": false,
+            "isHf": false,
+            "isHfAdmin": false,
+            "isMod": false,
+            "followerCount": 5,
+            "isUserFollowing": false
+          }
+        },
+        "numEdits": 0,
+        "identifiedLanguage": {
+          "language": "en",
+          "probability": 0.9251406788825989
+        },
+        "editors": [
+          "ifarhatTII"
+        ],
+        "editorAvatarUrls": [
+          "/avatars/a830c0ee4c95571419770f1ffb41ef11.svg"
+        ],
+        "reactions": [],
+        "isReport": false
+      }
+    }
+  ],
+  "pinned": false,
+  "locked": false,
+  "collection": "discussions",
+  "isPullRequest": false,
+  "isReport": false
+}

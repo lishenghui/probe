@@ -1,0 +1,40 @@
+[
+  {
+    "task": "anli_r2_10templates",
+    "short": "anli_r2",
+    "S": 0.005790989358348502,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 66,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.0666351913992748,
+        "rank_frac": 0.880859375,
+        "d_prompt": 5.847211651930764e-07,
+        "d_out": 4.4230055622888775e-06,
+        "prompt_positions": 2344,
+        "out_positions": 66
+      }
+    }
+  },
+  {
+    "task": "piqa_10templates",
+    "short": "piqa",
+    "S": 0.006382893613515958,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 383,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08277440857321644,
+        "rank_frac": 0.779296875,
+        "d_prompt": 4.4299065572750253e-07,
+        "d_out": 2.2296170083860233e-07,
+        "prompt_positions": 508,
+        "out_positions": 383
+      }
+    }
+  }
+]

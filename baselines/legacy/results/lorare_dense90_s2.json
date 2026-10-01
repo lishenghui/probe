@@ -1,0 +1,44 @@
+[
+  {
+    "task": "anli_r3_10templates",
+    "short": "anli_r3",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense": {
+        "L_W": 0.1928691478838941,
+        "rank_frac": 0.51171875,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "stsb_10templates",
+    "short": "stsb",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.14705882352941177,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "dense": {
+        "L_W": 0.26297932621225095,
+        "rank_frac": 0.2734375,
+        "metric_value": 0.17647058823529413,
+        "retained": 1.2
+      }
+    }
+  }
+]

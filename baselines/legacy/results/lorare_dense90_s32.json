@@ -1,0 +1,23 @@
+[
+  {
+    "task": "squad_v2_10templates",
+    "short": "squad_v2",
+    "metric": "em",
+    "domain": "reading comp",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.47058823529411764,
+    "headroom": 0.47058823529411764,
+    "variants": {
+      "dense": {
+        "L_W": 0.24939136640150278,
+        "rank_frac": 0.2578125,
+        "metric_value": 0.4117647058823529,
+        "retained": 0.875
+      }
+    }
+  }
+]

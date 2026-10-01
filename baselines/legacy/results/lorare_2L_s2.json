@@ -1,0 +1,97 @@
+[
+  {
+    "task": "anli_r3_10templates",
+    "short": "anli_r3",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.30335395798784137,
+        "rank_frac": 0.296875,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      },
+      "dense3191": {
+        "L_W": 0.3848911843314893,
+        "rank_frac": 0.15625,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "glue_mrpc_10templates",
+    "short": "glue_mrpc",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.20588235294117646,
+    "headroom": 0.20588235294117646,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.18254515390317855,
+        "rank_frac": 0.5625,
+        "metric_value": 0.20588235294117646,
+        "retained": 1.0
+      },
+      "dense3191": {
+        "L_W": 0.355697041256225,
+        "rank_frac": 0.21875,
+        "metric_value": 0.17647058823529413,
+        "retained": 0.8571428571428572
+      }
+    }
+  },
+  {
+    "task": "qnli_10templates",
+    "short": "qnli",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {}
+  },
+  {
+    "task": "wmt14_enfr_10templates",
+    "short": "wmt14_enfr",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.10170946200950567,
+    "metric_orig": 0.2457817011320405,
+    "headroom": 0.14407223912253483,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.35605972244344114,
+        "rank_frac": 0.171875,
+        "metric_value": 0.24931679239235804,
+        "retained": 1.0245369356501144
+      },
+      "dense3191": {
+        "L_W": 0.4286698536391115,
+        "rank_frac": 0.125,
+        "metric_value": 0.23091800991489933,
+        "retained": 0.8968316775829418
+      }
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "adapter": "spatial_b40",
+    "rank_mean": 12.799544419134396,
+    "zero_modules": 126,
+    "below16": 133,
+    "compact_parameters": 66587824,
+    "stored_bytes": 484458568,
+    "backend": "flash_tsqr",
+    "zero_padded": true
+  },
+  {
+    "adapter": "object_b40",
+    "rank_mean": 12.799544419134396,
+    "zero_modules": 131,
+    "below16": 127,
+    "compact_parameters": 66574096,
+    "stored_bytes": 484458568,
+    "backend": "flash_tsqr",
+    "zero_padded": true
+  },
+  {
+    "adapter": "goal_b40",
+    "rank_mean": 12.799544419134396,
+    "zero_modules": 19,
+    "below16": 286,
+    "compact_parameters": 59045888,
+    "stored_bytes": 484458568,
+    "backend": "flash_tsqr",
+    "zero_padded": true
+  },
+  {
+    "adapter": "10_b40",
+    "rank_mean": 12.799544419134396,
+    "zero_modules": 133,
+    "below16": 121,
+    "compact_parameters": 66705776,
+    "stored_bytes": 484458568,
+    "backend": "flash_tsqr",
+    "zero_padded": true
+  },
+  {
+    "adapter": "spatial_b50",
+    "rank_mean": 16.0,
+    "zero_modules": 74,
+    "below16": 156,
+    "compact_parameters": 77134016,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "object_b50",
+    "rank_mean": 16.0,
+    "zero_modules": 78,
+    "below16": 146,
+    "compact_parameters": 77367804,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "goal_b50",
+    "rank_mean": 16.0,
+    "zero_modules": 16,
+    "below16": 215,
+    "compact_parameters": 69164512,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "10_b50",
+    "rank_mean": 16.0,
+    "zero_modules": 79,
+    "below16": 143,
+    "compact_parameters": 77461936,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "spatial_b60",
+    "rank_mean": 19.200455580865604,
+    "zero_modules": 55,
+    "below16": 150,
+    "compact_parameters": 85499868,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "object_b60",
+    "rank_mean": 19.200455580865604,
+    "zero_modules": 53,
+    "below16": 151,
+    "compact_parameters": 85704028,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "goal_b60",
+    "rank_mean": 19.200455580865604,
+    "zero_modules": 16,
+    "below16": 129,
+    "compact_parameters": 78577312,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "10_b60",
+    "rank_mean": 19.200455580865604,
+    "zero_modules": 57,
+    "below16": 150,
+    "compact_parameters": 85756956,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "spatial_b70",
+    "rank_mean": 22.40091116173121,
+    "zero_modules": 27,
+    "below16": 96,
+    "compact_parameters": 92922328,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "object_b70",
+    "rank_mean": 22.40091116173121,
+    "zero_modules": 26,
+    "below16": 95,
+    "compact_parameters": 93007124,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "goal_b70",
+    "rank_mean": 22.40091116173121,
+    "zero_modules": 16,
+    "below16": 100,
+    "compact_parameters": 87175024,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  },
+  {
+    "adapter": "10_b70",
+    "rank_mean": 22.40091116173121,
+    "zero_modules": 25,
+    "below16": 94,
+    "compact_parameters": 93026280,
+    "stored_bytes": 484458568,
+    "backend": "not recorded",
+    "zero_padded": true
+  }
+]

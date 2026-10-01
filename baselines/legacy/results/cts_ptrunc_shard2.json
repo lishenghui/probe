@@ -1,0 +1,164 @@
+[
+  {
+    "adapter": "task0963",
+    "S": 0.020012099966760486,
+    "task": 963,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 1.2033869951381277e-06,
+            "flip": 0.00015328019619865113,
+            "positions": 6524
+          },
+          "e95": {
+            "d_js_mean": 2.3304949232487317e-05,
+            "flip": 0.0007664009809932557,
+            "positions": 6524
+          },
+          "e90": {
+            "d_js_mean": 8.656722944570166e-05,
+            "flip": 0.0009196811771919068,
+            "positions": 6524
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 1.2033869951381277e-06,
+            "flip": 0.00015328019619865113,
+            "positions": 6524
+          },
+          "e95": {
+            "d_js_mean": 2.3304949232487317e-05,
+            "flip": 0.0007664009809932557,
+            "positions": 6524
+          },
+          "e90": {
+            "d_js_mean": 8.656722944570166e-05,
+            "flip": 0.0009196811771919068,
+            "positions": 6524
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0112",
+    "S": 0.10945705324597421,
+    "task": 112,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.8995025786571205e-05,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.0005075761117041111,
+            "flip": 0.01875,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.0029697610065340997,
+            "flip": 0.040625,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 8.034711269795606e-05,
+            "flip": 0.009832987449352702,
+            "positions": 20238
+          },
+          "e95": {
+            "d_js_mean": 0.0005696783673740892,
+            "flip": 0.023618934677339658,
+            "positions": 20238
+          },
+          "e90": {
+            "d_js_mean": 0.003261157046524547,
+            "flip": 0.04165431366735844,
+            "positions": 20238
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0408",
+    "S": 0.167021909198904,
+    "task": 408,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 10,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 3.930357350233221e-05,
+            "flip": 0.006843455945252352,
+            "positions": 15197
+          },
+          "e95": {
+            "d_js_mean": 0.0007143861721352212,
+            "flip": 0.026847404092913075,
+            "positions": 15197
+          },
+          "e90": {
+            "d_js_mean": 0.0035373361171715636,
+            "flip": 0.047180364545634006,
+            "positions": 15197
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 3.9382300110111977e-05,
+            "flip": 0.006831318970047294,
+            "positions": 15224
+          },
+          "e95": {
+            "d_js_mean": 0.0007151305554136125,
+            "flip": 0.02693116132422491,
+            "positions": 15224
+          },
+          "e90": {
+            "d_js_mean": 0.0035387241113705816,
+            "flip": 0.04735943247503941,
+            "positions": 15224
+          }
+        }
+      }
+    }
+  }
+]

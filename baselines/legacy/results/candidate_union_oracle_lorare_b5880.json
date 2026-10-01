@@ -1,0 +1,272 @@
+{
+  "budget": 5880,
+  "spent": 5880,
+  "objective_order": [
+    "worst",
+    "p10",
+    "mean"
+  ],
+  "quantile": {
+    "q": 0.1,
+    "method": "linear"
+  },
+  "stats": {
+    "mean": 0.9910938702842385,
+    "p10": 0.8946212387928234,
+    "worst": 0.7500000000000001
+  },
+  "allocation": {
+    "anli_r1": {
+      "k": 453,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "anli_r2": {
+      "k": 216,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "anli_r3": {
+      "k": 77,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "arc_challenge": {
+      "k": 232,
+      "u": 0.9285714285714286,
+      "source": "A-SCT"
+    },
+    "bool_q": {
+      "k": 66,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "common_gen": {
+      "k": 144,
+      "u": 0.8946212387928234,
+      "source": "2L A-SCT"
+    },
+    "copa": {
+      "k": 64,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "cosmos_qa": {
+      "k": 388,
+      "u": 1.0909090909090908,
+      "source": "Threshold-grid Oracle"
+    },
+    "dart": {
+      "k": 112,
+      "u": 0.9946746665469198,
+      "source": "2L A-SCT"
+    },
+    "drop": {
+      "k": 235,
+      "u": 0.7999999999999999,
+      "source": "Threshold-grid Oracle"
+    },
+    "e2e_nlg": {
+      "k": 104,
+      "u": 0.9663427650888361,
+      "source": "2L A-SCT"
+    },
+    "glue_mrpc": {
+      "k": 164,
+      "u": 1.0,
+      "source": "Uniform"
+    },
+    "glue_qqp": {
+      "k": 382,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "hellaswag": {
+      "k": 209,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "imdb_reviews": {
+      "k": 232,
+      "u": 1.0384615384615385,
+      "source": "2L A-SCT"
+    },
+    "mnli_mismatched": {
+      "k": 135,
+      "u": 1.0,
+      "source": "Uniform"
+    },
+    "multirc": {
+      "k": 164,
+      "u": 1.0,
+      "source": "Uniform"
+    },
+    "natural_questions": {
+      "k": 56,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "openbookqa": {
+      "k": 171,
+      "u": 0.9545454545454546,
+      "source": "Threshold-grid Oracle"
+    },
+    "para_crawl_enes": {
+      "k": 65,
+      "u": 1.0102500647175738,
+      "source": "A-SCT"
+    },
+    "paws_wiki": {
+      "k": 224,
+      "u": 1.0,
+      "source": "2L A-SCT"
+    },
+    "piqa": {
+      "k": 64,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "record": {
+      "k": 96,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "sentiment140": {
+      "k": 75,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "snli": {
+      "k": 65,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "squad_v1": {
+      "k": 65,
+      "u": 1.0,
+      "source": "A-SCT"
+    },
+    "squad_v2": {
+      "k": 193,
+      "u": 0.9375,
+      "source": "Threshold-grid Oracle"
+    },
+    "sst2": {
+      "k": 125,
+      "u": 1.0,
+      "source": "Uniform"
+    },
+    "story_cloze": {
+      "k": 142,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "stsb": {
+      "k": 128,
+      "u": 1.4,
+      "source": "2L A-SCT"
+    },
+    "trivia_qa": {
+      "k": 64,
+      "u": 0.7999999999999999,
+      "source": "Threshold-grid Oracle"
+    },
+    "web_nlg_en": {
+      "k": 107,
+      "u": 0.9897420375452903,
+      "source": "Uniform"
+    },
+    "wmt14_enfr": {
+      "k": 79,
+      "u": 1.0290577521001683,
+      "source": "Threshold-grid Oracle"
+    },
+    "wmt16_translate_csen": {
+      "k": 72,
+      "u": 0.9931194852417541,
+      "source": "Threshold-grid Oracle"
+    },
+    "wmt16_translate_deen": {
+      "k": 112,
+      "u": 1.040485631380586,
+      "source": "2L A-SCT"
+    },
+    "wmt16_translate_fien": {
+      "k": 64,
+      "u": 1.0362442269233996,
+      "source": "Threshold-grid Oracle"
+    },
+    "wmt16_translate_roen": {
+      "k": 72,
+      "u": 1.0793926009116737,
+      "source": "FRA"
+    },
+    "wmt16_translate_ruen": {
+      "k": 64,
+      "u": 0.9628779992708797,
+      "source": "FRA"
+    },
+    "wmt16_translate_tren": {
+      "k": 208,
+      "u": 1.1047193673130284,
+      "source": "FRA"
+    },
+    "wnli": {
+      "k": 88,
+      "u": 0.7500000000000001,
+      "source": "Threshold-grid Oracle"
+    },
+    "yelp_polarity_reviews": {
+      "k": 104,
+      "u": 0.8333333333333335,
+      "source": "2L A-SCT"
+    }
+  },
+  "solver": {
+    "type": "exact_pareto_dp",
+    "frontier_sizes": [
+      2,
+      3,
+      3,
+      8,
+      8,
+      16,
+      16,
+      38,
+      108,
+      212,
+      692,
+      820,
+      1292,
+      1417,
+      1949,
+      1949,
+      1949,
+      1949,
+      2834,
+      4089,
+      4663,
+      4663,
+      5771,
+      5771,
+      5771,
+      5771,
+      6833,
+      6833,
+      6956,
+      11754,
+      6374,
+      9045,
+      9624,
+      10328,
+      14047,
+      14047,
+      14047,
+      14049,
+      14059,
+      7168,
+      5374
+    ],
+    "final_states": 5374
+  }
+}

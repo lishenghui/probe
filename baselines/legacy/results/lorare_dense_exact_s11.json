@@ -1,0 +1,79 @@
+[
+  {
+    "task": "definite_pronoun_resolution_10templates",
+    "short": "definite_pronoun_resolution",
+    "metric": "em",
+    "domain": "coreference",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.0,
+    "variants": {}
+  },
+  {
+    "task": "para_crawl_enes_10templates",
+    "short": "para_crawl_enes",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.10000832298001852,
+    "metric_orig": 0.24776793940641503,
+    "headroom": 0.1477596164263965,
+    "variants": {
+      "dense": {
+        "L_W": 0.4169546616850142,
+        "rank_frac": 0.125,
+        "metric_value": 0.236620200753672,
+        "retained": 0.9245549026022543
+      }
+    }
+  },
+  {
+    "task": "stsb_10templates",
+    "short": "stsb",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.14705882352941177,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "dense": {
+        "L_W": 0.424539651490266,
+        "rank_frac": 0.125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.7999999999999999
+      }
+    }
+  },
+  {
+    "task": "yelp_polarity_reviews_10templates",
+    "short": "yelp_polarity_reviews",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.058823529411764705,
+    "metric_orig": 0.4117647058823529,
+    "headroom": 0.3529411764705882,
+    "variants": {
+      "dense": {
+        "L_W": 0.4783049189517981,
+        "rank_frac": 0.125,
+        "metric_value": 0.29411764705882354,
+        "retained": 0.6666666666666667
+      }
+    }
+  }
+]

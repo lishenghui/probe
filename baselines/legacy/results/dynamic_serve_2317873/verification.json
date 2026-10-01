@@ -1,0 +1,14 @@
+{
+  "dynamic_job": 2317873,
+  "dynamic_state": "COMPLETED",
+  "dynamic_elapsed_seconds": 507,
+  "dynamic_billed_gpu_hours": 0.5633333333333334,
+  "http_job": 2318075,
+  "http_state": "COMPLETED",
+  "http_elapsed_seconds": 238,
+  "http_billed_gpu_hours": 0.2644444444444444,
+  "allocated_gpus": 4,
+  "inference_gpus_per_job": 1,
+  "cpu_tests_passed": 8,
+  "scope": "Kernel and dynamic inference performance plus HTTP switching smoke; not new policy rollout validation"
+}

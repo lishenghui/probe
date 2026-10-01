@@ -1,0 +1,28 @@
+{
+  "adapter": "Wan2.1-1.3b-lora-highresfix-v1",
+  "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-highresfix-v1",
+  "family": "high_resolution",
+  "primary_metric": "imaging_quality",
+  "higher_is_better": true,
+  "variant": "full",
+  "tau": null,
+  "prompt_index": 0,
+  "prompt": "Anime style, a girl with short black hair gently turning her head as her hair moves in the wind",
+  "seed": 0,
+  "height": 1024,
+  "width": 1024,
+  "num_frames": 33,
+  "fps": 15,
+  "steps": 25,
+  "generation_seconds": 69.6016256279836,
+  "peak_cuda_gib": 36.22758388519287,
+  "compression": {
+    "kept_rank": 9600,
+    "total_rank": 9600,
+    "rank_fraction": 1.0,
+    "L_W": 0.0,
+    "mapped_modules": 300,
+    "lora_scale": 1.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/Wan2.1-1.3b-lora-highresfix-v1/full/p000_s0000.mp4"
+}

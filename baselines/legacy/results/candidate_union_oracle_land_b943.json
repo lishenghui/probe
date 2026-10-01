@@ -1,0 +1,98 @@
+{
+  "budget": 943,
+  "spent": 942,
+  "objective_order": [
+    "worst",
+    "p10",
+    "mean"
+  ],
+  "quantile": {
+    "q": 0.1,
+    "method": "linear"
+  },
+  "stats": {
+    "mean": 0.9149563146339745,
+    "p10": 0.6971844743727296,
+    "worst": 0.6199060287207989
+  },
+  "allocation": {
+    "conllpp": {
+      "k": 40,
+      "u": 0.6199060287207989,
+      "source": "FRA"
+    },
+    "dbpedia": {
+      "k": 80,
+      "u": 0.9593908629441624,
+      "source": "FRA"
+    },
+    "e2e_nlg": {
+      "k": 72,
+      "u": 1.0360516144547482,
+      "source": "FRA"
+    },
+    "glue_cola": {
+      "k": 72,
+      "u": 0.9583333333333333,
+      "source": "FRA"
+    },
+    "glue_mrpc": {
+      "k": 48,
+      "u": 1.0,
+      "source": "FRA"
+    },
+    "glue_qnli": {
+      "k": 70,
+      "u": 0.9672131147540984,
+      "source": "Uniform"
+    },
+    "glue_qqp": {
+      "k": 56,
+      "u": 0.9774436090225563,
+      "source": "FRA"
+    },
+    "glue_sst2": {
+      "k": 40,
+      "u": 0.9895287958115183,
+      "source": "FRA"
+    },
+    "gsm8k": {
+      "k": 160,
+      "u": 0.6724137931034481,
+      "source": "FRA"
+    },
+    "hellaswag": {
+      "k": 64,
+      "u": 0.9387755102040816,
+      "source": "FRA"
+    },
+    "viggo": {
+      "k": 80,
+      "u": 0.9201206057962626,
+      "source": "FRA"
+    },
+    "wikisql": {
+      "k": 160,
+      "u": 0.9402985074626865,
+      "source": "FRA"
+    }
+  },
+  "solver": {
+    "type": "exact_pareto_dp",
+    "frontier_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      6,
+      12,
+      12,
+      12,
+      18
+    ],
+    "final_states": 18
+  }
+}

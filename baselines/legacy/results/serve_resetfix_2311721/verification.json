@@ -1,0 +1,42 @@
+{
+  "jobs": {
+    "state_negative_control": "2311691",
+    "rollout_and_state_regression": "2311721",
+    "fleet_checkpoint_regression": "2311738"
+  },
+  "rollouts": {
+    "reference": {
+      "spatial": 8,
+      "object": 8,
+      "goal": 8,
+      "10": 8
+    },
+    "fused": {
+      "spatial": 8,
+      "object": 8,
+      "goal": 8,
+      "10": 8
+    }
+  },
+  "files": {
+    "artifacts/rq3/results/serve_resetfix_2311721/reference/rollout.json": {
+      "bytes": 4965,
+      "sha256": "d56a38574b99ad004768711ae3629ccdb89fda1eb2004a0f5d4b43dc778a4ab1"
+    },
+    "artifacts/rq3/results/serve_resetfix_2311721/fused/rollout.json": {
+      "bytes": 4933,
+      "sha256": "bd42bd3898ee045281439577f8bb38091f81482941c8c354d5dae01ef8597ba9"
+    }
+  },
+  "fixed_state_passes": 2,
+  "fleet_checkpoint_passes": {
+    "successes": [
+      8,
+      8
+    ],
+    "policy_calls": [
+      11,
+      11
+    ]
+  }
+}

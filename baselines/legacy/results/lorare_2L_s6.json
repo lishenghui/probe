@@ -1,0 +1,84 @@
+[
+  {
+    "task": "cb_10templates",
+    "short": "cb",
+    "metric": "em",
+    "domain": "nli",
+    "n": 29,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.0,
+    "headroom": 0.0,
+    "variants": {}
+  },
+  {
+    "task": "mnli_matched_10templates",
+    "short": "mnli_matched",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.0,
+    "headroom": 0.0,
+    "variants": {}
+  },
+  {
+    "task": "snli_10templates",
+    "short": "snli",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.08823529411764706,
+    "headroom": 0.08823529411764706,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.27413423937642306,
+        "rank_frac": 0.265625,
+        "metric_value": 0.08823529411764706,
+        "retained": 1.0
+      },
+      "dense3191": {
+        "L_W": 0.3859765217728042,
+        "rank_frac": 0.140625,
+        "metric_value": 0.08823529411764706,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_roen_10templates",
+    "short": "wmt16_translate_roen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.07874881550407223,
+    "metric_orig": 0.2160690018822221,
+    "headroom": 0.13732018637814988,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.27967209951293576,
+        "rank_frac": 0.203125,
+        "metric_value": 0.22194364699159547,
+        "retained": 1.0427806374599278
+      },
+      "dense3191": {
+        "L_W": 0.3986916649202703,
+        "rank_frac": 0.125,
+        "metric_value": 0.20953977029322807,
+        "retained": 0.952452499802076
+      }
+    }
+  }
+]

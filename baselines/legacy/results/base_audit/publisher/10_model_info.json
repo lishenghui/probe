@@ -1,0 +1,235 @@
+{
+  "_id": "67be3e243366560988ea7d3b",
+  "id": "moojink/openvla-7b-oft-finetuned-libero-10",
+  "private": false,
+  "pipeline_tag": "robotics",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "openvla",
+    "feature-extraction",
+    "robotics",
+    "custom_code",
+    "arxiv:2502.19645",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 6359,
+  "likes": 3,
+  "modelId": "moojink/openvla-7b-oft-finetuned-libero-10",
+  "author": "moojink",
+  "sha": "95220f9a3421a7ff12d4218e73d09ade830fa9a3",
+  "lastModified": "2025-06-17T22:33:04.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "OpenVLAForActionPrediction"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_prismatic.OpenVLAConfig",
+      "AutoModelForVision2Seq": "modeling_prismatic.OpenVLAForActionPrediction"
+    },
+    "model_type": "openvla",
+    "tokenizer_config": {
+      "bos_token": "<s>",
+      "eos_token": "</s>",
+      "pad_token": "<PAD>",
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "pipeline_tag": "robotics",
+    "library_name": "transformers",
+    "license": "mit"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForVision2Seq",
+    "custom_class": "modeling_prismatic.OpenVLAForActionPrediction",
+    "pipeline_tag": "feature-extraction"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "615523ae7d815508650d540933e4a218d01a923b",
+      "size": 675
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "56436f57aa31f71d38188289105029ca497e88c5",
+      "size": 2918
+    },
+    {
+      "rfilename": "action_head--150000_checkpoint.pt",
+      "blobId": "7f5fe9f71b8b1e108ee2ee0ab112eddf9e1714c7",
+      "size": 302242674,
+      "lfs": {
+        "sha256": "f0135fd1b8f9e3b40c00ee8564c2a76af2fe291a79597885100996b98a70e4bd",
+        "size": 302242674,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "added_tokens.json",
+      "blobId": "8671820d1bb0dfd4dd92d5bd0fa9b5a7773f843e",
+      "size": 21
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "42ea81c7c783049559839e305afdfe97e30581a3",
+      "size": 60712
+    },
+    {
+      "rfilename": "configuration_prismatic.py",
+      "blobId": "c2625753c4da1a6ef274a02645d4086bc7a7fb2b",
+      "size": 5865
+    },
+    {
+      "rfilename": "dataset_statistics.json",
+      "blobId": "52e73d28590cd26bca7859fb52915417ffaf92b7",
+      "size": 2975
+    },
+    {
+      "rfilename": "generation_config.json",
+      "blobId": "2cefc1e51e6ccfe846d2b509ced403df73a8efe2",
+      "size": 136
+    },
+    {
+      "rfilename": "lora_adapter/README.md",
+      "blobId": "3afc19ecf015990c1c2279f244c2a0f53a679366",
+      "size": 5034,
+      "lfs": {
+        "sha256": "1acb533904cd9931276014499b51c98c0fc8e3eab8962de7b971547116068383",
+        "size": 5034,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "lora_adapter/adapter_config.json",
+      "blobId": "400768e13621113535a0f58b17fc806d19d54d4e",
+      "size": 813,
+      "lfs": {
+        "sha256": "c850e90d75021750ecf6bb1a8c6d293194aab63417607f8ae4af7032256f038a",
+        "size": 813,
+        "pointerSize": 128
+      }
+    },
+    {
+      "rfilename": "lora_adapter/adapter_model.safetensors",
+      "blobId": "cfaa834f36b42ab2aa585decea77605a8f474764",
+      "size": 484458600,
+      "lfs": {
+        "sha256": "18736bd4c8c6a23e42d94e96f25cf16587ccae53c9f2cee9e016094b72284dae",
+        "size": 484458600,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "model-00001-of-00004.safetensors",
+      "blobId": "1e98834a7b65af50a3572e997ac2dd3f2471c3e0",
+      "size": 4925122448,
+      "lfs": {
+        "sha256": "099772b16c1ba077c5bcff25a62e35595d2704b66f2f680af4dcf21cea03e9d4",
+        "size": 4925122448,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "model-00002-of-00004.safetensors",
+      "blobId": "9e5ad7bab08021bb1768d27c07678df010557d91",
+      "size": 4947392496,
+      "lfs": {
+        "sha256": "31540314f94a71c9388b4b6b6c9d64162932174e2f3b92ea666bb73560891354",
+        "size": 4947392496,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "model-00003-of-00004.safetensors",
+      "blobId": "1d2e2d815003cbf319f8ff321207cd3533158724",
+      "size": 4947417456,
+      "lfs": {
+        "sha256": "d5d817a597b121e25f7f77ac0743fed3e49e627d039e5df57af6102064f3e9a9",
+        "size": 4947417456,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "model-00004-of-00004.safetensors",
+      "blobId": "57ef905a83f317f4d0d5f9e5a5611f97c45b7f5d",
+      "size": 262668432,
+      "lfs": {
+        "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+        "size": 262668432,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "model.safetensors.index.json",
+      "blobId": "bd7cc8ff8070ead248023feae55303f5a3b900d1",
+      "size": 94764
+    },
+    {
+      "rfilename": "modeling_prismatic.py",
+      "blobId": "9013a4f57eb18fa770efcbe9d0a1445d6c16bb72",
+      "size": 49029
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "92975ace548590d24f65f497d7610af3b92b4dcd",
+      "size": 1650
+    },
+    {
+      "rfilename": "processing_prismatic.py",
+      "blobId": "3f2daaf82c3b8946fe57596f656f14a031eaef93",
+      "size": 12718
+    },
+    {
+      "rfilename": "processor_config.json",
+      "blobId": "f892f8a8f53e2f3603a7cf86043a1add317c1787",
+      "size": 130
+    },
+    {
+      "rfilename": "proprio_projector--150000_checkpoint.pt",
+      "blobId": "7e7ea3851019dd355396f09416840fc4681d942e",
+      "size": 67275256,
+      "lfs": {
+        "sha256": "7ea18c370d8aa1625cc6c10f0d95c4bc101805a8cc843690022fd675e89296c3",
+        "size": 67275256,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "ab75c8e0a22550f0667501a0c52758f071a9efd8",
+      "size": 552
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "591f1fc6ff695d967513100f707e66d5bf731414",
+      "size": 1842976
+    },
+    {
+      "rfilename": "tokenizer.model",
+      "blobId": "22bccbcb41ec929cf0c9dbe8f41036db82e5e773",
+      "size": 499723
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "d39defd338dee423ae0a71abfd7ea69a44fb1e52",
+      "size": 1192
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-02-25T22:03:16.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 7541237184
+    },
+    "total": 7541237184
+  },
+  "usedStorage": 15936583209
+}

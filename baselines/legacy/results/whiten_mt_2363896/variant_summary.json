@@ -1,0 +1,24 @@
+{
+  "whiten10": {
+    "method": "whiten",
+    "tau": 0.1,
+    "scope": "all",
+    "ab_parameters": 3624794624,
+    "dense_parameters": 6476005376,
+    "ab_over_dense": 0.5597269325058695,
+    "mean_output_error": 0.09949107544421995,
+    "max_output_error": 0.09999865160542223,
+    "modules": 224
+  },
+  "attn10": {
+    "method": "whiten",
+    "tau": 0.1,
+    "scope": "attn",
+    "ab_parameters": 682565632,
+    "dense_parameters": 2147483648,
+    "ab_over_dense": 0.3178443908691406,
+    "mean_output_error": 0.0998321914986359,
+    "max_output_error": 0.09999576707030006,
+    "modules": 128
+  }
+}

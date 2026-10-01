@@ -1,0 +1,40 @@
+[
+  {
+    "task": "mnli_matched_10templates",
+    "short": "mnli_matched",
+    "S": 0.005136221498392218,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 64,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08035149269094055,
+        "rank_frac": 0.734375,
+        "d_prompt": 7.643566770792563e-07,
+        "d_out": 4.328819761312275e-06,
+        "prompt_positions": 1328,
+        "out_positions": 64
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_roen_10templates",
+    "short": "wmt16_translate_roen",
+    "S": 0.007681734232160997,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 450,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08591365878806986,
+        "rank_frac": 0.69921875,
+        "d_prompt": 2.064394746435462e-06,
+        "d_out": 3.033451904330933e-06,
+        "prompt_positions": 785,
+        "out_positions": 450
+      }
+    }
+  }
+]

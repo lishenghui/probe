@@ -1,0 +1,102 @@
+[
+  {
+    "adapter": "task0260",
+    "S": 0.02662714756375224,
+    "task": 260,
+    "dataset": "Lots-of-LoRAs/task260_spl_translation_zh_en",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 559,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9498697916666666,
+        "L_W": 0.06060763873215847,
+        "d_prompt": 1.064007068894035e-06,
+        "d_out": 5.789729442285973e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 21513,
+        "out_positions": 559,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 4.762475967407227,
+        "median_erosion": -0.0006303787231445312,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0149",
+    "S": 0.04810195566879228,
+    "task": 149,
+    "dataset": "Lots-of-LoRAs/task149_afs_argument_quality_death_penalty",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 96,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8997395833333334,
+        "L_W": 0.0812391981267608,
+        "d_prompt": 5.365078402076881e-06,
+        "d_out": 7.678715098398866e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 12228,
+        "out_positions": 96,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 8.734254837036133,
+        "median_erosion": 0.003117084503173828,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1407",
+    "S": 0.11150824790794871,
+    "task": 1407,
+    "dataset": "Lots-of-LoRAs/task1407_dart_question_generation",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1144,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.91015625,
+        "L_W": 0.07892535962588355,
+        "d_prompt": 2.0663367359909723e-05,
+        "d_out": 8.013937160883272e-06,
+        "flip_out": 0.0026223776223776225,
+        "prompt_positions": 20557,
+        "out_positions": 1144,
+        "token_flip_rate": 0.0026223776223776225,
+        "seq_flip_rate": 0.041666666666666664,
+        "median_margin": 2.2541146278381348,
+        "median_erosion": -0.00038814544677734375,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1111",
+    "S": 0.16633071044042466,
+    "task": 1111,
+    "dataset": "Lots-of-LoRAs/task1111_ted_translation_he_it",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1139,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.94140625,
+        "L_W": 0.06545678821582003,
+        "d_prompt": 0.0001702442442625991,
+        "d_out": 4.2594615810553205e-05,
+        "flip_out": 0.003511852502194908,
+        "prompt_positions": 22679,
+        "out_positions": 1139,
+        "token_flip_rate": 0.003511852502194908,
+        "seq_flip_rate": 0.0625,
+        "median_margin": 2.700672149658203,
+        "median_erosion": -0.00010585784912109375,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

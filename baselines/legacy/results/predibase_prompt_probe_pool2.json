@@ -1,0 +1,442 @@
+{
+  "glue_qqp": {
+    "as coded": {
+      "acc": 0.93,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.93,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    }
+  },
+  "glue_sst2": {
+    "as coded": {
+      "acc": 0.97,
+      "sample": [
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'1'",
+          "1"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.97,
+      "sample": [
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'1'",
+          "1"
+        ]
+      ]
+    }
+  },
+  "glue_qnli": {
+    "as coded": {
+      "acc": 0.94,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.94,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'1'",
+          "1"
+        ],
+        [
+          "'0'",
+          "1"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    }
+  },
+  "hellaswag": {
+    "as coded": {
+      "acc": 0.79,
+      "sample": [
+        [
+          "'3'",
+          "3"
+        ],
+        [
+          "'3'",
+          "3"
+        ],
+        [
+          "'2'",
+          "2"
+        ],
+        [
+          "'2'",
+          "2"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.78,
+      "sample": [
+        [
+          "'3.0'",
+          "3"
+        ],
+        [
+          "'3.0'",
+          "3"
+        ],
+        [
+          "'2.0'",
+          "2"
+        ],
+        [
+          "'2.0'",
+          "2"
+        ]
+      ]
+    }
+  },
+  "viggo": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'SpellForce 3 i'",
+          "SpellForce 3 is a pretty bad game. The developer Grimlore Games is clearly a bunch of no-talent hacks, and 2017 was a terrible year for games anyway."
+        ],
+        [
+          "'SpellForce 3 i'",
+          "I wanted to like Grimlore Games' 2017 entry, but in SpellForce 3 they just didn't get anything right."
+        ],
+        [
+          "'SpellForce 3 i'",
+          "I think SpellForce 3 is really, really bad. It's made by Grimlore Games and their games are always terrible, but it also came out in 2017, which was an especially bad year for them."
+        ],
+        [
+          "'BioShock is a '",
+          "BioShock is a good role-playing, action-adventure, shooter that released for PlayStation, Xbox, and PC in 2007. It is available on Steam, and it has a Mac release but not a Linux release."
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'2017 was a pre'",
+          "SpellForce 3 is a pretty bad game. The developer Grimlore Games is clearly a bunch of no-talent hacks, and 2017 was a terrible year for games anyway."
+        ],
+        [
+          "'2017 was a pre'",
+          "I wanted to like Grimlore Games' 2017 entry, but in SpellForce 3 they just didn't get anything right."
+        ],
+        [
+          "'2017 was a pre'",
+          "I think SpellForce 3 is really, really bad. It's made by Grimlore Games and their games are always terrible, but it also came out in 2017, which was an especially bad year for them."
+        ],
+        [
+          "\"2007's BioShoc\"",
+          "BioShock is a good role-playing, action-adventure, shooter that released for PlayStation, Xbox, and PC in 2007. It is available on Steam, and it has a Mac release but not a Linux release."
+        ]
+      ]
+    }
+  },
+  "gsm8k": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'Janet eats 3 e'",
+          "18"
+        ],
+        [
+          "'It takes 2*2=<'",
+          "3"
+        ],
+        [
+          "'He spent 80000'",
+          "70000"
+        ],
+        [
+          "'He runs 3*3=<<'",
+          "540"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.01,
+      "sample": [
+        [
+          "'16 - 3 - 4 = <'",
+          "18"
+        ],
+        [
+          "'2 bolts of blu'",
+          "3"
+        ],
+        [
+          "'The house was '",
+          "70000"
+        ],
+        [
+          "'3 sprints a da'",
+          "540"
+        ]
+      ]
+    }
+  },
+  "wikisql": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'SELECT Positio'",
+          "SELECT Position FROM table WHERE School/Club Team = Butler CC (KS)"
+        ],
+        [
+          "'SELECT COUNT S'",
+          "SELECT COUNT School/Club Team FROM table WHERE No. = 3"
+        ],
+        [
+          "'SELECT School/'",
+          "SELECT School/Club Team FROM table WHERE No. = 21"
+        ],
+        [
+          "'SELECT Player '",
+          "SELECT Player FROM table WHERE No. = 42"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'SELECT Positio'",
+          "SELECT Position FROM table WHERE School/Club Team = Butler CC (KS)"
+        ],
+        [
+          "'SELECT COUNT S'",
+          "SELECT COUNT School/Club Team FROM table WHERE No. = 3"
+        ],
+        [
+          "'SELECT School/'",
+          "SELECT School/Club Team FROM table WHERE No. = 21"
+        ],
+        [
+          "'SELECT Player '",
+          "SELECT Player FROM table WHERE No. = 42"
+        ]
+      ]
+    }
+  },
+  "conllpp": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"JAPAN\", \"CHINA\"], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [\"N'",
+          "{\"person\": [\"Nadim Ladki\"], \"organization\": [], \"location\": [], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"AL-AIN\", \"United Arab Emirates\"], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"Japan\", \"Syria\"], \"miscellaneous\": [\"Asian Cup\"]}"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"JAPAN\", \"CHINA\"], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [\"N'",
+          "{\"person\": [\"Nadim Ladki\"], \"organization\": [], \"location\": [], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"AL-AIN\", \"United Arab Emirates\"], \"miscellaneous\": []}"
+        ],
+        [
+          "'{\"person\": [],'",
+          "{\"person\": [], \"organization\": [], \"location\": [\"Japan\", \"Syria\"], \"miscellaneous\": [\"Asian Cup\"]}"
+        ]
+      ]
+    }
+  },
+  "e2e_nlg": {
+    "as coded": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'Alimentum is n'",
+          "There is a place in the city centre, Alimentum, that is not family-friendly."
+        ],
+        [
+          "'Alimentum is n'",
+          "In the city centre there is a venue name Alimentum, this is not a family-friendly venue."
+        ],
+        [
+          "'Alimentum is n'",
+          "Alimentum is not a family-friendly place, located in city centre."
+        ],
+        [
+          "'Alimentum is n'",
+          "Alimentum is not a family-friendly arena and is located in the city centre."
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 0.0,
+      "sample": [
+        [
+          "'Alimentum is n'",
+          "There is a place in the city centre, Alimentum, that is not family-friendly."
+        ],
+        [
+          "'Alimentum is n'",
+          "In the city centre there is a venue name Alimentum, this is not a family-friendly venue."
+        ],
+        [
+          "'Alimentum is n'",
+          "Alimentum is not a family-friendly place, located in city centre."
+        ],
+        [
+          "'Alimentum is n'",
+          "Alimentum is not a family-friendly arena and is located in the city centre."
+        ]
+      ]
+    }
+  },
+  "dbpedia": {
+    "as coded": {
+      "acc": 1.0,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    },
+    "card separator": {
+      "acc": 1.0,
+      "sample": [
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ],
+        [
+          "'0'",
+          "0"
+        ]
+      ]
+    }
+  }
+}

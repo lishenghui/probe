@@ -1,0 +1,110 @@
+[
+  {
+    "task": "bool_q_10templates",
+    "short": "bool_q",
+    "metric": "em",
+    "domain": "reading comp",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.5294117647058824,
+    "headroom": 0.5,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.3243975152250344,
+        "rank_frac": 0.21875,
+        "metric_value": 0.5294117647058824,
+        "retained": 1.0
+      },
+      "dense3191": {
+        "L_W": 0.3982556060047334,
+        "rank_frac": 0.140625,
+        "metric_value": 0.5294117647058824,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "imdb_reviews_10templates",
+    "short": "imdb_reviews",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.7647058823529411,
+    "headroom": 0.7647058823529411,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.2782447094777374,
+        "rank_frac": 0.453125,
+        "metric_value": 0.7941176470588235,
+        "retained": 1.0384615384615385
+      },
+      "dense3191": {
+        "L_W": 0.43864119823360204,
+        "rank_frac": 0.15625,
+        "metric_value": 0.6764705882352942,
+        "retained": 0.8846153846153847
+      }
+    }
+  },
+  {
+    "task": "sentiment140_10templates",
+    "short": "sentiment140",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.5294117647058824,
+    "headroom": 0.5294117647058824,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.2957105243489994,
+        "rank_frac": 0.234375,
+        "metric_value": 0.5,
+        "retained": 0.9444444444444444
+      },
+      "dense3191": {
+        "L_W": 0.36172454853344327,
+        "rank_frac": 0.15625,
+        "metric_value": 0.5,
+        "retained": 0.9444444444444444
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_fien_10templates",
+    "short": "wmt16_translate_fien",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.06999316637776642,
+    "metric_orig": 0.22656585196457807,
+    "headroom": 0.15657268558681164,
+    "variants": {
+      "dense5880": {
+        "L_W": 0.27751176527678306,
+        "rank_frac": 0.21875,
+        "metric_value": 0.2201072887829935,
+        "retained": 0.9587503838400752
+      },
+      "dense3191": {
+        "L_W": 0.4268436981233773,
+        "rank_frac": 0.125,
+        "metric_value": 0.23224070791099255,
+        "retained": 1.0362442269233996
+      }
+    }
+  }
+]

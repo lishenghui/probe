@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "run": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/fleet_remaining_b50_2254080/spatial",
+  "expected_results": 4,
+  "workers": 4,
+  "single_gpu_reference": null,
+  "errors": []
+}

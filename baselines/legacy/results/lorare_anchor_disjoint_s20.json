@@ -1,0 +1,40 @@
+[
+  {
+    "task": "multirc_10templates",
+    "short": "multirc",
+    "S": 0.005500293393142125,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 48,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19416331518946378,
+        "rank_frac": 0.474609375,
+        "d_prompt": 4.028922723260872e-06,
+        "d_out": 0.0001426930353621477,
+        "prompt_positions": 6197,
+        "out_positions": 48
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_tren_10templates",
+    "short": "wmt16_translate_tren",
+    "S": 0.009383249287602091,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 359,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.17378031082682655,
+        "rank_frac": 0.337890625,
+        "d_prompt": 8.735815217695295e-05,
+        "d_out": 0.00012287971904776306,
+        "prompt_positions": 723,
+        "out_positions": 359
+      }
+    }
+  }
+]

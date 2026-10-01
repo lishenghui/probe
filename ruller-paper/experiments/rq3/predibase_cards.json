@@ -1,0 +1,164 @@
+{
+ "agnews_explained": {
+  "desc": "Topic identification from a news article, with synthetic explanations.",
+  "dataset": "https://huggingface.co/datasets/ag_news",
+  "sample_in": "Below is a news article. Please classify it under one of the following classes (World, Business, Sports, Sci/Tech) and provide a reasonable coherent explanation for why the article is classified as such. Please format your response as a JSON payload.\\n\\n### Article: US poverty rate climbs, along with number lacking health coverage (AFP) AFP - The number of Americans living in poverty or without health insurance grew last year, a government survey showed, adding potential dynamite in the battle for the White House.\\n\\n### JSON Response",
+  "sample_out": "{\"text_label\": \"World\", \"explanation\": \"The article is classified as 'World' because it discusses the poverty rate and lack of health coverage in the United States. Although it is a domestic issue, it has potential implications for the upcoming presidential election, making it relevant to a global audience.\"}"
+ },
+ "bc5cdr": {
+  "desc": "1500 PubMed articles with 4409 annotated chemicals, 5818 diseases and 3116 chemical-disease interactions.",
+  "dataset": "https://huggingface.co/datasets/tner/bc5cdr",
+  "sample_in": "Your task is a Named Entity Recognition (NER) task. Predict the category of each entity, then place the entity into the list associated with the category in an output JSON payload. Below is an example:\n\nInput: \"Naloxone reverses the antihypertensive effect of clonidine .\"\n\nOutput: {'B-Chemical': ['Naloxone', 'clonidine'], 'B-Disease': [], 'I-Disease': [], 'I-Chemical': []}\n\nNow, complete the task.\n\nInput: \"A standardized loading dose of VPA was administered , and venous blood was sampled at 0 , 1 , 2 , 3 , and 4 hours .\"\n\nOutput:",
+  "sample_out": "{'B-Chemical': ['VPA'], 'B-Disease': [], 'I-Disease': [], 'I-Chemical': []}"
+ },
+ "cnn": {
+  "desc": "News article summarization",
+  "dataset": "https://huggingface.co/datasets/cnn_dailymail",
+  "sample_in": "You are given a news article below. Please summarize the article, including only its highlights.\\n\\n### Article: (CNN)Former Vice President Walter Mondale was released from the Mayo Clinic on Saturday after being admitted with influenza, hospital spokeswoman Kelley Luckstein said. \"He's doing well. We treated him for flu and cold symptoms and he was released today,\" she said. Mondale, 87, was diagnosed after he went to the hospital for a routine checkup following a fever, former President Jimmy Carter said Friday. \"He is in the bed right this moment, but looking forward to come back home,\" Carter said during a speech at a Nobel Peace Prize Forum in Minneapolis. \"He said tell everybody he is doing well.\" Mondale underwent treatment at the Mayo Clinic in Rochester, Minnesota. The 42nd vice president served under Carter between 1977 and 1981, and later ran for President, but lost to Ronald Reagan. But not before he made history by naming a woman, U.S. Rep. Geraldine A. Ferraro of New York, as his running mate. Before that, the former lawyer was  a U.S. senator from Minnesota. His wife, Joan Mondale, died last year.\\n\\n### Summary:",
+  "sample_out": "Walter Mondale was admitted to the Mayo Clinic on Friday . He was released Saturday after being treated for flu and cold symptoms . Mondale served as vice president under Jimmy Carter ."
+ },
+ "conllpp": {
+  "desc": "Named entity recognition",
+  "dataset": "https://huggingface.co/datasets/conllpp",
+  "sample_in": "Your task is a Named Entity Recognition (NER) task. Predict the category of each entity, then place the entity into the list associated with the  category in an output JSON payload. Below is an example:\\nInput: EU rejects German call to boycott British lamb . Output: {\"person\": [], \"organization\": [\"EU\"], \"location\": [], \"miscellaneous\": [\"German\", \"British\"]}\\nNow, complete the task.\\nInput: By the close Yorkshire had turned that into a 37-run advantage but off-spinner Such had scuttled their hopes , taking four for 24 in 48 balls and leaving them hanging on 119 for five and praying for rain . Output:",
+  "sample_out": "{\"person\": [\"Such\"], \"organization\": [\"Yorkshire\"], \"location\": [], \"miscellaneous\": []}"
+ },
+ "covid": {
+  "desc": "Sentiment detection of COVID-19 tweets",
+  "dataset": "https://www.kaggle.com/datatattle/covid-19-nlp-text-classification",
+  "sample_in": "During the COVID-19 pandemic, Twitter users expressed a variety of opinions about government policy, business decisions, and social norms adopted to reduce the spread of the virus. These opinions can be classified into one of five sentiment types.\\n\\n### The possible sentiment types are: ###\\n\\n- Extremely Positive\\n\\n- Positive\\n\\n- Neutral\\n\\n- Negative\\n\\n- Extremely Negative\\n\\nDetermine the sentiment of the following tweet using the tweet's text, the date and time it was posted, and the location it was posted from. Assign exactly one type of sentiment to the tweet.\\n\\n### Text: #Panic buying hits #NewYork City as anxious shoppers stock up on food&amp;medical supplies after #healthcare worker in her 30s becomes #BigApple 1st confirmed #coronavirus patient OR a #Bloomberg staged event?\n\n\n\nhttps://t.co/IASiReGPC4\n\n\n\n#QAnon #QAnon2018 #QAnon2020 \n\n#Election2020 #CDC https://t.co/29isZOewxu\\n\\n### Timestamp: 02-03-2020\\n\\n### Location: Chicagoland\\n\\n### Sentiment:",
+  "sample_out": "Negative"
+ },
+ "customer_support": {
+  "desc": "Customer support call classification given call transcript",
+  "dataset": "https://github.com/cricketclub/gridspace-stanford-harper-valley",
+  "sample_in": "Consider the case of a customer contacting the support center.\\nThe term \"task type\" refers to the reason for why the customer contacted support.\\n\\n### The possible task types are: ### \\n- replace card\\n- transfer money\\n- check balance\\n- order checks\\n- pay bill\\n- reset password\\n- schedule appointment\\n- get branch hours\\n- none of the above\\n\\nSummarize the issue/question/reason that drove the customer to contact support:\\n\\n### Transcript: <caller> [noise] <agent> [noise] <caller> [noise] <caller> [noise] hello <caller> hello <agent> hi i'm sorry this this call uh hello this is harper valley national bank my name is dawn how can i help you today <caller> hi <caller> oh okay my name is jennifer brown and i need to check my account balance if i could <caller> [noise] <caller> [noise] [noise] [noise] <agent> what account would you like to check <caller> um <caller> [noise] <caller> <unk> <caller> uhm my savings account <caller> please <caller> <unk> <caller> [noise] <caller> [noise] <caller> oh but the way that you're doing <agent> one moment <caller> hello <agent> yeah one moment <caller> uh huh <caller> no problem <caller> [noise] <agent> your account balance is eighty two dollars is there anything else i can help you with <caller> no i don't think so thank you so much you were very helpful <agent> thank you <caller> have a good day bye bye <caller> [noise] <agent> you too \\n\\n### Task Type:\\n\\ntest_transcript =",
+  "sample_out": "check balance"
+ },
+ "dbpedia": {
+  "desc": "Topic extraction from a news article and title",
+  "dataset": "https://huggingface.co/datasets/fancyzhx/dbpedia_14",
+  "sample_in": "You are given the title and the body of an article below. Please determine the type of the article.\\n### Title: Great White Whale\\n\\n### Body: Great White Whale is the debut album by the Canadian rock band Secret and Whisper. The album was in the works for about a year and was released on February 12 2008. A music video was shot in Pittsburgh for the album's first single XOXOXO. The album reached number 17 on iTunes's top 100 albums in its first week on sale.\\n\\n### Article Type:",
+  "sample_out": "11"
+ },
+ "drop": {
+  "desc": "Question answering given a passage",
+  "dataset": "https://huggingface.co/datasets/drop",
+  "sample_in": "Given a passage, you need to accurately identify and extract relevant spans of text that answer specific questions. Provide concise and coherent responses based on the information present in the passage.\\n\\n### Passage: Coming off their home win over the Browns, the Ravens flew to Heinz Field for their first road game of the year, as they played a Week 4 MNF duel with the throwback-clad Pittsburgh Steelers.  In the first quarter, Baltimore trailed early as Steelers kicker Jeff Reed got a 49-yard field goal.  The Ravens responded with kicker Matt Stover getting a 33-yard field goal.  Baltimore gained the lead in the second quarter as Stover kicked a 20-yard field goal, while rookie quarterback Joe Flacco completed his first career touchdown pass as he hooked up with TE Daniel Wilcox from 4 yards out. In the third quarter, Pittsburgh took the lead with quarterback Ben Roethlisberger completing a 38-yard TD pass to WR Santonio Holmes, along with LB James Harrison forcing a fumble from Flacco with LB LaMarr Woodley returning the fumble 7 yards for a touchdown.  In the fourth quarter, the Steelers increased their lead with Reed getting a 19-yard field goal.  Afterwards, the Ravens tied the game with RB Le'Ron McClain getting a 2-yard TD run.  However, despite winning the coin toss in overtime, Baltimore was unable to gain ground.  In the end, Pittsburgh sealed Baltimore's fate as Reed nailed the game-winning 46-yard field goal.\\n### Question: How many more field goals were made in the first half than in the second?\\n### Answer:",
+  "sample_out": "1"
+ },
+ "drop_explained": {
+  "desc": "Question answering with an explanation given a passage",
+  "dataset": "https://huggingface.co/datasets/drop",
+  "sample_in": "Given a passage, you need to accurately identify and extract relevant spans of text that answer specific questions. Provide concise and coherent responses based on the information present in the passage as well as a reasonable coherent explanation for your response. Please format your response as a JSON payload.\\n### Passage: Hoping to rebound from their divisional road loss to the Packers, the Vikings played their Week 2 home opener against the Indianapolis Colts. In the first half, kicker Ryan Longwell helped Minnesota take the early lead with a 45-yard and a 27-yard field goal in the first quarter, along with a 53-yard field goal in the second quarter. In the third quarter, the Vikes increased its lead with Longwell getting a 46-yard and a 28-yard field goal. However, the Colts responded with RB Joseph Addai getting a 1-yard TD run. In the fourth quarter, Indianapolis continued to gain ground as QB Peyton Manning completed a 32-yard TD pass to WR Reggie Wayne, followed by a two-point conversion run by RB Dominic Rhodes. Later, the Colts sealed the win with kicker Adam Vinatieri nailing the game-winning 47-yard field goal.\\n### Question: How many yards was Ryan Longwell's longest field goal?\\n### Answer:",
+  "sample_out": "{\"answer\": \"53\", \"explanation\": \"Based on the passage, Ryan Longwell made a 45-yard field goal in the first quarter, a 27-yard field goal in the first quarter, and a 53-yard field goal in the second quarter. Since the question asks for the longest field goal made by Longwell, the correct answer is 53 yards.\"}"
+ },
+ "e2e_nlg": {
+  "desc": "Translation from meaning representation to natural language",
+  "dataset": "https://huggingface.co/datasets/e2e_nlg",
+  "sample_in": "You are given a meaning representation below. Please translate it into plain English. Here is an example:\\n\\n### Meaning Representation: name[Blue Spice], eatType[coffee shop], area[city centre]\\n\\n### Plain English: A coffee shop in the city centre area called Blue Spice.\\n\\nNow please translate the following meaning representation:\\n\\n### Meaning Representation: name[Blue Spice], eatType[pub], food[Chinese], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Caf\u00e9]\\n\\n### Plain English:",
+  "sample_out": "Blue Spice is a pub that serves Chinese food. It is located in the city centre near Rainbow Vegetarian Caf\u00e9."
+ },
+ "glue_cola": {
+  "desc": "Grammar and syntax acceptability",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/cola",
+  "sample_in": "Determine if the sentence below is syntactically and semantically correct. If it is syntactically and semantically correct, respond \"1\". Otherwise, respond \"0\".\\n\\nSentence: Every senator seems to become more corrupt, as he talks to more lobbyists.\\n\\nLabel:",
+  "sample_out": "1"
+ },
+ "glue_mnli": {
+  "desc": "Does the hypothesis entail the premise?",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/mnli",
+  "sample_in": "You are given a premise and a hypothesis below. If the premise entails the hypothesis, return 0. If the premise contradicts the hypothesis, return 2. Otherwise, if the premise does neither, return 1.\\n\\n### Premise: You and your friends are not welcome here, said Severn.\\n\\n### Hypothesis: Severn said the people were not welcome there.\\n\\n### Label:",
+  "sample_out": "0"
+ },
+ "glue_mrpc": {
+  "desc": "Do the sentences have the same meaning?",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/mrpc",
+  "sample_in": "You are given two sentences below, Sentence 1 and Sentence 2. If the two sentences are semantically equivalent, please return 1. Otherwise, please return 0.\\n\\n### Sentence 1: The association said 28.2 million DVDs were rented in the week that ended June 15 , compared with 27.3 million VHS cassettes .\\n\\n### Sentence 2: The Video Software Dealers Association said 28.2 million DVDs were rented out last week , compared to 27.3 million VHS cassettes .\\n\\n### Label:",
+  "sample_out": "1"
+ },
+ "glue_qnli": {
+  "desc": "Does the response answer the question?",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/qnli",
+  "sample_in": "You are provided a question and a corresponding response below. If the response properly answers the question, please return 0. Otherwise, please return 1.\\n\\n### Question: What is the seldom used force unit equal to one thousand newtons?\\n\\n### Response: The kilogram-force leads to an alternate, but rarely used unit of mass: the metric slug (sometimes mug or hyl) is that mass that accelerates at 1 m\u00b7s\u22122 when subjected to a force of 1 kgf.\\n\\n### Label:",
+  "sample_out": "1"
+ },
+ "glue_qqp": {
+  "desc": "Do the questions have the same meaning?",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/qqp",
+  "sample_in": "You are given two questions below, Question 1 and Question 2. If the two questions are semantically equivalent, please return 1. Otherwise, please return 0.\\n\\n### Question 1: How do I buy used car in India?\\n\\n### Question 2: Which used car should I buy in India?\\n\\n### Label:",
+  "sample_out": "0"
+ },
+ "glue_sst2": {
+  "desc": "Binary sentiment detection",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/sst2",
+  "sample_in": "Given the following sentence:\\n\\nthis illuminating documentary transcends our preconceived vision of the holy land and its inhabitants , revealing the human complexities beneath . \\n\\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+  "sample_out": "1"
+ },
+ "glue_stsb": {
+  "desc": "How similar are the sentences?",
+  "dataset": "https://huggingface.co/datasets/glue/viewer/stsb",
+  "sample_in": "You are given two sentences below, Sentence 1 and Sentence 2. Please determine, on a scale from 0 to 5, with 0 being least similar and 5 being most similar, how similar the two sentences are:\\n\\n### Sentence 1: A woman peels a potato.\\n\\n### Sentence 2: A woman is peeling a potato.\\n\\n### Similarity Score:",
+  "sample_out": "4.8"
+ },
+ "gsm8k": {
+  "desc": "Grade school math problems",
+  "dataset": "https://huggingface.co/datasets/gsm8k",
+  "sample_in": "Please answer the following question: James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?\\nAnswer:",
+  "sample_out": "He runs 3*3=<<3*3=9>>9 sprints a week\n He runs 60*9=<<60*9=540>>540 meters a week\n#### 540"
+ },
+ "hellaswag": {
+  "desc": "Multiple-choice sentence completion",
+  "dataset": "https://huggingface.co/datasets/Rowan/hellaswag",
+  "sample_in": "You are provided with an incomplete passage below as well as 4 endings in quotes and separated by commas, with only one of them being the correct ending. Treat the endings as being labelled 0, 1, 2, 3 in order. Please respond with the number corresponding to the correct ending for the passage.\\n\\n### Passage: The mother instructs them on how to brush their teeth while laughing. The boy helps his younger sister brush his teeth. she\\n\\n### Endings: ['shows how to hit the mom and then kiss his dad as well.'\n 'brushes past the camera, looking better soon after.'\n 'glows from the center of the camera as a reaction.'\n 'gets them some water to gargle in their mouths.']\\n\\n### Correct Ending Number:",
+  "sample_out": "3.0"
+ },
+ "hellaswag_processed": {
+  "desc": "Sentence completion",
+  "dataset": "https://huggingface.co/datasets/Rowan/hellaswag",
+  "sample_in": "You are provided with an incomplete passage below. Please read the passage and then finish it with an appropriate response. For example:\\n\\n### Passage: My friend and I think alike. We\\n\\n### Ending: often finish each other's sentences.\\n\\nNow please finish the following passage:\\n\\n### Passage: Numerous people are watching others on a field. Trainers are playing frisbee with their dogs. the dogs\\n\\n### Ending:",
+  "sample_out": "are running around the field."
+ },
+ "jigsaw": {
+  "desc": "Toxic comment classification",
+  "dataset": "https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification",
+  "sample_in": "You are a helpful, precise, detailed, and concise artificial intelligence assistant.  You are a very intelligent and sensitive, having a keen ability to discern whether or not a text message is toxic.  You can also be trusted with following the instructions given to you precisely, without deviations.\\nIn this task, you are asked to decide whether or not comment text is toxic.\\nToxic content harbors negativity towards a person or a group, for instance:\\n  - stereotyping (especially using negative stereotypes)\\n  - disparaging a person\\'s gender -- as in \"male\", \"female\", \"men\", \"women\"\\n  - derogatory language or slurs\\n  - racism -- as in discriminating toward people who are \"black\", \"white\"\\n  - cultural appropriation\\n  - mockery or ridicule\\n  - sexual objectification\\n  - homophobia -- bullying people who are \"homosexual\", \"gay\", \"lesbian\"\\n  - historical insensitivity\\n  - disrespecting religion -- as in \"christian\", \"jewish\", \"muslim\"\\n  - saying that certain groups are less worthy of respect\\n  - insensitivity to health conditions -- as in \"psychiatric/mental illness\"\\n\\nRead the comment text provided and predict whether or not the comment text is toxic.  If comment text is toxic according to the instructions, then the answer is \"yes\" (return \"yes\"); otherwise, the answer is \"no\" (return \"no\").\\nOutput the answer only as a \"yes\" or a \"no\"; do not provide explanations.\\nPlease, never return empty output; always return a \"yes\" or a \"no\" answer.\\nYou will be evaluated based on the following criteria: - The generated answer is always \"yes\" or \"no\" (never the empty string, \"\"). - The generated answer is correct for the comment text presented to you.\\n### Comment Text: This one is the tumor that was cut away from Woodward   a different kind of reporting is what is going on now   not factual\\n### Comment Text Is Toxic (Yes/No):",
+  "sample_out": "no"
+ },
+ "legal": {
+  "desc": "Legal document classification",
+  "dataset": "https://www.kaggle.com/datasets/bahushruth/legalclausedataset?select=amendment-waiver.csv",
+  "sample_in": "You are a helpful, precise, detailed, and concise artificial intelligence assistant with a deep expertise in reading and interpreting legal documents. You are very intelligent and sharp, having a keen ability to discern the essential type of the legal clause from the text of the legal clause itself.\\nIn this task, you are asked to determine clause type from clause text.\\nYou will be evaluated based on the following criteria: - The generated answer is always one word (hyphens and underscores allowed). - The generated answer is best possible brief categorization of clause text.\\nCategorize the clause text into a succinct clause type:\\n### Clause Text: Any notice  request  consent  claim  demand  approval  waiver or other communication hereunder to Permitted Transferee shall be delivered or sent to Permitted Transferee at the address set forth on the signature page hereto in accordance with Section 7 1 of the Tax Receivable Agreement \\n### Clause Type:",
+  "sample_out": "notice"
+ },
+ "magicoder": {
+  "desc": "Coding tasks in multiple languages",
+  "dataset": "https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K",
+  "sample_in": "Below is a programming problem, paired with a language in which the solution should be written. Write a solution in the provided that appropriately solves the programming problem.\\n\\n### Problem: \n\ndef strlen(string: str) -> int:\n    \"\"\" Return length of given string\n    >>> strlen('')\n    0\n    >>> strlen('abc')\n    3\n    \"\"\"\n\\n\\n### Language: python\\n\\n### Solution:",
+  "sample_out": "```python\ndef strlen(string: str) -> int:\n    return len(string)```"
+ },
+ "tldr_content_gen": {
+  "desc": "Content generation given a headline",
+  "dataset": "https://huggingface.co/datasets/JulesBelveze/tldr_news",
+  "sample_in": "The following headline is the headline of a news report. Please write the content of the news passage based on only this headline.\\n\\nHeadline: Latest success from Google\u2019s AI group: Controlling a fusion reactor \\n\\nContent:",
+  "sample_out": "Google's AI group has developed a system that can control a fusion reactor. The system uses a deep reinforcement learning algorithm to control the reactor's magnetic field. It can control the reactor's magnetic field with a precision of 0.001%. The system can also learn to control the reactor's plasma. A video is available that shows the system controlling the reactor."
+ },
+ "tldr_headline_gen": {
+  "desc": "Headline generation given news content",
+  "dataset": "https://huggingface.co/datasets/JulesBelveze/tldr_news",
+  "sample_in": "The following passage is content from a news report. Please summarize this passage in one sentence or less.\\n\\nPassage: Jeffrey Berns, CEO of Blockchains LLC, wants the Nevada government to allow companies like his to form local governments on land they own, granting them power over everything from schools to law enforcement. Berns envisions a city based on digital currencies and blockchain storage. His company is proposing to build a 15,000 home town 12 miles east of Reno. Nevada Lawmakers have responded with intrigue and skepticism. The proposed legislation has yet to be formally filed or discussed in public hearings.\\n\\nSummary:",
+  "sample_out": "Blockchain CEO wants to build a city in Nevada"
+ },
+ "viggo": {
+  "desc": "Translation of video game meaning representations to natural language",
+  "dataset": "https://huggingface.co/datasets/GEM/viggo",
+  "sample_in": "Here are two examples of meaning representations being translated into plain English:\\n\\nExample representation:  \"request(release_year[2014], specifier[terrible])\"\\nExample output: \"Were there even any terrible games in 2014?\"\\n\\nExample representation: \"give_opinion(name[Little Nightmares], rating[good], genres[adventure, platformer, puzzle], player_perspective[side view])\"\\nExample output: \"Adventure games that combine platforming and puzzles can be frustrating to play, but the side view perspective is perfect for them. That's why I enjoyed playing Little Nightmares.\"\\n\\nUsing the previous examples as guidelines, please translate the following representation into plain English:\\nRepresentation: suggest(name[Little Big Adventure], player_perspective[third person], platforms[PC])\\nOutput:",
+  "sample_out": "Do you like third person PC games like Little Big Adventure?"
+ },
+ "wikisql": {
+  "desc": "SQL generation given a table and question",
+  "dataset": "https://huggingface.co/datasets/wikisql",
+  "sample_in": "Considering the provided database schema and associated query, produce SQL code to retrieve the answer to the query.\\n### Database Schema: {'header': ['Game', 'Date', 'Opponent', 'Score', 'Decision', 'Location/Attendance', 'Record'], 'types': ['real', 'real', 'text', 'text', 'text', 'text', 'text'], 'rows': [array(['77', '1', 'Pittsburgh Penguins', '1-6', 'Brodeur',\n       'Mellon Arena - 17,132', '47-26-4'], dtype=object), array(['78', '3', 'Tampa Bay Lightning', '4-5 (OT)', 'Brodeur',\n       'Prudential Center - 17,625', '48-26-4'], dtype=object), array(['79', '4', 'Buffalo Sabres', '3-2', 'Brodeur',\n       'HSBC Arena - 18,690', '49-26-4'], dtype=object), array(['80', '7', 'Toronto Maple Leafs', '4-1', 'Brodeur',\n       'Prudential Center - 15,046', '49-27-4'], dtype=object), array(['81', '9', 'Ottawa Senators', '3-2 (SO)', 'Brodeur',\n       'Scotiabank Place - 20,151', '50-27-4'], dtype=object), array(['82', '11', 'Carolina Hurricanes', '2-3', 'Brodeur',\n       'Prudential Center - 17,625', '51-27-4'], dtype=object)]}\\n### Query: What is Score, when Game is greater than 78, and when Date is \"4\"?\\n### SQL:",
+  "sample_out": "SELECT Score FROM table WHERE Game > 78 AND Date = 4"
+ }
+}

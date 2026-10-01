@@ -1,0 +1,16 @@
+[
+  {
+    "task": "rte_10templates",
+    "short": "rte",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {}
+  }
+]

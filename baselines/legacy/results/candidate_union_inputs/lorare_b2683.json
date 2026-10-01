@@ -1,0 +1,1120 @@
+{
+  "pool": "lorare",
+  "budget": 2683,
+  "adapters": {
+    "anli_r1": [
+      {
+        "k": 67,
+        "u": 0.5,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 0.5,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.5,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.5,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 72,
+        "u": 0.3333333333333333,
+        "source": "FRA"
+      }
+    ],
+    "anli_r2": [
+      {
+        "k": 66,
+        "u": 0.25,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.25,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.25,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.25,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 72,
+        "u": 0.25,
+        "source": "FRA"
+      }
+    ],
+    "anli_r3": [
+      {
+        "k": 65,
+        "u": 0.8571428571428572,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.8571428571428572,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.8571428571428572,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.8571428571428572,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 64,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "arc_challenge": [
+      {
+        "k": 64,
+        "u": 0.6428571428571429,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.6428571428571429,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.6428571428571429,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.6428571428571429,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 96,
+        "u": 0.7857142857142858,
+        "source": "FRA"
+      }
+    ],
+    "bool_q": [
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 80,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "common_gen": [
+      {
+        "k": 65,
+        "u": 0.7571261816856232,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.7571261816856232,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.7571261816856232,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.7571261816856232,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.8000377337252882,
+        "source": "FRA"
+      }
+    ],
+    "copa": [
+      {
+        "k": 64,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 96,
+        "u": 0.9523809523809523,
+        "source": "FRA"
+      }
+    ],
+    "cosmos_qa": [
+      {
+        "k": 66,
+        "u": 0.6363636363636364,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.6363636363636364,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6363636363636364,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6363636363636364,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.7272727272727272,
+        "source": "FRA"
+      }
+    ],
+    "dart": [
+      {
+        "k": 64,
+        "u": 0.9689175888638931,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.9689175888638931,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.9689175888638931,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.9689175888638931,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 0.9298557214382122,
+        "source": "FRA"
+      }
+    ],
+    "drop": [
+      {
+        "k": 66,
+        "u": 0.6,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.6,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 0.6,
+        "source": "FRA"
+      }
+    ],
+    "e2e_nlg": [
+      {
+        "k": 68,
+        "u": 0.9460013467822871,
+        "source": "Uniform"
+      },
+      {
+        "k": 68,
+        "u": 0.9460013467822871,
+        "source": "A-SCT"
+      },
+      {
+        "k": 68,
+        "u": 0.9460013467822871,
+        "source": "SCT"
+      },
+      {
+        "k": 68,
+        "u": 0.9460013467822871,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.7744090449600157,
+        "source": "FRA"
+      }
+    ],
+    "glue_mrpc": [
+      {
+        "k": 67,
+        "u": 0.4285714285714286,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 0.4285714285714286,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.4285714285714286,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.4285714285714286,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 160,
+        "u": 0.8571428571428572,
+        "source": "FRA"
+      }
+    ],
+    "glue_qqp": [
+      {
+        "k": 64,
+        "u": 0.3636363636363636,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.3636363636363636,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.3636363636363636,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.3636363636363636,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 144,
+        "u": 0.8181818181818181,
+        "source": "FRA"
+      }
+    ],
+    "hellaswag": [
+      {
+        "k": 67,
+        "u": 0.875,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 0.875,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.875,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.875,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "imdb_reviews": [
+      {
+        "k": 65,
+        "u": 0.7307692307692308,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.7307692307692308,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.7307692307692308,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.7307692307692308,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 64,
+        "u": 0.7307692307692308,
+        "source": "FRA"
+      }
+    ],
+    "mnli_mismatched": [
+      {
+        "k": 64,
+        "u": 0.7500000000000001,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.7500000000000001,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.7500000000000001,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.7500000000000001,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 72,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "multirc": [
+      {
+        "k": 66,
+        "u": 0.49999999999999994,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.49999999999999994,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.49999999999999994,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.49999999999999994,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 88,
+        "u": 0.49999999999999994,
+        "source": "FRA"
+      }
+    ],
+    "natural_questions": [
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.8333333333333333,
+        "source": "FRA"
+      }
+    ],
+    "openbookqa": [
+      {
+        "k": 66,
+        "u": 0.8181818181818181,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.8181818181818181,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.8181818181818181,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.8181818181818181,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 0.8636363636363636,
+        "source": "FRA"
+      }
+    ],
+    "para_crawl_enes": [
+      {
+        "k": 65,
+        "u": 1.0102500647175738,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 1.0102500647175738,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0102500647175738,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0102500647175738,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.9684229026213493,
+        "source": "FRA"
+      }
+    ],
+    "paws_wiki": [
+      {
+        "k": 67,
+        "u": 0.5833333333333333,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 0.5833333333333333,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.5833333333333333,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.5833333333333333,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 120,
+        "u": 0.75,
+        "source": "FRA"
+      }
+    ],
+    "piqa": [
+      {
+        "k": 67,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 32,
+        "u": 0.7272727272727272,
+        "source": "FRA"
+      }
+    ],
+    "record": [
+      {
+        "k": 67,
+        "u": 0.9333333333333333,
+        "source": "Uniform"
+      },
+      {
+        "k": 67,
+        "u": 0.9333333333333333,
+        "source": "A-SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.9333333333333333,
+        "source": "SCT"
+      },
+      {
+        "k": 67,
+        "u": 0.9333333333333333,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.9333333333333333,
+        "source": "FRA"
+      }
+    ],
+    "sentiment140": [
+      {
+        "k": 64,
+        "u": 0.8888888888888888,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.8888888888888888,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8888888888888888,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8888888888888888,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 72,
+        "u": 0.9444444444444444,
+        "source": "FRA"
+      }
+    ],
+    "snli": [
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "squad_v1": [
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "squad_v2": [
+      {
+        "k": 66,
+        "u": 0.6875,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.6875,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6875,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.6875,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.7500000000000001,
+        "source": "FRA"
+      }
+    ],
+    "sst2": [
+      {
+        "k": 64,
+        "u": 0.8,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.8,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 120,
+        "u": 0.9333333333333333,
+        "source": "FRA"
+      }
+    ],
+    "story_cloze": [
+      {
+        "k": 70,
+        "u": 0.5,
+        "source": "Uniform"
+      },
+      {
+        "k": 70,
+        "u": 0.5,
+        "source": "A-SCT"
+      },
+      {
+        "k": 70,
+        "u": 0.5,
+        "source": "SCT"
+      },
+      {
+        "k": 70,
+        "u": 0.5,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 8,
+        "u": 1.0,
+        "source": "FRA"
+      }
+    ],
+    "stsb": [
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 1.0,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 64,
+        "u": 0.7999999999999999,
+        "source": "FRA"
+      }
+    ],
+    "trivia_qa": [
+      {
+        "k": 64,
+        "u": 0.7999999999999999,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.7999999999999999,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.7999999999999999,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.7999999999999999,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.6,
+        "source": "FRA"
+      }
+    ],
+    "web_nlg_en": [
+      {
+        "k": 65,
+        "u": 0.9495282001563261,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.9495282001563261,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.9495282001563261,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.9495282001563261,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 56,
+        "u": 0.9440325960641334,
+        "source": "FRA"
+      }
+    ],
+    "wmt14_enfr": [
+      {
+        "k": 64,
+        "u": 0.8968316775829418,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.8968316775829418,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8968316775829418,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.8968316775829418,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.8532463994351102,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_csen": [
+      {
+        "k": 64,
+        "u": 0.9799635901669428,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.9799635901669428,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.9799635901669428,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.9799635901669428,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.9208808086808148,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_deen": [
+      {
+        "k": 66,
+        "u": 0.9941576456579535,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.9941576456579535,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.9941576456579535,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.9941576456579535,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.883999615603104,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_fien": [
+      {
+        "k": 64,
+        "u": 1.0362442269233996,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 1.0362442269233996,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 1.0362442269233996,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 1.0362442269233996,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 1.000676517328024,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_roen": [
+      {
+        "k": 64,
+        "u": 0.952452499802076,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.952452499802076,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.952452499802076,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.952452499802076,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 1.0663730936125242,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_ruen": [
+      {
+        "k": 66,
+        "u": 0.9216145626558143,
+        "source": "Uniform"
+      },
+      {
+        "k": 66,
+        "u": 0.9216145626558143,
+        "source": "A-SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.9216145626558143,
+        "source": "SCT"
+      },
+      {
+        "k": 66,
+        "u": 0.9216145626558143,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 40,
+        "u": 0.7085675630922109,
+        "source": "FRA"
+      }
+    ],
+    "wmt16_translate_tren": [
+      {
+        "k": 65,
+        "u": 0.9373494106089133,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.9373494106089133,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.9373494106089133,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.9373494106089133,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 64,
+        "u": 0.996545154352913,
+        "source": "FRA"
+      }
+    ],
+    "wnli": [
+      {
+        "k": 64,
+        "u": 0.25,
+        "source": "Uniform"
+      },
+      {
+        "k": 64,
+        "u": 0.25,
+        "source": "A-SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.25,
+        "source": "SCT"
+      },
+      {
+        "k": 64,
+        "u": 0.25,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 144,
+        "u": 0.7500000000000001,
+        "source": "FRA"
+      }
+    ],
+    "yelp_polarity_reviews": [
+      {
+        "k": 65,
+        "u": 0.6666666666666667,
+        "source": "Uniform"
+      },
+      {
+        "k": 65,
+        "u": 0.6666666666666667,
+        "source": "A-SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.6666666666666667,
+        "source": "SCT"
+      },
+      {
+        "k": 65,
+        "u": 0.6666666666666667,
+        "source": "Threshold-grid Oracle"
+      },
+      {
+        "k": 48,
+        "u": 0.41666666666666663,
+        "source": "FRA"
+      }
+    ]
+  },
+  "candidate_sources": [
+    "A-SCT",
+    "FRA",
+    "SCT",
+    "Threshold-grid Oracle",
+    "Uniform"
+  ]
+}

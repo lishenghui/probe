@@ -1,0 +1,37 @@
+[
+  {
+    "task": "e2e_nlg_10templates",
+    "short": "e2e_nlg",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.16605652303181895,
+    "metric_orig": 0.4941002453627578,
+    "headroom": 0.32804372233093887,
+    "variants": {
+      "dense": {
+        "L_W": 0.2743412711268254,
+        "rank_frac": 0.2109375,
+        "metric_value": 0.4823223707304321,
+        "retained": 0.9640966315446089
+      }
+    }
+  },
+  {
+    "task": "wsc_10templates",
+    "short": "wsc",
+    "metric": "em",
+    "domain": "coreference",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.029411764705882353,
+    "variants": {}
+  }
+]

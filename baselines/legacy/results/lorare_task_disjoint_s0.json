@@ -1,0 +1,206 @@
+[
+  {
+    "task": "anli_r1_10templates",
+    "short": "anli_r1",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.17647058823529413,
+    "variants": {
+      "e99": {
+        "L_W": 0.06432441864307048,
+        "rank_frac": 0.884765625,
+        "metric_value": 0.17647058823529413,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19371631248896104,
+        "rank_frac": 0.556640625,
+        "metric_value": 0.14705882352941177,
+        "retained": 0.8333333333333333
+      },
+      "e90": {
+        "L_W": 0.27666587959113487,
+        "rank_frac": 0.373046875,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.5
+      },
+      "e80": {
+        "L_W": 0.3642670266369806,
+        "rank_frac": 0.224609375,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.5
+      },
+      "e70": {
+        "L_W": 0.40663920896925443,
+        "rank_frac": 0.177734375,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.5
+      },
+      "e50": {
+        "L_W": 0.47898607752744493,
+        "rank_frac": 0.130859375,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.5
+      }
+    }
+  },
+  {
+    "task": "drop_10templates",
+    "short": "drop",
+    "metric": "em",
+    "domain": "reading comp",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "e99": {
+        "L_W": 0.08360055884613118,
+        "rank_frac": 0.8046875,
+        "metric_value": 0.14705882352941177,
+        "retained": 0.7999999999999999
+      },
+      "e95": {
+        "L_W": 0.1951682183473325,
+        "rank_frac": 0.458984375,
+        "metric_value": 0.14705882352941177,
+        "retained": 0.7999999999999999
+      },
+      "e90": {
+        "L_W": 0.2697919562188532,
+        "rank_frac": 0.306640625,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.6
+      },
+      "e80": {
+        "L_W": 0.3445076346347073,
+        "rank_frac": 0.201171875,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.6
+      },
+      "e70": {
+        "L_W": 0.4085145151201902,
+        "rank_frac": 0.154296875,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.6
+      },
+      "e50": {
+        "L_W": 0.44880913854819354,
+        "rank_frac": 0.12890625,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.6
+      }
+    }
+  },
+  {
+    "task": "paws_wiki_10templates",
+    "short": "paws_wiki",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.35294117647058826,
+    "headroom": 0.35294117647058826,
+    "variants": {
+      "e99": {
+        "L_W": 0.08151322223825354,
+        "rank_frac": 0.7421875,
+        "metric_value": 0.35294117647058826,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.1897374175306264,
+        "rank_frac": 0.40625,
+        "metric_value": 0.29411764705882354,
+        "retained": 0.8333333333333333
+      },
+      "e90": {
+        "L_W": 0.26020781632778067,
+        "rank_frac": 0.2734375,
+        "metric_value": 0.2647058823529412,
+        "retained": 0.75
+      },
+      "e80": {
+        "L_W": 0.32509690177920736,
+        "rank_frac": 0.205078125,
+        "metric_value": 0.2647058823529412,
+        "retained": 0.75
+      },
+      "e70": {
+        "L_W": 0.3869725621222577,
+        "rank_frac": 0.16015625,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.5833333333333333
+      },
+      "e50": {
+        "L_W": 0.43880776996758264,
+        "rank_frac": 0.130859375,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.5833333333333333
+      }
+    }
+  },
+  {
+    "task": "trivia_qa_10templates",
+    "short": "trivia_qa",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.14705882352941177,
+    "headroom": 0.14705882352941177,
+    "variants": {
+      "e99": {
+        "L_W": 0.08573140954294617,
+        "rank_frac": 0.716796875,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.6
+      },
+      "e95": {
+        "L_W": 0.18616212845873956,
+        "rank_frac": 0.373046875,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.6
+      },
+      "e90": {
+        "L_W": 0.25048141608047425,
+        "rank_frac": 0.248046875,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.6
+      },
+      "e80": {
+        "L_W": 0.3192178731296532,
+        "rank_frac": 0.169921875,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.6
+      },
+      "e70": {
+        "L_W": 0.35980373817353134,
+        "rank_frac": 0.14453125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.7999999999999999
+      },
+      "e50": {
+        "L_W": 0.3926357510046964,
+        "rank_frac": 0.125,
+        "metric_value": 0.11764705882352941,
+        "retained": 0.7999999999999999
+      }
+    }
+  }
+]

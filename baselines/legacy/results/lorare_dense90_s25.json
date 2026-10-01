@@ -1,0 +1,23 @@
+[
+  {
+    "task": "piqa_10templates",
+    "short": "piqa",
+    "metric": "em",
+    "domain": "commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.3235294117647059,
+    "headroom": 0.3235294117647059,
+    "variants": {
+      "dense": {
+        "L_W": 0.4279075127682296,
+        "rank_frac": 0.125,
+        "metric_value": 0.3235294117647059,
+        "retained": 1.0
+      }
+    }
+  }
+]

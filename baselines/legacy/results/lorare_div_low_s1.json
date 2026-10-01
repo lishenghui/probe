@@ -1,0 +1,70 @@
+[
+  {
+    "task": "anli_r2_10templates",
+    "short": "anli_r2",
+    "S": 0.005790989358348502,
+    "prompts": 50,
+    "gen_tokens": 185,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.3583714224886543,
+        "rank_frac": 0.22265625,
+        "d_prompt": 0.0002762382740330985,
+        "d_out": 0.0021512206480209088,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      },
+      "e70": {
+        "L_W": 0.4084916467018815,
+        "rank_frac": 0.171875,
+        "d_prompt": 0.0003850960531053462,
+        "d_out": 0.002923362688287287,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      },
+      "e50": {
+        "L_W": 0.47079542104615235,
+        "rank_frac": 0.12890625,
+        "d_prompt": 0.0007170521230223517,
+        "d_out": 0.004878121644661233,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      }
+    }
+  },
+  {
+    "task": "piqa_10templates",
+    "short": "piqa",
+    "S": 0.006382893613515958,
+    "prompts": 50,
+    "gen_tokens": 1011,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.3399568344008861,
+        "rank_frac": 0.1875,
+        "d_prompt": 0.001072845063466441,
+        "d_out": 0.0009419562842798351,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      },
+      "e70": {
+        "L_W": 0.3890322912682856,
+        "rank_frac": 0.1484375,
+        "d_prompt": 0.001984472387649021,
+        "d_out": 0.001601004242464305,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      },
+      "e50": {
+        "L_W": 0.42018312129082314,
+        "rank_frac": 0.130859375,
+        "d_prompt": 0.003083782594682065,
+        "d_out": 0.0022103743798145056,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      }
+    }
+  }
+]

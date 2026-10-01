@@ -1,0 +1,234 @@
+[
+  {
+    "adapter": "anli_r3",
+    "repo": "lorahub/flan_t5_large-anli_r3",
+    "S": 0.007573626627073411,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.08460318737133615,
+        "rank_frac": 0.6493055555555556,
+        "d_js_mean": 2.9603135772049427e-05,
+        "argmax_flip": 0.0015151515151515152,
+        "positions": 660
+      },
+      "e95": {
+        "L_W": 0.17344918986466892,
+        "rank_frac": 0.4001736111111111,
+        "d_js_mean": 5.599986616289243e-05,
+        "argmax_flip": 0.0030303030303030303,
+        "positions": 660
+      },
+      "e90": {
+        "L_W": 0.23245670956992923,
+        "rank_frac": 0.2921006944444444,
+        "d_js_mean": 0.00010286431643180549,
+        "argmax_flip": 0.004545454545454545,
+        "positions": 660
+      }
+    }
+  },
+  {
+    "adapter": "glue_mnli",
+    "repo": "lorahub/flan_t5_large-glue_mnli",
+    "S": 0.004010111709846851,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.09167706331015905,
+        "rank_frac": 0.66796875,
+        "d_js_mean": 7.917219591035973e-07,
+        "argmax_flip": 0.0,
+        "positions": 238
+      },
+      "e95": {
+        "L_W": 0.20021464250431428,
+        "rank_frac": 0.3641493055555556,
+        "d_js_mean": 6.079052582208533e-06,
+        "argmax_flip": 0.0,
+        "positions": 238
+      },
+      "e90": {
+        "L_W": 0.26480555080652746,
+        "rank_frac": 0.25,
+        "d_js_mean": 6.251084869290935e-06,
+        "argmax_flip": 0.0,
+        "positions": 238
+      }
+    }
+  },
+  {
+    "adapter": "qasc_qa_with_separated_facts_5",
+    "repo": "lorahub/flan_t5_large-qasc_qa_with_separated_facts_5",
+    "S": 0.0019724624085595004,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.09002153186606797,
+        "rank_frac": 0.7764756944444444,
+        "d_js_mean": 2.7899910492124036e-05,
+        "argmax_flip": 0.0,
+        "positions": 235
+      },
+      "e95": {
+        "L_W": 0.20526759171730488,
+        "rank_frac": 0.44921875,
+        "d_js_mean": 3.7375233659986407e-05,
+        "argmax_flip": 0.0,
+        "positions": 235
+      },
+      "e90": {
+        "L_W": 0.26678641597681874,
+        "rank_frac": 0.3168402777777778,
+        "d_js_mean": 5.117935870657675e-05,
+        "argmax_flip": 0.0,
+        "positions": 235
+      }
+    }
+  },
+  {
+    "adapter": "quarel_heres_a_story",
+    "repo": "lorahub/flan_t5_large-quarel_heres_a_story",
+    "S": 0.0005665032262520095,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.06769493196266657,
+        "rank_frac": 0.9366319444444444,
+        "d_js_mean": 6.892047167639248e-06,
+        "argmax_flip": 0.0,
+        "positions": 212
+      },
+      "e95": {
+        "L_W": 0.203814866600408,
+        "rank_frac": 0.73046875,
+        "d_js_mean": 6.862368991278345e-06,
+        "argmax_flip": 0.0,
+        "positions": 212
+      },
+      "e90": {
+        "L_W": 0.2955773410370295,
+        "rank_frac": 0.578125,
+        "d_js_mean": 8.030110620893538e-06,
+        "argmax_flip": 0.0,
+        "positions": 212
+      }
+    }
+  },
+  {
+    "adapter": "quoref_Read_And_Extract_",
+    "repo": "lorahub/flan_t5_large-quoref_Read_And_Extract_",
+    "S": 0.0021293518859881785,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.08023473392619758,
+        "rank_frac": 0.91796875,
+        "d_js_mean": 3.430485958233476e-05,
+        "argmax_flip": 0.0,
+        "positions": 274
+      },
+      "e95": {
+        "L_W": 0.20721085279104723,
+        "rank_frac": 0.6753472222222222,
+        "d_js_mean": 3.202416701242328e-05,
+        "argmax_flip": 0.0,
+        "positions": 274
+      },
+      "e90": {
+        "L_W": 0.2911915113459705,
+        "rank_frac": 0.5082465277777778,
+        "d_js_mean": 3.698255022754893e-05,
+        "argmax_flip": 0.0,
+        "positions": 274
+      }
+    }
+  },
+  {
+    "adapter": "ropes_plain_background_situation",
+    "repo": "lorahub/flan_t5_large-ropes_plain_background_situation",
+    "S": 0.0014567966514198007,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.08099886941967407,
+        "rank_frac": 0.8841145833333334,
+        "d_js_mean": 1.3006122571823653e-05,
+        "argmax_flip": 0.0,
+        "positions": 176
+      },
+      "e95": {
+        "L_W": 0.2074336201211709,
+        "rank_frac": 0.6245659722222222,
+        "d_js_mean": 2.5210640160366893e-05,
+        "argmax_flip": 0.0,
+        "positions": 176
+      },
+      "e90": {
+        "L_W": 0.2950257266695461,
+        "rank_frac": 0.4578993055555556,
+        "d_js_mean": 2.5348139388370328e-05,
+        "argmax_flip": 0.0,
+        "positions": 176
+      }
+    }
+  },
+  {
+    "adapter": "squad_v2.0",
+    "repo": "lorahub/flan_t5_large-squad_v2.0",
+    "S": 0.005775682095098384,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.09037486662062919,
+        "rank_frac": 0.7430555555555556,
+        "d_js_mean": 1.0567007848294452e-05,
+        "argmax_flip": 0.0,
+        "positions": 345
+      },
+      "e95": {
+        "L_W": 0.1862388522198,
+        "rank_frac": 0.4366319444444444,
+        "d_js_mean": 2.1181538613745943e-05,
+        "argmax_flip": 0.0,
+        "positions": 345
+      },
+      "e90": {
+        "L_W": 0.2385172846767728,
+        "rank_frac": 0.30078125,
+        "d_js_mean": 3.0264767701737583e-05,
+        "argmax_flip": 0.0,
+        "positions": 345
+      }
+    }
+  },
+  {
+    "adapter": "wiki_qa_exercise",
+    "repo": "lorahub/flan_t5_large-wiki_qa_exercise",
+    "S": 0.0014398977231075884,
+    "modules": 144,
+    "variants": {
+      "e99": {
+        "L_W": 0.07555189008190559,
+        "rank_frac": 0.8385416666666666,
+        "d_js_mean": 3.8355412357304886e-07,
+        "argmax_flip": 0.0,
+        "positions": 248
+      },
+      "e95": {
+        "L_W": 0.20640008890311082,
+        "rank_frac": 0.5941840277777778,
+        "d_js_mean": 5.838076617692423e-07,
+        "argmax_flip": 0.0,
+        "positions": 248
+      },
+      "e90": {
+        "L_W": 0.29129151993374014,
+        "rank_frac": 0.4448784722222222,
+        "d_js_mean": 5.827710992889479e-06,
+        "argmax_flip": 0.0,
+        "positions": 248
+      }
+    }
+  }
+]

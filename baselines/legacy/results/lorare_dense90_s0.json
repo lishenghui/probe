@@ -1,0 +1,44 @@
+[
+  {
+    "task": "anli_r1_10templates",
+    "short": "anli_r1",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.17647058823529413,
+    "variants": {
+      "dense": {
+        "L_W": 0.2276738776310746,
+        "rank_frac": 0.46875,
+        "metric_value": 0.14705882352941177,
+        "retained": 0.8333333333333333
+      }
+    }
+  },
+  {
+    "task": "sst2_10templates",
+    "short": "sst2",
+    "metric": "em",
+    "domain": "sentiment",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.4411764705882353,
+    "headroom": 0.4411764705882353,
+    "variants": {
+      "dense": {
+        "L_W": 0.1532247854646088,
+        "rank_frac": 0.4609375,
+        "metric_value": 0.4411764705882353,
+        "retained": 1.0
+      }
+    }
+  }
+]

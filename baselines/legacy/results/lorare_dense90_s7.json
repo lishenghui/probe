@@ -1,0 +1,44 @@
+[
+  {
+    "task": "common_gen_10templates",
+    "short": "common_gen",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.13011363762034925,
+    "metric_orig": 0.39308148027093126,
+    "headroom": 0.26296784265058204,
+    "variants": {
+      "dense": {
+        "L_W": 0.2238358218959989,
+        "rank_frac": 0.263671875,
+        "metric_value": 0.3665525915689488,
+        "retained": 0.8991173657030275
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_deen_10templates",
+    "short": "wmt16_translate_deen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.07916999337763772,
+    "metric_orig": 0.23066207750724252,
+    "headroom": 0.1514920841296048,
+    "variants": {
+      "dense": {
+        "L_W": 0.4430698570009023,
+        "rank_frac": 0.125,
+        "metric_value": 0.23157091809713992,
+        "retained": 1.0059992612493196
+      }
+    }
+  }
+]

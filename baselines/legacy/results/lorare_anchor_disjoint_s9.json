@@ -1,0 +1,40 @@
+[
+  {
+    "task": "cosmos_qa_10templates",
+    "short": "cosmos_qa",
+    "S": 0.006977645575778585,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 124,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.18546399024230417,
+        "rank_frac": 0.41796875,
+        "d_prompt": 1.4323617596133256e-05,
+        "d_out": 6.803800134812557e-05,
+        "prompt_positions": 2268,
+        "out_positions": 124
+      }
+    }
+  },
+  {
+    "task": "sst2_10templates",
+    "short": "sst2",
+    "S": 0.006794674340591948,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 34,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19123963379533074,
+        "rank_frac": 0.3671875,
+        "d_prompt": 3.226980366593553e-05,
+        "d_out": 0.000374431793421964,
+        "prompt_positions": 897,
+        "out_positions": 34
+      }
+    }
+  }
+]

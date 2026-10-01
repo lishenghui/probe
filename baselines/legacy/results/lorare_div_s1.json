@@ -1,0 +1,70 @@
+[
+  {
+    "task": "anli_r2_10templates",
+    "short": "anli_r2",
+    "S": 0.005790989358348502,
+    "prompts": 50,
+    "gen_tokens": 185,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.0666351913992748,
+        "rank_frac": 0.880859375,
+        "d_prompt": 5.004790779452186e-07,
+        "d_out": 4.173184577273394e-06,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      },
+      "e95": {
+        "L_W": 0.19847767292912125,
+        "rank_frac": 0.53515625,
+        "d_prompt": 1.7302601677704748e-05,
+        "d_out": 0.00020182231308206463,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      },
+      "e90": {
+        "L_W": 0.27109645401130733,
+        "rank_frac": 0.361328125,
+        "d_prompt": 4.4279741666730676e-05,
+        "d_out": 0.0006061130083744993,
+        "prompt_positions": 7181,
+        "out_positions": 185
+      }
+    }
+  },
+  {
+    "task": "piqa_10templates",
+    "short": "piqa",
+    "S": 0.006382893613515958,
+    "prompts": 50,
+    "gen_tokens": 1011,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08277440857321644,
+        "rank_frac": 0.779296875,
+        "d_prompt": 5.274484413156674e-07,
+        "d_out": 3.626791297731215e-07,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      },
+      "e95": {
+        "L_W": 0.19849416259100494,
+        "rank_frac": 0.421875,
+        "d_prompt": 2.7846140354506548e-05,
+        "d_out": 2.0419983619184514e-05,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      },
+      "e90": {
+        "L_W": 0.2606373697144592,
+        "rank_frac": 0.291015625,
+        "d_prompt": 0.00045509629977780425,
+        "d_out": 0.0004272496161919438,
+        "prompt_positions": 1678,
+        "out_positions": 1011
+      }
+    }
+  }
+]

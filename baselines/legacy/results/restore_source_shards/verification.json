@@ -1,0 +1,74 @@
+[
+  {
+    "suite": "spatial",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/model-00001-of-00004.safetensors",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "size": 4925122448,
+    "sha256": "2809bd7be9422315c5ecbe91eea612f5b02925f37e0051728ad45bc993c79251",
+    "expected_sha256": "2809bd7be9422315c5ecbe91eea612f5b02925f37e0051728ad45bc993c79251",
+    "passed": true
+  },
+  {
+    "suite": "spatial",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/model-00002-of-00004.safetensors",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "size": 4947392496,
+    "sha256": "a00a7c5f2b6586ccfc89c693a9c36f3552ff455ff2b1bfea3e92642e4cd2b6d3",
+    "expected_sha256": "a00a7c5f2b6586ccfc89c693a9c36f3552ff455ff2b1bfea3e92642e4cd2b6d3",
+    "passed": true
+  },
+  {
+    "suite": "spatial",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/model-00003-of-00004.safetensors",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "size": 4947417456,
+    "sha256": "a894b7230a08b471af55c57dd7385fd3b51fae2c4d9307a36a8017ef57abf22a",
+    "expected_sha256": "a894b7230a08b471af55c57dd7385fd3b51fae2c4d9307a36a8017ef57abf22a",
+    "passed": true
+  },
+  {
+    "suite": "spatial",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial/model-00004-of-00004.safetensors",
+    "revision": "6d0231af0e48c5985f1ff86908f4674b84bc049b",
+    "size": 262668432,
+    "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+    "expected_sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+    "passed": true
+  },
+  {
+    "suite": "object",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/model-00001-of-00004.safetensors",
+    "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+    "size": 4925122448,
+    "sha256": "fedf457ad486f5e4ce28579a85e7b3ae1448d01884a674e9baaf7fc47125401c",
+    "expected_sha256": "fedf457ad486f5e4ce28579a85e7b3ae1448d01884a674e9baaf7fc47125401c",
+    "passed": true
+  },
+  {
+    "suite": "object",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/model-00002-of-00004.safetensors",
+    "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+    "size": 4947392496,
+    "sha256": "cb9e4eb3991dfdb7d111e332d7d565543cabc3bc63bfc8ebba83695ad05dcaf3",
+    "expected_sha256": "cb9e4eb3991dfdb7d111e332d7d565543cabc3bc63bfc8ebba83695ad05dcaf3",
+    "passed": true
+  },
+  {
+    "suite": "object",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/model-00003-of-00004.safetensors",
+    "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+    "size": 4947417456,
+    "sha256": "f28ce17430e501109e4f512373bea70bc77d4cfe66c17a1a120a04a5a5623f8d",
+    "expected_sha256": "f28ce17430e501109e4f512373bea70bc77d4cfe66c17a1a120a04a5a5623f8d",
+    "passed": true
+  },
+  {
+    "suite": "object",
+    "file": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/object/model-00004-of-00004.safetensors",
+    "revision": "4c89574e1c538b6c102f43f0526d60a9d3650148",
+    "size": 262668432,
+    "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+    "expected_sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+    "passed": true
+  }
+]

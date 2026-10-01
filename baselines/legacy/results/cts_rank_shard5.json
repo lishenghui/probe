@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task0778",
+    "S": 0.02326880978730321,
+    "task": 778,
+    "dataset": "Lots-of-LoRAs/task778_pawsx_english_french_translation",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 4.730048749479465e-05,
+        "d_js_p90": 9.228941053152084e-05,
+        "d_hidden": 0.012272153981029987,
+        "argmax_flip": 0.008574310692669805,
+        "rank_frac": 0.6321614583333334,
+        "retained_energy": 0.9118650599072377
+      },
+      "k08": {
+        "d_js_mean": 0.00010891537385759875,
+        "d_js_p90": 0.0001941242953762412,
+        "d_hidden": 0.019194575026631355,
+        "argmax_flip": 0.011880744227751625,
+        "rank_frac": 0.5,
+        "retained_energy": 0.8394377126048008
+      }
+    }
+  },
+  {
+    "adapter": "task0149",
+    "S": 0.04810195566879228,
+    "task": 149,
+    "dataset": "Lots-of-LoRAs/task149_afs_argument_quality_death_penalty",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.0003863216261379421,
+        "d_js_p90": 0.0006509211380034685,
+        "d_hidden": 0.025395868346095085,
+        "argmax_flip": 0.005397448478900883,
+        "rank_frac": 0.4700520833333333,
+        "retained_energy": 0.9130942964305481
+      },
+      "k08": {
+        "d_js_mean": 0.0003023826575372368,
+        "d_js_p90": 0.0007271168287843466,
+        "d_hidden": 0.023973222821950912,
+        "argmax_flip": 0.013084723585214262,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9139026540021101
+      }
+    }
+  },
+  {
+    "adapter": "task1444",
+    "S": 0.1144119622340522,
+    "task": 1444,
+    "dataset": "Lots-of-LoRAs/task1444_round_power_of_two",
+    "prompts": 48,
+    "variants": {
+      "e90": {
+        "d_js_mean": 0.0052314936183393,
+        "d_js_p90": 0.00665632076561451,
+        "d_hidden": 0.08995173126459122,
+        "argmax_flip": 0.027235309571766356,
+        "rank_frac": 0.37109375,
+        "retained_energy": 0.9137278646230698
+      },
+      "k08": {
+        "d_js_mean": 0.0021900704596191645,
+        "d_js_p90": 0.003001563251018524,
+        "d_hidden": 0.05028872936964035,
+        "argmax_flip": 0.017427095192223487,
+        "rank_frac": 0.5,
+        "retained_energy": 0.9438708461821079
+      }
+    }
+  }
+]

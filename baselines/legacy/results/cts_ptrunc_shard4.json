@@ -1,0 +1,110 @@
+[
+  {
+    "adapter": "task1333",
+    "S": 0.021743797085548622,
+    "task": 1333,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 8.988092304207384e-07,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 1.527545973658562e-05,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 8.313470752909779e-05,
+            "flip": 0.0,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 8.890515193658885e-07,
+            "flip": 0.0,
+            "positions": 16224
+          },
+          "e95": {
+            "d_js_mean": 1.5819695734793662e-05,
+            "flip": 0.0004930966469428008,
+            "positions": 16224
+          },
+          "e90": {
+            "d_js_mean": 8.368738906281675e-05,
+            "flip": 0.0008012820512820513,
+            "positions": 16224
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task1222",
+    "S": 0.11169591450521815,
+    "task": 1222,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.8350320644676685e-05,
+            "flip": 0.01875,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.00037742583081126215,
+            "flip": 0.025,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.0014966096729040145,
+            "flip": 0.046875,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 2.838336349707913e-05,
+            "flip": 0.016255457940975326,
+            "positions": 19009
+          },
+          "e95": {
+            "d_js_mean": 0.0004024115319103763,
+            "flip": 0.02614551002156873,
+            "positions": 19009
+          },
+          "e90": {
+            "d_js_mean": 0.0015220221950627934,
+            "flip": 0.04576779420274607,
+            "positions": 19009
+          }
+        }
+      }
+    }
+  }
+]

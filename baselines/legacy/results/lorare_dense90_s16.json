@@ -1,0 +1,23 @@
+[
+  {
+    "task": "hellaswag_10templates",
+    "short": "hellaswag",
+    "metric": "em",
+    "domain": "commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.23529411764705882,
+    "headroom": 0.23529411764705882,
+    "variants": {
+      "dense": {
+        "L_W": 0.3455578267177413,
+        "rank_frac": 0.169921875,
+        "metric_value": 0.20588235294117646,
+        "retained": 0.875
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "repo": "moojink/openvla-7b-oft-finetuned-libero-goal",
+  "revision": "c2d0f9fbbd82674683b397ff923168a12f6a307b",
+  "staged": "/tmp/oft-reconstruct-2291680-HcGDP0/goal",
+  "files": [
+    {
+      "file": "model-00001-of-00004.safetensors",
+      "sha256": "aae1b9bfffacaf15e209bc8296ffa9bd07baa41d673ab005696a82525b880b2f",
+      "size": 4925122448
+    },
+    {
+      "file": "model-00002-of-00004.safetensors",
+      "sha256": "4cd51d327e1891f24f75d033017ed3824cc5fb9009e38498efd2dca6f89ee01d",
+      "size": 4947392496
+    },
+    {
+      "file": "model-00003-of-00004.safetensors",
+      "sha256": "f1c361c4cbd78b60ccea81538ca1626e00e54baba70528af8c08577771768329",
+      "size": 4947417456
+    },
+    {
+      "file": "model-00004-of-00004.safetensors",
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    }
+  ]
+}

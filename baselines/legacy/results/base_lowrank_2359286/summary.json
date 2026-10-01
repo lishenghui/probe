@@ -1,0 +1,12 @@
+{
+  "out": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/base_lowrank_2359286",
+  "rates": {
+    "original": 1.0,
+    "rank128": 0.0,
+    "rank256": 0.0
+  },
+  "degradation_vs_original": {
+    "rank128": 1.0,
+    "rank256": 1.0
+  }
+}

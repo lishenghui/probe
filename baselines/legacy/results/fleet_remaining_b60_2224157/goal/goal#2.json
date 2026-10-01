@@ -1,0 +1,31 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b60/goal",
+  "episodes": 8,
+  "task": "open the middle drawer of the cabinet",
+  "load_s": 93.5,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 23.11,
+  "policy_calls": 18,
+  "s_per_episode": 2.89,
+  "label": "goal#2",
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+  "adapter_mode": "anchored",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+  "anchor": {
+    "formula": "W_published + delta_variant - delta_reference",
+    "reference_adapter": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal/lora_adapter",
+    "modules": 439,
+    "changed_modules": 439
+  }
+}

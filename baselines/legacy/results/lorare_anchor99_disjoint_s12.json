@@ -1,0 +1,40 @@
+[
+  {
+    "task": "drop_10templates",
+    "short": "drop",
+    "S": 0.007295302631977129,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 106,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08360055884613118,
+        "rank_frac": 0.8046875,
+        "d_prompt": 4.5564184444078556e-07,
+        "d_out": 2.6550688478480125e-06,
+        "prompt_positions": 5442,
+        "out_positions": 106
+      }
+    }
+  },
+  {
+    "task": "trivia_qa_10templates",
+    "short": "trivia_qa",
+    "S": 0.007049673785490909,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 95,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08573140954294617,
+        "rank_frac": 0.716796875,
+        "d_prompt": 6.578489424450359e-07,
+        "d_out": 1.3417317201234064e-06,
+        "prompt_positions": 520,
+        "out_positions": 95
+      }
+    }
+  }
+]

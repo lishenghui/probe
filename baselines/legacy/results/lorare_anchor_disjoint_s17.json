@@ -1,0 +1,40 @@
+[
+  {
+    "task": "imdb_reviews_10templates",
+    "short": "imdb_reviews",
+    "S": 0.0061214747371369435,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 92,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.197887150861802,
+        "rank_frac": 0.564453125,
+        "d_prompt": 4.513523132494591e-06,
+        "d_out": 5.394835684653473e-05,
+        "prompt_positions": 3954,
+        "out_positions": 92
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_fien_10templates",
+    "short": "wmt16_translate_fien",
+    "S": 0.008128080727988327,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 404,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.18515832562075885,
+        "rank_frac": 0.361328125,
+        "d_prompt": 7.394608823598095e-05,
+        "d_out": 3.190277396305925e-05,
+        "prompt_positions": 718,
+        "out_positions": 404
+      }
+    }
+  }
+]

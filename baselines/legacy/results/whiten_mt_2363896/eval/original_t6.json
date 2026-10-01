@@ -1,0 +1,28 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "episodes": 8,
+  "task": "pick up the black bowl next to the cookie box and place it on the plate",
+  "load_s": 15.3,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 23.99,
+  "policy_calls": 14,
+  "s_per_episode": 3.0,
+  "label": "original_t6",
+  "render_context_bound": true,
+  "render_cleanup_bound": true,
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "adapter_mode": "none",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "anchor": null
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "task": "mnli_mismatched_10templates",
+    "short": "mnli_mismatched",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.11764705882352941,
+    "headroom": 0.11764705882352941,
+    "variants": {
+      "dense": {
+        "L_W": 0.18180945535020432,
+        "rank_frac": 0.4140625,
+        "metric_value": 0.11764705882352941,
+        "retained": 1.0
+      }
+    }
+  }
+]

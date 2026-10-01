@@ -1,0 +1,40 @@
+[
+  {
+    "task": "anli_r1_10templates",
+    "short": "anli_r1",
+    "S": 0.00582156065818016,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 42,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19371631248896104,
+        "rank_frac": 0.556640625,
+        "d_prompt": 6.11463922904269e-06,
+        "d_out": 8.778367373452056e-05,
+        "prompt_positions": 2279,
+        "out_positions": 42
+      }
+    }
+  },
+  {
+    "task": "paws_wiki_10templates",
+    "short": "paws_wiki",
+    "S": 0.00492467575469876,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 29,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.1897374175306264,
+        "rank_frac": 0.40625,
+        "d_prompt": 1.566385030691636e-05,
+        "d_out": 0.00024912328662735647,
+        "prompt_positions": 1359,
+        "out_positions": 29
+      }
+    }
+  }
+]

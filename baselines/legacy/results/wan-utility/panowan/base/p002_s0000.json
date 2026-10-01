@@ -1,0 +1,26 @@
+{
+  "adapter": "panowan",
+  "repo": "YOUSIKI/PanoWan",
+  "family": "panorama",
+  "primary_metric": "panorama_seam",
+  "higher_is_better": true,
+  "variant": "base",
+  "tau": null,
+  "prompt_index": 2,
+  "prompt": "A 360 degree panoramic video from the middle of a calm lake surrounded by autumn forest",
+  "seed": 0,
+  "height": 448,
+  "width": 896,
+  "num_frames": 81,
+  "fps": 16,
+  "steps": 50,
+  "generation_seconds": 105.18155112600653,
+  "peak_cuda_gib": 22.620174407958984,
+  "compression": {
+    "kept_rank": 0,
+    "total_rank": 0,
+    "rank_fraction": 0.0,
+    "L_W": 0.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/panowan/base/p002_s0000.mp4"
+}

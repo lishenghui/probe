@@ -1,0 +1,22 @@
+[
+  {
+    "adapter": "task1444",
+    "task": 1444,
+    "S": 0.1144119622340522,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.11656833010470777,
+    "exact_base": 0.0,
+    "metric_orig": 0.8471372578304869,
+    "exact_orig": 0.41,
+    "variants": {
+      "dense": {
+        "L_W": 0.7010331997507027,
+        "rank_frac": 0.0625,
+        "metric": 0.8471372578304869,
+        "exact": 0.41,
+        "retained": 1.0
+      }
+    }
+  }
+]

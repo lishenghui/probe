@@ -1,0 +1,37 @@
+{
+  "mode": "batched",
+  "checkpoint": "/tmp/whiten_2363202/variants/attn10",
+  "episodes": 8,
+  "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+  "load_s": 15.8,
+  "success": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "rate": 0.125,
+  "wall_s": 52.57,
+  "policy_calls": 28,
+  "s_per_episode": 6.57,
+  "label": "attn10",
+  "render_context_bound": true,
+  "render_cleanup_bound": true,
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "adapter_mode": "base_lowrank",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "anchor": {
+    "formula": "W ~= B @ A (language_model attn+MLP only)",
+    "source": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+    "rank": null,
+    "method": "whiten",
+    "tau": 0.1,
+    "modules": 128,
+    "mean_output_error": 0.09983781710199226,
+    "mean_relative_l2": null
+  }
+}

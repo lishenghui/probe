@@ -1,0 +1,26 @@
+{
+  "mode": "batched",
+  "checkpoint": "/tmp/oft-reconstruct-2291680-HcGDP0/10",
+  "episodes": 8,
+  "task": "put both the alphabet soup and the tomato sauce in the basket",
+  "load_s": 584.8,
+  "success": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "rate": 1.0,
+  "wall_s": 53.07,
+  "policy_calls": 46,
+  "s_per_episode": 6.63,
+  "label": "original",
+  "base": "/tmp/oft-reconstruct-2291680-HcGDP0/10",
+  "adapter_mode": "reconstructed",
+  "metadata": "/tmp/oft-reconstruct-2291680-HcGDP0/10",
+  "anchor": null
+}

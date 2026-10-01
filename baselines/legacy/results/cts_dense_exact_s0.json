@@ -1,0 +1,54 @@
+[
+  {
+    "adapter": "task1370",
+    "task": 1370,
+    "S": 0.05230877529025968,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.21645776769509792,
+    "exact_base": 0.01,
+    "metric_orig": 1.0,
+    "exact_orig": 1.0,
+    "variants": {
+      "dense": {
+        "L_W": 0.7046268483812698,
+        "rank_frac": 0.0625,
+        "metric": 1.0,
+        "exact": 1.0,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "adapter": "task1222",
+    "task": 1222,
+    "S": 0.11169591450521815,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.310439696685164,
+    "exact_base": 0.0,
+    "metric_orig": 0.3496402287365578,
+    "exact_orig": 0.0,
+    "variants": {}
+  },
+  {
+    "adapter": "task0408",
+    "task": 408,
+    "S": 0.167021909198904,
+    "split": "test",
+    "n": 100,
+    "metric_base": 0.41411522972775267,
+    "exact_base": 0.0,
+    "metric_orig": 0.7151409447210715,
+    "exact_orig": 0.02,
+    "variants": {
+      "dense": {
+        "L_W": 0.28617384017051994,
+        "rank_frac": 0.41015625,
+        "metric": 0.7133345288927587,
+        "exact": 0.01,
+        "retained": 0.993999131176043
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "task": "drop_10templates",
+    "short": "drop",
+    "S": 0.007295302631977129,
+    "prompts": 50,
+    "gen_tokens": 302,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08360055884613118,
+        "rank_frac": 0.8046875,
+        "d_prompt": 6.587544609779701e-07,
+        "d_out": 4.611193084117335e-06,
+        "prompt_positions": 17059,
+        "out_positions": 302
+      },
+      "e95": {
+        "L_W": 0.1951682183473325,
+        "rank_frac": 0.458984375,
+        "d_prompt": 2.3859713286719592e-05,
+        "d_out": 8.352454373958391e-05,
+        "prompt_positions": 17059,
+        "out_positions": 302
+      },
+      "e90": {
+        "L_W": 0.2697919562188532,
+        "rank_frac": 0.306640625,
+        "d_prompt": 8.299498490103035e-05,
+        "d_out": 0.00020972895599818413,
+        "prompt_positions": 17059,
+        "out_positions": 302
+      }
+    }
+  },
+  {
+    "task": "trivia_qa_10templates",
+    "short": "trivia_qa",
+    "S": 0.007049673785490909,
+    "prompts": 50,
+    "gen_tokens": 318,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08573140954294617,
+        "rank_frac": 0.716796875,
+        "d_prompt": 5.274256960114217e-07,
+        "d_out": 1.2942422834917039e-06,
+        "prompt_positions": 1412,
+        "out_positions": 318
+      },
+      "e95": {
+        "L_W": 0.18616212845873956,
+        "rank_frac": 0.373046875,
+        "d_prompt": 9.83568094283271e-06,
+        "d_out": 2.2530541033040163e-05,
+        "prompt_positions": 1412,
+        "out_positions": 318
+      },
+      "e90": {
+        "L_W": 0.25048141608047425,
+        "rank_frac": 0.248046875,
+        "d_prompt": 6.515382925607791e-05,
+        "d_out": 0.00015400635685474076,
+        "prompt_positions": 1412,
+        "out_positions": 318
+      }
+    }
+  }
+]

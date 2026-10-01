@@ -1,0 +1,17 @@
+{
+  "wall_s": 279.0,
+  "adapters": 2,
+  "completed": 2,
+  "workers": 1,
+  "failed_workers": [],
+  "gpu_hours_billed": 0.078,
+  "gpu_hours_per_adapter": 0.039,
+  "variants": {
+    "spatial": "artifacts/rq3/models/openvla-oft-source/spatial",
+    "spatial#2": "artifacts/rq3/models/openvla-oft-source/spatial"
+  },
+  "rates": {
+    "spatial": 1.0,
+    "spatial#2": 1.0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Wan2.1-1.3b-lora-aesthetics-v1": {
+    "family": "aesthetics",
+    "primary_metric": "aesthetic_quality",
+    "higher_is_better": true,
+    "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-aesthetics-v1",
+    "n_pairs": 1,
+    "mean_base": 0.012351485900580883,
+    "mean_full": 0.0004501035436987877,
+    "mean_headroom": -0.011901382356882095,
+    "positive_headroom_fraction": 0.0,
+    "passes_headroom": false,
+    "variants": {}
+  },
+  "Wan2.1-1.3b-lora-highresfix-v1": {
+    "family": "high_resolution",
+    "primary_metric": "imaging_quality",
+    "higher_is_better": true,
+    "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-highresfix-v1",
+    "n_pairs": 1,
+    "mean_base": 8.657632861286402e-05,
+    "mean_full": 0.0005444178241305053,
+    "mean_headroom": 0.0004578414955176413,
+    "positive_headroom_fraction": 1.0,
+    "passes_headroom": true,
+    "variants": {}
+  },
+  "Wan2.1-1.3b-lora-speedcontrol-v1": {
+    "family": "motion_control",
+    "primary_metric": "slow_motion_control",
+    "higher_is_better": true,
+    "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-speedcontrol-v1",
+    "n_pairs": 1,
+    "mean_base": -2.8091670433680216,
+    "mean_full": -1.1341665784517925,
+    "mean_headroom": 1.6750004649162291,
+    "positive_headroom_fraction": 1.0,
+    "passes_headroom": true,
+    "variants": {}
+  },
+  "panowan": {
+    "family": "panorama",
+    "primary_metric": "panorama_seam",
+    "higher_is_better": true,
+    "repo": "YOUSIKI/PanoWan",
+    "n_pairs": 4,
+    "mean_base": -0.23238804761786014,
+    "mean_full": -0.08744086138904095,
+    "mean_headroom": 0.1449471862288192,
+    "positive_headroom_fraction": 1.0,
+    "passes_headroom": true,
+    "variants": {}
+  },
+  "ultrawan1k": {
+    "family": "high_resolution",
+    "primary_metric": "imaging_quality",
+    "higher_is_better": true,
+    "repo": "APRIL-AIGC/UltraWan",
+    "n_pairs": 1,
+    "mean_base": 0.00017576520622242242,
+    "mean_full": 0.0019408139633014798,
+    "mean_headroom": 0.0017650487570790574,
+    "positive_headroom_fraction": 1.0,
+    "passes_headroom": true,
+    "variants": {}
+  }
+}

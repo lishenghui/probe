@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "negative_prompt": "Vivid colors, overexposure, static, blurry details, subtitles, paintings, still image, worst quality, low quality, JPEG artifacts, ugly, incomplete, deformed, disfigured, malformed limbs, fused fingers, cluttered background, walking backwards",
+  "adapters": {
+    "panowan": {
+      "family": "panorama",
+      "primary_metric": "panorama_seam",
+      "higher_is_better": true,
+      "height": 448,
+      "width": 896,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "prompts": [
+        "A 360 degree equirectangular panoramic video of a mountain valley at sunrise, viewed from the center of the valley",
+        "A seamless 360 degree equirectangular panorama of a busy city square, pedestrians moving in every direction",
+        "A 360 degree panoramic video from the middle of a calm lake surrounded by autumn forest",
+        "A seamless equirectangular panoramic view of ocean waves breaking around a rocky island"
+      ]
+    },
+    "ultrawan1k": {
+      "family": "high_resolution",
+      "primary_metric": "imaging_quality",
+      "higher_is_better": true,
+      "height": 1088,
+      "width": 1920,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "lora_scale": 0.25,
+      "prompts": [
+        "A close-up cinematic video of a hummingbird hovering beside a flower, intricate feathers, natural daylight",
+        "Macro footage of frost crystals slowly forming on a leaf, extremely fine detail",
+        "A detailed portrait video of a lion walking through tall grass at sunset",
+        "Rain drops moving down a window overlooking a city at night, sharp reflections and fine detail"
+      ]
+    },
+    "ultrawan4k": {
+      "family": "high_resolution",
+      "primary_metric": "imaging_quality",
+      "higher_is_better": true,
+      "height": 2160,
+      "width": 3840,
+      "num_frames": 33,
+      "fps": 16,
+      "steps": 50,
+      "lora_scale": 0.5,
+      "prompts": [
+        "A close-up cinematic video of a hummingbird hovering beside a flower, intricate feathers, natural daylight",
+        "Macro footage of frost crystals slowly forming on a leaf, extremely fine detail",
+        "A detailed portrait video of a lion walking through tall grass at sunset",
+        "Rain drops moving down a window overlooking a city at night, sharp reflections and fine detail"
+      ]
+    },
+    "Wan2.1-1.3b-lora-aesthetics-v1": {
+      "family": "aesthetics",
+      "primary_metric": "aesthetic_quality",
+      "higher_is_better": true,
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "prompts": [
+        "A serene tropical beach at sunset, palm trees, flower-covered cliffs and gentle waves",
+        "A rust-covered robot crossing a vast desert, dappled sunlight and blowing sand",
+        "A glass greenhouse filled with exotic plants during a rainstorm",
+        "A lone sailing boat crossing a misty mountain lake at dawn"
+      ]
+    },
+    "Wan2.1-1.3b-lora-highresfix-v1": {
+      "family": "high_resolution",
+      "primary_metric": "imaging_quality",
+      "higher_is_better": true,
+      "height": 1024,
+      "width": 1024,
+      "num_frames": 33,
+      "fps": 15,
+      "steps": 50,
+      "prompts": [
+        "Anime style, a girl with short black hair gently turning her head as her hair moves in the wind",
+        "An armored warrior confronting a dragon on steep cliffs, detailed scales and glowing fire",
+        "A red fox running through a snowy forest, detailed fur and flying powder snow",
+        "An ornate mechanical watch opening to reveal its moving gears, macro cinematic footage"
+      ]
+    },
+    "Wan2.1-1.3b-lora-speedcontrol-v1": {
+      "family": "motion_control",
+      "primary_metric": "slow_motion_control",
+      "higher_is_better": true,
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "lora_scale": 0.7,
+      "prompts": [
+        "low speed, documentary footage of a white puppy running across a green field, side tracking shot",
+        "low speed, a dancer spinning on a theater stage, full body shot",
+        "low speed, a hummingbird flying toward a red flower, close-up wildlife footage",
+        "low speed, ocean waves crashing against dark rocks during a storm"
+      ]
+    }
+  }
+}

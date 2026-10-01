@@ -1,0 +1,26 @@
+{
+  "worker": {
+    "backend": "peft_unmerged_reference",
+    "adapters": [
+      "spatial",
+      "object",
+      "goal",
+      "10"
+    ],
+    "base_copies": 1,
+    "base_revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+    "adapter_parameters": {
+      "spatial": 221656576,
+      "object": 221656576,
+      "goal": 221656576,
+      "10": 221656576
+    },
+    "base_parameter_bytes": 15082474368,
+    "adapter_parameter_bytes": 1773252608,
+    "head_parameter_bytes": 1343488056,
+    "load_seconds": 122.71080367686227,
+    "gpu_allocated_bytes": 18248255488,
+    "calls": 0
+  },
+  "suites": {}
+}

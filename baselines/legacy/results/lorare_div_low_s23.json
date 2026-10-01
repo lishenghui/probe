@@ -1,0 +1,70 @@
+[
+  {
+    "task": "para_crawl_enes_10templates",
+    "short": "para_crawl_enes",
+    "S": 0.007015453290511419,
+    "prompts": 50,
+    "gen_tokens": 1616,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.3469971300289054,
+        "rank_frac": 0.1875,
+        "d_prompt": 0.0002469162334015104,
+        "d_out": 0.0002285797968532747,
+        "prompt_positions": 2566,
+        "out_positions": 1616
+      },
+      "e70": {
+        "L_W": 0.39493784848275804,
+        "rank_frac": 0.14453125,
+        "d_prompt": 0.0004517017259020779,
+        "d_out": 0.0004444937375149376,
+        "prompt_positions": 2566,
+        "out_positions": 1616
+      },
+      "e50": {
+        "L_W": 0.41533893378468695,
+        "rank_frac": 0.126953125,
+        "d_prompt": 0.0006585902601933442,
+        "d_out": 0.0006150982756453502,
+        "prompt_positions": 2566,
+        "out_positions": 1616
+      }
+    }
+  },
+  {
+    "task": "yelp_polarity_reviews_10templates",
+    "short": "yelp_polarity_reviews",
+    "S": 0.005995909041552379,
+    "prompts": 50,
+    "gen_tokens": 623,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.35809671958593897,
+        "rank_frac": 0.21484375,
+        "d_prompt": 0.00010271229947530882,
+        "d_out": 0.0003958484540987957,
+        "prompt_positions": 10348,
+        "out_positions": 623
+      },
+      "e70": {
+        "L_W": 0.4113883383462166,
+        "rank_frac": 0.16796875,
+        "d_prompt": 0.0002173294490012461,
+        "d_out": 0.0007765196063099833,
+        "prompt_positions": 10348,
+        "out_positions": 623
+      },
+      "e50": {
+        "L_W": 0.47602896047556287,
+        "rank_frac": 0.126953125,
+        "d_prompt": 0.0004708971065020165,
+        "d_out": 0.0013990930328668838,
+        "prompt_positions": 10348,
+        "out_positions": 623
+      }
+    }
+  }
+]

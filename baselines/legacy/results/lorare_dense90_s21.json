@@ -1,0 +1,23 @@
+[
+  {
+    "task": "natural_questions_10templates",
+    "short": "natural_questions",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.17647058823529413,
+    "headroom": 0.17647058823529413,
+    "variants": {
+      "dense": {
+        "L_W": 0.4018176614200778,
+        "rank_frac": 0.12890625,
+        "metric_value": 0.17647058823529413,
+        "retained": 1.0
+      }
+    }
+  }
+]

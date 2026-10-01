@@ -1,0 +1,16 @@
+[
+  {
+    "task": "mnli_matched_10templates",
+    "short": "mnli_matched",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.0,
+    "headroom": 0.0,
+    "variants": {}
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://api.github.com/repos/moojink/openvla-oft/issues/comments/2871701625",
+    "html_url": "https://github.com/moojink/openvla-oft/issues/42#issuecomment-2871701625",
+    "issue_url": "https://api.github.com/repos/moojink/openvla-oft/issues/42",
+    "id": 2871701625,
+    "node_id": "IC_kwDOOAwQE86rKrB5",
+    "user": {
+      "login": "dekelcohen",
+      "id": 5879314,
+      "node_id": "MDQ6VXNlcjU4NzkzMTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5879314?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dekelcohen",
+      "html_url": "https://github.com/dekelcohen",
+      "followers_url": "https://api.github.com/users/dekelcohen/followers",
+      "following_url": "https://api.github.com/users/dekelcohen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dekelcohen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dekelcohen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dekelcohen/subscriptions",
+      "organizations_url": "https://api.github.com/users/dekelcohen/orgs",
+      "repos_url": "https://api.github.com/users/dekelcohen/repos",
+      "events_url": "https://api.github.com/users/dekelcohen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dekelcohen/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2025-05-12T09:13:16Z",
+    "updated_at": "2025-05-12T09:13:16Z",
+    "body": "Can you please share your setup + config (especially the command line you used) ?\nThanks",
+    "author_association": "NONE",
+    "pin": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/moojink/openvla-oft/issues/comments/2871701625/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null,
+    "minimized": null
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "LoRA Land": [
+    {
+      "budget": 1299,
+      "worst_pct": 31.818181818181817,
+      "max_dk": 56,
+      "min_spearman": 0.9642857142857145,
+      "headroom_pct": 189.95535714285714
+    },
+    {
+      "budget": 934,
+      "worst_pct": 25.0,
+      "max_dk": 39,
+      "min_spearman": 0.9642857142857145,
+      "headroom_pct": 108.48214285714286
+    },
+    {
+      "budget": 755,
+      "worst_pct": 18.269230769230766,
+      "max_dk": 43,
+      "min_spearman": 1.0,
+      "headroom_pct": 68.52678571428571
+    },
+    {
+      "budget": 546,
+      "worst_pct": 0.0,
+      "max_dk": 0,
+      "min_spearman": 1.0,
+      "headroom_pct": 21.875
+    }
+  ],
+  "Lots-of-LoRAs": [
+    {
+      "budget": 25282,
+      "worst_pct": 61.06870229007634,
+      "max_dk": 245,
+      "min_spearman": 0.9908357771260996,
+      "headroom_pct": 722.9817708333333
+    },
+    {
+      "budget": 16533,
+      "worst_pct": 52.80373831775701,
+      "max_dk": 174,
+      "min_spearman": 0.9380498533724339,
+      "headroom_pct": 438.18359375
+    },
+    {
+      "budget": 11708,
+      "worst_pct": 34.92063492063492,
+      "max_dk": 136,
+      "min_spearman": 0.972873900293255,
+      "headroom_pct": 281.11979166666663
+    },
+    {
+      "budget": 6514,
+      "worst_pct": 0.0,
+      "max_dk": 0,
+      "min_spearman": 1.0,
+      "headroom_pct": 112.04427083333333
+    }
+  ],
+  "LoraRetriever": [
+    {
+      "budget": 9700,
+      "worst_pct": 52.77777777777778,
+      "max_dk": 144,
+      "min_spearman": 0.9192151132449641,
+      "headroom_pct": 129.6401515151515
+    },
+    {
+      "budget": 6519,
+      "worst_pct": 43.39622641509434,
+      "max_dk": 129,
+      "min_spearman": 0.9324496399123268,
+      "headroom_pct": 54.33238636363637
+    },
+    {
+      "budget": 5219,
+      "worst_pct": 38.23529411764706,
+      "max_dk": 115,
+      "min_spearman": 0.8968792401628224,
+      "headroom_pct": 23.55587121212121
+    },
+    {
+      "budget": 4338,
+      "worst_pct": 23.008849557522122,
+      "max_dk": 32,
+      "min_spearman": 0.7707963678112932,
+      "headroom_pct": 2.6988636363636362
+    }
+  ],
+  "Wan2.1 video": [
+    {
+      "budget": 183931,
+      "worst_pct": 106.53398422831393,
+      "max_dk": 3340,
+      "min_spearman": 0.9742647058823529,
+      "headroom_pct": 1792.2942386831278
+    },
+    {
+      "budget": 114429,
+      "worst_pct": 43.47826086956522,
+      "max_dk": 2055,
+      "min_spearman": 0.9906417112299466,
+      "headroom_pct": 1077.2530864197531
+    },
+    {
+      "budget": 78089,
+      "worst_pct": 26.825266611977028,
+      "max_dk": 1408,
+      "min_spearman": 0.983288770053476,
+      "headroom_pct": 703.3847736625514
+    },
+    {
+      "budget": 39798,
+      "worst_pct": 0.0,
+      "max_dk": 0,
+      "min_spearman": 1.0,
+      "headroom_pct": 309.44444444444446
+    }
+  ]
+}

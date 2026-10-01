@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task1333",
+    "S": 0.021743797085548622,
+    "task": 1333,
+    "dataset": "Lots-of-LoRAs/task1333_check_validity_date_ddmmyyyy",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 96,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9140625,
+        "L_W": 0.08059865339593393,
+        "d_prompt": 8.862836722581219e-07,
+        "d_out": 3.549225552346158e-09,
+        "flip_out": 0.0,
+        "prompt_positions": 16224,
+        "out_positions": 96,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 12.595430374145508,
+        "median_erosion": 0.005390644073486328,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0334",
+    "S": 0.06899597084029749,
+    "task": 334,
+    "dataset": "Lots-of-LoRAs/task334_hateeval_classification_hate_es",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 192,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.8821614583333334,
+        "L_W": 0.08472478529903738,
+        "d_prompt": 1.659742413246241e-05,
+        "d_out": 7.705002878684771e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 15049,
+        "out_positions": 192,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 11.642549514770508,
+        "median_erosion": -0.011150836944580078,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0223",
+    "S": 0.15848341521147538,
+    "task": 223,
+    "dataset": "Lots-of-LoRAs/task223_quartz_explanation_generation",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1010,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.900390625,
+        "L_W": 0.08038269090336445,
+        "d_prompt": 0.0003670855582534493,
+        "d_out": 1.5691162035983497e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 17094,
+        "out_positions": 1010,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 10.554559707641602,
+        "median_erosion": 0.043799400329589844,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]

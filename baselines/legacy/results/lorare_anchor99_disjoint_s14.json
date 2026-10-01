@@ -1,0 +1,40 @@
+[
+  {
+    "task": "glue_mrpc_10templates",
+    "short": "glue_mrpc",
+    "S": 0.00402943193733118,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 23,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.07632191834438044,
+        "rank_frac": 0.779296875,
+        "d_prompt": 1.7650548307354857e-07,
+        "d_out": 1.2914993268840709e-06,
+        "prompt_positions": 1432,
+        "out_positions": 23
+      }
+    }
+  },
+  {
+    "task": "wmt14_enfr_10templates",
+    "short": "wmt14_enfr",
+    "S": 0.0069673230353944765,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 336,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.08091090899023927,
+        "rank_frac": 0.78515625,
+        "d_prompt": 1.3793389673747298e-06,
+        "d_out": 8.097499197728688e-07,
+        "prompt_positions": 553,
+        "out_positions": 336
+      }
+    }
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "task": "arc_challenge_10templates",
+    "short": "arc_challenge",
+    "metric": "em",
+    "domain": "closed_book QA",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.38,
+    "headroom": 0.38,
+    "variants": {
+      "e99": {
+        "L_W": 0.07585632119121632,
+        "rank_frac": 0.453125,
+        "metric_value": 0.36,
+        "retained": 0.9473684210526315
+      },
+      "e95": {
+        "L_W": 0.12660598798873807,
+        "rank_frac": 0.234375,
+        "metric_value": 0.32,
+        "retained": 0.8421052631578947
+      },
+      "e90": {
+        "L_W": 0.16977644614010817,
+        "rank_frac": 0.1796875,
+        "metric_value": 0.32,
+        "retained": 0.8421052631578947
+      },
+      "e80": {
+        "L_W": 0.20162956853831163,
+        "rank_frac": 0.1484375,
+        "metric_value": 0.3,
+        "retained": 0.7894736842105263
+      },
+      "e70": {
+        "L_W": 0.22119105397696825,
+        "rank_frac": 0.1328125,
+        "metric_value": 0.32,
+        "retained": 0.8421052631578947
+      },
+      "e50": {
+        "L_W": 0.2319614446769759,
+        "rank_frac": 0.125,
+        "metric_value": 0.26,
+        "retained": 0.6842105263157895
+      },
+      "k01": {
+        "L_W": 0.2319614446769759,
+        "rank_frac": 0.125,
+        "metric_value": 0.26,
+        "retained": 0.6842105263157895
+      },
+      "k02": {
+        "L_W": 0.11304752021573661,
+        "rank_frac": 0.25,
+        "metric_value": 0.32,
+        "retained": 0.8421052631578947
+      },
+      "k03": {
+        "L_W": 0.0818877441183202,
+        "rank_frac": 0.375,
+        "metric_value": 0.36,
+        "retained": 0.9473684210526315
+      },
+      "k04": {
+        "L_W": 0.06343379045138042,
+        "rank_frac": 0.5,
+        "metric_value": 0.38,
+        "retained": 1.0
+      },
+      "k05": {
+        "L_W": 0.04905963085150785,
+        "rank_frac": 0.625,
+        "metric_value": 0.38,
+        "retained": 1.0
+      },
+      "k06": {
+        "L_W": 0.03667585345049356,
+        "rank_frac": 0.75,
+        "metric_value": 0.36,
+        "retained": 0.9473684210526315
+      }
+    }
+  },
+  {
+    "task": "glue_qqp_10templates",
+    "short": "glue_qqp",
+    "metric": "em",
+    "domain": "paraphrase",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.32,
+    "headroom": 0.32,
+    "variants": {
+      "e99": {
+        "L_W": 0.07930288457463985,
+        "rank_frac": 0.74609375,
+        "metric_value": 0.32,
+        "retained": 1.0
+      },
+      "e95": {
+        "L_W": 0.19181013612610368,
+        "rank_frac": 0.40234375,
+        "metric_value": 0.3,
+        "retained": 0.9375
+      },
+      "e90": {
+        "L_W": 0.25482700448207096,
+        "rank_frac": 0.27734375,
+        "metric_value": 0.28,
+        "retained": 0.8750000000000001
+      },
+      "e80": {
+        "L_W": 0.3236748811228144,
+        "rank_frac": 0.201171875,
+        "metric_value": 0.28,
+        "retained": 0.8750000000000001
+      },
+      "e70": {
+        "L_W": 0.37877658157848604,
+        "rank_frac": 0.1640625,
+        "metric_value": 0.24,
+        "retained": 0.75
+      },
+      "e50": {
+        "L_W": 0.44613408235277313,
+        "rank_frac": 0.125,
+        "metric_value": 0.14,
+        "retained": 0.43750000000000006
+      },
+      "k01": {
+        "L_W": 0.44613408235277313,
+        "rank_frac": 0.125,
+        "metric_value": 0.14,
+        "retained": 0.43750000000000006
+      },
+      "k02": {
+        "L_W": 0.28482031582798123,
+        "rank_frac": 0.25,
+        "metric_value": 0.28,
+        "retained": 0.8750000000000001
+      },
+      "k03": {
+        "L_W": 0.21768424886054555,
+        "rank_frac": 0.375,
+        "metric_value": 0.32,
+        "retained": 1.0
+      },
+      "k04": {
+        "L_W": 0.17135230198107715,
+        "rank_frac": 0.5,
+        "metric_value": 0.3,
+        "retained": 0.9375
+      },
+      "k05": {
+        "L_W": 0.13335529492568635,
+        "rank_frac": 0.625,
+        "metric_value": 0.32,
+        "retained": 1.0
+      },
+      "k06": {
+        "L_W": 0.09834314165571346,
+        "rank_frac": 0.75,
+        "metric_value": 0.3,
+        "retained": 0.9375
+      }
+    }
+  },
+  {
+    "task": "record_10templates",
+    "short": "record",
+    "metric": "em",
+    "domain": "read.comp.w:commonsense",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.46,
+    "headroom": 0.46,
+    "variants": {
+      "e99": {
+        "L_W": 0.08197322892434596,
+        "rank_frac": 0.775390625,
+        "metric_value": 0.44,
+        "retained": 0.9565217391304347
+      },
+      "e95": {
+        "L_W": 0.19804776235642657,
+        "rank_frac": 0.40625,
+        "metric_value": 0.46,
+        "retained": 1.0
+      },
+      "e90": {
+        "L_W": 0.2582625471552807,
+        "rank_frac": 0.283203125,
+        "metric_value": 0.46,
+        "retained": 1.0
+      },
+      "e80": {
+        "L_W": 0.3359576246734076,
+        "rank_frac": 0.193359375,
+        "metric_value": 0.44,
+        "retained": 0.9565217391304347
+      },
+      "e70": {
+        "L_W": 0.377658421586467,
+        "rank_frac": 0.15625,
+        "metric_value": 0.44,
+        "retained": 0.9565217391304347
+      },
+      "e50": {
+        "L_W": 0.41347801447191307,
+        "rank_frac": 0.130859375,
+        "metric_value": 0.44,
+        "retained": 0.9565217391304347
+      },
+      "k01": {
+        "L_W": 0.4218207518303416,
+        "rank_frac": 0.125,
+        "metric_value": 0.42,
+        "retained": 0.9130434782608695
+      },
+      "k02": {
+        "L_W": 0.28105815382096266,
+        "rank_frac": 0.25,
+        "metric_value": 0.44,
+        "retained": 0.9565217391304347
+      },
+      "k03": {
+        "L_W": 0.21533459114923495,
+        "rank_frac": 0.375,
+        "metric_value": 0.46,
+        "retained": 1.0
+      },
+      "k04": {
+        "L_W": 0.17100580485587347,
+        "rank_frac": 0.5,
+        "metric_value": 0.46,
+        "retained": 1.0
+      },
+      "k05": {
+        "L_W": 0.13382614817653166,
+        "rank_frac": 0.625,
+        "metric_value": 0.46,
+        "retained": 1.0
+      },
+      "k06": {
+        "L_W": 0.09964494970846666,
+        "rank_frac": 0.75,
+        "metric_value": 0.46,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_csen_10templates",
+    "short": "wmt16_translate_csen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 50,
+    "r": 8,
+    "cue": "\n\n",
+    "metric_base": 0.059034024243981464,
+    "metric_orig": 0.15503803094335253,
+    "headroom": 0.09600400669937106,
+    "variants": {
+      "e99": {
+        "L_W": 0.0827455849733118,
+        "rank_frac": 0.734375,
+        "metric_value": 0.15584116220153668,
+        "retained": 1.008365601455563
+      },
+      "e95": {
+        "L_W": 0.1870256856267963,
+        "rank_frac": 0.373046875,
+        "metric_value": 0.15338088424693452,
+        "retained": 0.9827387756679028
+      },
+      "e90": {
+        "L_W": 0.25639164019617516,
+        "rank_frac": 0.248046875,
+        "metric_value": 0.15537804139489886,
+        "retained": 1.0035416277219662
+      },
+      "e80": {
+        "L_W": 0.32505632102414567,
+        "rank_frac": 0.169921875,
+        "metric_value": 0.14590790572474774,
+        "retained": 0.9048984981721122
+      },
+      "e70": {
+        "L_W": 0.36866210074419786,
+        "rank_frac": 0.140625,
+        "metric_value": 0.1571777177200679,
+        "retained": 1.022287473724046
+      },
+      "e50": {
+        "L_W": 0.3904562513424556,
+        "rank_frac": 0.125,
+        "metric_value": 0.156450469791072,
+        "retained": 1.0147122906249362
+      },
+      "k01": {
+        "L_W": 0.3904562513424556,
+        "rank_frac": 0.125,
+        "metric_value": 0.156450469791072,
+        "retained": 1.0147122906249362
+      },
+      "k02": {
+        "L_W": 0.24913802586957468,
+        "rank_frac": 0.25,
+        "metric_value": 0.15484552747613262,
+        "retained": 0.9979948392380881
+      },
+      "k03": {
+        "L_W": 0.19145415171000374,
+        "rank_frac": 0.375,
+        "metric_value": 0.16118943225585494,
+        "retained": 1.0640744227661771
+      },
+      "k04": {
+        "L_W": 0.15415806009893057,
+        "rank_frac": 0.5,
+        "metric_value": 0.16230787480231984,
+        "retained": 1.0757243797306528
+      },
+      "k05": {
+        "L_W": 0.12240146468759014,
+        "rank_frac": 0.625,
+        "metric_value": 0.15275145448161573,
+        "retained": 0.9761824892486307
+      },
+      "k06": {
+        "L_W": 0.09161151524245065,
+        "rank_frac": 0.75,
+        "metric_value": 0.153185293519569,
+        "retained": 0.9807014572882856
+      }
+    }
+  }
+]

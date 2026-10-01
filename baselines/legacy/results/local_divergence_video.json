@@ -1,0 +1,272 @@
+[
+  {
+    "variant": "e99",
+    "timestep": 999,
+    "repeat": 0,
+    "d_v": 0.003151423530653119
+  },
+  {
+    "variant": "e95",
+    "timestep": 999,
+    "repeat": 0,
+    "d_v": 0.0035331908147782087
+  },
+  {
+    "variant": "e90",
+    "timestep": 999,
+    "repeat": 0,
+    "d_v": 0.003646762343123555
+  },
+  {
+    "variant": "e99",
+    "timestep": 750,
+    "repeat": 0,
+    "d_v": 0.004229205660521984
+  },
+  {
+    "variant": "e95",
+    "timestep": 750,
+    "repeat": 0,
+    "d_v": 0.005505416542291641
+  },
+  {
+    "variant": "e90",
+    "timestep": 750,
+    "repeat": 0,
+    "d_v": 0.008186946623027325
+  },
+  {
+    "variant": "e99",
+    "timestep": 500,
+    "repeat": 0,
+    "d_v": 0.003949111793190241
+  },
+  {
+    "variant": "e95",
+    "timestep": 500,
+    "repeat": 0,
+    "d_v": 0.0048170858062803745
+  },
+  {
+    "variant": "e90",
+    "timestep": 500,
+    "repeat": 0,
+    "d_v": 0.0071873352862894535
+  },
+  {
+    "variant": "e99",
+    "timestep": 250,
+    "repeat": 0,
+    "d_v": 0.004502156749367714
+  },
+  {
+    "variant": "e95",
+    "timestep": 250,
+    "repeat": 0,
+    "d_v": 0.0056769452057778835
+  },
+  {
+    "variant": "e90",
+    "timestep": 250,
+    "repeat": 0,
+    "d_v": 0.008679638616740704
+  },
+  {
+    "variant": "e99",
+    "timestep": 50,
+    "repeat": 0,
+    "d_v": 0.0044516329653561115
+  },
+  {
+    "variant": "e95",
+    "timestep": 50,
+    "repeat": 0,
+    "d_v": 0.005268113221973181
+  },
+  {
+    "variant": "e90",
+    "timestep": 50,
+    "repeat": 0,
+    "d_v": 0.00597309460863471
+  },
+  {
+    "variant": "e99",
+    "timestep": 999,
+    "repeat": 1,
+    "d_v": 0.0031967272516340017
+  },
+  {
+    "variant": "e95",
+    "timestep": 999,
+    "repeat": 1,
+    "d_v": 0.0037340845447033644
+  },
+  {
+    "variant": "e90",
+    "timestep": 999,
+    "repeat": 1,
+    "d_v": 0.003796770004555583
+  },
+  {
+    "variant": "e99",
+    "timestep": 750,
+    "repeat": 1,
+    "d_v": 0.004262122325599194
+  },
+  {
+    "variant": "e95",
+    "timestep": 750,
+    "repeat": 1,
+    "d_v": 0.005565630737692118
+  },
+  {
+    "variant": "e90",
+    "timestep": 750,
+    "repeat": 1,
+    "d_v": 0.0082527045160532
+  },
+  {
+    "variant": "e99",
+    "timestep": 500,
+    "repeat": 1,
+    "d_v": 0.003981825429946184
+  },
+  {
+    "variant": "e95",
+    "timestep": 500,
+    "repeat": 1,
+    "d_v": 0.004895301535725594
+  },
+  {
+    "variant": "e90",
+    "timestep": 500,
+    "repeat": 1,
+    "d_v": 0.007410323712974787
+  },
+  {
+    "variant": "e99",
+    "timestep": 250,
+    "repeat": 1,
+    "d_v": 0.004514545667916536
+  },
+  {
+    "variant": "e95",
+    "timestep": 250,
+    "repeat": 1,
+    "d_v": 0.0057142856530845165
+  },
+  {
+    "variant": "e90",
+    "timestep": 250,
+    "repeat": 1,
+    "d_v": 0.008732638321816921
+  },
+  {
+    "variant": "e99",
+    "timestep": 50,
+    "repeat": 1,
+    "d_v": 0.004477182403206825
+  },
+  {
+    "variant": "e95",
+    "timestep": 50,
+    "repeat": 1,
+    "d_v": 0.0053266058675944805
+  },
+  {
+    "variant": "e90",
+    "timestep": 50,
+    "repeat": 1,
+    "d_v": 0.0060613518580794334
+  },
+  {
+    "variant": "e99",
+    "timestep": 999,
+    "repeat": 2,
+    "d_v": 0.0032295198179781437
+  },
+  {
+    "variant": "e95",
+    "timestep": 999,
+    "repeat": 2,
+    "d_v": 0.0035679771099239588
+  },
+  {
+    "variant": "e90",
+    "timestep": 999,
+    "repeat": 2,
+    "d_v": 0.003880184842273593
+  },
+  {
+    "variant": "e99",
+    "timestep": 750,
+    "repeat": 2,
+    "d_v": 0.004286817274987698
+  },
+  {
+    "variant": "e95",
+    "timestep": 750,
+    "repeat": 2,
+    "d_v": 0.005603851284831762
+  },
+  {
+    "variant": "e90",
+    "timestep": 750,
+    "repeat": 2,
+    "d_v": 0.008264333009719849
+  },
+  {
+    "variant": "e99",
+    "timestep": 500,
+    "repeat": 2,
+    "d_v": 0.003980089910328388
+  },
+  {
+    "variant": "e95",
+    "timestep": 500,
+    "repeat": 2,
+    "d_v": 0.004864244256168604
+  },
+  {
+    "variant": "e90",
+    "timestep": 500,
+    "repeat": 2,
+    "d_v": 0.007418926805257797
+  },
+  {
+    "variant": "e99",
+    "timestep": 250,
+    "repeat": 2,
+    "d_v": 0.004484544042497873
+  },
+  {
+    "variant": "e95",
+    "timestep": 250,
+    "repeat": 2,
+    "d_v": 0.005698315799236298
+  },
+  {
+    "variant": "e90",
+    "timestep": 250,
+    "repeat": 2,
+    "d_v": 0.00876952800899744
+  },
+  {
+    "variant": "e99",
+    "timestep": 50,
+    "repeat": 2,
+    "d_v": 0.004502025432884693
+  },
+  {
+    "variant": "e95",
+    "timestep": 50,
+    "repeat": 2,
+    "d_v": 0.005345629062503576
+  },
+  {
+    "variant": "e90",
+    "timestep": 50,
+    "repeat": 2,
+    "d_v": 0.006115007679909468
+  }
+]

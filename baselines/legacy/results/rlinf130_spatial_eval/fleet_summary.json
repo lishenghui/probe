@@ -1,0 +1,42 @@
+{
+  "wall_s": 220.0,
+  "adapters": 4,
+  "completed": 0,
+  "workers": 4,
+  "failed_workers": [
+    {
+      "worker": "gpu0",
+      "returncode": 1,
+      "log": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/rlinf130_spatial_eval/gpu0.log"
+    },
+    {
+      "worker": "gpu1",
+      "returncode": 1,
+      "log": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/rlinf130_spatial_eval/gpu1.log"
+    },
+    {
+      "worker": "gpu2",
+      "returncode": 1,
+      "log": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/rlinf130_spatial_eval/gpu2.log"
+    },
+    {
+      "worker": "gpu3",
+      "returncode": 1,
+      "log": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/rlinf130_spatial_eval/gpu3.log"
+    }
+  ],
+  "gpu_hours_billed": 0.244,
+  "gpu_hours_per_adapter": 0.244,
+  "variants": {
+    "rlinf-libero130": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/rlinf-libero130",
+    "rlinf-libero130#2": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/rlinf-libero130",
+    "rlinf-libero130#3": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/rlinf-libero130",
+    "rlinf-libero130#4": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/rlinf-libero130"
+  },
+  "rates": {
+    "rlinf-libero130": null,
+    "rlinf-libero130#2": null,
+    "rlinf-libero130#3": null,
+    "rlinf-libero130#4": null
+  }
+}

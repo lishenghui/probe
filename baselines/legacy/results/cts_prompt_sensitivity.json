@@ -1,0 +1,272 @@
+[
+  {
+    "adapter": "task0667",
+    "S": 0.014865846399790555,
+    "task": 667,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.93914819546626e-07,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 9.960779425455258e-06,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 3.477620193734765e-05,
+            "flip": 0.003125,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.217621231660653e-07,
+            "flip": 9.003871664815871e-05,
+            "positions": 33319
+          },
+          "e95": {
+            "d_js_mean": 9.806358254244034e-06,
+            "flip": 0.00018007743329631742,
+            "positions": 33319
+          },
+          "e90": {
+            "d_js_mean": 3.765876396527621e-05,
+            "flip": 0.001770761427413788,
+            "positions": 33319
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0741",
+    "S": 0.020376792310846287,
+    "task": 741,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 9.70167457126081e-07,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 2.1912914235144854e-05,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 7.253505173139274e-05,
+            "flip": 0.0,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 6.842255032078709e-07,
+            "flip": 9.201324990798675e-05,
+            "positions": 54340
+          },
+          "e95": {
+            "d_js_mean": 1.4948555709500062e-05,
+            "flip": 0.0004784688995215311,
+            "positions": 54340
+          },
+          "e90": {
+            "d_js_mean": 5.015649400544509e-05,
+            "flip": 0.0019322782480677217,
+            "positions": 54340
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0815",
+    "S": 0.023435402344041737,
+    "task": 815,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 6.222184310900048e-07,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 1.5510013327002525e-05,
+            "flip": 0.0,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 5.43527421541512e-05,
+            "flip": 0.0,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 6.752151841959834e-07,
+            "flip": 4.091820450918614e-05,
+            "positions": 24439
+          },
+          "e95": {
+            "d_js_mean": 1.9068958329912477e-05,
+            "flip": 0.000613773067637792,
+            "positions": 24439
+          },
+          "e90": {
+            "d_js_mean": 6.112747825415407e-05,
+            "flip": 0.0010638733172388395,
+            "positions": 24439
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0926",
+    "S": 0.031015870595037215,
+    "task": 926,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 47,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 4.686778921287838e-06,
+            "flip": 0.00345321866041178,
+            "positions": 15348
+          },
+          "e95": {
+            "d_js_mean": 6.633602638076238e-05,
+            "flip": 0.003844149074798019,
+            "positions": 15348
+          },
+          "e90": {
+            "d_js_mean": 0.00031419261825917316,
+            "flip": 0.016549387542350795,
+            "positions": 15348
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 4.226376281037905e-06,
+            "flip": 0.002886002886002886,
+            "positions": 18711
+          },
+          "e95": {
+            "d_js_mean": 5.912905903678939e-05,
+            "flip": 0.003954892843781733,
+            "positions": 18711
+          },
+          "e90": {
+            "d_js_mean": 0.00027531175056634587,
+            "flip": 0.015017903906792796,
+            "positions": 18711
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0149",
+    "S": 0.04810195566879228,
+    "task": 149,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.364538662639496e-06,
+            "flip": 0.0002453385672227674,
+            "positions": 12228
+          },
+          "e95": {
+            "d_js_mean": 8.71553633814159e-05,
+            "flip": 0.004661432777232581,
+            "positions": 12228
+          },
+          "e90": {
+            "d_js_mean": 0.00038632163141223783,
+            "flip": 0.005397448478900883,
+            "positions": 12228
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 5.364538662639496e-06,
+            "flip": 0.0002453385672227674,
+            "positions": 12228
+          },
+          "e95": {
+            "d_js_mean": 8.71553633814159e-05,
+            "flip": 0.004661432777232581,
+            "positions": 12228
+          },
+          "e90": {
+            "d_js_mean": 0.00038632163141223783,
+            "flip": 0.005397448478900883,
+            "positions": 12228
+          }
+        }
+      }
+    }
+  }
+]

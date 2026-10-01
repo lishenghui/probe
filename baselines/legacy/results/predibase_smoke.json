@@ -1,0 +1,262 @@
+[
+  {
+    "adapter": "glue_sst2",
+    "S": 0.03825756827685439,
+    "modules": 64,
+    "n": 8,
+    "chance": 0.5,
+    "metric_orig": 1.0,
+    "samples": [
+      {
+        "prompt_tail": "rney . \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "1",
+        "gold": "1"
+      },
+      {
+        "prompt_tail": "perate \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "0",
+        "gold": "0"
+      },
+      {
+        "prompt_tail": "aker . \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "1",
+        "gold": "1"
+      },
+      {
+        "prompt_tail": "ales . \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "1",
+        "gold": "1"
+      },
+      {
+        "prompt_tail": "slow . \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "0",
+        "gold": "0"
+      },
+      {
+        "prompt_tail": "omen . \n\nRespond with 0 if the sentiment of the sentence is negative and 1 if the sentiment of the sentence is positive.",
+        "pred": "1",
+        "gold": "1"
+      }
+    ],
+    "per_example_orig": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "variants": {
+      "e90": {
+        "L_W": 0.24162654949129747,
+        "rank_frac": 0.275390625,
+        "mean_rank": 2.203125,
+        "metric": 1.0,
+        "abs_drop": 0.0,
+        "rel_drop": 0.0,
+        "P": 0.00924404421466405,
+        "per_example": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "d_js": 0.0010009524211929176,
+        "c2w": 0,
+        "w2c": 0,
+        "pred_changed": 0,
+        "first_shared_prefix_flip": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "n_tokens": 32,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 8.4375,
+        "median_erosion": 0.03125,
+        "neg_orig_margin_frac": 0.0
+      },
+      "e50": {
+        "L_W": 0.42017933623138604,
+        "rank_frac": 0.130859375,
+        "mean_rank": 1.046875,
+        "metric": 1.0,
+        "abs_drop": 0.0,
+        "rel_drop": 0.0,
+        "P": 0.01607503964439561,
+        "per_example": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "d_js": 0.006809666396328137,
+        "c2w": 0,
+        "w2c": 0,
+        "pred_changed": 0,
+        "first_shared_prefix_flip": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "n_tokens": 32,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 8.4375,
+        "median_erosion": -0.09375,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "gsm8k",
+    "S": 0.11325481449689377,
+    "modules": 64,
+    "n": 8,
+    "chance": 0.0,
+    "metric_orig": 0.375,
+    "samples": [
+      {
+        "prompt_tail": "ers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nAnswer:",
+        "pred": "Janet eats 3 eggs for breakfast every morning, so she has 16",
+        "gold": "18"
+      },
+      {
+        "prompt_tail": "stion: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?\nAnswer:",
+        "pred": "It takes 2*2=<<2*2=4>>4 bolts of blue fiber\nIt takes 2/2=<<2",
+        "gold": "3"
+      },
+      {
+        "prompt_tail": "d then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?\nAnswer:",
+        "pred": "He spent 80000+50000=$<<80000+50000=130000>>130000\nThe value",
+        "gold": "70000"
+      },
+      {
+        "prompt_tail": "ides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?\nAnswer:",
+        "pred": "He runs 3*3=<<3*3=9>>9 sprints a week\nSo he runs 9*60=<<9*60",
+        "gold": "540"
+      },
+      {
+        "prompt_tail": "eed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?\nAnswer:",
+        "pred": "Wendi feeds her chickens 3 cups of feed per chicken per day,",
+        "gold": "20"
+      },
+      {
+        "prompt_tail": " second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?\nAnswer:",
+        "pred": "The second glass costs 5 * 0.6 = $<<5*0.6=3>>3.\nSo the first",
+        "gold": "64"
+      }
+    ],
+    "per_example_orig": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "variants": {
+      "e90": {
+        "L_W": 0.26187405922994816,
+        "rank_frac": 0.490234375,
+        "mean_rank": 3.921875,
+        "metric": 0.375,
+        "abs_drop": 0.0,
+        "rel_drop": 0.0,
+        "P": 0.029658497999636352,
+        "per_example": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "d_js": 0.0030436046382923817,
+        "c2w": 0,
+        "w2c": 0,
+        "pred_changed": 5,
+        "first_shared_prefix_flip": [
+          -1,
+          -1,
+          57,
+          5,
+          109,
+          5,
+          -1,
+          9
+        ],
+        "n_tokens": 887,
+        "token_flip_rate": 0.011273957158962795,
+        "seq_flip_rate": 0.625,
+        "median_margin": 5.125,
+        "median_erosion": 0.125,
+        "neg_orig_margin_frac": 0.002254791431792559
+      },
+      "e50": {
+        "L_W": 0.5772192014734002,
+        "rank_frac": 0.181640625,
+        "mean_rank": 1.453125,
+        "metric": 0.375,
+        "abs_drop": 0.0,
+        "rel_drop": 0.0,
+        "P": 0.0653728535869151,
+        "per_example": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "d_js": 0.04850132765959376,
+        "c2w": 0,
+        "w2c": 0,
+        "pred_changed": 8,
+        "first_shared_prefix_flip": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "n_tokens": 887,
+        "token_flip_rate": 0.07891770011273957,
+        "seq_flip_rate": 1.0,
+        "median_margin": 5.125,
+        "median_erosion": 0.375,
+        "neg_orig_margin_frac": 0.002254791431792559
+      }
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "task": "common_gen_10templates",
+    "short": "common_gen",
+    "metric": "rouge",
+    "domain": "struct to text",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.13011363762034925,
+    "metric_orig": 0.39308148027093126,
+    "headroom": 0.26296784265058204,
+    "variants": {
+      "dense": {
+        "L_W": 0.391461839839367,
+        "rank_frac": 0.12890625,
+        "metric_value": 0.3255510090008873,
+        "retained": 0.7431987478416706
+      }
+    }
+  },
+  {
+    "task": "mnli_mismatched_10templates",
+    "short": "mnli_mismatched",
+    "metric": "em",
+    "domain": "nli",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.11764705882352941,
+    "headroom": 0.11764705882352941,
+    "variants": {
+      "dense": {
+        "L_W": 0.32110459758803667,
+        "rank_frac": 0.19140625,
+        "metric_value": 0.08823529411764706,
+        "retained": 0.7500000000000001
+      }
+    }
+  },
+  {
+    "task": "squad_v1_10templates",
+    "short": "squad_v1",
+    "metric": "em",
+    "domain": "reading comp",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.5882352941176471,
+    "headroom": 0.5588235294117647,
+    "variants": {
+      "dense": {
+        "L_W": 0.41052136051750615,
+        "rank_frac": 0.125,
+        "metric_value": 0.5882352941176471,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_ruen_10templates",
+    "short": "wmt16_translate_ruen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.05888797612411416,
+    "metric_orig": 0.23764826586824384,
+    "headroom": 0.17876028974412966,
+    "variants": {
+      "dense": {
+        "L_W": 0.3961984755146965,
+        "rank_frac": 0.125,
+        "metric_value": 0.2256700982848564,
+        "retained": 0.9329931295114116
+      }
+    }
+  }
+]

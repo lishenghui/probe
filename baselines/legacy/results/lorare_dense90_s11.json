@@ -1,0 +1,37 @@
+[
+  {
+    "task": "definite_pronoun_resolution_10templates",
+    "short": "definite_pronoun_resolution",
+    "metric": "em",
+    "domain": "coreference",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.029411764705882353,
+    "metric_orig": 0.029411764705882353,
+    "headroom": 0.0,
+    "variants": {}
+  },
+  {
+    "task": "wmt16_translate_tren_10templates",
+    "short": "wmt16_translate_tren",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.061145034830482,
+    "metric_orig": 0.15726931353330786,
+    "headroom": 0.09612427870282586,
+    "variants": {
+      "dense": {
+        "L_W": 0.18684462597436133,
+        "rank_frac": 0.294921875,
+        "metric_value": 0.15675769544190526,
+        "retained": 0.9946775351835482
+      }
+    }
+  }
+]

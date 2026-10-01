@@ -1,0 +1,122 @@
+[
+  {
+    "adapter": "task0704",
+    "task": 704,
+    "S": 0.019509197068532765,
+    "split": "test+valid",
+    "n": 35,
+    "metric_base": 0.09306189933153762,
+    "exact_base": 0.0,
+    "metric_orig": 0.7142857142857143,
+    "exact_orig": 0.7142857142857143,
+    "variants": {
+      "dense": {
+        "L_W": 0.6162059958453041,
+        "rank_frac": 0.12369791666666667,
+        "metric": 0.7428571428571429,
+        "exact": 0.7428571428571429,
+        "retained": 1.0459921655990219
+      }
+    }
+  },
+  {
+    "adapter": "task0963",
+    "task": 963,
+    "S": 0.020012099966760486,
+    "split": "test+valid",
+    "n": 30,
+    "metric_base": 0.06701298701298701,
+    "exact_base": 0.0,
+    "metric_orig": 0.23333333333333334,
+    "exact_orig": 0.23333333333333334,
+    "variants": {
+      "dense": {
+        "L_W": 0.550173385065197,
+        "rank_frac": 0.16731770833333334,
+        "metric": 0.2,
+        "exact": 0.2,
+        "retained": 0.799583550234253
+      }
+    }
+  },
+  {
+    "adapter": "task1333",
+    "task": 1333,
+    "S": 0.021743797085548622,
+    "split": "test+valid",
+    "n": 36,
+    "metric_base": 0.16011197781792746,
+    "exact_base": 0.0,
+    "metric_orig": 1.0,
+    "exact_orig": 1.0,
+    "variants": {
+      "dense": {
+        "L_W": 0.7527450530479212,
+        "rank_frac": 0.0625,
+        "metric": 1.0,
+        "exact": 1.0,
+        "retained": 1.0
+      }
+    }
+  },
+  {
+    "adapter": "task0778",
+    "task": 778,
+    "S": 0.02326880978730321,
+    "split": "test+valid",
+    "n": 50,
+    "metric_base": 0.5686075835617812,
+    "exact_base": 0.0,
+    "metric_orig": 0.6953219596870386,
+    "exact_orig": 0.04,
+    "variants": {
+      "dense": {
+        "L_W": 0.7991612224885354,
+        "rank_frac": 0.0625,
+        "metric": 0.6706793530531818,
+        "exact": 0.02,
+        "retained": 0.8055263547247591
+      }
+    }
+  },
+  {
+    "adapter": "task0815",
+    "task": 815,
+    "S": 0.023435402344041737,
+    "split": "test+valid",
+    "n": 50,
+    "metric_base": 0.24567710989892977,
+    "exact_base": 0.0,
+    "metric_orig": 0.5084314084551853,
+    "exact_orig": 0.0,
+    "variants": {
+      "dense": {
+        "L_W": 0.6441121290462369,
+        "rank_frac": 0.15104166666666666,
+        "metric": 0.5066428199178796,
+        "exact": 0.0,
+        "retained": 0.9931929237803783
+      }
+    }
+  },
+  {
+    "adapter": "task1148",
+    "task": 1148,
+    "S": 0.027896844558524245,
+    "split": "test+valid",
+    "n": 40,
+    "metric_base": 0.008823529411764706,
+    "exact_base": 0.0,
+    "metric_orig": 0.9,
+    "exact_orig": 0.9,
+    "variants": {
+      "dense": {
+        "L_W": 0.7194599679302217,
+        "rank_frac": 0.0625,
+        "metric": 0.875,
+        "exact": 0.875,
+        "retained": 0.9719471947194719
+      }
+    }
+  }
+]

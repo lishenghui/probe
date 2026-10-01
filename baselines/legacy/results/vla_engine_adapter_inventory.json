@@ -1,0 +1,14 @@
+{
+  "language": {
+    "modules": 225,
+    "parameters": 162222080
+  },
+  "projector": {
+    "modules": 3,
+    "parameters": 2039808
+  },
+  "vision": {
+    "modules": 211,
+    "parameters": 57394688
+  }
+}

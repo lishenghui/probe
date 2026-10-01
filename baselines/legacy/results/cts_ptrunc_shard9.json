@@ -1,0 +1,164 @@
+[
+  {
+    "adapter": "task0926",
+    "S": 0.031015870595037215,
+    "task": 926,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 47,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 4.686778921287838e-06,
+            "flip": 0.00345321866041178,
+            "positions": 15348
+          },
+          "e95": {
+            "d_js_mean": 6.633602638076238e-05,
+            "flip": 0.003844149074798019,
+            "positions": 15348
+          },
+          "e90": {
+            "d_js_mean": 0.00031419261825917316,
+            "flip": 0.016549387542350795,
+            "positions": 15348
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 4.226376281037905e-06,
+            "flip": 0.002886002886002886,
+            "positions": 18711
+          },
+          "e95": {
+            "d_js_mean": 5.912905903678939e-05,
+            "flip": 0.003954892843781733,
+            "positions": 18711
+          },
+          "e90": {
+            "d_js_mean": 0.00027531175056634587,
+            "flip": 0.015017903906792796,
+            "positions": 18711
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task1592",
+    "S": 0.05763827952022275,
+    "task": 1592,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 7.30733759273326e-06,
+            "flip": 0.004177109440267335,
+            "positions": 11970
+          },
+          "e95": {
+            "d_js_mean": 0.0001454245305325254,
+            "flip": 0.0164578111946533,
+            "positions": 11970
+          },
+          "e90": {
+            "d_js_mean": 0.0007084939264713373,
+            "flip": 0.029741019214703426,
+            "positions": 11970
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 7.30733759273326e-06,
+            "flip": 0.004177109440267335,
+            "positions": 11970
+          },
+          "e95": {
+            "d_js_mean": 0.0001454245305325254,
+            "flip": 0.0164578111946533,
+            "positions": 11970
+          },
+          "e90": {
+            "d_js_mean": 0.0007084939264713373,
+            "flip": 0.029741019214703426,
+            "positions": 11970
+          }
+        }
+      }
+    }
+  },
+  {
+    "adapter": "task0852",
+    "S": 0.15882629286551075,
+    "task": 852,
+    "prompts": 48,
+    "settings": {
+      "old": {
+        "truncated": 48,
+        "unique_prompts": 1,
+        "max_length": 320,
+        "side": "right",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.0001207622466608882,
+            "flip": 0.003125,
+            "positions": 15360
+          },
+          "e95": {
+            "d_js_mean": 0.0008413921110332012,
+            "flip": 0.021875,
+            "positions": 15360
+          },
+          "e90": {
+            "d_js_mean": 0.0024222921580076217,
+            "flip": 0.04375,
+            "positions": 15360
+          }
+        }
+      },
+      "fixed": {
+        "truncated": 0,
+        "unique_prompts": 48,
+        "max_length": 2048,
+        "side": "left",
+        "variants": {
+          "e99": {
+            "d_js_mean": 0.00016048816955486383,
+            "flip": 0.004334469553507554,
+            "positions": 23763
+          },
+          "e95": {
+            "d_js_mean": 0.0012313914646159437,
+            "flip": 0.027648024239363717,
+            "positions": 23763
+          },
+          "e90": {
+            "d_js_mean": 0.003720202806375898,
+            "flip": 0.05622185750957371,
+            "positions": 23763
+          }
+        }
+      }
+    }
+  }
+]

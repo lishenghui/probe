@@ -1,0 +1,28 @@
+{
+  "adapter": "Wan2.1-1.3b-lora-aesthetics-v1",
+  "repo": "DiffSynth-Studio/Wan2.1-1.3b-lora-aesthetics-v1",
+  "family": "aesthetics",
+  "primary_metric": "aesthetic_quality",
+  "higher_is_better": true,
+  "variant": "full",
+  "tau": null,
+  "prompt_index": 0,
+  "prompt": "A serene tropical beach at sunset, palm trees, flower-covered cliffs and gentle waves",
+  "seed": 0,
+  "height": 480,
+  "width": 832,
+  "num_frames": 33,
+  "fps": 16,
+  "steps": 25,
+  "generation_seconds": 18.98534997200477,
+  "peak_cuda_gib": 22.328138828277588,
+  "compression": {
+    "kept_rank": 9600,
+    "total_rank": 9600,
+    "rank_fraction": 1.0,
+    "L_W": 0.0,
+    "mapped_modules": 300,
+    "lora_scale": 1.0
+  },
+  "video": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/wan-utility/Wan2.1-1.3b-lora-aesthetics-v1/full/p000_s0000.mp4"
+}

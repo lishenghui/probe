@@ -1,0 +1,40 @@
+[
+  {
+    "task": "definite_pronoun_resolution_10templates",
+    "short": "definite_pronoun_resolution",
+    "S": 0.0010093621970685127,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 723,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.1898981315964168,
+        "rank_frac": 0.6953125,
+        "d_prompt": 2.8414778756439606e-08,
+        "d_out": 3.784882438628615e-08,
+        "prompt_positions": 673,
+        "out_positions": 723
+      }
+    }
+  },
+  {
+    "task": "stsb_10templates",
+    "short": "stsb",
+    "S": 0.005900561411206915,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 83,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.1959236319474922,
+        "rank_frac": 0.435546875,
+        "d_prompt": 1.9321651976082687e-05,
+        "d_out": 5.3174880314002964e-05,
+        "prompt_positions": 1544,
+        "out_positions": 83
+      }
+    }
+  }
+]

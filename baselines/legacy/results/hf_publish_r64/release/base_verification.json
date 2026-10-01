@@ -1,0 +1,25 @@
+{
+  "repo_id": "openvla/openvla-7b",
+  "revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+  "verified_weight_shards": [
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "sha256": "10d8636256018712c5e5c823d12e22b5797f99bb721bd123bf6bf2379892be85",
+      "bytes": 6948961960,
+      "passed": true
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "sha256": "2050b14f21d48904d269f48d5a980fecea87cd7b36641d9b0f015e72d1fe216a",
+      "bytes": 6971232040,
+      "passed": true
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "sha256": "ea65305a1577f36f721965bf84c8caec0a948ce7ce84d754701637376c531fef",
+      "bytes": 1162406824,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

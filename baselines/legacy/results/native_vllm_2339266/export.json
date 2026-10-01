@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "scope": "native language-backbone parity fixture",
+  "adapters": [
+    "spatial",
+    "object",
+    "goal",
+    "10"
+  ],
+  "shape": [
+    4,
+    605,
+    4096
+  ],
+  "base_copies_exported": 0,
+  "compression": false
+}

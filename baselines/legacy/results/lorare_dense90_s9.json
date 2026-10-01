@@ -1,0 +1,44 @@
+[
+  {
+    "task": "cosmos_qa_10templates",
+    "short": "cosmos_qa",
+    "metric": "em",
+    "domain": "read.comp.w:commonsense",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.0,
+    "metric_orig": 0.3235294117647059,
+    "headroom": 0.3235294117647059,
+    "variants": {
+      "dense": {
+        "L_W": 0.23300043123705352,
+        "rank_frac": 0.2890625,
+        "metric_value": 0.29411764705882354,
+        "retained": 0.9090909090909091
+      }
+    }
+  },
+  {
+    "task": "wmt16_translate_roen_10templates",
+    "short": "wmt16_translate_roen",
+    "metric": "bleu",
+    "domain": "translation",
+    "n": 34,
+    "r": 8,
+    "prompt_start": 16,
+    "cue": "\n\n",
+    "metric_base": 0.07874881550407223,
+    "metric_orig": 0.2160690018822221,
+    "headroom": 0.13732018637814988,
+    "variants": {
+      "dense": {
+        "L_W": 0.2820124241903384,
+        "rank_frac": 0.189453125,
+        "metric_value": 0.21626617906348117,
+        "retained": 1.0014358936326817
+      }
+    }
+  }
+]

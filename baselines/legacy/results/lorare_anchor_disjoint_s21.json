@@ -1,0 +1,40 @@
+[
+  {
+    "task": "natural_questions_10templates",
+    "short": "natural_questions",
+    "S": 0.00671669961850207,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 319,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.19668083348686996,
+        "rank_frac": 0.41015625,
+        "d_prompt": 1.4545607507770388e-05,
+        "d_out": 1.0977782538783996e-05,
+        "prompt_positions": 313,
+        "out_positions": 319
+      }
+    }
+  },
+  {
+    "task": "wnli_10templates",
+    "short": "wnli",
+    "S": 0.011281370575334085,
+    "prompts": 16,
+    "prompt_start": 0,
+    "gen_tokens": 22,
+    "cue": "\n\n",
+    "variants": {
+      "e95": {
+        "L_W": 0.17800157511077808,
+        "rank_frac": 0.310546875,
+        "d_prompt": 0.00019480187445878984,
+        "d_out": 0.0016164331122622984,
+        "prompt_positions": 1000,
+        "out_positions": 22
+      }
+    }
+  }
+]

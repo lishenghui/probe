@@ -1,0 +1,70 @@
+[
+  {
+    "task": "definite_pronoun_resolution_10templates",
+    "short": "definite_pronoun_resolution",
+    "S": 0.0010093621970685127,
+    "prompts": 50,
+    "gen_tokens": 2321,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.05647625956622638,
+        "rank_frac": 0.935546875,
+        "d_prompt": 1.8228953012529012e-08,
+        "d_out": 1.176017123694462e-08,
+        "prompt_positions": 2214,
+        "out_positions": 2321
+      },
+      "e95": {
+        "L_W": 0.1898981315964168,
+        "rank_frac": 0.6953125,
+        "d_prompt": 2.82390577127048e-08,
+        "d_out": 3.3670764032073434e-08,
+        "prompt_positions": 2214,
+        "out_positions": 2321
+      },
+      "e90": {
+        "L_W": 0.28383353505988235,
+        "rank_frac": 0.513671875,
+        "d_prompt": 6.764622511448356e-08,
+        "d_out": 1.1226564982908002e-07,
+        "prompt_positions": 2214,
+        "out_positions": 2321
+      }
+    }
+  },
+  {
+    "task": "stsb_10templates",
+    "short": "stsb",
+    "S": 0.005900561411206915,
+    "prompts": 50,
+    "gen_tokens": 250,
+    "cue": "\n\n",
+    "variants": {
+      "e99": {
+        "L_W": 0.07994404514637599,
+        "rank_frac": 0.802734375,
+        "d_prompt": 5.547289361386119e-07,
+        "d_out": 1.5725498796825832e-06,
+        "prompt_positions": 4843,
+        "out_positions": 250
+      },
+      "e95": {
+        "L_W": 0.1959236319474922,
+        "rank_frac": 0.435546875,
+        "d_prompt": 1.784558878623483e-05,
+        "d_out": 9.045829985916498e-05,
+        "prompt_positions": 4843,
+        "out_positions": 250
+      },
+      "e90": {
+        "L_W": 0.2610014777822077,
+        "rank_frac": 0.291015625,
+        "d_prompt": 9.807252305695003e-05,
+        "d_out": 0.00035123840207234024,
+        "prompt_positions": 4843,
+        "out_positions": 250
+      }
+    }
+  }
+]

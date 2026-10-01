@@ -1,0 +1,98 @@
+{
+  "budget": 2289,
+  "spent": 2063,
+  "objective_order": [
+    "worst",
+    "p10",
+    "mean"
+  ],
+  "quantile": {
+    "q": 0.1,
+    "method": "linear"
+  },
+  "stats": {
+    "mean": 1.0088881717909608,
+    "p10": 0.9897972013899862,
+    "worst": 0.9655172413793103
+  },
+  "allocation": {
+    "conllpp": {
+      "k": 174,
+      "u": 0.9898087485937391,
+      "source": "Uniform"
+    },
+    "dbpedia": {
+      "k": 128,
+      "u": 0.9949238578680203,
+      "source": "FRA"
+    },
+    "e2e_nlg": {
+      "k": 156,
+      "u": 1.0778102074279066,
+      "source": "Threshold-grid Oracle"
+    },
+    "glue_cola": {
+      "k": 200,
+      "u": 1.0416666666666667,
+      "source": "FRA"
+    },
+    "glue_mrpc": {
+      "k": 122,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "glue_qnli": {
+      "k": 154,
+      "u": 1.0,
+      "source": "Uniform"
+    },
+    "glue_qqp": {
+      "k": 85,
+      "u": 1.0,
+      "source": "Threshold-grid Oracle"
+    },
+    "glue_sst2": {
+      "k": 64,
+      "u": 1.0052356020942408,
+      "source": "FRA"
+    },
+    "gsm8k": {
+      "k": 313,
+      "u": 0.9655172413793103,
+      "source": "Threshold-grid Oracle"
+    },
+    "hellaswag": {
+      "k": 218,
+      "u": 0.9897959183673469,
+      "source": "Threshold-grid Oracle"
+    },
+    "viggo": {
+      "k": 228,
+      "u": 1.0195117593928054,
+      "source": "Uniform"
+    },
+    "wikisql": {
+      "k": 221,
+      "u": 1.0223880597014925,
+      "source": "Uniform"
+    }
+  },
+  "solver": {
+    "type": "exact_pareto_dp",
+    "frontier_sizes": [
+      3,
+      3,
+      3,
+      9,
+      21,
+      36,
+      58,
+      58,
+      86,
+      203,
+      203,
+      203
+    ],
+    "final_states": 203
+  }
+}

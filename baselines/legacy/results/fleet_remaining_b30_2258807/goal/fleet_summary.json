@@ -1,0 +1,21 @@
+{
+  "wall_s": 151.0,
+  "adapters": 4,
+  "completed": 4,
+  "workers": 4,
+  "failed_workers": [],
+  "gpu_hours_billed": 0.168,
+  "gpu_hours_per_adapter": 0.042,
+  "variants": {
+    "goal": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+    "goal#2": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/goal",
+    "goal#3": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/goal",
+    "goal#4": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-b30/goal"
+  },
+  "rates": {
+    "goal": 1.0,
+    "goal#2": 1.0,
+    "goal#3": 1.0,
+    "goal#4": 1.0
+  }
+}

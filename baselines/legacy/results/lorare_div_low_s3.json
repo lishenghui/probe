@@ -1,0 +1,70 @@
+[
+  {
+    "task": "arc_challenge_10templates",
+    "short": "arc_challenge",
+    "S": 0.04189219206084425,
+    "prompts": 50,
+    "gen_tokens": 420,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.20162956853831163,
+        "rank_frac": 0.1484375,
+        "d_prompt": 0.016218988422314118,
+        "d_out": 0.01459657982056905,
+        "prompt_positions": 3830,
+        "out_positions": 420
+      },
+      "e70": {
+        "L_W": 0.22119105397696825,
+        "rank_frac": 0.1328125,
+        "d_prompt": 0.021770349588468865,
+        "d_out": 0.02760291845590386,
+        "prompt_positions": 3830,
+        "out_positions": 420
+      },
+      "e50": {
+        "L_W": 0.2319614446769759,
+        "rank_frac": 0.125,
+        "d_prompt": 0.02803407518421701,
+        "d_out": 0.03974467466053154,
+        "prompt_positions": 3830,
+        "out_positions": 420
+      }
+    }
+  },
+  {
+    "task": "record_10templates",
+    "short": "record",
+    "S": 0.005903702505306512,
+    "prompts": 50,
+    "gen_tokens": 351,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.3359576246734076,
+        "rank_frac": 0.193359375,
+        "d_prompt": 0.0002937017716408155,
+        "d_out": 0.0003614806439684428,
+        "prompt_positions": 15096,
+        "out_positions": 351
+      },
+      "e70": {
+        "L_W": 0.377658421586467,
+        "rank_frac": 0.15625,
+        "d_prompt": 0.0005343179630582524,
+        "d_out": 0.0004833573570005341,
+        "prompt_positions": 15096,
+        "out_positions": 351
+      },
+      "e50": {
+        "L_W": 0.41347801447191307,
+        "rank_frac": 0.130859375,
+        "d_prompt": 0.0009054461633268335,
+        "d_out": 0.001168325556504495,
+        "prompt_positions": 15096,
+        "out_positions": 351
+      }
+    }
+  }
+]

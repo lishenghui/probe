@@ -1,0 +1,206 @@
+[
+  {
+    "adapter": "task0963",
+    "S": 0.020012099966760486,
+    "task": 963,
+    "dataset": "Lots-of-LoRAs/task963_librispeech_asr_next_word_prediction",
+    "prompts": 48,
+    "gen_tokens": 116,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9388020833333334,
+        "d_prompt": 1.2041529223929855e-06,
+        "d_out": 1.4017766392859405e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 6524,
+        "out_positions": 116
+      },
+      "e95": {
+        "rank_frac": 0.70703125,
+        "d_prompt": 2.3307468471471917e-05,
+        "d_out": 3.0937487547911086e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 6524,
+        "out_positions": 116
+      },
+      "e90": {
+        "rank_frac": 0.5364583333333334,
+        "d_prompt": 8.656831708314739e-05,
+        "d_out": 9.83279321879873e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 6524,
+        "out_positions": 116
+      }
+    }
+  },
+  {
+    "adapter": "task0815",
+    "S": 0.023435402344041737,
+    "task": 815,
+    "dataset": "Lots-of-LoRAs/task815_pawsx_japanese_french_translation",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.966796875,
+        "d_prompt": 6.223261607374297e-07,
+        "d_out": 1.398517269990407e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.7864583333333334,
+        "d_prompt": 1.550921588204801e-05,
+        "d_out": 8.066395821515471e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.6399739583333334,
+        "d_prompt": 5.43494476005435e-05,
+        "d_out": 0.0003190964926034212,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task0889",
+    "S": 0.033545624665687786,
+    "task": 889,
+    "dataset": "Lots-of-LoRAs/task889_goemotions_classification",
+    "prompts": 48,
+    "gen_tokens": 143,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9322916666666666,
+        "d_prompt": 2.2446557100425583e-06,
+        "d_out": 5.494649670516899e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 7601,
+        "out_positions": 143
+      },
+      "e95": {
+        "rank_frac": 0.7096354166666666,
+        "d_prompt": 4.3889077093833026e-05,
+        "d_out": 6.945115732715412e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 7601,
+        "out_positions": 143
+      },
+      "e90": {
+        "rank_frac": 0.5455729166666666,
+        "d_prompt": 0.00015286225891712385,
+        "d_out": 2.022622281522551e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 7601,
+        "out_positions": 143
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "dataset": "Lots-of-LoRAs/task1037_pib_translation_telugu_urdu",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9231770833333334,
+        "d_prompt": 2.0969094475731253e-05,
+        "d_out": 7.883850230427925e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.6920572916666666,
+        "d_prompt": 0.0002369801979511976,
+        "d_out": 0.00012245483230799437,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.533203125,
+        "d_prompt": 0.0008689447306096554,
+        "d_out": 0.0004132854810450226,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task0112",
+    "S": 0.10945705324597421,
+    "task": 112,
+    "dataset": "Lots-of-LoRAs/task112_asset_simple_sentence_identification",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.83203125,
+        "d_prompt": 2.899181272368878e-05,
+        "d_out": 3.52287243003957e-05,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.5091145833333334,
+        "d_prompt": 0.0005075681023299694,
+        "d_out": 0.0006845035823062062,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.3470052083333333,
+        "d_prompt": 0.0029697434976696966,
+        "d_out": 0.0026049036532640457,
+        "flip_out": 0.0,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  },
+  {
+    "adapter": "task1259",
+    "S": 0.16214147164020795,
+    "task": 1259,
+    "dataset": "Lots-of-LoRAs/task1259_ted_translation_pl_ar",
+    "prompts": 48,
+    "gen_tokens": 1536,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9420572916666666,
+        "d_prompt": 7.057824404910207e-05,
+        "d_out": 2.5748140615178272e-05,
+        "flip_out": 0.03125,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e95": {
+        "rank_frac": 0.7493489583333334,
+        "d_prompt": 0.0009527360089123249,
+        "d_out": 0.0003219399368390441,
+        "flip_out": 0.03125,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      },
+      "e90": {
+        "rank_frac": 0.6028645833333334,
+        "d_prompt": 0.0039434019476175305,
+        "d_out": 0.00176514673512429,
+        "flip_out": 0.03125,
+        "prompt_positions": 15360,
+        "out_positions": 1536
+      }
+    }
+  }
+]

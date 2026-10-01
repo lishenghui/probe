@@ -1,0 +1,70 @@
+[
+  {
+    "task": "copa_10templates",
+    "short": "copa",
+    "S": 0.015427003445750419,
+    "prompts": 50,
+    "gen_tokens": 338,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.2492788117539064,
+        "rank_frac": 0.154296875,
+        "d_prompt": 0.0037590158667730454,
+        "d_out": 0.00810474206168396,
+        "prompt_positions": 2010,
+        "out_positions": 338
+      },
+      "e70": {
+        "L_W": 0.26259944041342215,
+        "rank_frac": 0.134765625,
+        "d_prompt": 0.0042645331935503,
+        "d_out": 0.008970379940849439,
+        "prompt_positions": 2010,
+        "out_positions": 338
+      },
+      "e50": {
+        "L_W": 0.2681614005269473,
+        "rank_frac": 0.125,
+        "d_prompt": 0.004369130130134412,
+        "d_out": 0.007929061649353178,
+        "prompt_positions": 2010,
+        "out_positions": 338
+      }
+    }
+  },
+  {
+    "task": "squad_v2_10templates",
+    "short": "squad_v2",
+    "S": 0.006339693912486361,
+    "prompts": 50,
+    "gen_tokens": 295,
+    "cue": "\n\n",
+    "variants": {
+      "e80": {
+        "L_W": 0.33407509332797597,
+        "rank_frac": 0.1875,
+        "d_prompt": 0.00013725695238942507,
+        "d_out": 0.0015713971616281987,
+        "prompt_positions": 11606,
+        "out_positions": 295
+      },
+      "e70": {
+        "L_W": 0.3888228470873363,
+        "rank_frac": 0.15625,
+        "d_prompt": 0.00024890989596712657,
+        "d_out": 0.0030185948080635803,
+        "prompt_positions": 11606,
+        "out_positions": 295
+      },
+      "e50": {
+        "L_W": 0.424388370115625,
+        "rank_frac": 0.12890625,
+        "d_prompt": 0.0005133083087297302,
+        "d_out": 0.005022750794690229,
+        "prompt_positions": 11606,
+        "out_positions": 295
+      }
+    }
+  }
+]

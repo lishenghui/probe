@@ -1,0 +1,34 @@
+{
+  "mode": "batched",
+  "checkpoint": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/results/base_lowrank_2359286/adapters/r128",
+  "episodes": 8,
+  "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+  "load_s": 24.2,
+  "success": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "rate": 0.0,
+  "wall_s": 45.62,
+  "policy_calls": 28,
+  "s_per_episode": 5.7,
+  "label": "rank128",
+  "render_context_bound": true,
+  "render_cleanup_bound": true,
+  "base": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "adapter_mode": "base_lowrank",
+  "metadata": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+  "anchor": {
+    "formula": "W ~= B @ A (language_model attn+MLP only)",
+    "source": "/nobackup/proj/disk/bloom/personal/shenghui/LoRAForge/artifacts/rq3/models/openvla-oft-source/spatial",
+    "rank": 128,
+    "modules": 224,
+    "mean_relative_l2": 0.8968592851555773
+  }
+}

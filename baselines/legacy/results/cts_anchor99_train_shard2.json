@@ -1,0 +1,77 @@
+[
+  {
+    "adapter": "task0963",
+    "S": 0.020012099966760486,
+    "task": 963,
+    "dataset": "Lots-of-LoRAs/task963_librispeech_asr_next_word_prediction",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 116,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9388020833333334,
+        "L_W": 0.07241502126658994,
+        "d_prompt": 1.2041529223929855e-06,
+        "d_out": 1.4017766392859405e-06,
+        "flip_out": 0.0,
+        "prompt_positions": 6524,
+        "out_positions": 116,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 3.7572360038757324,
+        "median_erosion": 0.0009036064147949219,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task0889",
+    "S": 0.033545624665687786,
+    "task": 889,
+    "dataset": "Lots-of-LoRAs/task889_goemotions_classification",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 143,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9322916666666666,
+        "L_W": 0.07365827875666685,
+        "d_prompt": 2.2446557100425583e-06,
+        "d_out": 5.494649670516899e-07,
+        "flip_out": 0.0,
+        "prompt_positions": 7601,
+        "out_positions": 143,
+        "token_flip_rate": 0.0,
+        "seq_flip_rate": 0.0,
+        "median_margin": 9.475483894348145,
+        "median_erosion": 0.0055446624755859375,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  },
+  {
+    "adapter": "task1037",
+    "S": 0.055321890496898334,
+    "task": 1037,
+    "dataset": "Lots-of-LoRAs/task1037_pib_translation_telugu_urdu",
+    "split": "train",
+    "prompts": 48,
+    "gen_tokens": 1507,
+    "variants": {
+      "e99": {
+        "rank_frac": 0.9231770833333334,
+        "L_W": 0.07220672514559166,
+        "d_prompt": 2.5867139485179966e-05,
+        "d_out": 2.1807366364722664e-05,
+        "flip_out": 0.0019907100199071004,
+        "prompt_positions": 38886,
+        "out_positions": 1507,
+        "token_flip_rate": 0.0019907100199071004,
+        "seq_flip_rate": 0.0625,
+        "median_margin": 1.9722175598144531,
+        "median_erosion": 0.00231170654296875,
+        "neg_orig_margin_frac": 0.0
+      }
+    }
+  }
+]
