@@ -33,6 +33,8 @@ entries = {e['name']: e for e in json.loads((fleet / 'manifest.json').read_text(
 plan = []
 for n in names:
     variants = {'original': str(fleet / entries[n]['path'])}
+    if n == names[0]:  # determinism control: same adapter, same seed, should deviate ~0
+        variants['original_repeat'] = variants['original']
     for b in sorted(comp.glob('b*'), key=lambda p: -int(p.name[1:])):
         variants[b.name] = str(next((b / n).glob('*.safetensors')))
     plan.append(dict(adapter=n, prompt=prompts[n], variants=variants))

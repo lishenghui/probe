@@ -75,8 +75,25 @@ def build_pipeline(model_dir, flow_shift):
         transformer=transformer, vae=vae, scheduler=scheduler).to('cuda')
 
 
-def lora_layers(module):
-    return sum(1 for m in module.modules() if hasattr(m, 'lora_A') and len(getattr(m, 'lora_A')) > 0)
+def pin_unit_scaling(module, name, state):
+    """Force PEFT scaling to 1 and check injected ranks against the file.
+
+    The source files carry no alpha, so ComfyUI applies B@A at scale 1. diffusers'
+    get_peft_kwargs sets one lora_alpha (the first module's rank) for every module
+    while rank_pattern varies r, so compressed adapters with per-module ranks would
+    otherwise get scaling alpha/r != 1 on most modules.
+    """
+    layers, ranks, rescaled = 0, 0, 0
+    for m in module.modules():
+        if hasattr(m, 'scaling') and isinstance(m.scaling, dict) and name in m.scaling:
+            layers += 1
+            ranks += m.lora_A[name].weight.shape[0]
+            rescaled += m.scaling[name] != 1.0
+            m.scaling[name] = 1.0
+    expected = sum(t.shape[0] for k, t in state.items() if k.endswith(('lora_A.weight', 'lora_down.weight')))
+    if layers == 0 or ranks != expected:
+        raise RuntimeError(f'{name}: injected {layers} layers / {ranks} directions, file has {expected}')
+    return layers, ranks, rescaled
 
 
 def main():
@@ -138,15 +155,15 @@ def main():
             name = f"{item['adapter']}_{variant}".replace('-', '_')
             before = torch.cuda.memory_allocated()
             # Pass tensors, not a path: offline diffusers cannot guess a weight name from a file path.
-            pipe.load_lora_weights(load_file(path, device='cuda'), adapter_name=name)
+            state = load_file(path)
+            pipe.load_lora_weights(dict(state), adapter_name=name)
             adapter_bytes = torch.cuda.memory_allocated() - before
-            layers = lora_layers(pipe.transformer)
-            if layers == 0:
-                raise RuntimeError(f'{name}: no LoRA layers were injected')
+            layers, directions, rescaled = pin_unit_scaling(pipe.transformer, name, state)
             video, stats = generate(item['prompt'], f"{item['adapter']}__{variant}")
             pipe.delete_adapters(name)
             record = dict(adapter=item['adapter'], variant=variant, path=path, prompt=item['prompt'],
-                          lora_layers=layers, adapter_gpu_bytes=adapter_bytes, **stats)
+                          lora_layers=layers, lora_directions=directions, scaling_reset_layers=int(rescaled),
+                          adapter_gpu_bytes=adapter_bytes, **stats)
             if reference is None:
                 reference = video
                 record['deviation_base_vs_original'] = float((base - video).norm() / video.norm())
